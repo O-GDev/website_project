@@ -132,7 +132,7 @@ export default function Contact(){
             <div className="auto-container">
                 <div className="content-box">
                     <h3>Over 280 Branches & ATM’s Nationwide</h3>
-                    <div className="tabs-box">
+                    <Tabs className="tabs-box">
                         <div className="tab-btns tab-buttons mb_25">
                             <div className="tab-btn active-btn" data-tab="#tab-1"><h5>Branches</h5></div>
                             <div className="tab-btn" data-tab="#tab-2"><h5>ATM’s</h5></div>
@@ -165,7 +165,7 @@ export default function Contact(){
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </Tabs>
                 </div>
             </div>
             <div className="map-inner">
@@ -219,12 +219,12 @@ export default function Contact(){
                                             <div className="form-group">
                                                 <label>Reason for Contact</label>
                                                 <div className="select-box">
-                                                    <select className="wide">
+                                                    <NiceSelect >
                                                        <option data-display="Bill Payment Inquiries">Bill Payment Inquiries</option>
                                                        <option defaultValue="1">Branches</option>
                                                        <option defaultValue="2">Customer Care</option>
                                                        <option defaultValue="3">News & Media</option>
-                                                    </select>
+                                                    </NiceSelect>
                                                 </div>
                                             </div>
                                         </div>
@@ -265,12 +265,12 @@ export default function Contact(){
                                             <div className="form-group">
                                                 <label>Reason for Contact</label>
                                                 <div className="select-box">
-                                                    <select className="wide">
+                                                    <NiceSelect >
                                                        <option data-display="Bill Payment Inquiries">Bill Payment Inquiries</option>
                                                        <option defaultValue="1">Branches</option>
                                                        <option defaultValue="2">Customer Care</option>
                                                        <option defaultValue="3">News & Media</option>
-                                                    </select>
+                                                    </NiceSelect>
                                                 </div>
                                             </div>
                                         </div>

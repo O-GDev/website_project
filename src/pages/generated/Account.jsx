@@ -182,7 +182,7 @@ export default function Account(){
                         </div>
                     </div>
                 </div>
-                <div className="tabs-box">
+                <Tabs className="tabs-box">
                     <figure className="support-image"><img src="assets/images/resource/men-1.png" alt="" /></figure>
                     <div className="tab-btn-one">
                         <ul className="tab-btns tab-buttons clearfix">
@@ -860,7 +860,7 @@ export default function Account(){
                             </div>
                         </div>
                     </div>
-                </div>
+                </Tabs>
             </div>
         </section>
         

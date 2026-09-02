@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Tabs from '../../components/ui/Tabs'
+import NiceSelect from '../../components/ui/NiceSelect'
 
 export default function Loans_2(){
   return (
@@ -219,7 +221,7 @@ export default function Loans_2(){
             <span className="big-text">Calculation <br />Instant</span>
             <div className="auto-container">
                 <div className="inner-container">
-                    <div className="tabs-box">
+                    <Tabs className="tabs-box">
                         <div className="tab-btn-box">
                             <div className="tab-btns tab-buttons clearfix">
                                 <div className="tab-btn active-btn" data-tab="#tab-21"><h4>Home Loan</h4></div>
@@ -701,7 +703,7 @@ export default function Loans_2(){
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </Tabs>
                 </div>
             </div>
         </section>

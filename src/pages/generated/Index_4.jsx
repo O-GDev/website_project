@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Carousel from '../../components/ui/Carousel'
+import Tabs from '../../components/ui/Tabs'
+import NiceSelect from '../../components/ui/NiceSelect'
 
 export default function Index_4(){
   return (
@@ -143,9 +146,9 @@ export default function Index_4(){
                     <span className="sub-title">Custom Banking</span>
                     <h2>Banking For Your Needs</h2>
                 </div>
-                <div className="tabs-box">
+                <Tabs className="tabs-box">
                     <div className="tab-btn-box mb_70">
-                        <div className="tab-btns tab-buttons tab-btn-carousel owl-carousel owl-theme owl-dots-none">
+                        <Tabs className="tab-btns tab-buttons tab-btn-carousel owl-carousel owl-theme owl-dots-none">
                             <div className="tab-btn active-btn" data-tab="#tab-1">
                                 <div className="icon-box"><img src="assets/images/icons/icon-133.png" alt="" /></div>
                                 <h3>Fixed Deposit</h3>
@@ -186,7 +189,7 @@ export default function Index_4(){
                                 <h3>Family 360o</h3>
                                 <p>Complete banking solutions.</p>
                             </div>
-                        </div>
+                        </Tabs>
                     </div>
                     <div className="tabs-content">
                         <div className="tab active-tab" id="tab-1">
@@ -454,7 +457,7 @@ export default function Index_4(){
                             </div>
                         </div>
                     </div>
-                </div>
+                </Tabs>
             </div>
         </section>
         

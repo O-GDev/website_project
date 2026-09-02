@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Carousel from '../../components/ui/Carousel'
+import Tabs from '../../components/ui/Tabs'
+import NiceSelect from '../../components/ui/NiceSelect'
 
 export default function Index_3(){
   return (
@@ -81,7 +84,7 @@ export default function Index_3(){
                 <div className="form-inner">
                     <div className="shape" style={{backgroundImage: 'url(assets/images/shape/shape-14.png)'}}></div>
                     <h3>Banking Portal</h3>
-                    <div className="tabs-box">
+                    <Tabs className="tabs-box">
                         <div className="tab-btns tab-buttons mb_30">
                             <div className="tab-btn active-btn" data-tab="#tab-1"><h5>Personal</h5></div>
                             <div className="tab-btn" data-tab="#tab-2"><h5>Business</h5></div>
@@ -136,7 +139,7 @@ export default function Index_3(){
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </Tabs>
                 </div>
             </div>
         </section>

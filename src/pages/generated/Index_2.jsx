@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Carousel from '../../components/ui/Carousel'
+import Tabs from '../../components/ui/Tabs'
+import NiceSelect from '../../components/ui/NiceSelect'
 
 export default function Index_2(){
   return (
@@ -69,7 +72,7 @@ export default function Index_2(){
 
         
         <section className="banner-style-two p_relative">
-            <div className="banner-carousel owl-theme owl-carousel dots-style-one owl-nav-none">
+            <Carousel className="banner-carousel owl-theme owl-carousel dots-style-one owl-nav-none">
                 <div className="slide-item p_relative">
                     <div className="bg-layer" style={{backgroundImage: 'url(assets/images/banner/banner-4.jpg)'}}></div>
                     <div className="pattern-layer" style={{backgroundImage: 'url(assets/images/shape/shape-10.png)'}}></div>
@@ -157,7 +160,7 @@ export default function Index_2(){
                         </div>
                     </div>
                 </div>
-            </div>
+            </Carousel>
         </section>
         
 
@@ -694,7 +697,7 @@ export default function Index_2(){
                     <span className="sub-title">Instant Help</span>
                     <h2>Immediate Service Request</h2>
                 </div>
-                <div className="tabs-box">
+                <Tabs className="tabs-box">
                     <div className="row clearfix">
                         <div className="col-lg-4 col-md-12 col-sm-12 btn-column">
                             <div className="tab-btn-box">
@@ -822,7 +825,7 @@ export default function Index_2(){
                             </div>
                         </div>
                     </div>
-                </div>
+                </Tabs>
             </div>
         </section>
         

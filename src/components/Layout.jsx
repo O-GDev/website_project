@@ -2,6 +2,9 @@ import React, { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import Header from './Header'
 import Footer from './Footer'
+import CarouselInit from './CarouselInit'
+import TabsInit from './TabsInit'
+import NiceSelectInit from './NiceSelectInit'
 
 export default function Layout({children}){
   const location = useLocation()
@@ -46,6 +49,10 @@ export default function Layout({children}){
     <>
       <Header />
       {children}
+      {/* DOM-init components: mount to wire up converted behaviors */}
+      <CarouselInit />
+      <TabsInit />
+      <NiceSelectInit />
       <Footer />
     </>
   )

@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Carousel from '../../components/ui/Carousel'
+import Tabs from '../../components/ui/Tabs'
+import NiceSelect from '../../components/ui/NiceSelect'
 
 export default function Index(){
   return (
@@ -44,7 +47,7 @@ export default function Index(){
 
         
         <section className="banner-section p_relative">
-            <div className="banner-carousel owl-theme owl-carousel">
+            <Carousel className="banner-carousel owl-theme owl-carousel">
                 <div className="slide-item p_relative">
                     <div className="bg-layer" style={{backgroundImage: 'url(assets/images/banner/banner-1.jpg)'}}></div>
                     <div className="pattern-layer" style={{backgroundImage: 'url(assets/images/shape/shape-1.png)'}}></div>
@@ -78,7 +81,7 @@ export default function Index(){
                         </div>
                     </div>
                 </div>
-            </div>
+            </Carousel>
         </section>
         
 
@@ -137,9 +140,9 @@ export default function Index(){
                     <span className="sub-title">Custom Banking</span>
                     <h2>Banking For Your Needs</h2>
                 </div>
-                <div className="tabs-box">
+                <Tabs className="tabs-box">
                     <div className="tab-btn-box mb_70">
-                        <div className="tab-btns tab-buttons tab-btn-carousel owl-carousel owl-theme owl-dots-none">
+                        <Tabs className="tab-btns tab-buttons tab-btn-carousel owl-carousel owl-theme owl-dots-none">
                             <div className="tab-btn active-btn" data-tab="#tab-1">
                                 <div className="icon-box"><img src="assets/images/icons/icon-12.png" alt="" /></div>
                                 <h3>Fixed Deposit</h3>
@@ -180,7 +183,7 @@ export default function Index(){
                                 <h3>Family 360o</h3>
                                 <p>Complete banking solutions.</p>
                             </div>
-                        </div>
+                        </Tabs>
                     </div>
                     <div className="tabs-content">
                         <div className="tab active-tab" id="tab-1">
@@ -448,7 +451,7 @@ export default function Index(){
                             </div>
                         </div>
                     </div>
-                </div>
+                </Tabs>
             </div>
         </section>
         
@@ -473,7 +476,7 @@ export default function Index(){
                         </div>
                     </div>
                 </div>
-                <div className="tabs-box">
+                <Tabs className="tabs-box">
                     <figure className="support-image"><img src="assets/images/resource/men-1.png" alt="" /></figure>
                     <div className="tab-btn-one">
                         <ul className="tab-btns tab-buttons clearfix">
@@ -1151,7 +1154,7 @@ export default function Index(){
                             </div>
                         </div>
                     </div>
-                </div>
+                </Tabs>
             </div>
         </section>
         

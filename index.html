@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexibank - React</title>
+    <!-- Load copied assets from /assets for local dev/build -->
+    <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/font-awesome-all.css">
+    <link rel="stylesheet" href="/assets/css/flaticon_flexibank.css">
+    <link rel="stylesheet" href="/assets/css/owl.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.css">
+    <link rel="stylesheet" href="/assets/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="/assets/css/animate.css">
+    <link rel="stylesheet" href="/assets/css/nice-select.css">
+    <link rel="stylesheet" href="/assets/css/elpath.css">
+    <link rel="stylesheet" href="/assets/css/color1.css" id="jssDefault">
+    <link rel="stylesheet" href="/assets/css/odometer.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="/assets/js/jquery.js"></script>
+    <script src="/assets/js/jquery-ui.js"></script>
+    <script src="/assets/js/appear.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/owl.js"></script>
+    <script src="/assets/js/jquery.fancybox.js"></script>
+    <script src="/assets/js/isotope.js"></script>
+    <script src="/assets/js/jquery.nice-select.min.js"></script>
+    <script src="/assets/js/jquery.circleType.js"></script>
+    <script src="/assets/js/jquery.lettering.min.js"></script>
+    <script src="/assets/js/nav-tool.js"></script>
+    <script src="/assets/js/odometer.js"></script>
+    <script src="/assets/js/parallax-scroll.js"></script>
+    <script src="/assets/js/scrolltop.min.js"></script>
+    <script src="/assets/js/timePicker.js"></script>
+    <script src="/assets/js/validation.js"></script>
+    <script src="/assets/js/wow.js"></script>
+    <script src="/assets/js/script.js"></script>
+    <script>
+      // Expose a reinit function to initialize template JS after React mounts
+      window.reinitFlexibank = function(){
+        try{
+          (function($){
+            // Submenu Dropdown Toggle
+            if($('.main-header li.dropdown ul').length){
+              $('.main-header .navigation li.dropdown').append('<div class="dropdown-btn"><span class="fas fa-angle-down"></span></div>');
+            }
+
+            // Mobile menu copy
+            if($('.mobile-menu').length){
+              var mobileMenuContent = $('.main-header .menu-area .main-menu').html();
+              $('.mobile-menu .menu-box .menu-outer').empty().append(mobileMenuContent);
+              $('.sticky-header .main-menu').empty().append(mobileMenuContent);
+              $('.mobile-menu li.dropdown .dropdown-btn').off('click').on('click', function() {
+                $(this).toggleClass('open');
+                $(this).prev('ul').slideToggle(500);
+              });
+            }
+
+            // ensure page shows hero start
+            try{ window.scrollTo(0,0) }catch(e){}
+            if(typeof window.headerStyle === 'function'){ try{ window.headerStyle() }catch(e){} }
+
+            // banner carousel init
+            if ($('.banner-carousel').length) {
+              if (typeof $.fn.owlCarousel === 'function'){
+                $('.banner-carousel').each(function(){
+                  if (!$(this).hasClass('owl-loaded')){
+                    $(this).owlCarousel({
+                      loop:true,margin:0,nav:true,animateOut:'fadeOut',animateIn:'fadeIn',active:true,smartSpeed:1000,autoplay:6000,navText:['<span class="flaticon-next"></span>','<span class="flaticon-next"></span>'],responsive:{0:{items:1},600:{items:1},800:{items:1},1024:{items:1}}
+                    });
+                  }
+                })
+              }
+            }
+          })(window.jQuery)
+        }catch(e){console.warn('reinitFlexibank failed', e)}
+      }
+    </script>
+    <script>
+      (function(){
+        // Wait for the preloader element to appear (React injects it) then hide after 10s
+        let started = false
+        function hidePreloader(){
+          const pre = document.getElementById('handle-preloader')
+          if(pre){
+            const wrap = pre.closest('.loader-wrap')
+            if(wrap) wrap.style.display = 'none'
+            else pre.style.display = 'none'
+          }
+        }
+        function startTimer(){
+          if(started) return
+          started = true
+          setTimeout(hidePreloader, 10000)
+        }
+        if(document.getElementById('handle-preloader')) startTimer()
+        const obs = new MutationObserver((mutations, observer) => {
+          if(document.getElementById('handle-preloader')){
+            startTimer()
+            observer.disconnect()
+          }
+        })
+        obs.observe(document.documentElement, { childList: true, subtree: true })
+      })()
+    </script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

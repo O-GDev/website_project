@@ -1,0 +1,12 @@
+import React from 'react'
+import { Routes, Route } from 'react-router-dom'
+import Layout from './components/Layout'
+import GeneratedRoutes from './pages/generatedRoutes'
+
+export default function App(){
+  return (
+    <Layout>
+      <GeneratedRoutes />
+    </Layout>
+  )
+}

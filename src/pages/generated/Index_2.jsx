@@ -172,7 +172,7 @@ export default function Index_2(){
                     <span className="sub-title">Custom Banking</span>
                     <h2>Banking For Your Needs</h2>
                 </div>
-                <div className="three-item-carousel owl-carousel owl-theme owl-nav-none dots-style-one">
+                <Carousel className="three-item-carousel owl-carousel owl-theme owl-nav-none dots-style-one">
                     <div className="banking-block-one">
                         <div className="inner-box">
                             <div className="text-box">
@@ -290,7 +290,7 @@ export default function Index_2(){
                             </div>
                         </div>
                     </div>
-                </div>
+                </Carousel>
                 <div className="more-text centred">
                     <h5><i className="flaticon-sparkle"></i>Discover <Link to="/service">More Services</Link> – Tailored to Meet Your Financial Needs.</h5>
                 </div>
@@ -354,7 +354,7 @@ export default function Index_2(){
                             <span className="sub-title">Secure Growth</span>
                             <h2>Enhance Your Wealth Safely</h2>
                         </div>
-                        <div className="three-item-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
+                        <Carousel className="three-item-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
                             <div className="growth-block-two">
                                 <div className="inner-box">
                                     <h3><Link to="/index-2">Trade FX</Link></h3>
@@ -400,7 +400,7 @@ export default function Index_2(){
                                     </ul>
                                 </div>
                             </div>
-                        </div>
+                        </Carousel>
                     </div>
                 </div>
             </div>
@@ -425,7 +425,7 @@ export default function Index_2(){
                     </div>
                     <div className="p-tabs-content">
                         <div className="p-tab active-tab" id="tab-1">
-                            <div className="four-item-carousel owl-carousel owl-theme nav-style-one owl-dots-none">
+                            <Carousel className="four-item-carousel owl-carousel owl-theme nav-style-one owl-dots-none">
                                 <div className="exchange-block-one">
                                     <div className="inner-box">
                                         <div className="upper-box">
@@ -550,10 +550,10 @@ export default function Index_2(){
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </Carousel>
                         </div>
                         <div className="p-tab" id="tab-2">
-                            <div className="four-item-carousel owl-carousel owl-theme nav-style-one owl-dots-none">
+                            <Carousel className="four-item-carousel owl-carousel owl-theme nav-style-one owl-dots-none">
                                 <div className="exchange-block-one">
                                     <div className="inner-box">
                                         <div className="upper-box">
@@ -678,7 +678,7 @@ export default function Index_2(){
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </Carousel>
                         </div>
                     </div>
                 </div>
@@ -926,7 +926,7 @@ export default function Index_2(){
                     <span className="sub-title">Blog Post</span>
                     <h2>Latest from Blog Post</h2>
                 </div>
-                <div className="two-item-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
+                <Carousel className="two-item-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
                     <div className="news-block-one">
                         <div className="inner-box">
                             <div className="image-box">
@@ -1013,7 +1013,7 @@ export default function Index_2(){
                             </div>
                         </div>
                     </div>
-                </div>
+                </Carousel>
                 <div className="more-link pt_25 centred">
                     <Link to="/blog"><i className="flaticon-right-arrow"></i>More From Blog</Link>
                 </div>
@@ -1170,7 +1170,7 @@ export default function Index_2(){
                     </div>
                     <div className="col-lg-7 col-md-12 col-sm-12 content-column">
                         <div className="content-box centred pl_100 mt_7">
-                            <div className="two-item-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
+                            <Carousel className="two-item-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
                                 <div className="award-block-one">
                                     <div className="inner-box">
                                         <div className="shape" style={{backgroundImage: 'url(assets/images/shape/shape-9.png)'}}></div>
@@ -1189,7 +1189,7 @@ export default function Index_2(){
                                         <span>2022</span>
                                     </div>
                                 </div>
-                            </div>
+                            </Carousel>
                         </div>
                     </div>
                 </div>
@@ -1205,7 +1205,7 @@ export default function Index_2(){
                     <span className="sub-title">centred</span>
                     <h2>Trusted Corporate Partners</h2>
                 </div>
-                <div className="six-item-carousel owl-carousel owl-theme dots-style-one owl-nav-none">
+                <Carousel className="six-item-carousel owl-carousel owl-theme dots-style-one owl-nav-none">
                     <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-1.png" alt="" /></Link></figure>
                     <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-2.png" alt="" /></Link></figure>
                     <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-3.png" alt="" /></Link></figure>
@@ -1224,7 +1224,7 @@ export default function Index_2(){
                     <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-4.png" alt="" /></Link></figure>
                     <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-5.png" alt="" /></Link></figure>
                     <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-6.png" alt="" /></Link></figure>
-                </div>
+                </Carousel>
             </div>
         </section>
         
@@ -1235,7 +1235,7 @@ export default function Index_2(){
             <div className="auto-container">
                 <div className="inner-container">
                     <span className="big-text">Feedback</span>
-                    <div className="single-item-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
+                    <Carousel className="single-item-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
                         <div className="testimonial-content">
                             <div className="icon-box"><img src="assets/images/icons/icon-82.png" alt="" /></div>
                             <p>Flexibank made it so easy to open a new business checking account. The service was exceptional & quick process.</p>
@@ -1300,7 +1300,7 @@ export default function Index_2(){
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </Carousel>
                 </div>
                 <div className="customer-review">
                     <div className="review-text mr_20">

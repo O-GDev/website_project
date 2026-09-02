@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import Carousel from '../../components/ui/Carousel'
 export default function Investments_details_4(){
   return (
     <>
@@ -156,7 +157,7 @@ export default function Investments_details_4(){
                     <span className="sub-title">centred</span>
                     <h2>Trusted Corporate Partners</h2>
                 </div>
-                <div className="six-item-carousel owl-carousel owl-theme dots-style-one owl-nav-none">
+                <Carousel className="six-item-carousel owl-carousel owl-theme dots-style-one owl-nav-none">
                     <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-1.png" alt="" /></Link></figure>
                     <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-2.png" alt="" /></Link></figure>
                     <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-3.png" alt="" /></Link></figure>
@@ -175,7 +176,7 @@ export default function Investments_details_4(){
                     <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-4.png" alt="" /></Link></figure>
                     <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-5.png" alt="" /></Link></figure>
                     <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-6.png" alt="" /></Link></figure>
-                </div>
+                </Carousel>
             </div>
         </section>
         
@@ -186,7 +187,7 @@ export default function Investments_details_4(){
             <div className="auto-container">
                 <div className="inner-container p_relative">
                     <span className="big-text">testimonials</span>
-                    <div className="three-item-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
+                    <Carousel className="three-item-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
                         <div className="testimonial-block-one">
                             <div className="inner-box">
                                 <div className="rating"><i className="flaticon-star"></i><span>Rated 4.9/5</span></div>
@@ -229,7 +230,7 @@ export default function Investments_details_4(){
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </Carousel>
                 </div>
             </div>
         </section>

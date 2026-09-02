@@ -1,34 +1,40 @@
 const fs = require('fs')
 const path = require('path')
 
-function replaceTagPair(content, clsMatch, newTag){
-  const openIdx = content.search(new RegExp(`<div[^>]*className=["'][^"']*${clsMatch}[^"']*["'][^>]*>`))
-  if (openIdx === -1) return content
-  const openTagStart = content.lastIndexOf('<', openIdx)
-  const openTagEnd = content.indexOf('>', openIdx)
-  if (openTagStart === -1 || openTagEnd === -1) return content
-  // find matching closing </div>
-  let idx = openTagEnd + 1
-  let depth = 1
-  while(idx < content.length){
-    const nextOpen = content.indexOf('<div', idx)
-    const nextClose = content.indexOf('</div>', idx)
-    if(nextClose === -1) break
-    if(nextOpen !== -1 && nextOpen < nextClose){ depth++; idx = nextOpen + 4; continue }
-    depth--
-    idx = nextClose + 6
-    if(depth === 0){
-      // replace opening tag name
-      const before = content.slice(0, openTagStart)
-      const openTag = content.slice(openTagStart, openTagEnd+1)
-      const inner = content.slice(openTagEnd+1, nextClose)
-      const after = content.slice(nextClose+6)
-      const newOpen = openTag.replace(/^<div/, `<${newTag}`)
-      const newClose = `</${newTag}>`
-      return before + newOpen + inner + newClose + after
+function replaceAllTagPairs(content, clsMatch, newTag){
+  let out = content
+  let loop = 0
+  while(true){
+    loop++
+    if(loop>200) break
+    const openMatch = out.match(new RegExp(`<div[^>]*className=["'][^"']*${clsMatch}[^"']*["'][^>]*>`))
+    if(!openMatch) break
+    const openIdx = openMatch.index
+    const openTagStart = out.lastIndexOf('<', openIdx)
+    const openTagEnd = out.indexOf('>', openIdx)
+    if (openTagStart === -1 || openTagEnd === -1) break
+    let idx = openTagEnd + 1
+    let depth = 1
+    while(idx < out.length){
+      const nextOpen = out.indexOf('<div', idx)
+      const nextClose = out.indexOf('</div>', idx)
+      if(nextClose === -1) break
+      if(nextOpen !== -1 && nextOpen < nextClose){ depth++; idx = nextOpen + 4; continue }
+      depth--
+      idx = nextClose + 6
+      if(depth === 0){
+        const before = out.slice(0, openTagStart)
+        const openTag = out.slice(openTagStart, openTagEnd+1)
+        const inner = out.slice(openTagEnd+1, nextClose)
+        const after = out.slice(nextClose+6)
+        const newOpen = openTag.replace(/^<div/, `<${newTag}`)
+        const newClose = `</${newTag}>`
+        out = before + newOpen + inner + newClose + after
+        break
+      }
     }
   }
-  return content
+  return out
 }
 
 function replaceSelects(content){
@@ -45,12 +51,12 @@ files.forEach(file => {
   let content = fs.readFileSync(p,'utf8')
   let changed = false
   const before = content
-  // replace banner-carousel
-  content = replaceTagPair(content, 'banner-carousel', 'Carousel')
-  // replace tabs-box
-  content = replaceTagPair(content, 'tabs-box', 'Tabs')
-  // replace any tab-btn-carousel containers (sometimes tab-btns are separate carousels)
-  content = replaceTagPair(content, 'tab-btn-carousel', 'Tabs')
+  // replace banner-carousel and any owl-carousel variants
+  content = replaceAllTagPairs(content, 'banner-carousel', 'Carousel')
+  content = replaceAllTagPairs(content, 'owl-carousel', 'Carousel')
+  // replace tabs-box and tab-btn-carousel
+  content = replaceAllTagPairs(content, 'tabs-box', 'Tabs')
+  content = replaceAllTagPairs(content, 'tab-btn-carousel', 'Tabs')
   // replace selects
   content = replaceSelects(content)
 

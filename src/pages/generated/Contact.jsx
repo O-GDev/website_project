@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import NiceSelect from '../../components/ui/NiceSelect'
+import Tabs from '../../components/ui/Tabs'
 export default function Contact(){
   return (
     <>
@@ -190,7 +192,7 @@ export default function Contact(){
                     <span className="sub-title">Send Message</span>
                     <h2>Message Our Support Team</h2>
                 </div>
-                <div className="tabs-box">
+                <Tabs className="tabs-box">
                     <div className="tab-btns tab-buttons clearfix">
                         <div className="tab-btn active-btn" data-tab="#tab-3"><h4>Personal Banking</h4></div>
                         <div className="tab-btn" data-tab="#tab-4"><h4>Corporate Banking</h4></div>
@@ -289,7 +291,7 @@ export default function Contact(){
                             </div>
                         </div>
                     </div>
-                </div>
+                </Tabs>
             </div>
         </section>
         

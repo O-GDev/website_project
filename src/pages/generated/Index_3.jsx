@@ -184,7 +184,7 @@ export default function Index_3(){
                     <span className="sub-title light">Custom Banking</span>
                     <h2>Banking For Your Needs</h2>
                 </div>
-                <div className="three-item-carousel owl-carousel owl-theme owl-nav-none dots-style-one">
+                <Carousel className="three-item-carousel owl-carousel owl-theme owl-nav-none dots-style-one">
                     <div className="banking-block-one">
                         <div className="inner-box">
                             <div className="text-box">
@@ -302,7 +302,7 @@ export default function Index_3(){
                             </div>
                         </div>
                     </div>
-                </div>
+                </Carousel>
                 <div className="more-text centred">
                     <h5><i className="flaticon-sparkle"></i>Discover <Link to="/service">More Services</Link> – Tailored to Meet Your Financial Needs.</h5>
                 </div>
@@ -329,7 +329,7 @@ export default function Index_3(){
                         </div>
                     </div>
                 </div>
-                <div className="tabs-box">
+                <Tabs className="tabs-box">
                     <figure className="support-image"><img src="assets/images/resource/men-1.png" alt="" /></figure>
                     <div className="tab-btn-one">
                         <ul className="tab-btns tab-buttons clearfix">
@@ -339,7 +339,7 @@ export default function Index_3(){
                     </div>
                     <div className="tabs-content">
                         <div className="tab active-tab" id="tab-9">
-                            <div className="tabs-box-2">
+                            <Tabs className="tabs-box-2">
                                 <div className="row clearfix">
                                     <div className="col-lg-4 col-md-12 col-sm-12 button-column">
                                         <div className="tab-btn-two">
@@ -670,10 +670,10 @@ export default function Index_3(){
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </Tabs>
                         </div>
                         <div className="tab" id="tab-10">
-                            <div className="tabs-box-2">
+                            <Tabs className="tabs-box-2">
                                 <div className="row clearfix">
                                     <div className="col-lg-4 col-md-12 col-sm-12 button-column">
                                         <div className="tab-btn-two">
@@ -1004,10 +1004,10 @@ export default function Index_3(){
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </Tabs>
                         </div>
                     </div>
-                </div>
+                </Tabs>
             </div>
         </section>
         
@@ -1063,7 +1063,7 @@ export default function Index_3(){
             <span className="big-text">Calculation <br />Instant</span>
             <div className="auto-container">
                 <div className="inner-container">
-                    <div className="tabs-box">
+                    <Tabs className="tabs-box">
                         <div className="tab-btn-box">
                             <div className="tab-btns tab-buttons clearfix">
                                 <div className="tab-btn active-btn" data-tab="#tab-21"><h4>Home Loan</h4></div>
@@ -1545,7 +1545,7 @@ export default function Index_3(){
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </Tabs>
                 </div>
             </div>
         </section>
@@ -1629,7 +1629,7 @@ export default function Index_3(){
                                 <span className="sub-title">Credit Card</span>
                                 <h2>Discover Our <br />Range of Credit Cards</h2>
                             </div>
-                            <div className="tabs-box">
+                            <Tabs className="tabs-box">
                                 <div className="tab-btn-box pb_20">
                                     <div className="tab-btns tab-buttons clearfix">
                                         <div className="tab-btn active-btn" data-tab="#tab-26"><img src="assets/images/icons/icon-33.png" alt="" /><h5>Rewards Cards</h5></div>
@@ -1693,7 +1693,7 @@ export default function Index_3(){
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </Tabs>
                         </div>
                     </div>
                 </div>
@@ -1709,7 +1709,7 @@ export default function Index_3(){
                     <span className="sub-title light">centred</span>
                     <h2>Trusted Corporate Partners</h2>
                 </div>
-                <div className="six-item-carousel owl-carousel owl-theme dots-style-one owl-nav-none">
+                <Carousel className="six-item-carousel owl-carousel owl-theme dots-style-one owl-nav-none">
                     <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-1.png" alt="" /></Link></figure>
                     <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-2.png" alt="" /></Link></figure>
                     <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-3.png" alt="" /></Link></figure>
@@ -1728,7 +1728,7 @@ export default function Index_3(){
                     <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-4.png" alt="" /></Link></figure>
                     <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-5.png" alt="" /></Link></figure>
                     <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-6.png" alt="" /></Link></figure>
-                </div>
+                </Carousel>
             </div>
         </section>
         
@@ -1739,7 +1739,7 @@ export default function Index_3(){
             <div className="auto-container">
                 <div className="inner-container p_relative">
                     <span className="big-text">testimonials</span>
-                    <div className="three-item-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
+                    <Carousel className="three-item-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
                         <div className="testimonial-block-one">
                             <div className="inner-box">
                                 <div className="rating"><i className="flaticon-star"></i><span>Rated 4.9/5</span></div>
@@ -1779,7 +1779,7 @@ export default function Index_3(){
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </Carousel>
                 </div>
             </div>
         </section>

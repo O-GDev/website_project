@@ -25,6 +25,31 @@ export default function Layout({children}){
   }, [location.pathname])
 
   useEffect(() => {
+    // Monkey-patch jQuery plugin initializers so converted React elements are skipped
+    try{
+      if (window && window.jQuery && window.jQuery.fn){
+        const $ = window.jQuery
+        if($.fn.owlCarousel && !$.fn._orig_owlCarousel){
+          $.fn._orig_owlCarousel = $.fn.owlCarousel
+          $.fn.owlCarousel = function(...args){
+            const filtered = this.filter((i, el) => !(el.dataset && el.dataset.reactCarouselInit))
+            if(filtered.length) return $.fn._orig_owlCarousel.call(filtered, ...args)
+            return this
+          }
+        }
+        if($.fn.niceSelect && !$.fn._orig_niceSelect){
+          $.fn._orig_niceSelect = $.fn.niceSelect
+          $.fn.niceSelect = function(...args){
+            const filtered = this.filter((i, el) => !(el.dataset && el.dataset.reactNice))
+            if(filtered.length) return $.fn._orig_niceSelect.call(filtered, ...args)
+            return this
+          }
+        }
+      }
+    }catch(e){/* ignore */}
+  }, [])
+
+  useEffect(() => {
     // Remove duplicate static template fragments that exist inside generated pages
     try{
       if (window && window.jQuery){

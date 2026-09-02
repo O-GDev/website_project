@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import Carousel from '../../components/ui/Carousel'
 export default function About(){
   return (
     <>
@@ -262,7 +263,7 @@ export default function About(){
                     </div>
                     <div className="col-lg-7 col-md-12 col-sm-12 content-column">
                         <div className="content-box centred pl_100 mt_7">
-                            <div className="two-item-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
+                            <Carousel className="two-item-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
                                 <div className="award-block-one">
                                     <div className="inner-box">
                                         <div className="shape" style={{backgroundImage: 'url(assets/images/shape/shape-9.png)'}}></div>
@@ -281,7 +282,7 @@ export default function About(){
                                         <span>2022</span>
                                     </div>
                                 </div>
-                            </div>
+                            </Carousel>
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import Tabs from '../../components/ui/Tabs'
 export default function Account(){
   return (
     <>
@@ -192,7 +193,7 @@ export default function Account(){
                     </div>
                     <div className="tabs-content">
                         <div className="tab active-tab" id="tab-9">
-                            <div className="tabs-box-2">
+                            <Tabs className="tabs-box-2">
                                 <div className="row clearfix">
                                     <div className="col-lg-4 col-md-12 col-sm-12 button-column">
                                         <div className="tab-btn-two">
@@ -523,10 +524,10 @@ export default function Account(){
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </Tabs>
                         </div>
                         <div className="tab" id="tab-10">
-                            <div className="tabs-box-2">
+                            <Tabs className="tabs-box-2">
                                 <div className="row clearfix">
                                     <div className="col-lg-4 col-md-12 col-sm-12 button-column">
                                         <div className="tab-btn-two">
@@ -857,7 +858,7 @@ export default function Account(){
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </Tabs>
                         </div>
                     </div>
                 </Tabs>

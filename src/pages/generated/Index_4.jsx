@@ -474,7 +474,7 @@ export default function Index_4(){
                             <span className="sub-title">Secure Growth</span>
                             <h2>Enhance Your Wealth Safely</h2>
                         </div>
-                        <div className="three-item-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
+                        <Carousel className="three-item-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
                             <div className="growth-block-two">
                                 <div className="inner-box">
                                     <h3><Link to="/index-2">Trade FX</Link></h3>
@@ -520,7 +520,7 @@ export default function Index_4(){
                                     </ul>
                                 </div>
                             </div>
-                        </div>
+                        </Carousel>
                     </div>
                 </div>
             </div>
@@ -545,7 +545,7 @@ export default function Index_4(){
                     </div>
                     <div className="p-tabs-content">
                         <div className="p-tab active-tab" id="tab-9">
-                            <div className="four-item-carousel owl-carousel owl-theme nav-style-one owl-dots-none">
+                            <Carousel className="four-item-carousel owl-carousel owl-theme nav-style-one owl-dots-none">
                                 <div className="exchange-block-one">
                                     <div className="inner-box">
                                         <div className="upper-box">
@@ -670,10 +670,10 @@ export default function Index_4(){
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </Carousel>
                         </div>
                         <div className="p-tab" id="tab-10">
-                            <div className="four-item-carousel owl-carousel owl-theme nav-style-one owl-dots-none">
+                            <Carousel className="four-item-carousel owl-carousel owl-theme nav-style-one owl-dots-none">
                                 <div className="exchange-block-one">
                                     <div className="inner-box">
                                         <div className="upper-box">
@@ -798,7 +798,7 @@ export default function Index_4(){
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </Carousel>
                         </div>
                     </div>
                 </div>
@@ -1119,7 +1119,7 @@ export default function Index_4(){
                                 <span className="sub-title">Credit Card</span>
                                 <h2>Discover Our <br />Range of Credit Cards</h2>
                             </div>
-                            <div className="tabs-box">
+                            <Tabs className="tabs-box">
                                 <div className="tab-btn-box pb_20">
                                     <div className="tab-btns tab-buttons clearfix">
                                         <div className="tab-btn active-btn" data-tab="#tab-26"><img src="assets/images/icons/icon-33.png" alt="" /><h5>Rewards Cards</h5></div>
@@ -1183,7 +1183,7 @@ export default function Index_4(){
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </Tabs>
                         </div>
                     </div>
                 </div>
@@ -1199,7 +1199,7 @@ export default function Index_4(){
                     <span className="sub-title">centred</span>
                     <h2>Trusted Corporate Partners</h2>
                 </div>
-                <div className="six-item-carousel owl-carousel owl-theme dots-style-one owl-nav-none">
+                <Carousel className="six-item-carousel owl-carousel owl-theme dots-style-one owl-nav-none">
                     <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-1.png" alt="" /></Link></figure>
                     <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-2.png" alt="" /></Link></figure>
                     <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-3.png" alt="" /></Link></figure>
@@ -1218,7 +1218,7 @@ export default function Index_4(){
                     <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-4.png" alt="" /></Link></figure>
                     <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-5.png" alt="" /></Link></figure>
                     <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-6.png" alt="" /></Link></figure>
-                </div>
+                </Carousel>
             </div>
         </section>
         
@@ -1229,7 +1229,7 @@ export default function Index_4(){
             <div className="auto-container">
                 <div className="inner-container p_relative">
                     <span className="big-text">testimonials</span>
-                    <div className="three-item-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
+                    <Carousel className="three-item-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
                         <div className="testimonial-block-one">
                             <div className="inner-box">
                                 <div className="rating"><i className="flaticon-star"></i><span>Rated 4.9/5</span></div>
@@ -1269,7 +1269,7 @@ export default function Index_4(){
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </Carousel>
                 </div>
             </div>
         </section>

@@ -690,17 +690,18 @@
   position: absolute;
   content: "\f102";
   font-family: flaticon_flexibank;
-  top: 30px;
+  top: 50%;
   right: -4px;
   font-size: 14px;
   color: #a8a7a7;
+  transform: translateY(-50%);
   transition: all 500ms ease;
 }
 
 .main-menu .navigation > li.current > a:before,
 .main-menu .navigation > li:hover > a:before{
   color: var(--theme-color);
-  transform: rotate(90deg);
+  transform: translateY(-50%) rotate(90deg);
 }
 
 .main-menu .navigation > li > ul,

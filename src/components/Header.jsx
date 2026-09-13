@@ -19,11 +19,11 @@ function NavigationItems({ isMobile = false, onNavigate = () => {} }) {
       </li>
       <li className={`dropdown ${isDropdownOpen('services') ? 'open' : ''}`}>
         <a href="#services" onClick={(e) => isMobile ? toggleDropdown(e, 'services') : null}>Services</a>
-        {isMobile && (
-          <div className={`dropdown-btn ${isDropdownOpen('services') ? 'open' : ''}`} onClick={(e) => toggleDropdown(e, 'services')}>
+        {/* {isMobile && (
+          <div className={`dropdown-btn bg-red-500 ${isDropdownOpen('services') ? 'open' : ''}`} onClick={(e) => toggleDropdown(e, 'services')}>
             <span className="fas fa-angle-down"></span>
           </div>
-        )}
+        )} */}
         <ul style={{ display: isMobile ? (isDropdownOpen('services') ? 'block' : 'none') : undefined }}>
           <li className={`dropdown ${isDropdownOpen('accounts') ? 'open' : ''}`}>
             <a href="#accounts" onClick={(e) => isMobile ? toggleDropdown(e, 'accounts') : null}>Accounts</a>

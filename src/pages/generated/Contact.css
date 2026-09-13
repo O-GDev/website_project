@@ -1,0 +1,176 @@
+.form-status {
+  max-width: 720px;
+  margin: -10px auto 30px;
+  padding: 14px 20px;
+  border-radius: 8px;
+  font-size: 15px;
+  text-align: center;
+}
+.form-status.success {
+  background: #e7f8ec;
+  color: #116d34;
+  border: 1px solid #b8e6c6;
+}
+
+/* ============ Get In Touch: location ============ */
+.location-section .location-image {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background: #f5f4f4;
+  border: 1px dashed #cfcaca;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+.location-section .location-image .image-placeholder {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #b0abab;
+}
+.location-section .location-card {
+  position: relative;
+  display: block;
+  background: #fff;
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.08);
+  border-left: 3px solid var(--theme-color);
+  margin-bottom: 30px;
+  padding: 28px 30px 28px 92px;
+}
+.location-section .location-card .icon-box {
+  position: absolute;
+  left: 22px;
+  top: 24px;
+  width: 54px;
+  height: 54px;
+  line-height: 54px;
+  text-align: center;
+  background: #f5f4f4;
+  border-radius: 50%;
+}
+.location-section .location-card h4 {
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+.location-section .location-card .info-list {
+  position: relative;
+}
+.location-section .location-card .info-list li {
+  position: relative;
+  display: block;
+  font-size: 17px;
+  line-height: 26px;
+  color: var(--text-color);
+  margin-bottom: 9px;
+}
+.location-section .location-card .info-list li span {
+  color: var(--title-color);
+  font-weight: 600;
+  margin-right: 4px;
+}
+.location-section .location-card .info-list li a {
+  display: inline-block;
+  color: var(--text-color);
+  margin-right: 12px;
+}
+.location-section .location-card .info-list li a:hover {
+  color: var(--theme-color);
+}
+
+/* ============ Get In Touch: map ============ */
+.map-section .map-box {
+  position: relative;
+  width: 100%;
+  border: 1px solid #e6e4e4;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.map-section .map-box iframe {
+  display: block;
+  width: 100%;
+}
+
+/* ============ Get In Touch: support ============ */
+.contact-section .customer-care-btn {
+  display: inline-block;
+  margin-right: 12px;
+}
+.support-social-links {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+.support-social-links li {
+  position: relative;
+  display: inline-block;
+  margin-right: 8px;
+}
+.support-social-links li a {
+  position: relative;
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  background: #f5f4f4;
+  border-radius: 50%;
+  color: var(--title-color);
+  transition: all 500ms ease;
+}
+.support-social-links li a:hover {
+  background: var(--theme-color);
+  color: #fff;
+}
+
+/* ============ Get In Touch: customer care ============ */
+.care-section .tabs-box {
+  position: relative;
+  background: #fff;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.care-section .tab-btns .tab-btn {
+  position: relative;
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 16px 20px;
+  cursor: pointer;
+  border-bottom: 1px solid #e6e4e4;
+  border-right: 1px solid #e6e4e4;
+  transition: all 500ms ease;
+}
+.care-section .tab-btns .tab-btn:last-child {
+  border-right: none;
+}
+.care-section .tab-btns .tab-btn h4 {
+  font-size: 20px;
+  line-height: 28px;
+  color: #a8a7a7;
+}
+.care-section .tab-btns .tab-btn.active-btn h4 {
+  color: var(--theme-color);
+}
+.care-section .tab-btns .tab-btn:before {
+  position: absolute;
+  content: '';
+  background: var(--theme-color);
+  width: 100%;
+  height: 4px;
+  left: 0px;
+  bottom: -1px;
+  transform: scale(0, 0);
+  transition: all 500ms ease;
+}
+.care-section .tab-btns .tab-btn.active-btn:before {
+  transform: scale(1, 1);
+}
+.care-section .tabs-content {
+  position: relative;
+  padding: 40px 50px 27px 50px;
+}

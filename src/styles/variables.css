@@ -1,0 +1,23 @@
+/* Theme CSS variables — Flexibank palette (per Instruction file) */
+:root{
+  --theme-color: #c9a227;      /* gold/amber accent */
+  --secondary-color: #15110d;  /* near-black / espresso */
+  --black-color: #000000;      /* pure black */
+  --text-color: #6e6b66;       /* muted gray (body copy) */
+  --title-color: #141414;      /* dark text */
+  --cream-color: #f4f1ea;      /* cream background */
+  --light-text-color: #f5f3ee; /* light text on dark bg */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

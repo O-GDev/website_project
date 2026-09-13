@@ -1,0 +1,28 @@
+/* Black theme overrides (Instruction style notes)
+ * Homepage + second page sliders are pulled onto the pure-black palette.
+ * Kept as one override layer so it is easy to preview or revert.
+ * Imported last (before responsive) so it wins.
+ *
+ * NOTE: navbar, footer (incl. Branches & ATMs / Complaint Registration /
+ * Download Forms strip and the Follow Us band) were all reverted to their
+ * original colours.
+ */
+
+/* --- Slides: black slide pages (homepage + second page) --- */
+
+.banner-section{
+  background: var(--black-color);
+}
+
+.banner-carousel .slide-item{
+  background: var(--black-color);
+}
+
+.banner-carousel .slide-item .bg-layer{
+  opacity: 0.30;
+}
+
+.banner-carousel .slide-item .pattern-layer{
+  background-color: var(--black-color) !important;
+  opacity: 0.35;
+}

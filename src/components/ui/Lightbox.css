@@ -1,0 +1,58 @@
+.react-lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.react-lightbox .rl-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 94vw;
+  max-height: 88vh;
+}
+.react-lightbox img {
+  max-width: 94vw;
+  max-height: 80vh;
+  border-radius: 4px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+.react-lightbox .rl-caption {
+  color: #fff;
+  font-size: 13px;
+  margin-top: 10px;
+  word-break: break-all;
+  max-width: 90vw;
+  text-align: center;
+}
+.react-lightbox .rl-close {
+  position: absolute;
+  top: 16px;
+  right: 28px;
+  color: #fff;
+  font-size: 42px;
+  line-height: 1;
+  cursor: pointer;
+}
+.react-lightbox .rl-prev,
+.react-lightbox .rl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 56px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 8px 12px;
+}
+.react-lightbox .rl-prev { left: 16px; }
+.react-lightbox .rl-next { right: 16px; }

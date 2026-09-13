@@ -1,0 +1,71 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+
+export default function FeaturesSection({ heading = 'Key Savings Account Features' }) {
+  return (
+    <section className="features-section bg-color-1 centred">
+      <div className="auto-container">
+        <div className="sec-title">
+          <span className="sub-title">Features</span>
+          <h2>{heading}</h2>
+        </div>
+        <div className="row clearfix">
+          <div className="col-lg-4 col-md-6 col-sm-12 feature-block">
+            <div className="feature-block-one">
+              <div className="inner-box">
+                <div className="icon-box"><img src="/assets/images/icons/icon-178.png" alt="" /></div>
+                <h3><Link to="/account-details">Earn Interest up to 7%</Link></h3>
+                <p>Holds these matters principles selection right some rejects.</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-12 feature-block">
+            <div className="feature-block-one">
+              <div className="inner-box">
+                <div className="icon-box"><img src="/assets/images/icons/icon-179.png" alt="" /></div>
+                <h3><Link to="/account-details">Free SMS Alerts</Link></h3>
+                <p>Business frequently occur that pleasure have to be repudiated.</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-12 feature-block">
+            <div className="feature-block-one">
+              <div className="inner-box">
+                <div className="icon-box"><img src="/assets/images/icons/icon-180.png" alt="" /></div>
+                <h3><Link to="/account-details">FDIC Insured</Link></h3>
+                <p>The wise man therefore always holds these principle of selection.</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-12 feature-block">
+            <div className="feature-block-one">
+              <div className="inner-box">
+                <div className="icon-box"><img src="/assets/images/icons/icon-181.png" alt="" /></div>
+                <h3><Link to="/account-details">Free ATM Access</Link></h3>
+                <p>Business frequently occur that pleasure have to be repudiated.</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-12 feature-block">
+            <div className="feature-block-one">
+              <div className="inner-box">
+                <div className="icon-box"><img src="/assets/images/icons/icon-182.png" alt="" /></div>
+                <h3><Link to="/account-details">Mobile Check Deposit</Link></h3>
+                <p>The wise man therefore always holds these principle of selection.</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-12 feature-block">
+            <div className="feature-block-one">
+              <div className="inner-box">
+                <div className="icon-box"><img src="/assets/images/icons/icon-183.png" alt="" /></div>
+                <h3><Link to="/account-details">24/7 Online Banking</Link></h3>
+                <p>Holds these matters principles selection right some rejects.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}

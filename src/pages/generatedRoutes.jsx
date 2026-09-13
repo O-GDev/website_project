@@ -27,6 +27,10 @@ import Careers from './generated/Careers.jsx'
 import Contact from './generated/Contact.jsx'
 import Error from './generated/Error.jsx'
 import Faq from './generated/Faq.jsx'
+import Kaizen_Asset_loan from './generated/Kaizen_Asset_loan.jsx'
+import Kaizen_Enterprise_loan from './generated/Kaizen_Enterprise_loan.jsx'
+import Kaizen_Micro_loan from './generated/Kaizen_Micro_loan.jsx'
+import Kaizen_Personal_loan from './generated/Kaizen_Personal_loan.jsx'
 import Index_2 from './generated/Index_2.jsx'
 import Index_3 from './generated/Index_3.jsx'
 import Index_4 from './generated/Index_4.jsx'
@@ -46,6 +50,8 @@ import Partners from './generated/Partners.jsx'
 import Team_details from './generated/Team_details.jsx'
 import Team from './generated/Team.jsx'
 import Testimonial from './generated/Testimonial.jsx'
+import Utility_cards from './generated/Utility_cards.jsx'
+import Verve_card from './generated/Verve_card.jsx'
 
 
 export default function GeneratedRoutes(){
@@ -69,6 +75,8 @@ export default function GeneratedRoutes(){
         <Route path="/card-details-4" element={<Card_details_4 />} />
         <Route path="/card-details-5" element={<Card_details_5 />} />
         <Route path="/card-details-6" element={<Card_details_6 />} />
+        <Route path="/card-details-utility" element={<Utility_cards />} />
+        <Route path="/card-details-verve" element={<Verve_card />} />
         <Route path="/card-details" element={<Card_details />} />
         <Route path="/cards-2" element={<Cards_2 />} />
         <Route path="/cards-3" element={<Cards_3 />} />
@@ -88,6 +96,10 @@ export default function GeneratedRoutes(){
         <Route path="/investments-details-5" element={<Investments_details_5 />} />
         <Route path="/investments-details-6" element={<Investments_details_6 />} />
         <Route path="/investments-details" element={<Investments_details />} />
+        <Route path="/kaizen-asset" element={<Kaizen_Asset_loan />} />
+        <Route path="/kaizen-enterprise" element={<Kaizen_Enterprise_loan />} />
+        <Route path="/kaizen-micro" element={<Kaizen_Micro_loan />} />
+        <Route path="/kaizen-personal" element={<Kaizen_Personal_loan />} />
         <Route path="/loans-1" element={<Loans_1 />} />
         <Route path="/loans-2" element={<Loans_2 />} />
         <Route path="/loans-3" element={<Loans_3 />} />

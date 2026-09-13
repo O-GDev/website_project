@@ -1,4 +1,5 @@
 import React from 'react'
+import PageTitle from '../../components/sections/PageTitle'
 import { Link } from 'react-router-dom'
 
 export default function Career_details(){
@@ -13,27 +14,7 @@ export default function Career_details(){
 
 
         
-        <div id="search-popup" className="search-popup">
-            <div className="popup-inner">
-                <div className="upper-box">
-                    <figure className="logo-box"><Link to="/"><img src="assets/images/logo.png" alt="" /></Link></figure>
-                    <div className="close-search"><i className="fas fa-times"></i></div>
-                </div>
-                <div className="overlay-layer"></div>
-                <div className="auto-container">
-                    <div className="search-form">
-                        <form method="post" action="index.html">
-                            <div className="form-group">
-                                <fieldset>
-                                    <input type="search" className="form-control" name="search-input" defaultValue="" placeholder="Type your keyword and hit" required  />
-                                    <button type="submit"><i className="fas fa-search"></i></button>
-                                </fieldset>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div> 
+         
 
 
         
@@ -43,21 +24,7 @@ export default function Career_details(){
 
 
         
-        <section className="page-title">
-            <div className="bg-layer" style={{backgroundImage: 'url(assets/images/background/page-title.jpg)'}}></div>
-            <div className="pattern-layer" style={{backgroundImage: 'url(assets/images/shape/shape-32.png)'}}></div>
-            <div className="auto-container">
-                <div className="content-box">
-                    <h1>Career Details</h1>
-                    <ul className="bread-crumb clearfix">
-                        <li><Link to="/">Home</Link></li>
-                        <li>About</li>
-                        <li>Careers</li>
-                        <li><span>Career Details</span></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+        <PageTitle title={"Career Details"} crumbs={["About","Careers"]} />
         
 
 
@@ -70,7 +37,7 @@ export default function Career_details(){
                             <div className="upper-box">
                                 <span className="text">Finance Department</span>
                                 <h3>Sales Representative</h3>
-                                <span className="location"><img src="assets/images/icons/icon-210.png" alt="" />Hamburg, German</span>
+                                <span className="location"><img src="/assets/images/icons/icon-210.png" alt="" />Hamburg, German</span>
                                 <div className="btn-box"><Link to="/career-details"><i className="flaticon-right-arrow"></i><span>Apply Now</span></Link></div>
                             </div>
                             <div className="content-one mb_35">
@@ -134,7 +101,7 @@ export default function Career_details(){
                                 </ul>
                             </div>
                             <div className="support-box">
-                                <figure className="image-box"><img src="assets/images/resource/support-1.png" alt="" /></figure>
+                                <figure className="image-box"><img src="/assets/images/resource/support-1.png" alt="" /></figure>
                                 <div className="lower-content">
                                     <span className="big-text">support</span>
                                     <ul className="info-list mb_30 pb_3 clearfix">
@@ -159,11 +126,7 @@ export default function Career_details(){
 
 
         
-        <div className="scroll-to-top">
-            <svg className="scroll-top-inner" viewBox="-1 -1 102 102">
-                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-            </svg>
-        </div>
+        
         
     </div>
 

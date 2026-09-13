@@ -13,27 +13,7 @@ export default function Team(){
 
 
         
-        <div id="search-popup" className="search-popup">
-            <div className="popup-inner">
-                <div className="upper-box">
-                    <figure className="logo-box"><Link to="/"><img src="assets/images/logo.png" alt="" /></Link></figure>
-                    <div className="close-search"><i className="fas fa-times"></i></div>
-                </div>
-                <div className="overlay-layer"></div>
-                <div className="auto-container">
-                    <div className="search-form">
-                        <form method="post" action="index.html">
-                            <div className="form-group">
-                                <fieldset>
-                                    <input type="search" className="form-control" name="search-input" defaultValue="" placeholder="Type your keyword and hit" required  />
-                                    <button type="submit"><i className="fas fa-search"></i></button>
-                                </fieldset>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div> 
+         
 
 
         
@@ -43,9 +23,14 @@ export default function Team(){
 
 
         
-        <section className="page-title">
-            <div className="bg-layer" style={{backgroundImage: 'url(assets/images/background/page-title.jpg)'}}></div>
-            <div className="pattern-layer" style={{backgroundImage: 'url(assets/images/shape/shape-32.png)'}}></div>
+        <section className="leadership-banner">
+            <div className="photo" style={{backgroundImage: 'url(/assets/images/banner/leadership.jpeg)'}}></div>
+            <div className="tint"></div>
+            <svg className="waves" viewBox="0 0 1440 300" preserveAspectRatio="none" aria-hidden="true">
+                <path d="M0,150 C120,64 240,236 360,150 S600,64 720,150 S960,236 1080,150 S1320,64 1440,150" />
+                <path d="M0,225 C150,130 300,310 450,225 S750,130 900,225 S1200,310 1350,225" />
+                <path d="M0,80 C130,170 260,30 390,80 S650,170 780,80 S1100,170 1230,80 L1440,80" />
+            </svg>
             <div className="auto-container">
                 <div className="content-box">
                     <h1>Leadership</h1>
@@ -72,7 +57,7 @@ export default function Team(){
                         <div className="team-block-one">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><img src="assets/images/team/team-1.jpg" alt="" /></figure>
+                                    <figure className="image"><img src="/assets/images/team/team-1.jpg" alt="" /></figure>
                                     <ul className="social-links">
                                         <li><Link to="/team"><i className="flaticon-facebook"></i></Link></li>
                                         <li><Link to="/team"><i className="flaticon-twitter"></i></Link></li>
@@ -84,7 +69,7 @@ export default function Team(){
                                     <span className="designation">Ceo & Founder</span>
                                     <form method="post" action="team.html">
                                         <div className="form-group">
-                                            <div className="icon-box"><img src="assets/images/icons/icon-3.png" alt="" /></div>
+                                            <div className="icon-box"><img src="/assets/images/icons/icon-3.png" alt="" /></div>
                                             <input type="email" name="email" placeholder="Email me" required />
                                             <button type="submit"><i className="flaticon-right-arrow"></i></button>
                                         </div>
@@ -97,7 +82,7 @@ export default function Team(){
                         <div className="team-block-one">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><img src="assets/images/team/team-2.jpg" alt="" /></figure>
+                                    <figure className="image"><img src="/assets/images/team/team-2.jpg" alt="" /></figure>
                                     <ul className="social-links">
                                         <li><Link to="/team"><i className="flaticon-facebook"></i></Link></li>
                                         <li><Link to="/team"><i className="flaticon-twitter"></i></Link></li>
@@ -109,7 +94,7 @@ export default function Team(){
                                     <span className="designation">Cheif Operating Officer</span>
                                     <form method="post" action="team.html">
                                         <div className="form-group">
-                                            <div className="icon-box"><img src="assets/images/icons/icon-3.png" alt="" /></div>
+                                            <div className="icon-box"><img src="/assets/images/icons/icon-3.png" alt="" /></div>
                                             <input type="email" name="email" placeholder="Email me" required />
                                             <button type="submit"><i className="flaticon-right-arrow"></i></button>
                                         </div>
@@ -122,7 +107,7 @@ export default function Team(){
                         <div className="team-block-one">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><img src="assets/images/team/team-3.jpg" alt="" /></figure>
+                                    <figure className="image"><img src="/assets/images/team/team-3.jpg" alt="" /></figure>
                                     <ul className="social-links">
                                         <li><Link to="/team"><i className="flaticon-facebook"></i></Link></li>
                                         <li><Link to="/team"><i className="flaticon-twitter"></i></Link></li>
@@ -134,7 +119,7 @@ export default function Team(){
                                     <span className="designation">Cheif Financial Officer</span>
                                     <form method="post" action="team.html">
                                         <div className="form-group">
-                                            <div className="icon-box"><img src="assets/images/icons/icon-3.png" alt="" /></div>
+                                            <div className="icon-box"><img src="/assets/images/icons/icon-3.png" alt="" /></div>
                                             <input type="email" name="email" placeholder="Email me" required />
                                             <button type="submit"><i className="flaticon-right-arrow"></i></button>
                                         </div>
@@ -147,7 +132,7 @@ export default function Team(){
                         <div className="team-block-one">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><img src="assets/images/team/team-4.jpg" alt="" /></figure>
+                                    <figure className="image"><img src="/assets/images/team/team-4.jpg" alt="" /></figure>
                                     <ul className="social-links">
                                         <li><Link to="/team"><i className="flaticon-facebook"></i></Link></li>
                                         <li><Link to="/team"><i className="flaticon-twitter"></i></Link></li>
@@ -159,7 +144,7 @@ export default function Team(){
                                     <span className="designation">Corporate Marketing</span>
                                     <form method="post" action="team.html">
                                         <div className="form-group">
-                                            <div className="icon-box"><img src="assets/images/icons/icon-3.png" alt="" /></div>
+                                            <div className="icon-box"><img src="/assets/images/icons/icon-3.png" alt="" /></div>
                                             <input type="email" name="email" placeholder="Email me" required />
                                             <button type="submit"><i className="flaticon-right-arrow"></i></button>
                                         </div>
@@ -172,7 +157,7 @@ export default function Team(){
                         <div className="team-block-one">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><img src="assets/images/team/team-5.jpg" alt="" /></figure>
+                                    <figure className="image"><img src="/assets/images/team/team-5.jpg" alt="" /></figure>
                                     <ul className="social-links">
                                         <li><Link to="/team"><i className="flaticon-facebook"></i></Link></li>
                                         <li><Link to="/team"><i className="flaticon-twitter"></i></Link></li>
@@ -184,7 +169,7 @@ export default function Team(){
                                     <span className="designation">Head of Corporate</span>
                                     <form method="post" action="team.html">
                                         <div className="form-group">
-                                            <div className="icon-box"><img src="assets/images/icons/icon-3.png" alt="" /></div>
+                                            <div className="icon-box"><img src="/assets/images/icons/icon-3.png" alt="" /></div>
                                             <input type="email" name="email" placeholder="Email me" required />
                                             <button type="submit"><i className="flaticon-right-arrow"></i></button>
                                         </div>
@@ -197,7 +182,7 @@ export default function Team(){
                         <div className="team-block-one">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><img src="assets/images/team/team-6.jpg" alt="" /></figure>
+                                    <figure className="image"><img src="/assets/images/team/team-6.jpg" alt="" /></figure>
                                     <ul className="social-links">
                                         <li><Link to="/team"><i className="flaticon-facebook"></i></Link></li>
                                         <li><Link to="/team"><i className="flaticon-twitter"></i></Link></li>
@@ -209,7 +194,7 @@ export default function Team(){
                                     <span className="designation">Chief Investment Officer</span>
                                     <form method="post" action="team.html">
                                         <div className="form-group">
-                                            <div className="icon-box"><img src="assets/images/icons/icon-3.png" alt="" /></div>
+                                            <div className="icon-box"><img src="/assets/images/icons/icon-3.png" alt="" /></div>
                                             <input type="email" name="email" placeholder="Email me" required />
                                             <button type="submit"><i className="flaticon-right-arrow"></i></button>
                                         </div>
@@ -222,7 +207,7 @@ export default function Team(){
                         <div className="team-block-one">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><img src="assets/images/team/team-7.jpg" alt="" /></figure>
+                                    <figure className="image"><img src="/assets/images/team/team-7.jpg" alt="" /></figure>
                                     <ul className="social-links">
                                         <li><Link to="/team"><i className="flaticon-facebook"></i></Link></li>
                                         <li><Link to="/team"><i className="flaticon-twitter"></i></Link></li>
@@ -234,7 +219,7 @@ export default function Team(){
                                     <span className="designation">Head of Retail Banking</span>
                                     <form method="post" action="team.html">
                                         <div className="form-group">
-                                            <div className="icon-box"><img src="assets/images/icons/icon-3.png" alt="" /></div>
+                                            <div className="icon-box"><img src="/assets/images/icons/icon-3.png" alt="" /></div>
                                             <input type="email" name="email" placeholder="Email me" required />
                                             <button type="submit"><i className="flaticon-right-arrow"></i></button>
                                         </div>
@@ -247,7 +232,7 @@ export default function Team(){
                         <div className="team-block-one">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><img src="assets/images/team/team-8.jpg" alt="" /></figure>
+                                    <figure className="image"><img src="/assets/images/team/team-8.jpg" alt="" /></figure>
                                     <ul className="social-links">
                                         <li><Link to="/team"><i className="flaticon-facebook"></i></Link></li>
                                         <li><Link to="/team"><i className="flaticon-twitter"></i></Link></li>
@@ -259,7 +244,7 @@ export default function Team(){
                                     <span className="designation">Chief Technology Officer</span>
                                     <form method="post" action="team.html">
                                         <div className="form-group">
-                                            <div className="icon-box"><img src="assets/images/icons/icon-3.png" alt="" /></div>
+                                            <div className="icon-box"><img src="/assets/images/icons/icon-3.png" alt="" /></div>
                                             <input type="email" name="email" placeholder="Email me" required />
                                             <button type="submit"><i className="flaticon-right-arrow"></i></button>
                                         </div>
@@ -279,11 +264,7 @@ export default function Team(){
 
 
         
-        <div className="scroll-to-top">
-            <svg className="scroll-top-inner" viewBox="-1 -1 102 102">
-                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-            </svg>
-        </div>
+        
         
     </div>
 

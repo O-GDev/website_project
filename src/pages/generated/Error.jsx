@@ -104,12 +104,12 @@ export default function Error(){
             </div>
             <div className="content-box">
                 <div className="text-box">
-                    <div className="shape" style={{backgroundImage: 'url(assets/images/shape/shape-47.png)'}}></div>
+                    <div className="shape" style={{backgroundImage: 'url(/assets/images/shape/shape-47.png)'}}></div>
                     <h3>Oops!</h3>
                 </div>
                 <div className="inner-box p_relative">
                     <h1>404</h1>
-                    <div className="icon-box"><img src="assets/images/resource/bug-1.png" alt="" /></div>
+                    <div className="icon-box"><img src="/assets/images/resource/bug-1.png" alt="" /></div>
                     <h2>Page Not Found</h2>
                     <p>Try refining your search or use the navigation below to <br />return to the main home page.</p>
                     <Link to="/"><span>Back to Home</span></Link>
@@ -121,11 +121,7 @@ export default function Error(){
 
 
         
-        <div className="scroll-to-top">
-            <svg className="scroll-top-inner" viewBox="-1 -1 102 102">
-                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-            </svg>
-        </div>
+        
         
     </div>
 

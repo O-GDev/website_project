@@ -1,4 +1,5 @@
 import React from 'react'
+import PageTitle from '../../components/sections/PageTitle'
 import { Link } from 'react-router-dom'
 
 export default function Card_details_3(){
@@ -13,27 +14,7 @@ export default function Card_details_3(){
 
 
         
-        <div id="search-popup" className="search-popup">
-            <div className="popup-inner">
-                <div className="upper-box">
-                    <figure className="logo-box"><Link to="/"><img src="assets/images/logo.png" alt="" /></Link></figure>
-                    <div className="close-search"><i className="fas fa-times"></i></div>
-                </div>
-                <div className="overlay-layer"></div>
-                <div className="auto-container">
-                    <div className="search-form">
-                        <form method="post" action="index.html">
-                            <div className="form-group">
-                                <fieldset>
-                                    <input type="search" className="form-control" name="search-input" defaultValue="" placeholder="Type your keyword and hit" required  />
-                                    <button type="submit"><i className="fas fa-search"></i></button>
-                                </fieldset>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div> 
+         
 
 
         
@@ -43,21 +24,7 @@ export default function Card_details_3(){
 
 
         
-        <section className="page-title">
-            <div className="bg-layer" style={{backgroundImage: 'url(assets/images/background/page-title.jpg)'}}></div>
-            <div className="pattern-layer" style={{backgroundImage: 'url(assets/images/shape/shape-32.png)'}}></div>
-            <div className="auto-container">
-                <div className="content-box">
-                    <h1>Money Back Card</h1>
-                    <ul className="bread-crumb clearfix">
-                        <li><Link to="/">Home</Link></li>
-                        <li>Services</li>
-                        <li>Cards</li>
-                        <li><span>Money Back Card</span></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+        <PageTitle title={"Money Back Card"} crumbs={["Services","Cards"]} />
         
 
 
@@ -81,8 +48,8 @@ export default function Card_details_3(){
                                 </ul>
                             </div>
                             <div className="contact-widget">
-                                <div className="inner-box" style={{backgroundImage: 'url(assets/images/resource/sidebar-1.jpg)'}}>
-                                    <h3>Now, Get Your Credit Card Online</h3>
+                                <div className="inner-box" style={{backgroundImage: 'url(/assets/images/resource/sidebar-1.jpg)'}}>
+                                    <h3>Now, Get Your Debit Card Online</h3>
                                     <span className="text">Approve with in 24 Hrs.</span>
                                     <Link to="/contact"><span>Apply Here</span></Link>
                                 </div>
@@ -101,10 +68,10 @@ export default function Card_details_3(){
                                 <div className="image-box">
                                     <div className="row clearfix">
                                         <div className="col-lg-6 col-md-6 col-sm-12 image-column">
-                                            <figure className="image"><img src="assets/images/resource/card-6.jpg" alt="" /></figure>
+                                            <figure className="image"><img src="/assets/images/resource/card-6.jpg" alt="" /></figure>
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-sm-12 image-column">
-                                            <figure className="image"><img src="assets/images/resource/card-7.jpg" alt="" /></figure>
+                                            <figure className="image"><img src="/assets/images/resource/card-7.jpg" alt="" /></figure>
                                         </div>
                                     </div>
                                 </div>
@@ -117,42 +84,42 @@ export default function Card_details_3(){
                                 <div className="row clearfix">
                                     <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                         <div className="single-item">
-                                            <div className="icon-box"><img src="assets/images/icons/icon-195.png" alt="" /></div>
+                                            <div className="icon-box"><img src="/assets/images/icons/icon-195.png" alt="" /></div>
                                             <h3>Welcome Bonus</h3>
                                             <p>Holds these matters principles selection right some rejects.</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                         <div className="single-item">
-                                            <div className="icon-box"><img src="assets/images/icons/icon-195.png" alt="" /></div>
+                                            <div className="icon-box"><img src="/assets/images/icons/icon-195.png" alt="" /></div>
                                             <h3>Accelerated Rewards</h3>
                                             <p>Business will frequently occur that pleasure have to be repudiated.</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                         <div className="single-item">
-                                            <div className="icon-box"><img src="assets/images/icons/icon-195.png" alt="" /></div>
+                                            <div className="icon-box"><img src="/assets/images/icons/icon-195.png" alt="" /></div>
                                             <h3>Fuel Surcharge Waiver</h3>
                                             <p>The wise man therefore always holds these principle of selection.</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                         <div className="single-item">
-                                            <div className="icon-box"><img src="assets/images/icons/icon-195.png" alt="" /></div>
+                                            <div className="icon-box"><img src="/assets/images/icons/icon-195.png" alt="" /></div>
                                             <h3>Low Interest Rates</h3>
                                             <p>Holds these matters principles selection right some rejects.</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                         <div className="single-item">
-                                            <div className="icon-box"><img src="assets/images/icons/icon-195.png" alt="" /></div>
+                                            <div className="icon-box"><img src="/assets/images/icons/icon-195.png" alt="" /></div>
                                             <h3>Cashback Offers</h3>
                                             <p>Business will frequently occur that pleasure have to be repudiated.</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                         <div className="single-item">
-                                            <div className="icon-box"><img src="assets/images/icons/icon-195.png" alt="" /></div>
+                                            <div className="icon-box"><img src="/assets/images/icons/icon-195.png" alt="" /></div>
                                             <h3>24/7 Support</h3>
                                             <p>The wise man therefore always holds these principle of selection.</p>
                                         </div>
@@ -169,7 +136,7 @@ export default function Card_details_3(){
                                         <div className="deals-block-one">
                                             <div className="inner-box">
                                                 <div className="title-box">
-                                                    <div className="icon-box"><img src="assets/images/icons/icon-74.png" alt="" /></div>
+                                                    <div className="icon-box"><img src="/assets/images/icons/icon-74.png" alt="" /></div>
                                                     <span className="category">Medical</span>
                                                     <p>Expire On: 25th Oct’24</p>
                                                 </div>
@@ -177,7 +144,7 @@ export default function Card_details_3(){
                                                 <div className="lower-box">
                                                     <div className="link-box"><Link to="/index-2"><i className="flaticon-right-arrow"></i>Read More</Link></div>
                                                     <div className="share-box">
-                                                        <div className="share-text"><img src="assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
+                                                        <div className="share-text"><img src="/assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
                                                         <ul className="social-links">
                                                             <li><Link to="/index-2"><i className="flaticon-facebook"></i></Link></li>
                                                             <li><Link to="/index-2"><i className="flaticon-instagram-logo"></i></Link></li>
@@ -193,7 +160,7 @@ export default function Card_details_3(){
                                         <div className="deals-block-one">
                                             <div className="inner-box">
                                                 <div className="title-box">
-                                                    <div className="icon-box"><img src="assets/images/icons/icon-75.png" alt="" /></div>
+                                                    <div className="icon-box"><img src="/assets/images/icons/icon-75.png" alt="" /></div>
                                                     <span className="category">Restaurant</span>
                                                     <p>Expire On: 31st Oct’24</p>
                                                 </div>
@@ -201,7 +168,7 @@ export default function Card_details_3(){
                                                 <div className="lower-box">
                                                     <div className="link-box"><Link to="/index-2"><i className="flaticon-right-arrow"></i>Read More</Link></div>
                                                     <div className="share-box">
-                                                        <div className="share-text"><img src="assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
+                                                        <div className="share-text"><img src="/assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
                                                         <ul className="social-links">
                                                             <li><Link to="/index-2"><i className="flaticon-facebook"></i></Link></li>
                                                             <li><Link to="/index-2"><i className="flaticon-instagram-logo"></i></Link></li>
@@ -224,11 +191,11 @@ export default function Card_details_3(){
                                         </div>
                                         <div className="acc-content current">
                                             <div className="content">
-                                                <h5>To apply for a Credit Card,</h5>
+                                                <h5>To apply for a Debit Card,</h5>
                                                 <ul className="list-item mb_35">
                                                     <li>You will need to be minimum 18 years of age</li>
                                                     <li>For salary person net annual income of Rs 4.5 lakh or more</li>
-                                                    <li>Consider a credit score between 750 and 900 to be adequate for a Credit Card.</li>
+                                                    <li>Consider a credit score between 750 and 900 to be adequate for a Debit Card.</li>
                                                     <li>Location is also another factor </li>
                                                 </ul>
                                                 <Link to="/card-details"><span>Check Eligibility</span></Link>
@@ -242,11 +209,11 @@ export default function Card_details_3(){
                                         </div>
                                         <div className="acc-content">
                                             <div className="content">
-                                                <h5>To apply for a Credit Card,</h5>
+                                                <h5>To apply for a Debit Card,</h5>
                                                 <ul className="list-item mb_35">
                                                     <li>You will need to be minimum 18 years of age</li>
                                                     <li>For salary person net annual income of Rs 4.5 lakh or more</li>
-                                                    <li>Consider a credit score between 750 and 900 to be adequate for a Credit Card.</li>
+                                                    <li>Consider a credit score between 750 and 900 to be adequate for a Debit Card.</li>
                                                     <li>Location is also another factor </li>
                                                 </ul>
                                                 <Link to="/card-details"><span>Check Eligibility</span></Link>
@@ -268,11 +235,7 @@ export default function Card_details_3(){
 
 
         
-        <div className="scroll-to-top">
-            <svg className="scroll-top-inner" viewBox="-1 -1 102 102">
-                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-            </svg>
-        </div>
+        
         
     </div>
 

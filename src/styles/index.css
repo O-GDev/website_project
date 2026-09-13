@@ -1,0 +1,28 @@
+/* Flexibank stylesheet master
+ * -------------------------------------------------------
+ * Import order here defines the CSS cascade order. Keep:
+ *   1. variables  - theme tokens
+ *   2. globals    - reset, base typography, buttons, preloader
+ *   3. utilities  - elpath helper classes
+ *   4. layout     - header + footer
+ *   5. sections   - page sections (home variants, auth pages, forms)
+ *   6. responsive - breakpoint overrides (MUST be last)
+ */
+
+@import './variables.css';
+@import './globals.css';
+@import './utilities.css';
+@import './layout/header.css';
+@import './layout/footer.css';
+@import './sections/home.css';
+@import './sections/home2.css';
+@import './sections/home3.css';
+@import './sections/home4.css';
+@import './sections/pages.css';
+@import './sections/about.css';
+@import './sections/careers.css';
+@import './sections/error.css';
+@import './sections/forms.css';
+@import './sections/brand.css';
+@import './theme-black.css';
+@import './responsive.css';

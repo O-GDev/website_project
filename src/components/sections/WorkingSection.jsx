@@ -1,0 +1,42 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+
+const DEFAULT_ICONS = ['icon-184.png', 'icon-185.png', 'icon-186.png', 'icon-187.png']
+
+const STEPS = [
+  ['01', 'Verify Customer', 'Nor again is there anyone who loves or pursues desire obtain pain all itself.'],
+  ['02', 'Documentation', 'One rejects, dislikes avoids pleasure itself because it is who do not know.'],
+  ['03', 'A/c Verification', 'Ever undertakes laborious physical exercise except in all advantages.'],
+  ['04', 'Start Banking', 'Foresee the pain & trouble that are bound ensue equal blame belongs fail.']
+]
+
+export default function WorkingSection({ modClass = 'alternat-2 centred', icons, light = false }) {
+  const icon = i => '/assets/images/icons/' + (icons?.[i] || DEFAULT_ICONS[i])
+  return (
+    <section className={'working-section ' + modClass}>
+      <div className="auto-container">
+        <div className="sec-title">
+          <span className={light ? 'sub-title light' : 'sub-title'}>How It’s Work</span>
+          <h2>Start Banking With in 5 Mins</h2>
+        </div>
+        <div className="row clearfix">
+          {STEPS.map((s, idx) => (
+            <div className="col-lg-3 col-md-6 col-sm-12 working-block" key={idx}>
+              <div className="working-block-one">
+                <div className="inner-box">
+                  <span className="count-text">{s[0]}</span>
+                  <h3>{s[1]}</h3>
+                  <p>{s[2]}</p>
+                  <div className="icon-box"><img src={icon(idx)} alt="" /></div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className={light ? 'more-text light centred' : 'more-text centred'}>
+          <h5><i className="flaticon-sparkle"></i>Your Financial Future Starts Here, <Link to="/index-2">Start Your Account.</Link></h5>
+        </div>
+      </div>
+    </section>
+  )
+}

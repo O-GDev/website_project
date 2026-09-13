@@ -1,4 +1,5 @@
 import React from 'react'
+import PageTitle from '../../components/sections/PageTitle'
 import { Link } from 'react-router-dom'
 
 export default function Faq(){
@@ -6,34 +7,14 @@ export default function Faq(){
     <>
 
 
-    <div className="boxed_wrapper">
+    <div className="boxed_wrapper faq-dark">
 
 
         
 
 
         
-        <div id="search-popup" className="search-popup">
-            <div className="popup-inner">
-                <div className="upper-box">
-                    <figure className="logo-box"><Link to="/"><img src="assets/images/logo.png" alt="" /></Link></figure>
-                    <div className="close-search"><i className="fas fa-times"></i></div>
-                </div>
-                <div className="overlay-layer"></div>
-                <div className="auto-container">
-                    <div className="search-form">
-                        <form method="post" action="index.html">
-                            <div className="form-group">
-                                <fieldset>
-                                    <input type="search" className="form-control" name="search-input" defaultValue="" placeholder="Type your keyword and hit" required  />
-                                    <button type="submit"><i className="fas fa-search"></i></button>
-                                </fieldset>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div> 
+         
 
 
         
@@ -43,26 +24,13 @@ export default function Faq(){
 
 
         
-        <section className="page-title">
-            <div className="bg-layer" style={{backgroundImage: 'url(assets/images/background/page-title.jpg)'}}></div>
-            <div className="pattern-layer" style={{backgroundImage: 'url(assets/images/shape/shape-32.png)'}}></div>
-            <div className="auto-container">
-                <div className="content-box">
-                    <h1>Faq’s</h1>
-                    <ul className="bread-crumb clearfix">
-                        <li><Link to="/">Home</Link></li>
-                        <li>About</li>
-                        <li><span>Faq’s</span></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+        <PageTitle title={"Faq’s"} crumbs={["About"]} />
         
 
 
         
         <section className="faq-section sec-pad">
-            <div className="pattern-layer" style={{backgroundImage: 'url(assets/images/shape/shape-46.png)'}}></div>
+            <div className="pattern-layer" style={{backgroundImage: 'url(/assets/images/shape/shape-46.png)'}}></div>
             <div className="auto-container">
                 <div className="sec-title centred">
                     <span className="sub-title">Faq’s</span>
@@ -83,7 +51,7 @@ export default function Faq(){
                                 <li><Link to="/">Business</Link></li>
                             </ul>
                             <div className="lower-box">
-                                <div className="icon-box"><img src="assets/images/icons/icon-35.png" alt="" /></div>
+                                <div className="icon-box"><img src="/assets/images/icons/icon-35.png" alt="" /></div>
                                 <h5>Can't Find What You Need?</h5>
                                 <Link to="/"><i className="flaticon-right-arrow"></i>Submit Queries</Link>
                             </div>
@@ -192,11 +160,7 @@ export default function Faq(){
 
 
         
-        <div className="scroll-to-top">
-            <svg className="scroll-top-inner" viewBox="-1 -1 102 102">
-                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-            </svg>
-        </div>
+        
         
     </div>
 

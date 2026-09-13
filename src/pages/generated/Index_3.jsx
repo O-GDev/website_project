@@ -1,8 +1,12 @@
 import React from 'react'
+import TestimonialCarousel from '../../components/sections/TestimonialCarousel'
+import ClientsSection from '../../components/sections/ClientsSection'
+import WorkingSection from '../../components/sections/WorkingSection'
 import { Link } from 'react-router-dom'
 import Carousel from '../../components/ui/Carousel'
 import Tabs from '../../components/ui/Tabs'
 import NiceSelect from '../../components/ui/NiceSelect'
+import CircularText from '../../components/ui/CircularText'
 
 export default function Index_3(){
   return (
@@ -16,27 +20,7 @@ export default function Index_3(){
 
 
         
-        <div id="search-popup" className="search-popup">
-            <div className="popup-inner">
-                <div className="upper-box">
-                    <figure className="logo-box"><Link to="/"><img src="assets/images/logo-5.png" alt="" /></Link></figure>
-                    <div className="close-search"><i className="fas fa-times"></i></div>
-                </div>
-                <div className="overlay-layer"></div>
-                <div className="auto-container">
-                    <div className="search-form">
-                        <form method="post" action="index.html">
-                            <div className="form-group">
-                                <fieldset>
-                                    <input type="search" className="form-control" name="search-input" defaultValue="" placeholder="Type your keyword and hit" required  />
-                                    <button type="submit"><i className="fas fa-search"></i></button>
-                                </fieldset>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
 
 
         
@@ -47,15 +31,15 @@ export default function Index_3(){
 
         
         <section className="banner-style-three p_relative">
-            <div className="pattern-layer" style={{backgroundImage: 'url(assets/images/shape/shape-11.png)'}}></div>
+            <div className="pattern-layer" style={{backgroundImage: 'url(/assets/images/shape/shape-11.png)'}}></div>
             <div className="inner-container">
                 <div className="inner-box clearfix">
                     <div className="content-box">
-                        <div className="shape" style={{backgroundImage: 'url(assets/images/shape/shape-12.png)'}}></div>
-                        <div className="light-icon"><img src="assets/images/icons/icon-97.png" alt="" /></div>
-                        <figure className="doller-box"><img src="assets/images/resource/doller-1.png" alt="" /></figure>
+                        <div className="shape" style={{backgroundImage: 'url(/assets/images/shape/shape-12.png)'}}></div>
+                        <div className="light-icon"><img src="/assets/images/icons/icon-97.png" alt="" /></div>
+                        <figure className="doller-box"><img src="/assets/images/resource/doller-1.png" alt="" /></figure>
                         <div className="rotate-box">
-                            <span className="curved-circle">Business Loan Interst Rate</span>
+                            <CircularText className="curved-circle" radius={77}>Business Loan Interst Rate</CircularText>
                             <div className="text">
                                 <span>From</span>
                                 <h3>8.5%</h3>
@@ -71,18 +55,18 @@ export default function Index_3(){
                             <Link to="/index-3"><i className="flaticon-right-arrow"></i>Find Out More</Link>
                         </div>
                         <div className="appointment-box">
-                            <div className="icon-box"><img src="assets/images/icons/icon-98.png" alt="" /></div>
+                            <div className="icon-box"><img src="/assets/images/icons/icon-98.png" alt="" /></div>
                             <h5>Make an Appointment</h5>
                             <p>Consultation with our executive today.</p>
                             <div className="link"><Link to="/index-3"><i className="flaticon-right-arrow"></i></Link></div>
                         </div>
                     </div>
                     <div className="image-box">
-                        <figure className="image"><img src="assets/images/banner/banner-img-1.jpg" alt="" /></figure>
+                        <figure className="image"><img src="/assets/images/banner/banner-img-1.jpg" alt="" /></figure>
                     </div>
                 </div>
                 <div className="form-inner">
-                    <div className="shape" style={{backgroundImage: 'url(assets/images/shape/shape-14.png)'}}></div>
+                    <div className="shape" style={{backgroundImage: 'url(/assets/images/shape/shape-14.png)'}}></div>
                     <h3>Banking Portal</h3>
                     <Tabs className="tabs-box">
                         <div className="tab-btns tab-buttons mb_30">
@@ -94,16 +78,16 @@ export default function Index_3(){
                                 <div className="form-content">
                                     <form method="post" action="index-3.html">
                                         <div className="form-group">
-                                            <div className="icon-box"><img src="assets/images/icons/icon-99.png" alt="" /></div>
+                                            <div className="icon-box"><img src="/assets/images/icons/icon-99.png" alt="" /></div>
                                             <input type="text" name="phone" placeholder="Mobile Num" required />
                                         </div>
                                         <div className="text-box pt_6 pb_16 centred">[or]</div>
                                         <div className="form-group">
-                                            <div className="icon-box"><img src="assets/images/icons/icon-100.png" alt="" /></div>
+                                            <div className="icon-box"><img src="/assets/images/icons/icon-100.png" alt="" /></div>
                                             <input type="text" name="name" placeholder="User Name" required />
                                         </div>
                                         <div className="form-group">
-                                            <div className="icon-box"><img src="assets/images/icons/icon-101.png" alt="" /></div>
+                                            <div className="icon-box"><img src="/assets/images/icons/icon-101.png" alt="" /></div>
                                             <input type="password" name="password" placeholder="Password" required />
                                         </div>
                                         <div className="message-btn pt_10"><button type="submit" className="theme-btn"><span>Login Your Account</span></button></div>
@@ -118,16 +102,16 @@ export default function Index_3(){
                                 <div className="form-content">
                                     <form method="post" action="index-3.html">
                                         <div className="form-group">
-                                            <div className="icon-box"><img src="assets/images/icons/icon-99.png" alt="" /></div>
+                                            <div className="icon-box"><img src="/assets/images/icons/icon-99.png" alt="" /></div>
                                             <input type="text" name="phone" placeholder="Mobile Num" required />
                                         </div>
                                         <div className="text-box pt_6 pb_16 centred">[or]</div>
                                         <div className="form-group">
-                                            <div className="icon-box"><img src="assets/images/icons/icon-100.png" alt="" /></div>
+                                            <div className="icon-box"><img src="/assets/images/icons/icon-100.png" alt="" /></div>
                                             <input type="text" name="name" placeholder="User Name" required />
                                         </div>
                                         <div className="form-group">
-                                            <div className="icon-box"><img src="assets/images/icons/icon-101.png" alt="" /></div>
+                                            <div className="icon-box"><img src="/assets/images/icons/icon-101.png" alt="" /></div>
                                             <input type="password" name="password" placeholder="Password" required />
                                         </div>
                                         <div className="message-btn pt_10"><button type="submit" className="theme-btn"><span>Login Your Account</span></button></div>
@@ -149,10 +133,10 @@ export default function Index_3(){
         
         <section className="apps-section sec-pad">
             <div className="pattern-layer">
-                <div className="pattern-1" style={{backgroundImage: 'url(assets/images/shape/shape-15.png)'}}></div>
-                <div className="pattern-2" style={{backgroundImage: 'url(assets/images/shape/shape-16.png)'}}></div>
+                <div className="pattern-1" style={{backgroundImage: 'url(/assets/images/shape/shape-15.png)'}}></div>
+                <div className="pattern-2" style={{backgroundImage: 'url(/assets/images/shape/shape-16.png)'}}></div>
             </div>
-            <figure className="image-layer"><img src="assets/images/resource/apps-2.png" alt="" /></figure>
+            <figure className="image-layer"><img src="/assets/images/resource/apps-2.png" alt="" /></figure>
             <div className="auto-container">
                 <div className="row clearfix">
                     <div className="col-xl-6 col-lg-12 col-md-12 offset-xl-6 content-column">
@@ -192,8 +176,8 @@ export default function Index_3(){
                                 <p>Perfectly simple and easy to distinguishto the claims of duty ...</p>
                             </div>
                             <div className="image-box">
-                                <figure className="image"><img src="assets/images/resource/banking-2.jpg" alt="" /></figure>
-                                <div className="icon-box"><img src="assets/images/icons/icon-102.png" alt="" /></div>
+                                <figure className="image"><img src="/assets/images/resource/banking-2.jpg" alt="" /></figure>
+                                <div className="icon-box"><img src="/assets/images/icons/icon-102.png" alt="" /></div>
                                 <div className="btn-box"><Link to="/index-2"><span>Read More</span></Link></div>
                             </div>
                         </div>
@@ -205,8 +189,8 @@ export default function Index_3(){
                                 <p>Duty through weakness of will, which is the same as saying through...</p>
                             </div>
                             <div className="image-box">
-                                <figure className="image"><img src="assets/images/resource/banking-3.jpg" alt="" /></figure>
-                                <div className="icon-box"><img src="assets/images/icons/icon-103.png" alt="" /></div>
+                                <figure className="image"><img src="/assets/images/resource/banking-3.jpg" alt="" /></figure>
+                                <div className="icon-box"><img src="/assets/images/icons/icon-103.png" alt="" /></div>
                                 <div className="btn-box"><Link to="/index-2"><span>Read More</span></Link></div>
                             </div>
                         </div>
@@ -218,8 +202,8 @@ export default function Index_3(){
                                 <p>Choice is untrammelled when nothing prevents our being able to do...</p>
                             </div>
                             <div className="image-box">
-                                <figure className="image"><img src="assets/images/resource/banking-4.jpg" alt="" /></figure>
-                                <div className="icon-box"><img src="assets/images/icons/icon-104.png" alt="" /></div>
+                                <figure className="image"><img src="/assets/images/resource/banking-4.jpg" alt="" /></figure>
+                                <div className="icon-box"><img src="/assets/images/icons/icon-104.png" alt="" /></div>
                                 <div className="btn-box"><Link to="/index-2"><span>Read More</span></Link></div>
                             </div>
                         </div>
@@ -231,8 +215,8 @@ export default function Index_3(){
                                 <p>Perfectly simple and easy to distinguishto the claims of duty ...</p>
                             </div>
                             <div className="image-box">
-                                <figure className="image"><img src="assets/images/resource/banking-2.jpg" alt="" /></figure>
-                                <div className="icon-box"><img src="assets/images/icons/icon-102.png" alt="" /></div>
+                                <figure className="image"><img src="/assets/images/resource/banking-2.jpg" alt="" /></figure>
+                                <div className="icon-box"><img src="/assets/images/icons/icon-102.png" alt="" /></div>
                                 <div className="btn-box"><Link to="/index-2"><span>Read More</span></Link></div>
                             </div>
                         </div>
@@ -244,8 +228,8 @@ export default function Index_3(){
                                 <p>Duty through weakness of will, which is the same as saying through...</p>
                             </div>
                             <div className="image-box">
-                                <figure className="image"><img src="assets/images/resource/banking-3.jpg" alt="" /></figure>
-                                <div className="icon-box"><img src="assets/images/icons/icon-103.png" alt="" /></div>
+                                <figure className="image"><img src="/assets/images/resource/banking-3.jpg" alt="" /></figure>
+                                <div className="icon-box"><img src="/assets/images/icons/icon-103.png" alt="" /></div>
                                 <div className="btn-box"><Link to="/index-2"><span>Read More</span></Link></div>
                             </div>
                         </div>
@@ -257,8 +241,8 @@ export default function Index_3(){
                                 <p>Choice is untrammelled when nothing prevents our being able to do...</p>
                             </div>
                             <div className="image-box">
-                                <figure className="image"><img src="assets/images/resource/banking-4.jpg" alt="" /></figure>
-                                <div className="icon-box"><img src="assets/images/icons/icon-104.png" alt="" /></div>
+                                <figure className="image"><img src="/assets/images/resource/banking-4.jpg" alt="" /></figure>
+                                <div className="icon-box"><img src="/assets/images/icons/icon-104.png" alt="" /></div>
                                 <div className="btn-box"><Link to="/index-2"><span>Read More</span></Link></div>
                             </div>
                         </div>
@@ -270,8 +254,8 @@ export default function Index_3(){
                                 <p>Perfectly simple and easy to distinguishto the claims of duty ...</p>
                             </div>
                             <div className="image-box">
-                                <figure className="image"><img src="assets/images/resource/banking-2.jpg" alt="" /></figure>
-                                <div className="icon-box"><img src="assets/images/icons/icon-102.png" alt="" /></div>
+                                <figure className="image"><img src="/assets/images/resource/banking-2.jpg" alt="" /></figure>
+                                <div className="icon-box"><img src="/assets/images/icons/icon-102.png" alt="" /></div>
                                 <div className="btn-box"><Link to="/index-2"><span>Read More</span></Link></div>
                             </div>
                         </div>
@@ -283,8 +267,8 @@ export default function Index_3(){
                                 <p>Duty through weakness of will, which is the same as saying through...</p>
                             </div>
                             <div className="image-box">
-                                <figure className="image"><img src="assets/images/resource/banking-3.jpg" alt="" /></figure>
-                                <div className="icon-box"><img src="assets/images/icons/icon-103.png" alt="" /></div>
+                                <figure className="image"><img src="/assets/images/resource/banking-3.jpg" alt="" /></figure>
+                                <div className="icon-box"><img src="/assets/images/icons/icon-103.png" alt="" /></div>
                                 <div className="btn-box"><Link to="/index-2"><span>Read More</span></Link></div>
                             </div>
                         </div>
@@ -296,8 +280,8 @@ export default function Index_3(){
                                 <p>Choice is untrammelled when nothing prevents our being able to do...</p>
                             </div>
                             <div className="image-box">
-                                <figure className="image"><img src="assets/images/resource/banking-4.jpg" alt="" /></figure>
-                                <div className="icon-box"><img src="assets/images/icons/icon-104.png" alt="" /></div>
+                                <figure className="image"><img src="/assets/images/resource/banking-4.jpg" alt="" /></figure>
+                                <div className="icon-box"><img src="/assets/images/icons/icon-104.png" alt="" /></div>
                                 <div className="btn-box"><Link to="/index-2"><span>Read More</span></Link></div>
                             </div>
                         </div>
@@ -312,8 +296,8 @@ export default function Index_3(){
 
 
         
-        <section className="custom-banking home-3 alternat-2 sec-pad bg-color-1">
-            <div className="pattern-layer" style={{backgroundImage: 'url(assets/images/shape/shape-17.png)'}}></div>
+        <section className="custom-banking home-3 alternat-2 sec-pad">
+            <div className="pattern-layer" style={{backgroundImage: 'url(/assets/images/shape/shape-4.png)'}}></div>
             <div className="auto-container">
                 <div className="title-box">
                     <div className="sec-title light">
@@ -323,14 +307,14 @@ export default function Index_3(){
                     <div className="support-box">
                         <h5>Get Support</h5>
                         <div className="phone-box">
-                            <div className="icon-box"><img src="assets/images/icons/icon-105.png" alt="" /></div>
+                            <div className="icon-box"><img src="/assets/images/icons/icon-105.png" alt="" /></div>
                             <a href="tel:49556789091">+49 55 678 90 & 91</a>
                             <span>9.00 am to 7.00 pm</span>
                         </div>
                     </div>
                 </div>
                 <Tabs className="tabs-box">
-                    <figure className="support-image"><img src="assets/images/resource/men-1.png" alt="" /></figure>
+                    <figure className="support-image"><img src="/assets/images/banner/support.jpg" alt="" /></figure>
                     <div className="tab-btn-one">
                         <ul className="tab-btns tab-buttons clearfix">
                             <li className="tab-btn active-btn" data-tab="#tab-9">Business</li>
@@ -353,7 +337,7 @@ export default function Index_3(){
                                                     <p>Low collateral...</p>
                                                 </li>
                                                 <li className="tab-btn-2" data-tab="#tab-13">
-                                                    <h4>Credit Cards</h4>
+                                                    <h4>Debit Cards</h4>
                                                     <p>No fees...</p>
                                                 </li>
                                                 <li className="tab-btn-2" data-tab="#tab-14">
@@ -376,7 +360,7 @@ export default function Index_3(){
                                             <div className="tab-2 active-tab-2" id="tab-11">
                                                 <div className="content-box">
                                                     <div className="title-box">
-                                                        <div className="icon-box"><img src="assets/images/icons/icon-21.png" alt="" /></div>
+                                                        <div className="icon-box"><img src="/assets/images/icons/icon-21.png" alt="" /></div>
                                                         <h4>Savings Account</h4>
                                                         <h2>Invest in Your Future, <br />Start Saving.</h2>
                                                     </div>
@@ -387,14 +371,14 @@ export default function Index_3(){
                                                                 <div className="single-item">
                                                                     <h2>3.2k</h2>
                                                                     <p>Live Savings Accounts</p>
-                                                                    <div className="growth-box"><img src="assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
+                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                                                 <div className="single-item">
                                                                     <h2>$2b</h2>
                                                                     <p>In Customer Savings</p>
-                                                                    <div className="growth-box"><img src="assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
+                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -403,15 +387,15 @@ export default function Index_3(){
                                                             <h3>Digital Opening</h3>
                                                             <form method="post" action="index.html">
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-23.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-23.png" alt="" /></div>
                                                                     <input type="text" name="name" placeholder="Full Name" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-24.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-24.png" alt="" /></div>
                                                                     <input type="email" name="email" placeholder="Email" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-25.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-25.png" alt="" /></div>
                                                                     <input type="text" name="phone" placeholder="Ph num" required />
                                                                 </div>
                                                                 <div className="form-group message-btn">
@@ -425,7 +409,7 @@ export default function Index_3(){
                                             <div className="tab-2" id="tab-12">
                                                 <div className="content-box">
                                                     <div className="title-box">
-                                                        <div className="icon-box"><img src="assets/images/icons/icon-21.png" alt="" /></div>
+                                                        <div className="icon-box"><img src="/assets/images/icons/icon-21.png" alt="" /></div>
                                                         <h4>Consumer Loans</h4>
                                                         <h2>Flexibank in Your Future, Consumer Loans.</h2>
                                                     </div>
@@ -436,14 +420,14 @@ export default function Index_3(){
                                                                 <div className="single-item">
                                                                     <h2>3.2k</h2>
                                                                     <p>Live Savings Accounts</p>
-                                                                    <div className="growth-box"><img src="assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
+                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                                                 <div className="single-item">
                                                                     <h2>$2b</h2>
                                                                     <p>In Customer Savings</p>
-                                                                    <div className="growth-box"><img src="assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
+                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -452,15 +436,15 @@ export default function Index_3(){
                                                             <h3>Digital Opening</h3>
                                                             <form method="post" action="index.html">
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-23.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-23.png" alt="" /></div>
                                                                     <input type="text" name="name" placeholder="Full Name" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-24.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-24.png" alt="" /></div>
                                                                     <input type="email" name="email" placeholder="Email" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-25.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-25.png" alt="" /></div>
                                                                     <input type="text" name="phone" placeholder="Ph num" required />
                                                                 </div>
                                                                 <div className="form-group message-btn">
@@ -474,9 +458,9 @@ export default function Index_3(){
                                             <div className="tab-2" id="tab-13">
                                                 <div className="content-box">
                                                     <div className="title-box">
-                                                        <div className="icon-box"><img src="assets/images/icons/icon-21.png" alt="" /></div>
-                                                        <h4>Credit Cards</h4>
-                                                        <h2>Flexibank in Your Future, <br />Credit Cards.</h2>
+                                                        <div className="icon-box"><img src="/assets/images/icons/icon-21.png" alt="" /></div>
+                                                        <h4>Debit Cards</h4>
+                                                        <h2>Flexibank in Your Future, <br />Debit Cards.</h2>
                                                     </div>
                                                     <div className="inner-box">
                                                         <p>Every pleasure is to be welcomed and every pain avoided duty or the obligations of business our power of choice is untrammelled and when nothing prevents.</p>
@@ -485,14 +469,14 @@ export default function Index_3(){
                                                                 <div className="single-item">
                                                                     <h2>3.2k</h2>
                                                                     <p>Live Savings Accounts</p>
-                                                                    <div className="growth-box"><img src="assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
+                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                                                 <div className="single-item">
                                                                     <h2>$2b</h2>
                                                                     <p>In Customer Savings</p>
-                                                                    <div className="growth-box"><img src="assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
+                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -501,15 +485,15 @@ export default function Index_3(){
                                                             <h3>Digital Opening</h3>
                                                             <form method="post" action="index.html">
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-23.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-23.png" alt="" /></div>
                                                                     <input type="text" name="name" placeholder="Full Name" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-24.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-24.png" alt="" /></div>
                                                                     <input type="email" name="email" placeholder="Email" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-25.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-25.png" alt="" /></div>
                                                                     <input type="text" name="phone" placeholder="Ph num" required />
                                                                 </div>
                                                                 <div className="form-group message-btn">
@@ -523,7 +507,7 @@ export default function Index_3(){
                                             <div className="tab-2" id="tab-14">
                                                 <div className="content-box">
                                                     <div className="title-box">
-                                                        <div className="icon-box"><img src="assets/images/icons/icon-21.png" alt="" /></div>
+                                                        <div className="icon-box"><img src="/assets/images/icons/icon-21.png" alt="" /></div>
                                                         <h4>Advisory Services</h4>
                                                         <h2>Flexibank is Provided, Advisory Services.</h2>
                                                     </div>
@@ -534,14 +518,14 @@ export default function Index_3(){
                                                                 <div className="single-item">
                                                                     <h2>3.2k</h2>
                                                                     <p>Live Savings Accounts</p>
-                                                                    <div className="growth-box"><img src="assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
+                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                                                 <div className="single-item">
                                                                     <h2>$2b</h2>
                                                                     <p>In Customer Savings</p>
-                                                                    <div className="growth-box"><img src="assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
+                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -550,15 +534,15 @@ export default function Index_3(){
                                                             <h3>Digital Opening</h3>
                                                             <form method="post" action="index.html">
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-23.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-23.png" alt="" /></div>
                                                                     <input type="text" name="name" placeholder="Full Name" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-24.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-24.png" alt="" /></div>
                                                                     <input type="email" name="email" placeholder="Email" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-25.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-25.png" alt="" /></div>
                                                                     <input type="text" name="phone" placeholder="Ph num" required />
                                                                 </div>
                                                                 <div className="form-group message-btn">
@@ -572,7 +556,7 @@ export default function Index_3(){
                                             <div className="tab-2" id="tab-15">
                                                 <div className="content-box">
                                                     <div className="title-box">
-                                                        <div className="icon-box"><img src="assets/images/icons/icon-21.png" alt="" /></div>
+                                                        <div className="icon-box"><img src="/assets/images/icons/icon-21.png" alt="" /></div>
                                                         <h4>Insurance Products</h4>
                                                         <h2>Flexibank is Protected, Your life Insurance.</h2>
                                                     </div>
@@ -583,14 +567,14 @@ export default function Index_3(){
                                                                 <div className="single-item">
                                                                     <h2>3.2k</h2>
                                                                     <p>Live Savings Accounts</p>
-                                                                    <div className="growth-box"><img src="assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
+                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                                                 <div className="single-item">
                                                                     <h2>$2b</h2>
                                                                     <p>In Customer Savings</p>
-                                                                    <div className="growth-box"><img src="assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
+                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -599,15 +583,15 @@ export default function Index_3(){
                                                             <h3>Digital Opening</h3>
                                                             <form method="post" action="index.html">
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-23.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-23.png" alt="" /></div>
                                                                     <input type="text" name="name" placeholder="Full Name" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-24.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-24.png" alt="" /></div>
                                                                     <input type="email" name="email" placeholder="Email" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-25.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-25.png" alt="" /></div>
                                                                     <input type="text" name="phone" placeholder="Ph num" required />
                                                                 </div>
                                                                 <div className="form-group message-btn">
@@ -621,7 +605,7 @@ export default function Index_3(){
                                             <div className="tab-2" id="tab-51">
                                                 <div className="content-box">
                                                     <div className="title-box">
-                                                        <div className="icon-box"><img src="assets/images/icons/icon-21.png" alt="" /></div>
+                                                        <div className="icon-box"><img src="/assets/images/icons/icon-21.png" alt="" /></div>
                                                         <h4>Banking Products</h4>
                                                         <h2>Flexibank is Protected, Your Savings Account.</h2>
                                                     </div>
@@ -632,14 +616,14 @@ export default function Index_3(){
                                                                 <div className="single-item">
                                                                     <h2>3.2k</h2>
                                                                     <p>Live Savings Accounts</p>
-                                                                    <div className="growth-box"><img src="assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
+                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                                                 <div className="single-item">
                                                                     <h2>$2b</h2>
                                                                     <p>In Customer Savings</p>
-                                                                    <div className="growth-box"><img src="assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
+                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -648,15 +632,15 @@ export default function Index_3(){
                                                             <h3>Digital Opening</h3>
                                                             <form method="post" action="index.html">
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-23.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-23.png" alt="" /></div>
                                                                     <input type="text" name="name" placeholder="Full Name" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-24.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-24.png" alt="" /></div>
                                                                     <input type="email" name="email" placeholder="Email" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-25.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-25.png" alt="" /></div>
                                                                     <input type="text" name="phone" placeholder="Ph num" required />
                                                                 </div>
                                                                 <div className="form-group message-btn">
@@ -687,7 +671,7 @@ export default function Index_3(){
                                                     <p>Low collateral...</p>
                                                 </li>
                                                 <li className="tab-btn-2" data-tab="#tab-18">
-                                                    <h4>Credit Cards</h4>
+                                                    <h4>Debit Cards</h4>
                                                     <p>No fees...</p>
                                                 </li>
                                                 <li className="tab-btn-2" data-tab="#tab-19">
@@ -710,7 +694,7 @@ export default function Index_3(){
                                             <div className="tab-2 active-tab-2" id="tab-16">
                                                 <div className="content-box">
                                                     <div className="title-box">
-                                                        <div className="icon-box"><img src="assets/images/icons/icon-21.png" alt="" /></div>
+                                                        <div className="icon-box"><img src="/assets/images/icons/icon-21.png" alt="" /></div>
                                                         <h4>Savings Account</h4>
                                                         <h2>Invest in Your Future, <br />Start Saving.</h2>
                                                     </div>
@@ -721,14 +705,14 @@ export default function Index_3(){
                                                                 <div className="single-item">
                                                                     <h2>3.2k</h2>
                                                                     <p>Live Savings Accounts</p>
-                                                                    <div className="growth-box"><img src="assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
+                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                                                 <div className="single-item">
                                                                     <h2>$2b</h2>
                                                                     <p>In Customer Savings</p>
-                                                                    <div className="growth-box"><img src="assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
+                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -737,15 +721,15 @@ export default function Index_3(){
                                                             <h3>Digital Opening</h3>
                                                             <form method="post" action="index.html">
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-23.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-23.png" alt="" /></div>
                                                                     <input type="text" name="name" placeholder="Full Name" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-24.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-24.png" alt="" /></div>
                                                                     <input type="email" name="email" placeholder="Email" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-25.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-25.png" alt="" /></div>
                                                                     <input type="text" name="phone" placeholder="Ph num" required />
                                                                 </div>
                                                                 <div className="form-group message-btn">
@@ -759,7 +743,7 @@ export default function Index_3(){
                                             <div className="tab-2" id="tab-17">
                                                 <div className="content-box">
                                                     <div className="title-box">
-                                                        <div className="icon-box"><img src="assets/images/icons/icon-21.png" alt="" /></div>
+                                                        <div className="icon-box"><img src="/assets/images/icons/icon-21.png" alt="" /></div>
                                                         <h4>Consumer Loans</h4>
                                                         <h2>Flexibank in Your Future, Consumer Loans.</h2>
                                                     </div>
@@ -770,14 +754,14 @@ export default function Index_3(){
                                                                 <div className="single-item">
                                                                     <h2>3.2k</h2>
                                                                     <p>Live Savings Accounts</p>
-                                                                    <div className="growth-box"><img src="assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
+                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                                                 <div className="single-item">
                                                                     <h2>$2b</h2>
                                                                     <p>In Customer Savings</p>
-                                                                    <div className="growth-box"><img src="assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
+                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -786,15 +770,15 @@ export default function Index_3(){
                                                             <h3>Digital Opening</h3>
                                                             <form method="post" action="index.html">
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-23.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-23.png" alt="" /></div>
                                                                     <input type="text" name="name" placeholder="Full Name" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-24.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-24.png" alt="" /></div>
                                                                     <input type="email" name="email" placeholder="Email" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-25.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-25.png" alt="" /></div>
                                                                     <input type="text" name="phone" placeholder="Ph num" required />
                                                                 </div>
                                                                 <div className="form-group message-btn">
@@ -808,9 +792,9 @@ export default function Index_3(){
                                             <div className="tab-2" id="tab-18">
                                                 <div className="content-box">
                                                     <div className="title-box">
-                                                        <div className="icon-box"><img src="assets/images/icons/icon-21.png" alt="" /></div>
-                                                        <h4>Credit Cards</h4>
-                                                        <h2>Flexibank in Your Future, <br />Credit Cards.</h2>
+                                                        <div className="icon-box"><img src="/assets/images/icons/icon-21.png" alt="" /></div>
+                                                        <h4>Debit Cards</h4>
+                                                        <h2>Flexibank in Your Future, <br />Debit Cards.</h2>
                                                     </div>
                                                     <div className="inner-box">
                                                         <p>Every pleasure is to be welcomed and every pain avoided duty or the obligations of business our power of choice is untrammelled and when nothing prevents.</p>
@@ -819,14 +803,14 @@ export default function Index_3(){
                                                                 <div className="single-item">
                                                                     <h2>3.2k</h2>
                                                                     <p>Live Savings Accounts</p>
-                                                                    <div className="growth-box"><img src="assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
+                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                                                 <div className="single-item">
                                                                     <h2>$2b</h2>
                                                                     <p>In Customer Savings</p>
-                                                                    <div className="growth-box"><img src="assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
+                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -835,15 +819,15 @@ export default function Index_3(){
                                                             <h3>Digital Opening</h3>
                                                             <form method="post" action="index.html">
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-23.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-23.png" alt="" /></div>
                                                                     <input type="text" name="name" placeholder="Full Name" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-24.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-24.png" alt="" /></div>
                                                                     <input type="email" name="email" placeholder="Email" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-25.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-25.png" alt="" /></div>
                                                                     <input type="text" name="phone" placeholder="Ph num" required />
                                                                 </div>
                                                                 <div className="form-group message-btn">
@@ -857,7 +841,7 @@ export default function Index_3(){
                                             <div className="tab-2" id="tab-19">
                                                 <div className="content-box">
                                                     <div className="title-box">
-                                                        <div className="icon-box"><img src="assets/images/icons/icon-21.png" alt="" /></div>
+                                                        <div className="icon-box"><img src="/assets/images/icons/icon-21.png" alt="" /></div>
                                                         <h4>Advisory Services</h4>
                                                         <h2>Flexibank is Provided, Advisory Services.</h2>
                                                     </div>
@@ -868,14 +852,14 @@ export default function Index_3(){
                                                                 <div className="single-item">
                                                                     <h2>3.2k</h2>
                                                                     <p>Live Savings Accounts</p>
-                                                                    <div className="growth-box"><img src="assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
+                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                                                 <div className="single-item">
                                                                     <h2>$2b</h2>
                                                                     <p>In Customer Savings</p>
-                                                                    <div className="growth-box"><img src="assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
+                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -884,15 +868,15 @@ export default function Index_3(){
                                                             <h3>Digital Opening</h3>
                                                             <form method="post" action="index.html">
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-23.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-23.png" alt="" /></div>
                                                                     <input type="text" name="name" placeholder="Full Name" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-24.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-24.png" alt="" /></div>
                                                                     <input type="email" name="email" placeholder="Email" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-25.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-25.png" alt="" /></div>
                                                                     <input type="text" name="phone" placeholder="Ph num" required />
                                                                 </div>
                                                                 <div className="form-group message-btn">
@@ -906,7 +890,7 @@ export default function Index_3(){
                                             <div className="tab-2" id="tab-20">
                                                 <div className="content-box">
                                                     <div className="title-box">
-                                                        <div className="icon-box"><img src="assets/images/icons/icon-21.png" alt="" /></div>
+                                                        <div className="icon-box"><img src="/assets/images/icons/icon-21.png" alt="" /></div>
                                                         <h4>Insurance Products</h4>
                                                         <h2>Flexibank is Protected, Your life Insurance.</h2>
                                                     </div>
@@ -917,14 +901,14 @@ export default function Index_3(){
                                                                 <div className="single-item">
                                                                     <h2>3.2k</h2>
                                                                     <p>Live Savings Accounts</p>
-                                                                    <div className="growth-box"><img src="assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
+                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                                                 <div className="single-item">
                                                                     <h2>$2b</h2>
                                                                     <p>In Customer Savings</p>
-                                                                    <div className="growth-box"><img src="assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
+                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -933,15 +917,15 @@ export default function Index_3(){
                                                             <h3>Digital Opening</h3>
                                                             <form method="post" action="index.html">
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-23.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-23.png" alt="" /></div>
                                                                     <input type="text" name="name" placeholder="Full Name" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-24.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-24.png" alt="" /></div>
                                                                     <input type="email" name="email" placeholder="Email" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-25.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-25.png" alt="" /></div>
                                                                     <input type="text" name="phone" placeholder="Ph num" required />
                                                                 </div>
                                                                 <div className="form-group message-btn">
@@ -955,7 +939,7 @@ export default function Index_3(){
                                             <div className="tab-2" id="tab-52">
                                                 <div className="content-box">
                                                     <div className="title-box">
-                                                        <div className="icon-box"><img src="assets/images/icons/icon-21.png" alt="" /></div>
+                                                        <div className="icon-box"><img src="/assets/images/icons/icon-21.png" alt="" /></div>
                                                         <h4>Banking Products</h4>
                                                         <h2>Flexibank is Protected, Your Savings Account.</h2>
                                                     </div>
@@ -966,14 +950,14 @@ export default function Index_3(){
                                                                 <div className="single-item">
                                                                     <h2>3.2k</h2>
                                                                     <p>Live Savings Accounts</p>
-                                                                    <div className="growth-box"><img src="assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
+                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                                                 <div className="single-item">
                                                                     <h2>$2b</h2>
                                                                     <p>In Customer Savings</p>
-                                                                    <div className="growth-box"><img src="assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
+                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -982,15 +966,15 @@ export default function Index_3(){
                                                             <h3>Digital Opening</h3>
                                                             <form method="post" action="index.html">
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-23.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-23.png" alt="" /></div>
                                                                     <input type="text" name="name" placeholder="Full Name" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-24.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-24.png" alt="" /></div>
                                                                     <input type="email" name="email" placeholder="Email" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="assets/images/icons/icon-25.png" alt="" /></div>
+                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-25.png" alt="" /></div>
                                                                     <input type="text" name="phone" placeholder="Ph num" required />
                                                                 </div>
                                                                 <div className="form-group message-btn">
@@ -1018,7 +1002,7 @@ export default function Index_3(){
             <div className="outer-container clearfix">
                 <div className="funfact-block-one">
                     <div className="inner-box">
-                        <div className="icon-box"><img src="assets/images/icons/icon-110.png" alt="" /></div>
+                        <div className="icon-box"><img src="/assets/images/icons/icon-110.png" alt="" /></div>
                         <div className="count-outer">
                             <span className="odometer" data-count="8.5">00</span><span className="symble">k</span>
                         </div>
@@ -1027,7 +1011,7 @@ export default function Index_3(){
                 </div>
                 <div className="funfact-block-one">
                     <div className="inner-box">
-                        <div className="icon-box"><img src="assets/images/icons/icon-111.png" alt="" /></div>
+                        <div className="icon-box"><img src="/assets/images/icons/icon-111.png" alt="" /></div>
                         <div className="count-outer">
                             <span className="odometer" data-count="0.5">00</span><span className="symble">m</span>
                         </div>
@@ -1036,7 +1020,7 @@ export default function Index_3(){
                 </div>
                 <div className="funfact-block-one">
                     <div className="inner-box">
-                        <div className="icon-box"><img src="assets/images/icons/icon-112.png" alt="" /></div>
+                        <div className="icon-box"><img src="/assets/images/icons/icon-112.png" alt="" /></div>
                         <div className="count-outer">
                             <span className="odometer" data-count="10000">00</span><span className="symble">+</span>
                         </div>
@@ -1045,7 +1029,7 @@ export default function Index_3(){
                 </div>
                 <div className="funfact-block-one">
                     <div className="inner-box">
-                        <div className="icon-box"><img src="assets/images/icons/icon-113.png" alt="" /></div>
+                        <div className="icon-box"><img src="/assets/images/icons/icon-113.png" alt="" /></div>
                         <div className="count-outer">
                             <span className="odometer" data-count="50">00</span><span className="symble">+</span>
                         </div>
@@ -1059,18 +1043,17 @@ export default function Index_3(){
 
         
         <section className="calculator-section alternat-2 pt_120 pb_120">
-            <figure className="image-layer"><img src="assets/images/resource/men-2.png" alt="" /></figure>
+            <figure className="image-layer"><img src="/assets/images/resource/men-2.png" alt="" /></figure>
             <span className="big-text">Calculation <br />Instant</span>
             <div className="auto-container">
                 <div className="inner-container">
                     <Tabs className="tabs-box">
                         <div className="tab-btn-box">
                             <div className="tab-btns tab-buttons clearfix">
-                                <div className="tab-btn active-btn" data-tab="#tab-21"><h4>Home Loan</h4></div>
-                                <div className="tab-btn" data-tab="#tab-22"><h4>Vehicle Loan</h4></div>
-                                <div className="tab-btn" data-tab="#tab-23"><h4>Personal Loan</h4></div>
-                                <div className="tab-btn" data-tab="#tab-24"><h4>Education Loan</h4></div>
-                                <div className="tab-btn" data-tab="#tab-25"><h4>Mortgage Loan</h4></div>
+                                <div className="tab-btn active-btn" data-tab="#tab-21"><h4>Kaizen Personal Loan</h4></div>
+                                <div className="tab-btn" data-tab="#tab-22"><h4>Kaizen Enterprise Loan</h4></div>
+                                <div className="tab-btn" data-tab="#tab-23"><h4>Kaizen Asset Loan</h4></div>
+                                <div className="tab-btn" data-tab="#tab-24"><h4>Kaizen Micro Loan</h4></div>
                             </div>
                         </div>
                         <div className="tabs-content">
@@ -1087,7 +1070,7 @@ export default function Index_3(){
                                                             <p>Estimate your loan payments quickly & easily with our calculator.</p>
                                                         </div>
                                                         <div className="lower-text">
-                                                            <div className="icon-box"><img src="assets/images/icons/icon-114.png" alt="" /></div>
+                                                            <div className="icon-box"><img src="/assets/images/icons/icon-114.png" alt="" /></div>
                                                             <h5>Loan Questions? Check Our <Link to="/faq">Faq’s</Link> Page.</h5>
                                                         </div>
                                                     </div>
@@ -1147,7 +1130,7 @@ export default function Index_3(){
                                     <div className="col-lg-4 col-md-12 col-sm-12 amount-column">
                                         <div className="amount-box">
                                             <div className="emi-box centred">
-                                                <div className="icon-box"><img src="assets/images/icons/icon-115.png" alt="" /></div>
+                                                <div className="icon-box"><img src="/assets/images/icons/icon-115.png" alt="" /></div>
                                                 <h5>Monthly EMI</h5>
                                                 <h3>$4,340.00</h3>
                                                 <div className="btn-box"><Link to="/"><span>Apply Online</span></Link></div>
@@ -1181,7 +1164,7 @@ export default function Index_3(){
                                                             <p>Estimate your loan payments quickly & easily with our calculator.</p>
                                                         </div>
                                                         <div className="lower-text">
-                                                            <div className="icon-box"><img src="assets/images/icons/icon-114.png" alt="" /></div>
+                                                            <div className="icon-box"><img src="/assets/images/icons/icon-114.png" alt="" /></div>
                                                             <h5>Loan Questions? Check Our <Link to="/faq">Faq’s</Link> Page.</h5>
                                                         </div>
                                                     </div>
@@ -1241,7 +1224,7 @@ export default function Index_3(){
                                     <div className="col-lg-4 col-md-12 col-sm-12 amount-column">
                                         <div className="amount-box">
                                             <div className="emi-box centred">
-                                                <div className="icon-box"><img src="assets/images/icons/icon-115.png" alt="" /></div>
+                                                <div className="icon-box"><img src="/assets/images/icons/icon-115.png" alt="" /></div>
                                                 <h5>Monthly EMI</h5>
                                                 <h3>$4,340.00</h3>
                                                 <div className="btn-box"><Link to="/"><span>Apply Online</span></Link></div>
@@ -1275,7 +1258,7 @@ export default function Index_3(){
                                                             <p>Estimate your loan payments quickly & easily with our calculator.</p>
                                                         </div>
                                                         <div className="lower-text">
-                                                            <div className="icon-box"><img src="assets/images/icons/icon-114.png" alt="" /></div>
+                                                            <div className="icon-box"><img src="/assets/images/icons/icon-114.png" alt="" /></div>
                                                             <h5>Loan Questions? Check Our <Link to="/faq">Faq’s</Link> Page.</h5>
                                                         </div>
                                                     </div>
@@ -1335,7 +1318,7 @@ export default function Index_3(){
                                     <div className="col-lg-4 col-md-12 col-sm-12 amount-column">
                                         <div className="amount-box">
                                             <div className="emi-box centred">
-                                                <div className="icon-box"><img src="assets/images/icons/icon-115.png" alt="" /></div>
+                                                <div className="icon-box"><img src="/assets/images/icons/icon-115.png" alt="" /></div>
                                                 <h5>Monthly EMI</h5>
                                                 <h3>$4,340.00</h3>
                                                 <div className="btn-box"><Link to="/"><span>Apply Online</span></Link></div>
@@ -1369,7 +1352,7 @@ export default function Index_3(){
                                                             <p>Estimate your loan payments quickly & easily with our calculator.</p>
                                                         </div>
                                                         <div className="lower-text">
-                                                            <div className="icon-box"><img src="assets/images/icons/icon-114.png" alt="" /></div>
+                                                            <div className="icon-box"><img src="/assets/images/icons/icon-114.png" alt="" /></div>
                                                             <h5>Loan Questions? Check Our <Link to="/faq">Faq’s</Link> Page.</h5>
                                                         </div>
                                                     </div>
@@ -1429,7 +1412,7 @@ export default function Index_3(){
                                     <div className="col-lg-4 col-md-12 col-sm-12 amount-column">
                                         <div className="amount-box">
                                             <div className="emi-box centred">
-                                                <div className="icon-box"><img src="assets/images/icons/icon-115.png" alt="" /></div>
+                                                <div className="icon-box"><img src="/assets/images/icons/icon-115.png" alt="" /></div>
                                                 <h5>Monthly EMI</h5>
                                                 <h3>$4,340.00</h3>
                                                 <div className="btn-box"><Link to="/"><span>Apply Online</span></Link></div>
@@ -1463,7 +1446,7 @@ export default function Index_3(){
                                                             <p>Estimate your loan payments quickly & easily with our calculator.</p>
                                                         </div>
                                                         <div className="lower-text">
-                                                            <div className="icon-box"><img src="assets/images/icons/icon-114.png" alt="" /></div>
+                                                            <div className="icon-box"><img src="/assets/images/icons/icon-114.png" alt="" /></div>
                                                             <h5>Loan Questions? Check Our <Link to="/faq">Faq’s</Link> Page.</h5>
                                                         </div>
                                                     </div>
@@ -1523,7 +1506,7 @@ export default function Index_3(){
                                     <div className="col-lg-4 col-md-12 col-sm-12 amount-column">
                                         <div className="amount-box">
                                             <div className="emi-box centred">
-                                                <div className="icon-box"><img src="assets/images/icons/icon-115.png" alt="" /></div>
+                                                <div className="icon-box"><img src="/assets/images/icons/icon-115.png" alt="" /></div>
                                                 <h5>Monthly EMI</h5>
                                                 <h3>$4,340.00</h3>
                                                 <div className="btn-box"><Link to="/"><span>Apply Online</span></Link></div>
@@ -1553,72 +1536,20 @@ export default function Index_3(){
 
 
         
-        <section className="working-section bg-color-4 centred">
-            <div className="auto-container">
-                <div className="sec-title">
-                    <span className="sub-title light">How It’s Work</span>
-                    <h2>Start Banking With in 5 Mins</h2>
-                </div>
-                <div className="row clearfix">
-                    <div className="col-lg-3 col-md-6 col-sm-12 working-block">
-                        <div className="working-block-one">
-                            <div className="inner-box">
-                                <span className="count-text">01</span>
-                                <h3>Verify Customer</h3>
-                                <p>Nor again is there anyone who loves or pursues desire obtain pain all itself.</p>
-                                <div className="icon-box"><img src="assets/images/icons/icon-116.png" alt="" /></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 working-block">
-                        <div className="working-block-one">
-                            <div className="inner-box">
-                                <span className="count-text">02</span>
-                                <h3>Documentation</h3>
-                                <p>One rejects, dislikes avoids pleasure itself because it is who do not know.</p>
-                                <div className="icon-box"><img src="assets/images/icons/icon-117.png" alt="" /></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 working-block">
-                        <div className="working-block-one">
-                            <div className="inner-box">
-                                <span className="count-text">03</span>
-                                <h3>A/c Verification</h3>
-                                <p>Ever undertakes laborious physical exercise except in all advantages.</p>
-                                <div className="icon-box"><img src="assets/images/icons/icon-118.png" alt="" /></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 working-block">
-                        <div className="working-block-one">
-                            <div className="inner-box">
-                                <span className="count-text">04</span>
-                                <h3>Start Banking</h3>
-                                <p>Foresee the pain & trouble that are bound ensue equal blame belongs fail.</p>
-                                <div className="icon-box"><img src="assets/images/icons/icon-119.png" alt="" /></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="more-text light centred">
-                    <h5><i className="flaticon-sparkle"></i>Your Financial Future Starts Here, <Link to="/index-2">Start Your Account.</Link></h5>
-                </div>
-            </div>
-        </section>
+        <WorkingSection modClass="bg-color-4 centred" icons={["icon-116.png","icon-117.png","icon-118.png","icon-119.png"]} light />
         
 
 
         
         <section className="creditcard-section alternat-2 sec-pad">
-            <div className="pattern-layer" style={{backgroundImage: 'url(assets/images/shape/shape-20.png)'}}></div>
+            <div className="pattern-layer" style={{backgroundImage: 'url(/assets/images/shape/shape-20.png)'}}></div>
             <span className="big-text">Spending <br />Secure</span>
             <div className="auto-container">
                 <div className="row clearfix">
                     <div className="col-lg-6 col-md-12 col-sm-12 card-column">
                         <div className="card-inner">
-                            <div className="shape" style={{backgroundImage: 'url(assets/images/shape/shape-21.png)'}}></div>
-                            <figure className="card-box"><img src="assets/images/icons/card-2.png" alt="" /></figure>
+                            <div className="shape" style={{backgroundImage: 'url(/assets/images/shape/shape-21.png)'}}></div>
+                            <figure className="card-box"><img src="/assets/images/icons/card-2.png" alt="" /></figure>
                             <span className="highlights-one">Cashback Up to: 25%</span>
                             <span className="highlights-two">Average APR: 5.50%</span>
                         </div>
@@ -1626,74 +1557,9 @@ export default function Index_3(){
                     <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                         <div className="content-box">
                             <div className="sec-title light">
-                                <span className="sub-title">Credit Card</span>
-                                <h2>Discover Our <br />Range of Credit Cards</h2>
+                                <span className="sub-title">Debit Cards</span>
+                                <h2>Discover Our <br />Range of Debit Cards</h2>
                             </div>
-                            <Tabs className="tabs-box">
-                                <div className="tab-btn-box pb_20">
-                                    <div className="tab-btns tab-buttons clearfix">
-                                        <div className="tab-btn active-btn" data-tab="#tab-26"><img src="assets/images/icons/icon-33.png" alt="" /><h5>Rewards Cards</h5></div>
-                                        <div className="tab-btn" data-tab="#tab-27"><img src="assets/images/icons/icon-33.png" alt="" /><h5>Cashback Cards</h5></div>
-                                        <div className="tab-btn" data-tab="#tab-28"><img src="assets/images/icons/icon-33.png" alt="" /><h5>Travel Cards</h5></div>
-                                    </div>
-                                </div>
-                                <div className="tabs-content">
-                                    <div className="tab active-tab" id="tab-26">
-                                        <div className="inner-box">
-                                            <div className="text-box">
-                                                <p>Business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters.</p>
-                                                <Link to="/"><i className="flaticon-right-arrow"></i>Explore Cards</Link>
-                                            </div>
-                                            <div className="form-inner">
-                                                <h4>Get Your Perfect Card Now!...</h4>
-                                                <form method="post" action="index.html">
-                                                    <div className="form-group">
-                                                        <div className="icon-box"><img src="assets/images/icons/icon-120.png" alt="" /></div>
-                                                        <input type="text" name="phone" placeholder="Ph Num..." required />
-                                                        <button type="submit"><i className="flaticon-right-arrow"></i><span>Submit</span></button>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="tab" id="tab-27">
-                                        <div className="inner-box">
-                                            <div className="text-box">
-                                                <p>Business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters.</p>
-                                                <Link to="/"><i className="flaticon-right-arrow"></i>Explore Cards</Link>
-                                            </div>
-                                            <div className="form-inner">
-                                                <h4>Get Your Perfect Card Now!...</h4>
-                                                <form method="post" action="index.html">
-                                                    <div className="form-group">
-                                                        <div className="icon-box"><img src="assets/images/icons/icon-120.png" alt="" /></div>
-                                                        <input type="text" name="phone" placeholder="Ph Num..." required />
-                                                        <button type="submit"><i className="flaticon-right-arrow"></i><span>Submit</span></button>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="tab" id="tab-28">
-                                        <div className="inner-box">
-                                            <div className="text-box">
-                                                <p>Business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters.</p>
-                                                <Link to="/"><i className="flaticon-right-arrow"></i>Explore Cards</Link>
-                                            </div>
-                                            <div className="form-inner">
-                                                <h4>Get Your Perfect Card Now!...</h4>
-                                                <form method="post" action="index.html">
-                                                    <div className="form-group">
-                                                        <div className="icon-box"><img src="assets/images/icons/icon-120.png" alt="" /></div>
-                                                        <input type="text" name="phone" placeholder="Ph Num..." required />
-                                                        <button type="submit"><i className="flaticon-right-arrow"></i><span>Submit</span></button>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </Tabs>
                         </div>
                     </div>
                 </div>
@@ -1703,86 +1569,12 @@ export default function Index_3(){
 
 
         
-        <section className="clients-section centred sec-pad">
-            <div className="inner-container">
-                <div className="sec-title">
-                    <span className="sub-title light">centred</span>
-                    <h2>Trusted Corporate Partners</h2>
-                </div>
-                <Carousel className="six-item-carousel owl-carousel owl-theme dots-style-one owl-nav-none">
-                    <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-1.png" alt="" /></Link></figure>
-                    <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-2.png" alt="" /></Link></figure>
-                    <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-3.png" alt="" /></Link></figure>
-                    <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-4.png" alt="" /></Link></figure>
-                    <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-5.png" alt="" /></Link></figure>
-                    <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-6.png" alt="" /></Link></figure>
-                    <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-1.png" alt="" /></Link></figure>
-                    <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-2.png" alt="" /></Link></figure>
-                    <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-3.png" alt="" /></Link></figure>
-                    <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-4.png" alt="" /></Link></figure>
-                    <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-5.png" alt="" /></Link></figure>
-                    <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-6.png" alt="" /></Link></figure>
-                    <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-1.png" alt="" /></Link></figure>
-                    <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-2.png" alt="" /></Link></figure>
-                    <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-3.png" alt="" /></Link></figure>
-                    <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-4.png" alt="" /></Link></figure>
-                    <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-5.png" alt="" /></Link></figure>
-                    <figure className="clients-logo"><Link to="/index-2"><img src="assets/images/clients/clients-6.png" alt="" /></Link></figure>
-                </Carousel>
-            </div>
-        </section>
+        <ClientsSection modClass="centred sec-pad" light />
         
 
 
         
-        <section className="testimonial-style-two pt_90 pb_90">
-            <div className="auto-container">
-                <div className="inner-container p_relative">
-                    <span className="big-text">testimonials</span>
-                    <Carousel className="three-item-carousel owl-carousel owl-theme owl-dots-none owl-nav-none">
-                        <div className="testimonial-block-one">
-                            <div className="inner-box">
-                                <div className="rating"><i className="flaticon-star"></i><span>Rated 4.9/5</span></div>
-                                <div className="icon-box"><img src="assets/images/icons/icon-121.png" alt="" /></div>
-                                <h3>Highly Trustworthy</h3>
-                                <p>This bank consistently offers great customer support & reliable services. They’ve made banking experience incredibly convenient.</p>
-                                <div className="author-box">
-                                    <figure className="thumb-box"><img src="assets/images/resource/testimonial-5.png" alt="" /></figure>
-                                    <h4>Boris Elbert</h4>
-                                    <span className="designation">Personal Loan Holder, Newyork.</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="testimonial-block-one">
-                            <div className="inner-box">
-                                <div className="rating"><i className="flaticon-star"></i><span>Rated 5/5</span></div>
-                                <div className="icon-box"><img src="assets/images/icons/icon-121.png" alt="" /></div>
-                                <h3>Fast Transactions</h3>
-                                <p>Excellent banking experience with quick responses and helpful staff. The online services are straight forward and very effective.</p>
-                                <div className="author-box">
-                                    <figure className="thumb-box"><img src="assets/images/resource/testimonial-6.png" alt="" /></figure>
-                                    <h4>Dexter Clinton</h4>
-                                    <span className="designation">Savings Account Holder, California.</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="testimonial-block-one">
-                            <div className="inner-box">
-                                <div className="rating"><i className="flaticon-star"></i><span>Rated 4.9/5</span></div>
-                                <div className="icon-box"><img src="assets/images/icons/icon-121.png" alt="" /></div>
-                                <h3>User Friendly</h3>
-                                <p>Exceptional service and user-friendly online banking. I’ve never had a smoother experience with any other bank like flexibank.</p>
-                                <div className="author-box">
-                                    <figure className="thumb-box"><img src="assets/images/resource/testimonial-7.png" alt="" /></figure>
-                                    <h4>Francis Emmet</h4>
-                                    <span className="designation">Business Account Holder, Newyork.</span>
-                                </div>
-                            </div>
-                        </div>
-                    </Carousel>
-                </div>
-            </div>
-        </section>
+        <TestimonialCarousel modClass="pt_90 pb_90" />
         
 
 
@@ -1798,7 +1590,7 @@ export default function Index_3(){
                         <div className="deals-block-one">
                             <div className="inner-box">
                                 <div className="title-box">
-                                    <div className="icon-box"><img src="assets/images/icons/icon-74.png" alt="" /></div>
+                                    <div className="icon-box"><img src="/assets/images/icons/icon-74.png" alt="" /></div>
                                     <span className="category">Medical</span>
                                     <p>Expire On: 25th Oct’24</p>
                                 </div>
@@ -1806,7 +1598,7 @@ export default function Index_3(){
                                 <div className="lower-box">
                                     <div className="link-box"><Link to="/index-2"><i className="flaticon-right-arrow"></i>Read More</Link></div>
                                     <div className="share-box">
-                                        <div className="share-text"><img src="assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
+                                        <div className="share-text"><img src="/assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
                                         <ul className="social-links">
                                             <li><Link to="/index-2"><i className="flaticon-facebook"></i></Link></li>
                                             <li><Link to="/index-2"><i className="flaticon-instagram-logo"></i></Link></li>
@@ -1822,7 +1614,7 @@ export default function Index_3(){
                         <div className="deals-block-one">
                             <div className="inner-box">
                                 <div className="title-box">
-                                    <div className="icon-box"><img src="assets/images/icons/icon-75.png" alt="" /></div>
+                                    <div className="icon-box"><img src="/assets/images/icons/icon-75.png" alt="" /></div>
                                     <span className="category">Restaurant</span>
                                     <p>Expire On: 31st Oct’24</p>
                                 </div>
@@ -1830,7 +1622,7 @@ export default function Index_3(){
                                 <div className="lower-box">
                                     <div className="link-box"><Link to="/index-2"><i className="flaticon-right-arrow"></i>Read More</Link></div>
                                     <div className="share-box">
-                                        <div className="share-text"><img src="assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
+                                        <div className="share-text"><img src="/assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
                                         <ul className="social-links">
                                             <li><Link to="/index-2"><i className="flaticon-facebook"></i></Link></li>
                                             <li><Link to="/index-2"><i className="flaticon-instagram-logo"></i></Link></li>
@@ -1846,7 +1638,7 @@ export default function Index_3(){
                         <div className="deals-block-one">
                             <div className="inner-box">
                                 <div className="title-box">
-                                    <div className="icon-box"><img src="assets/images/icons/icon-76.png" alt="" /></div>
+                                    <div className="icon-box"><img src="/assets/images/icons/icon-76.png" alt="" /></div>
                                     <span className="category">Electronics</span>
                                     <p>Expire On: 31st Oct’24</p>
                                 </div>
@@ -1854,7 +1646,7 @@ export default function Index_3(){
                                 <div className="lower-box">
                                     <div className="link-box"><Link to="/index-2"><i className="flaticon-right-arrow"></i>Read More</Link></div>
                                     <div className="share-box">
-                                        <div className="share-text"><img src="assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
+                                        <div className="share-text"><img src="/assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
                                         <ul className="social-links">
                                             <li><Link to="/index-2"><i className="flaticon-facebook"></i></Link></li>
                                             <li><Link to="/index-2"><i className="flaticon-instagram-logo"></i></Link></li>
@@ -1870,7 +1662,7 @@ export default function Index_3(){
                         <div className="deals-block-one">
                             <div className="inner-box">
                                 <div className="title-box">
-                                    <div className="icon-box"><img src="assets/images/icons/icon-77.png" alt="" /></div>
+                                    <div className="icon-box"><img src="/assets/images/icons/icon-77.png" alt="" /></div>
                                     <span className="category">Movies</span>
                                     <p>Expire On: 10th Nov’24</p>
                                 </div>
@@ -1878,7 +1670,7 @@ export default function Index_3(){
                                 <div className="lower-box">
                                     <div className="link-box"><Link to="/index-2"><i className="flaticon-right-arrow"></i>Read More</Link></div>
                                     <div className="share-box">
-                                        <div className="share-text"><img src="assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
+                                        <div className="share-text"><img src="/assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
                                         <ul className="social-links">
                                             <li><Link to="/index-2"><i className="flaticon-facebook"></i></Link></li>
                                             <li><Link to="/index-2"><i className="flaticon-instagram-logo"></i></Link></li>
@@ -1892,19 +1684,19 @@ export default function Index_3(){
                     </div>
                     <div className="col-lg-8 col-md-12 col-sm-12 newsletter-block">
                         <div className="newsletter-inner">
-                            <div className="shape" style={{backgroundImage: 'url(assets/images/shape/shape-22.png)'}}></div>
-                            <div className="icon-box"><img src="assets/images/icons/icon-78.png" alt="" /></div>
+                            <div className="shape" style={{backgroundImage: 'url(/assets/images/shape/shape-22.png)'}}></div>
+                            <div className="icon-box"><img src="/assets/images/icons/icon-78.png" alt="" /></div>
                             <div className="newsletter-content">
                                 <h3>Newsletter</h3>
                                 <p>Subscribe to get news, offers & other updates.</p>
                                 <form method="post" action="contact.html">
                                     <div className="form-group">
-                                        <div className="icon"><img src="assets/images/icons/icon-108.png" alt="" /></div>
+                                        <div className="icon"><img src="/assets/images/icons/icon-108.png" alt="" /></div>
                                         <input type="email" name="email" placeholder="Email address..." required />
                                         <button type="submit"><i className="flaticon-right-arrow"></i><span>Subscribe</span></button>
                                     </div>
                                 </form>
-                                <div className="lower-text"><img src="assets/images/icons/icon-81.png" alt="" />Relevant Updates, No Spam.</div>
+                                <div className="lower-text"><img src="/assets/images/icons/icon-81.png" alt="" />Relevant Updates, No Spam.</div>
                             </div>
                         </div>
                     </div>
@@ -1919,11 +1711,7 @@ export default function Index_3(){
 
 
         
-        <div className="scroll-to-top">
-            <svg className="scroll-top-inner" viewBox="-1 -1 102 102">
-                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-            </svg>
-        </div>
+        
         
     </div>
 

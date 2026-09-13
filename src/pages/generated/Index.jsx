@@ -2576,7 +2576,7 @@ export default function Index() {
           <figure className="image-layer">
             <img
               loading="lazy"
-              src="/assets/images/resource/men-2.jpeg"
+              src="/assets/images/resource/men-2.png"
               alt=""
             />
           </figure>

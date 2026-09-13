@@ -77,7 +77,7 @@ const AMOUNT_BOX = (
 export default function LoanCalculator() {
   return (
     <section className="calculator-section pt_120 pb_120">
-      <figure className="image-layer"><img src="/assets/images/resource/men-2.jpeg" alt="" /></figure>
+      <figure className="image-layer"><img src="/assets/images/resource/men-2.png" alt="" /></figure>
       <span className="big-text">Calculation <br />Instant</span>
       <div className="auto-container">
         <div className="inner-container">

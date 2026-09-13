@@ -1788,7 +1788,15 @@
 .calculator-section .image-layer{
   position: absolute;
   left: 0px;
+  top: 0px;
   bottom: 0px;
+  margin: 0;
+}
+
+.calculator-section .image-layer img{
+  display: block;
+  height: 100%;
+  width: auto;
 }
 
 .calculator-section .big-text{

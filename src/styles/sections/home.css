@@ -40,9 +40,10 @@
   
 .banner-carousel .slide-item .bg-layer{
   position: absolute;
-  left:0;
+  right:0;
+  left:auto;
   top:0;
-  width:100%;
+  width:calc(42% + 150px);
   height:100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -58,9 +59,9 @@
 }
   
 .banner-carousel .active .slide-item .bg-layer{
-  -webkit-transform:scale(1.25);
-  -ms-transform:scale(1.25);
-  transform:scale(1.25);
+  -webkit-transform:scale(1);
+  -ms-transform:scale(1);
+  transform:scale(1);
 }
 
 .banner-carousel .content-box h5{
@@ -1510,6 +1511,37 @@
   position: relative;
   display: block;
   background: #fff;
+  z-index: 2;
+  margin-left: 420px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .calculator-section .inner-container{
+    margin-left: 340px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .calculator-section .inner-container{
+    margin-left: 0px;
+  }
+
+  .calculator-section .image-layer{
+    position: relative;
+    display: block;
+    max-width: 280px;
+    width: 80%;
+    margin: 0 auto 30px;
+  }
+
+  .calculator-section .image-layer img{
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
 }
 
 .calculator-section .tab-btns{
@@ -1598,6 +1630,17 @@
 
 .calculator-section .content-box .left-content .sec-title{
   margin-bottom: 40px;
+}
+
+.calculator-section .content-box .left-content .sec-title h2{
+  font-size: 34px;
+  line-height: 42px;
+  text-align: left;
+}
+
+.calculator-section .content-box .left-content .sec-title p{
+  margin-top: 16px;
+  text-align: left;
 }
 
 .progress-block-one{
@@ -1795,6 +1838,7 @@
   top: 0px;
   bottom: 0px;
   margin: 0;
+  z-index: 1;
 }
 
 .calculator-section .image-layer img{
@@ -1803,12 +1847,25 @@
   width: auto;
 }
 
+.calculator-section .image-layer .image-overlay{
+  position: absolute;
+  left: 8%;
+  top: 52%;
+  width: 42%;
+  height: 38%;
+  background: #ffffff;
+  opacity: 0.96;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+  pointer-events: none;
+}
+
 .calculator-section .big-text{
   position: absolute;
-  right: 84px;
-  bottom: 70px;
-  font-size: 100px;
-  line-height: 100px;
+  right: 56px;
+  bottom: 46px;
+  font-size: 44px;
+  line-height: 44px;
   font-family: var(--title-font);
   color: #1e242a;
   font-weight: 800;

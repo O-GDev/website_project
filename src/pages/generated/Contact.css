@@ -18,20 +18,15 @@
   display: block;
   width: 100%;
   aspect-ratio: 4 / 3;
-  background: #f5f4f4;
-  border: 1px dashed #cfcaca;
   border-radius: 8px;
+  overflow: hidden;
   margin-bottom: 30px;
 }
-.location-section .location-image .image-placeholder {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 15px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #b0abab;
+.location-section .location-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 .location-section .location-card {
   position: relative;

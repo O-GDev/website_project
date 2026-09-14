@@ -24,7 +24,7 @@ export default function Contact(){
             <div className="row clearfix">
               <div className="col-lg-6 col-md-12 col-sm-12">
                 <div className="location-image">
-                  <span className="image-placeholder">Image Area</span>
+                  <img src="/assets/images/location.jpg" alt="Kaizen Microfinance Bank, Ikoyi Lagos" />
                 </div>
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12">

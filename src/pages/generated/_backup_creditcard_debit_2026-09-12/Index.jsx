@@ -1187,7 +1187,7 @@ export default function Index(){
         
         <section className="calculator-section pt_120 pb_120">
             <figure className="image-layer"><img loading="lazy" src="/assets/images/resource/.jpeg" alt="" /></figure>
-            <span className="big-text">Calculation <br />Instant</span>
+            <span className="big-text text-black">Calculation <br />Instant</span>
             <div className="auto-container">
                 <div className="inner-container">
                     <Tabs className="tabs-box">

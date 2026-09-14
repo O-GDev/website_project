@@ -3331,7 +3331,7 @@ export default function Index() {
               <span className="sub-title">Trusted Partners</span>
               <h2>Our Trusted Partners</h2>
             </div>
-            <div className="row clearfix">
+            <div className="row clearfix trusted-partners-grid">
               <div className="col-lg-3 col-md-4 col-sm-6">
                 <div className="partner-block">
                   <div className="inner-box">
@@ -3552,6 +3552,99 @@ export default function Index() {
                     </div>
                     <h3>FirstCentral Credit Bureau</h3>
                     <p>Nigeria's First Licensed Credit Bureau</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="partners-marquee">
+              <div className="marquee-track">
+                <div className="marquee-group">
+                  <div className="marquee-item">
+                    <img loading="lazy" src="/assets/images/partners/bankOne logo.jpeg" alt="BankOne" />
+                  </div>
+                  <div className="marquee-item">
+                    <img loading="lazy" src="/assets/images/partners/Epay plus.jpeg" alt="ePay Plus" />
+                  </div>
+                  <div className="marquee-item">
+                    <img loading="lazy" src="/assets/images/partners/lendgrid.jpg.webp" alt="Lendgrid" />
+                  </div>
+                  <div className="marquee-item">
+                    <img loading="lazy" src="/assets/images/partners/paystack.jpeg" alt="Paystack" />
+                  </div>
+                  <div className="marquee-item">
+                    <img loading="lazy" src="/assets/images/partners/providusBank.png" alt="Providus Bank" />
+                  </div>
+                  <div className="marquee-item">
+                    <img loading="lazy" src="/assets/images/partners/verve.jpeg" alt="Verve" />
+                  </div>
+                  <div className="marquee-item">
+                    <img loading="lazy" src="/assets/images/partners/remita logo.webp" alt="Remita" />
+                  </div>
+                  <div className="marquee-item">
+                    <img loading="lazy" src="/assets/images/partners/Sterling_bank_logo_wk.png" alt="Sterling Bank" />
+                  </div>
+                  <div className="marquee-item">
+                    <img loading="lazy" src="/assets/images/partners/CBN-logo.jpg" alt="Central Bank of Nigeria" />
+                  </div>
+                  <div className="marquee-item">
+                    <img loading="lazy" src="/assets/images/partners/NDIC.png" alt="NDIC" />
+                  </div>
+                  <div className="marquee-item">
+                    <img loading="lazy" src="/assets/images/partners/NIBSS.png" alt="NIBSS" />
+                  </div>
+                  <div className="marquee-item">
+                    <img loading="lazy" src="/assets/images/partners/CAC bureau Limited .jpeg" alt="Corporate Affairs Commission" />
+                  </div>
+                  <div className="marquee-item">
+                    <img loading="lazy" src="/assets/images/partners/CreditRegistry.jpeg" alt="CreditRegistry" />
+                  </div>
+                  <div className="marquee-item">
+                    <img loading="lazy" src="/assets/images/partners/FirstCentral.png" alt="FirstCentral Credit Bureau" />
+                  </div>
+                </div>
+                <div className="marquee-group" aria-hidden="true">
+                  <div className="marquee-item">
+                    <img loading="lazy" src="/assets/images/partners/bankOne logo.jpeg" alt="" />
+                  </div>
+                  <div className="marquee-item">
+                    <img loading="lazy" src="/assets/images/partners/Epay plus.jpeg" alt="" />
+                  </div>
+                  <div className="marquee-item">
+                    <img loading="lazy" src="/assets/images/partners/lendgrid.jpg.webp" alt="" />
+                  </div>
+                  <div className="marquee-item">
+                    <img loading="lazy" src="/assets/images/partners/paystack.jpeg" alt="" />
+                  </div>
+                  <div className="marquee-item">
+                    <img loading="lazy" src="/assets/images/partners/providusBank.png" alt="" />
+                  </div>
+                  <div className="marquee-item">
+                    <img loading="lazy" src="/assets/images/partners/verve.jpeg" alt="" />
+                  </div>
+                  <div className="marquee-item">
+                    <img loading="lazy" src="/assets/images/partners/remita logo.webp" alt="" />
+                  </div>
+                  <div className="marquee-item">
+                    <img loading="lazy" src="/assets/images/partners/Sterling_bank_logo_wk.png" alt="" />
+                  </div>
+                  <div className="marquee-item">
+                    <img loading="lazy" src="/assets/images/partners/CBN-logo.jpg" alt="" />
+                  </div>
+                  <div className="marquee-item">
+                    <img loading="lazy" src="/assets/images/partners/NDIC.png" alt="" />
+                  </div>
+                  <div className="marquee-item">
+                    <img loading="lazy" src="/assets/images/partners/NIBSS.png" alt="" />
+                  </div>
+                  <div className="marquee-item">
+                    <img loading="lazy" src="/assets/images/partners/CAC bureau Limited .jpeg" alt="" />
+                  </div>
+                  <div className="marquee-item">
+                    <img loading="lazy" src="/assets/images/partners/CreditRegistry.jpeg" alt="" />
+                  </div>
+                  <div className="marquee-item">
+                    <img loading="lazy" src="/assets/images/partners/FirstCentral.png" alt="" />
                   </div>
                 </div>
               </div>

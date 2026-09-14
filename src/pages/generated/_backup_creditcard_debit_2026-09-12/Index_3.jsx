@@ -1044,7 +1044,7 @@ export default function Index_3(){
         
         <section className="calculator-section alternat-2 pt_120 pb_120">
             <figure className="image-layer"><img src="/assets/images/resource/men-2.png" alt="" /></figure>
-            <span className="big-text">Calculation <br />Instant</span>
+            <span className="big-text text-black">Calculation <br />Instant</span>
             <div className="auto-container">
                 <div className="inner-container">
                     <Tabs className="tabs-box">

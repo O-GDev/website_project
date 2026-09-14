@@ -110,10 +110,10 @@
   fill: none;
 }
 
-/* Partner logo marquee (mobile only) */
+/* Partner logo marquee */
 .partners-marquee {
-  display: none;
   overflow: hidden;
+  padding-bottom: 8px;
 }
 
 .marquee-track {
@@ -156,14 +156,8 @@
   to { transform: translateX(-50%); }
 }
 
-@media screen and (max-width: 767px) {
-  .trusted-partners-grid {
-    display: none;
-  }
-
-  .partners-marquee {
-    display: block;
-  }
+.trusted-partners-grid {
+  display: none;
 }
 
 .partners-section .sec-title .sub-title {

@@ -45,12 +45,12 @@ export default function Cards_2(){
                                     <h3>Card Types</h3>
                                 </div>
                                 <ul className="category-list clearfix">
-                                    <li><Link to="/cards">Business</Link></li>
-                                    <li><Link to="/cards">Cashback</Link></li>
-                                    <li><Link to="/cards">Low Interest</Link></li>
-                                    <li><Link to="/cards">Rewards</Link></li>
-                                    <li><Link to="/cards">Secured</Link></li>
-                                    <li><Link to="/cards">Travel & Hotel</Link></li>
+                                    <li><Link to="/cards-2">Business</Link></li>
+                                    <li><Link to="/cards-2">Cashback</Link></li>
+                                    <li><Link to="/cards-2">Low Interest</Link></li>
+                                    <li><Link to="/cards-2">Rewards</Link></li>
+                                    <li><Link to="/cards-2">Secured</Link></li>
+                                    <li><Link to="/cards-2">Travel & Hotel</Link></li>
                                 </ul>
                             </div>
                             <div className="contact-widget">

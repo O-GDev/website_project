@@ -7,30 +7,11 @@ import CircularText from '../../components/ui/CircularText'
 export default function About(){
   return (
     <>
-
-
     <div className="boxed_wrapper">
 
-
-        
-
-
-        
-         
-
-
-        
-
-
-        
-
-
-        
         <PageTitle title={"About Us"} crumbs={["About"]} />
-        
 
-
-        
+        {/* Values section */}
         <section className="about-section pt_110 pb_120">
             <div className="auto-container">
                 <div className="upper-content pb_110">
@@ -39,8 +20,8 @@ export default function About(){
                             <div className="title-box p_relative">
                                 <div className="shape" style={{backgroundImage: 'url(/assets/images/shape/shape-41.png)'}}></div>
                                 <div className="sec-title">
-                                    <span className="sub-title">Overview</span>
-                                    <h2>Explore Our Journey & Core Beliefs</h2>
+                                    <span className="sub-title">Our Values</span>
+                                    <h2>Explore Our Core Values &amp; Commitments</h2>
                                 </div>
                                 <div className="certified-box">
                                     <div className="rotate-box">
@@ -56,19 +37,19 @@ export default function About(){
                         <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                             <div className="content-box">
                                 <div className="text-box mb_30">
-                                    <p>On the other hand, we denounce with righteous indignation dislike men who are so beguiled and demoralized same as saying through shrinking from toil and pain.</p>
-                                    <p>We denounce with righteous indignation dislike men who are so beguiled and demoralized same as saying.</p>
+                                    <p>We are not just a bank; we are a catalyst for positive change, working to reduce poverty and create opportunities for financial independence.</p>
+                                    <p>We offer competitive interest rates and flexible repayment terms to ensure our services are accessible to all.</p>
                                 </div>
                                 <div className="inner-box">
                                     <div className="icon-box">
                                         <div className="icon"><img src="/assets/images/icons/icon-197.png" alt="" /></div>
-                                        <span className="big-text">Features</span>
+                                        <span className="big-text">Why Kaizen</span>
                                     </div>
                                     <ul className="list-item">
-                                        <li>Wide Range of Financial Products</li>
-                                        <li>Innovative Financial Solutions</li>
-                                        <li>Extensive Branch and ATM Network</li>
-                                        <li>Robust Security Measures</li>
+                                        <li>Community-driven financial empowerment</li>
+                                        <li>Competitive rates &amp; flexible terms</li>
+                                        <li>Dedicated professional support team</li>
+                                        <li>Accessible and customer-focused banking</li>
                                     </ul>
                                 </div>
                             </div>
@@ -96,7 +77,7 @@ export default function About(){
                                         <a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s" className="lightbox-image video-btn" data-caption=""><i className="fas fa-play"></i></a> 
                                     </div>
                                     <div className="author-box">
-                                        <span className="designation">CEO & Founder of Flexibank</span>
+                                        <span className="designation">CEO &amp; Founder of Kaizen MFB</span>
                                         <h4>Leo George</h4>
                                     </div>
                                 </div>
@@ -106,54 +87,50 @@ export default function About(){
                 </div>
             </div>
         </section>
-        
 
-
-        
+        {/* Numbers section */}
         <section className="funfact-section centred">
             <div className="outer-container clearfix">
                 <div className="funfact-block-one">
                     <div className="inner-box">
                         <div className="icon-box"><img src="/assets/images/icons/icon-27.png" alt="" /></div>
                         <div className="count-outer">
-                            <span className="odometer" data-count="8.5">00</span><span className="symble">k</span>
+                            <span className="odometer" data-count="1">00</span><span className="symble"></span>
                         </div>
-                        <p>Happy Customers World Wide.</p>
+                        <p>Our Network — 1 Branch, Multiple Service Points.</p>
                     </div>
                 </div>
                 <div className="funfact-block-one">
                     <div className="inner-box">
                         <div className="icon-box"><img src="/assets/images/icons/icon-28.png" alt="" /></div>
                         <div className="count-outer">
-                            <span className="odometer" data-count="0.5">00</span><span className="symble">m</span>
+                            <span className="odometer" data-count="10000">00</span><span className="symble">+</span>
                         </div>
-                        <p>Transactions Processed Daily.</p>
+                        <p>Happy Customers — Thousands of Happy Customers.</p>
                     </div>
                 </div>
                 <div className="funfact-block-one">
                     <div className="inner-box">
                         <div className="icon-box"><img src="/assets/images/icons/icon-29.png" alt="" /></div>
                         <div className="count-outer">
-                            <span className="odometer" data-count="10000">00</span><span className="symble">+</span>
+                            <span className="odometer" data-count="50">00</span><span className="symble">+</span>
                         </div>
-                        <p>ATMs and Branches Globally.</p>
+                        <p>Experienced &amp; Professional Employees.</p>
                     </div>
                 </div>
                 <div className="funfact-block-one">
                     <div className="inner-box">
                         <div className="icon-box"><img src="/assets/images/icons/icon-30.png" alt="" /></div>
                         <div className="count-outer">
-                            <span className="odometer" data-count="50">00</span><span className="symble">+</span>
+                            <span className="odometer" data-count="258">00</span>
                         </div>
-                        <p>Years of Trusted Banking Service.</p>
+                        <p>Loans Disbursed — 45.6 Cr Loans for 258 Customers.</p>
                     </div>
                 </div>
             </div>
         </section>
-        
 
-
-        
+        {/* Mission / Vision / Core Values section */}
         <section className="statements-section sec-pad-2 centred">
             <div className="auto-container">
                 <div className="sec-title centred">
@@ -170,7 +147,7 @@ export default function About(){
                                 </div>
                                 <div className="text-box">
                                     <div className="icon-box"><img src="/assets/images/icons/icon-199.png" alt="" /></div>
-                                    <p>Equal blame belongs to those who fail in their duty through weakness of will which the same as saying.</p>
+                                    <p>We are dedicated to improving the financial well-being of our customers by offering affordable and accessible financial products, promoting entrepreneurship, and supporting local businesses. We aim to create a lasting impact by empowering individuals and communities to unlock their potential and achieve long-term success.</p>
                                 </div>
                             </div>
                         </div>
@@ -181,13 +158,13 @@ export default function About(){
                                 <div className="shape" style={{backgroundImage: 'url(/assets/images/shape/shape-44.png)'}}></div>
                                 <div className="icon-box"><img src="/assets/images/icons/icon-201.png" alt="" /></div>
                                 <h3>Our Core Values</h3>
-                                <p>Find fault with a man who chooses to enjoy a pleasure that has annoying resultant pleasure.</p>
+                                <p>We are committed to creating positive change in the lives of underserved communities by offering innovative financial solutions. Our focus is to foster sustainable growth and financial inclusion.</p>
                                 <ul className="list-item clearfix">
                                     <li>Integrity</li>
                                     <li>Customer Focus</li>
                                     <li>Transparency</li>
                                     <li>Accountability</li>
-                                    <li>Teamwork</li>
+                                    <li>Community Impact</li>
                                 </ul>
                             </div>
                         </div>
@@ -201,7 +178,7 @@ export default function About(){
                                 </div>
                                 <div className="text-box">
                                     <div className="icon-box"><img src="/assets/images/icons/icon-200.png" alt="" /></div>
-                                    <p>Equal blame belongs to those who fail in their duty through weakness of will which the same as saying.</p>
+                                    <p>At Kaizen Microfinance Bank Limited, we are committed to creating positive change in the lives of underserved communities by offering innovative financial solutions. Our focus is to foster sustainable growth and financial inclusion by providing accessible, reliable, and customer-focused banking services to individuals, micro-entrepreneurs, and small businesses.</p>
                                 </div>
                             </div>
                         </div>
@@ -209,25 +186,18 @@ export default function About(){
                 </div>
             </div>
         </section>
-        
 
-
-        
+        {/* Better Value Banking */}
         <section className="awards-section alternat-2 pt_110 pb_110">
             <div className="auto-container">
                 <div className="row clearfix">
                     <div className="col-lg-5 col-md-12 col-sm-12 title-column">
                         <div className="title-inner">
                             <div className="sec-title">
-                                <span className="sub-title">Awards</span>
-                                <h2>Prestigious Awards and Honors</h2>
-                                <p>Proudly recognized for our commitment to excellence, innovation, and customer satisfaction.</p>
+                                <span className="sub-title">Better Value</span>
+                                <h2>Better Value Banking Experience</h2>
+                                <p>Discover a banking experience built on better value—where innovative technology, thoughtful service, and clear financial benefits work in harmony to enrich your everyday financial life.</p>
                             </div>
-                            <ul className="image-list">
-                                <li><img src="/assets/images/resource/award-1.jpg" alt="" /></li>
-                                <li><img src="/assets/images/resource/award-2.jpg" alt="" /></li>
-                                <li><img src="/assets/images/resource/award-3.jpg" alt="" /></li>
-                            </ul>
                         </div>
                     </div>
                     <div className="col-lg-7 col-md-12 col-sm-12 content-column">
@@ -236,19 +206,19 @@ export default function About(){
                                 <div className="award-block-one">
                                     <div className="inner-box">
                                         <div className="shape" style={{backgroundImage: 'url(/assets/images/shape/shape-9.png)'}}></div>
-                                        <h3>Best Bank of <br />the Year</h3>
+                                        <h3>Community <br />Empowerment</h3>
                                         <div className="icon-box"><img src="/assets/images/icons/award-1.png" alt="" /></div>
-                                        <p>Awarded by <br />National Banking Assoc...</p>
-                                        <span>2023-2025</span>
+                                        <p>Financial inclusion for underserved communities.</p>
+                                        <span>Our Commitment</span>
                                     </div>
                                 </div>
                                 <div className="award-block-one">
                                     <div className="inner-box">
                                         <div className="shape" style={{backgroundImage: 'url(/assets/images/shape/shape-9.png)'}}></div>
-                                        <h3>Best Customer <br />Service Award</h3>
+                                        <h3>Customer <br />Satisfaction</h3>
                                         <div className="icon-box"><img src="/assets/images/icons/award-2.png" alt="" /></div>
-                                        <p>Awarded by <br />Global Finance Magazine.</p>
-                                        <span>2022</span>
+                                        <p>Accessible, reliable, and customer-focused banking.</p>
+                                        <span>Our Promise</span>
                                     </div>
                                 </div>
                             </Carousel>
@@ -257,16 +227,14 @@ export default function About(){
                 </div>
             </div>
         </section>
-        
 
-
-        
+        {/* Why Choose Us */}
         <section className="chooseus-section sec-pad">
             <div className="pattern-layer" style={{backgroundImage: 'url(/assets/images/shape/shape-45.png)'}}></div>
             <div className="auto-container">
                 <div className="sec-title light centred">
                     <span className="sub-title">Why Choose Us</span>
-                    <h2>Reason for Choosing Us</h2>
+                    <h2>Reasons for Choosing Kaizen MFB</h2>
                 </div>
                 <div className="row clearfix">
                     <div className="col-lg-6 col-md-12 col-sm-12 image-column">
@@ -290,7 +258,7 @@ export default function About(){
                                     </li>
                                 </ul>
                                 <span className="text">Growth</span>
-                                <span className="price">$42,4670</span>
+                                <span className="price">₦42,467</span>
                             </div>
                         </div>
                     </div>
@@ -299,29 +267,29 @@ export default function About(){
                             <div className="chooseus-block-one">
                                 <div className="inner-box">
                                     <div className="icon-box"><img src="/assets/images/icons/icon-203.png" alt="" /></div>
-                                    <h3>Customer <br />Centric Approach</h3>
-                                    <p>Idea of denouncing pleasure and praising pain was born.</p>
+                                    <h3>Community <br />Empowerment</h3>
+                                    <p>We are not just a bank; we are a catalyst for positive change, working to reduce poverty and create opportunities for financial independence.</p>
                                 </div>
                             </div>
                             <div className="chooseus-block-one">
                                 <div className="inner-box">
                                     <div className="icon-box"><img src="/assets/images/icons/icon-204.png" alt="" /></div>
-                                    <h3>Innovative Banking <br />Solutions</h3>
-                                    <p>Rationally encounter consequences that are extremely.</p>
+                                    <h3>Innovative Financial <br />Solutions</h3>
+                                    <p>Fostering sustainable growth and financial inclusion by providing accessible, reliable, and customer-focused banking services.</p>
                                 </div>
                             </div>
                             <div className="chooseus-block-one">
                                 <div className="inner-box">
                                     <div className="icon-box"><img src="/assets/images/icons/icon-205.png" alt="" /></div>
-                                    <h3>Advanced Digital <br />Banking</h3>
-                                    <p>The wise man therefore always holds in these matters.</p>
+                                    <h3>Accessible <br />Banking</h3>
+                                    <p>Affordable and accessible financial products for individuals, micro-entrepreneurs, and small businesses.</p>
                                 </div>
                             </div>
                             <div className="chooseus-block-one">
                                 <div className="inner-box">
                                     <div className="icon-box"><img src="/assets/images/icons/icon-206.png" alt="" /></div>
-                                    <h3>Expert Financial <br />Advice</h3>
-                                    <p>Power of choice is untrammelled and when nothing.</p>
+                                    <h3>Expert Financial <br />Guidance</h3>
+                                    <p>Our dedicated team of professionals is always ready to assist, providing guidance and support whenever needed.</p>
                                 </div>
                             </div>
                         </div>
@@ -329,40 +297,8 @@ export default function About(){
                 </div>
             </div>
         </section>
-        
 
-
-        
-
-
-
-        
-        
-        
     </div>
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-
-
     </>
   )
 }

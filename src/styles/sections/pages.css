@@ -3,39 +3,25 @@
 .page-title{
   position: relative;
   padding: 136px 0px 32px 0px;
-}
-
-.page-title .bg-layer{
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.page-title .bg-layer:before{
-  position: absolute;
-  content: '';
-  width: 100%;
-  height: 100%;
-  left: 0px;
-  top: 0px;
-  background: -webkit-linear-gradient(0deg, rgba(61,43,16,1.0) 50%, rgba(61,43,16,0.0) 75%);
+  background: var(--black-color);
+  overflow: hidden;
 }
 
 .page-title .pattern-layer{
   position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0px;
   top: 0px;
+  right: 0px;
+  width: 792px;
+  height: 100%;
+  z-index: 0;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.88;
+}
+
+.page-title .auto-container{
+  position: relative;
+  z-index: 1;
 }
 
 .page-title h1{
@@ -1215,51 +1201,25 @@
 .leadership-banner{
   position: relative;
   padding: 136px 0px 32px 0px;
-  background: #6B4E1E;
+  background: var(--black-color);
   overflow: hidden;
 }
 
-.leadership-banner .photo{
+.leadership-banner .pattern-layer{
   position: absolute;
-  left: 0px;
   top: 0px;
-  width: 100%;
+  right: 0px;
+  width: 792px;
   height: 100%;
+  z-index: 0;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-mask-image: linear-gradient(90deg, transparent 0%, transparent 40%, black 70%);
-  mask-image: linear-gradient(90deg, transparent 0%, transparent 40%, black 70%);
-}
-
-.leadership-banner .tint{
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  background: #6B4E1E;
-  mix-blend-mode: color;
-  opacity: 0.55;
-}
-
-.leadership-banner .waves{
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-}
-
-.leadership-banner .waves path{
-  fill: none;
-  stroke: #ffffff;
-  stroke-width: 1.5;
-  opacity: 0.05;
 }
 
 .leadership-banner .auto-container{
   position: relative;
+  z-index: 1;
 }
 
 .leadership-banner .content-box{

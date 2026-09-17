@@ -212,6 +212,12 @@
     justify-content: center;
   }
 
+  .main-footer .footer-bottom .licenses{
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+
   .main-footer .footer-bottom .footer-logo .logo{
     padding: 15px 0px;
     margin-bottom: 0px;

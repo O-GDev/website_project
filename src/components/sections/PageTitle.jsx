@@ -13,14 +13,15 @@ export default function PageTitle({ title, crumbs, heading = 'h1' }) {
   const Tag = heading
   return (
     <section className="page-title">
-      <div className="bg-layer" style={{ backgroundImage: 'url(/assets/images/background/page-title.jpg)' }}></div>
-      <div className="pattern-layer" style={{ backgroundImage: 'url(/assets/images/shape/shape-32.png)' }}></div>
+      <div className="pattern-layer" style={{ backgroundImage: 'url(/assets/images/shape/shape-4.png)' }}></div>
       <div className="auto-container">
         <div className="content-box">
           <Tag>{title}</Tag>
           <ul className="bread-crumb clearfix">
             <li><Link to="/">Home</Link></li>
-            {path.map((c, i) => <li key={i}>{c}</li>)}
+            {path.map((c, i) => (
+              <li key={i}>{typeof c === 'string' ? c : <Link to={c.to}>{c.label}</Link>}</li>
+            ))}
             <li><span>{title}</span></li>
           </ul>
         </div>

@@ -52,7 +52,6 @@ export default function Footer(){
                 <div className="widget-content">
                   <ul className="links-list clearfix">
                     <li><Link to="/contact">Branches<i className="flaticon-next"></i></Link></li>
-                    <li><Link to="/cards">ATM’s<i className="flaticon-next"></i></Link></li>
                     <li><Link to="/contact">Customer Care<i className="flaticon-next"></i></Link></li>
                     <li><Link to="/faq">Faq’s<i className="flaticon-next"></i></Link></li>
                     <li><Link to="/contact">Contact Us<i className="flaticon-next"></i></Link></li>
@@ -71,7 +70,6 @@ export default function Footer(){
                     <li><Link to="/">Fixed Deposits<i className="flaticon-next"></i></Link></li>
                     <li><Link to="/loans-1">Loans<i className="flaticon-next"></i></Link></li>
                     <li><Link to="/investments-details-6">Investments<i className="flaticon-next"></i></Link></li>
-                    <li><Link to="/cards">Payments<i className="flaticon-next"></i></Link></li>
                   </ul>
                 </div>
               </div>
@@ -98,21 +96,24 @@ export default function Footer(){
             </ul>
           </div>
           <div className="bottom-inner">
+            <div className="licenses">
+              <img src="/assets/images/banner/cbn.png" alt="CBN" />
+              <img src="/assets/images/banner/ndic.png" alt="NDIC" />
+            </div>
             <div className="social-box">
               <span>Follow Us On</span>
               <ul className="social-links">
                 <li><Link to="/"><i className="flaticon-facebook"></i></Link></li>
-                <li><Link to="/"><i className="flaticon-twitter"></i></Link></li>
-                <li><Link to="/"><i className="flaticon-instagram-logo"></i></Link></li>
-                <li><Link to="/"><i className="flaticon-youtube"></i></Link></li>
-                <li><Link to="/"><i className="flaticon-vimeo"></i></Link></li>
+                <li><a href="https://www.instagram.com/kaizen_mfb" target="_blank" rel="noopener noreferrer"><i className="flaticon-instagram-logo"></i></a></li>
+                <li><a href="https://x.com/kaizen_mfb" target="_blank" rel="noopener noreferrer"><i className="flaticon-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/kaizen-microfinance-bank/posts/?feedView=all" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a></li>
               </ul>
             </div>
             <div className="footer-logo">
               <figure className="logo"><Link to="/"><img src="/assets/images/banner/logo-2.png" alt=""/></Link></figure>
             </div>
             <ul className="footer-nav clearfix">
-              <li><Link to="/">Privacy Policy</Link></li>
+              <li><Link to="/privacy-policy">Privacy Policy</Link></li>
               <li><Link to="/">Terms & Conditions</Link></li>
               <li><Link to="/">Disclaimer.</Link></li>
             </ul>

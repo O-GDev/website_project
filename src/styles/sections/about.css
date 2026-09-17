@@ -668,6 +668,9 @@
 
 .team-block-one .inner-box .image-box .image img{
   width: 100%;
+  display: block;
+  aspect-ratio: 640 / 705;
+  object-fit: cover;
   transition: all 500ms ease;
 }
 
@@ -803,6 +806,9 @@
 
 .team-details .image-box img{
   width: 100%;
+  display: block;
+  aspect-ratio: 640 / 705;
+  object-fit: cover;
 }
 
 .team-details .content-box{

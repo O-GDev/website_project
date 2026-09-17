@@ -1,0 +1,97 @@
+/* Privacy Policy page */
+
+.privacy-section{
+  position: relative;
+}
+
+.privacy-section .privacy-policy-card{
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 25px 60px rgba(21, 17, 13, 0.08);
+  padding: 55px 50px;
+}
+
+.privacy-section .privacy-policy-card .company-line{
+  display: inline-block;
+  font-family: var(--title-font);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--theme-color);
+  letter-spacing: 0.02em;
+  margin-bottom: 32px;
+  padding-bottom: 14px;
+  border-bottom: 2px solid var(--theme-color);
+}
+
+.privacy-section .privacy-policy-card h2{
+  font-family: var(--title-font);
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--title-color);
+  font-weight: 700;
+  margin: 34px 0 16px;
+}
+
+.privacy-section .privacy-policy-card h2:first-of-type{
+  margin-top: 0;
+}
+
+.privacy-section .privacy-policy-card p{
+  color: var(--text-color);
+  font-size: 15px;
+  line-height: 1.85;
+  margin-bottom: 16px;
+}
+
+.privacy-section .privacy-policy-card p strong{
+  color: var(--title-color);
+}
+
+.privacy-section .privacy-policy-card .legal-list{
+  position: relative;
+  margin: 0 0 16px;
+  padding: 0 0 0 18px;
+}
+
+.privacy-section .privacy-policy-card .legal-list li{
+  position: relative;
+  color: var(--text-color);
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.privacy-section .privacy-policy-card .legal-block{
+  position: relative;
+  background: #f8f6f2;
+  border-left: 3px solid var(--theme-color);
+  border-radius: 8px;
+  padding: 24px 28px;
+  margin: 20px 0 0;
+}
+
+.privacy-section .privacy-policy-card .legal-block p{
+  margin-bottom: 4px;
+}
+
+.privacy-section .privacy-policy-card .legal-block a{
+  color: var(--theme-color);
+}
+
+.privacy-section .privacy-policy-card .lower-box{
+  position: relative;
+  margin-top: 42px;
+  padding-top: 30px;
+  border-top: 1px solid #ece9e3;
+  text-align: center;
+}
+
+@media (max-width: 767px){
+  .privacy-section .privacy-policy-card{
+    padding: 40px 26px;
+  }
+}

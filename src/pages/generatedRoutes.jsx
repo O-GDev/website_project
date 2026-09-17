@@ -21,7 +21,6 @@ import Card_details_6 from './generated/Card_details_6.jsx'
 import Card_details from './generated/Card_details.jsx'
 import Cards_2 from './generated/Cards_2.jsx'
 import Cards_3 from './generated/Cards_3.jsx'
-import Cards from './generated/Cards.jsx'
 import Career_details from './generated/Career_details.jsx'
 import Careers from './generated/Careers.jsx'
 import Contact from './generated/Contact.jsx'
@@ -47,6 +46,7 @@ import Loans_3 from './generated/Loans_3.jsx'
 import Loans_4 from './generated/Loans_4.jsx'
 import Loans_5 from './generated/Loans_5.jsx'
 import Partners from './generated/Partners.jsx'
+import PrivacyPolicy from './generated/PrivacyPolicy.jsx'
 import Team_details from './generated/Team_details.jsx'
 import Team from './generated/Team.jsx'
 import Testimonial from './generated/Testimonial.jsx'
@@ -80,7 +80,6 @@ export default function GeneratedRoutes(){
         <Route path="/card-details" element={<Card_details />} />
         <Route path="/cards-2" element={<Cards_2 />} />
         <Route path="/cards-3" element={<Cards_3 />} />
-        <Route path="/cards" element={<Cards />} />
         <Route path="/career-details" element={<Career_details />} />
         <Route path="/careers" element={<Careers />} />
         <Route path="/contact" element={<Contact />} />
@@ -106,7 +105,9 @@ export default function GeneratedRoutes(){
         <Route path="/loans-4" element={<Loans_4 />} />
         <Route path="/loans-5" element={<Loans_5 />} />
         <Route path="/partners" element={<Partners />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/team-details" element={<Team_details />} />
+        <Route path="/team-details/:id" element={<Team_details />} />
         <Route path="/team" element={<Team />} />
         <Route path="/testimonial" element={<Testimonial />} />
     </Routes>

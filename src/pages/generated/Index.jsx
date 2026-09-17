@@ -41,9 +41,9 @@ export default function Index() {
             </div>
             <div className="slide-item p_relative">
               <div
-                className="bg-layer"
+                className="bg-layer slide-image"
                 style={{
-                  backgroundImage: "url(/assets/images/banner/ATM.webp)",
+                  backgroundImage: "url(/assets/images/banner/slide1.2.png)",
                 }}
               ></div>
               <div
@@ -89,7 +89,7 @@ export default function Index() {
                     covered.
                   </h2>
                   <div className="btn-box">
-                    <Link to="/cards">
+                    <Link to="/cards-3">
                       <span>Explore Products</span>
                     </Link>
                   </div>
@@ -103,8 +103,8 @@ export default function Index() {
           <div className="auto-container">
             <div className="inner-container">
               <div className="row d_flex">
-                <div className="col-lg-6 col-md-12 col-sm-12 left-column">
-                  <div className="left-content">
+                <div className="col-lg-12 col-md-12 col-sm-12 left-column">
+                  <div className="left-content" style={{ marginLeft: 0 }}>
                     <div className="info-box">
                       <div className="icon-box">
                         <img
@@ -117,59 +117,22 @@ export default function Index() {
                       <p>Instant Banking, Instant Peace.</p>
                     </div>
                     <div className="btn-box">
-                      <Link to="/">
+                      <a
+                        href="https://play.google.com/store/apps/details?id=com.kaizenmfb.kaizenmfbmobile"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <i className="flaticon-play-store"></i>
                         <span>Google Play</span>
-                      </Link>
-                      <Link to="/">
+                      </a>
+                      <a
+                        href="https://apps.apple.com/ng/app/kaizen-mfb/id6748022197"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <i className="flaticon-apple"></i>
                         <span>App Store</span>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-6 col-md-12 col-sm-12 right-column">
-                  <div className="right-content">
-                    <div className="row">
-                      <div className="col-lg-6 col-md-6 col-sm-12 image-column">
-                        <figure className="image-box">
-                          <img
-                            loading="lazy"
-                            src="/assets/images/banner/image2.webp"
-                            alt=""
-                          />
-                        </figure>
-                      </div>
-                      <div className="col-lg-6 col-md-6 col-sm-12 content-column">
-                        <div className="content-box">
-                          <h4>Online Services</h4>
-                          <ul className="service-list clearfix">
-                            <li>
-                              <Link to="/service-details">
-                                Net Banking
-                                <i className="flaticon-right-arrow"></i>
-                              </Link>
-                            </li>
-                            <li>
-                              <Link to="/service-details">
-                                Mobile Banking
-                                <i className="flaticon-right-arrow"></i>
-                              </Link>
-                            </li>
-                            <li>
-                              <Link to="/service-details">
-                                Make Payment
-                                <i className="flaticon-right-arrow"></i>
-                              </Link>
-                            </li>
-                          </ul>
-                          <div className="link-box">
-                            <Link to="/service">
-                              <span>+</span>More Services
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -984,8 +947,8 @@ export default function Index() {
                       alt=""
                     />
                   </div>
-                  <a href="tel:49556789091">+49 55 678 90 & 91</a>
-                  <span>9.00 am to 7.00 pm</span>
+                  <a href="tel:09099900099">09099900099</a>
+                  <span>8.00 am to 5.00 pm</span>
                 </div>
               </div>
             </div>
@@ -1104,63 +1067,7 @@ export default function Index() {
                                     <span>Explore Options</span>
                                   </Link>
                                 </div>
-                                <div className="form-inner">
-                                  <h3>Digital Opening</h3>
-                                  <form method="post" action="index.html">
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-23.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="text"
-                                        name="name"
-                                        placeholder="Full Name"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-24.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="email"
-                                        name="email"
-                                        placeholder="Email"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-25.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="text"
-                                        name="phone"
-                                        placeholder="Ph num"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group message-btn">
-                                      <button type="submit">
-                                        <i className="flaticon-right-arrow"></i>
-                                        Proceed to Details
-                                      </button>
-                                    </div>
-                                  </form>
                                 </div>
-                              </div>
                             </div>
                           </div>
                           <div className="tab-2" id="tab-12">
@@ -1220,63 +1127,7 @@ export default function Index() {
                                     <span>Explore Options</span>
                                   </Link>
                                 </div>
-                                <div className="form-inner">
-                                  <h3>Digital Opening</h3>
-                                  <form method="post" action="index.html">
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-23.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="text"
-                                        name="name"
-                                        placeholder="Full Name"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-24.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="email"
-                                        name="email"
-                                        placeholder="Email"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-25.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="text"
-                                        name="phone"
-                                        placeholder="Ph num"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group message-btn">
-                                      <button type="submit">
-                                        <i className="flaticon-right-arrow"></i>
-                                        Proceed to Details
-                                      </button>
-                                    </div>
-                                  </form>
                                 </div>
-                              </div>
                             </div>
                           </div>
                           <div className="tab-2" id="tab-13">
@@ -1337,63 +1188,7 @@ export default function Index() {
                                     <span>Explore Options</span>
                                   </Link>
                                 </div>
-                                <div className="form-inner">
-                                  <h3>Digital Opening</h3>
-                                  <form method="post" action="index.html">
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-23.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="text"
-                                        name="name"
-                                        placeholder="Full Name"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-24.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="email"
-                                        name="email"
-                                        placeholder="Email"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-25.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="text"
-                                        name="phone"
-                                        placeholder="Ph num"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group message-btn">
-                                      <button type="submit">
-                                        <i className="flaticon-right-arrow"></i>
-                                        Proceed to Details
-                                      </button>
-                                    </div>
-                                  </form>
                                 </div>
-                              </div>
                             </div>
                           </div>
                           <div className="tab-2" id="tab-14">
@@ -1453,63 +1248,7 @@ export default function Index() {
                                     <span>Explore Options</span>
                                   </Link>
                                 </div>
-                                <div className="form-inner">
-                                  <h3>Digital Opening</h3>
-                                  <form method="post" action="index.html">
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-23.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="text"
-                                        name="name"
-                                        placeholder="Full Name"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-24.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="email"
-                                        name="email"
-                                        placeholder="Email"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-25.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="text"
-                                        name="phone"
-                                        placeholder="Ph num"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group message-btn">
-                                      <button type="submit">
-                                        <i className="flaticon-right-arrow"></i>
-                                        Proceed to Details
-                                      </button>
-                                    </div>
-                                  </form>
                                 </div>
-                              </div>
                             </div>
                           </div>
                           <div className="tab-2" id="tab-15">
@@ -1569,63 +1308,7 @@ export default function Index() {
                                     <span>Explore Options</span>
                                   </Link>
                                 </div>
-                                <div className="form-inner">
-                                  <h3>Digital Opening</h3>
-                                  <form method="post" action="index.html">
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-23.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="text"
-                                        name="name"
-                                        placeholder="Full Name"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-24.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="email"
-                                        name="email"
-                                        placeholder="Email"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-25.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="text"
-                                        name="phone"
-                                        placeholder="Ph num"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group message-btn">
-                                      <button type="submit">
-                                        <i className="flaticon-right-arrow"></i>
-                                        Proceed to Details
-                                      </button>
-                                    </div>
-                                  </form>
                                 </div>
-                              </div>
                             </div>
                           </div>
                           <div className="tab-2" id="tab-51">
@@ -1685,63 +1368,7 @@ export default function Index() {
                                     <span>Explore Options</span>
                                   </Link>
                                 </div>
-                                <div className="form-inner">
-                                  <h3>Digital Opening</h3>
-                                  <form method="post" action="index.html">
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-23.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="text"
-                                        name="name"
-                                        placeholder="Full Name"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-24.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="email"
-                                        name="email"
-                                        placeholder="Email"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-25.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="text"
-                                        name="phone"
-                                        placeholder="Ph num"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group message-btn">
-                                      <button type="submit">
-                                        <i className="flaticon-right-arrow"></i>
-                                        Proceed to Details
-                                      </button>
-                                    </div>
-                                  </form>
                                 </div>
-                              </div>
                             </div>
                           </div>
                         </div>
@@ -1845,63 +1472,7 @@ export default function Index() {
                                     <span>Explore Options</span>
                                   </Link>
                                 </div>
-                                <div className="form-inner">
-                                  <h3>Digital Opening</h3>
-                                  <form method="post" action="index.html">
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-23.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="text"
-                                        name="name"
-                                        placeholder="Full Name"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-24.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="email"
-                                        name="email"
-                                        placeholder="Email"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-25.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="text"
-                                        name="phone"
-                                        placeholder="Ph num"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group message-btn">
-                                      <button type="submit">
-                                        <i className="flaticon-right-arrow"></i>
-                                        Proceed to Details
-                                      </button>
-                                    </div>
-                                  </form>
                                 </div>
-                              </div>
                             </div>
                           </div>
                           <div className="tab-2" id="tab-17">
@@ -1961,63 +1532,7 @@ export default function Index() {
                                     <span>Explore Options</span>
                                   </Link>
                                 </div>
-                                <div className="form-inner">
-                                  <h3>Digital Opening</h3>
-                                  <form method="post" action="index.html">
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-23.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="text"
-                                        name="name"
-                                        placeholder="Full Name"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-24.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="email"
-                                        name="email"
-                                        placeholder="Email"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-25.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="text"
-                                        name="phone"
-                                        placeholder="Ph num"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group message-btn">
-                                      <button type="submit">
-                                        <i className="flaticon-right-arrow"></i>
-                                        Proceed to Details
-                                      </button>
-                                    </div>
-                                  </form>
                                 </div>
-                              </div>
                             </div>
                           </div>
                           <div className="tab-2" id="tab-18">
@@ -2078,63 +1593,7 @@ export default function Index() {
                                     <span>Explore Options</span>
                                   </Link>
                                 </div>
-                                <div className="form-inner">
-                                  <h3>Digital Opening</h3>
-                                  <form method="post" action="index.html">
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-23.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="text"
-                                        name="name"
-                                        placeholder="Full Name"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-24.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="email"
-                                        name="email"
-                                        placeholder="Email"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-25.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="text"
-                                        name="phone"
-                                        placeholder="Ph num"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group message-btn">
-                                      <button type="submit">
-                                        <i className="flaticon-right-arrow"></i>
-                                        Proceed to Details
-                                      </button>
-                                    </div>
-                                  </form>
                                 </div>
-                              </div>
                             </div>
                           </div>
                           <div className="tab-2" id="tab-19">
@@ -2194,63 +1653,7 @@ export default function Index() {
                                     <span>Explore Options</span>
                                   </Link>
                                 </div>
-                                <div className="form-inner">
-                                  <h3>Digital Opening</h3>
-                                  <form method="post" action="index.html">
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-23.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="text"
-                                        name="name"
-                                        placeholder="Full Name"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-24.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="email"
-                                        name="email"
-                                        placeholder="Email"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-25.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="text"
-                                        name="phone"
-                                        placeholder="Ph num"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group message-btn">
-                                      <button type="submit">
-                                        <i className="flaticon-right-arrow"></i>
-                                        Proceed to Details
-                                      </button>
-                                    </div>
-                                  </form>
                                 </div>
-                              </div>
                             </div>
                           </div>
                           <div className="tab-2" id="tab-20">
@@ -2310,63 +1713,7 @@ export default function Index() {
                                     <span>Explore Options</span>
                                   </Link>
                                 </div>
-                                <div className="form-inner">
-                                  <h3>Digital Opening</h3>
-                                  <form method="post" action="index.html">
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-23.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="text"
-                                        name="name"
-                                        placeholder="Full Name"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-24.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="email"
-                                        name="email"
-                                        placeholder="Email"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-25.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="text"
-                                        name="phone"
-                                        placeholder="Ph num"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group message-btn">
-                                      <button type="submit">
-                                        <i className="flaticon-right-arrow"></i>
-                                        Proceed to Details
-                                      </button>
-                                    </div>
-                                  </form>
                                 </div>
-                              </div>
                             </div>
                           </div>
                           <div className="tab-2" id="tab-52">
@@ -2426,63 +1773,7 @@ export default function Index() {
                                     <span>Explore Options</span>
                                   </Link>
                                 </div>
-                                <div className="form-inner">
-                                  <h3>Digital Opening</h3>
-                                  <form method="post" action="index.html">
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-23.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="text"
-                                        name="name"
-                                        placeholder="Full Name"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-24.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="email"
-                                        name="email"
-                                        placeholder="Email"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group">
-                                      <div className="icon-box">
-                                        <img
-                                          loading="lazy"
-                                          src="/assets/images/icons/icon-25.png"
-                                          alt=""
-                                        />
-                                      </div>
-                                      <input
-                                        type="text"
-                                        name="phone"
-                                        placeholder="Ph num"
-                                        required
-                                      />
-                                    </div>
-                                    <div className="form-group message-btn">
-                                      <button type="submit">
-                                        <i className="flaticon-right-arrow"></i>
-                                        Proceed to Details
-                                      </button>
-                                    </div>
-                                  </form>
                                 </div>
-                              </div>
                             </div>
                           </div>
                         </div>
@@ -3686,20 +2977,7 @@ export default function Index() {
                       <Link to="/">Business</Link>
                     </li>
                   </ul>
-                  <div className="lower-box">
-                    <div className="icon-box">
-                      <img
-                        loading="lazy"
-                        src="/assets/images/icons/icon-35.png"
-                        alt=""
-                      />
-                    </div>
-                    <h5>Can't Find What You Need?</h5>
-                    <Link to="/">
-                      <i className="flaticon-right-arrow"></i>Submit Queries
-                    </Link>
                   </div>
-                </div>
               </div>
               <div className="col-lg-8 col-md-12 col-sm-12 accordion-column">
                 <ul className="accordion-box">

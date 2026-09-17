@@ -41,19 +41,6 @@ export default function Contact(){
                     </li>
                   </ul>
                 </div>
-                <div className="location-card">
-                  <div className="icon-box"><img src="/assets/images/icons/icon-86.png" alt="" /></div>
-                  <h4>Ikoyi, 154 Awolowo Road</h4>
-                  <ul className="info-list">
-                    <li><span>Zipcode:</span> 106104</li>
-                    <li><span>Address:</span> 154 Awolowo Road, Ikoyi, Lagos, 106104.</li>
-                    <li>
-                      <span>Phone &amp; Email:</span>
-                      <a href="tel:+2349099900099">+234-909-990-0099</a>
-                      <a href="mailto:info@kaizenng.com">info@kaizenng.com</a>
-                    </li>
-                  </ul>
-                </div>
               </div>
             </div>
           </div>
@@ -121,12 +108,6 @@ export default function Contact(){
                   </div>
                 </div>
                 <a className="theme-btn customer-care-btn" href="mailto:info@kaizenng.com"><span>Customer Care</span></a>
-                <ul className="support-social-links">
-                  <li><a href="mailto:info@kaizenng.com" target="_blank" rel="noreferrer"><i className="fab fa-facebook-f"></i></a></li>
-                  <li><a href="mailto:info@kaizenng.com" target="_blank" rel="noreferrer"><i className="fab fa-youtube"></i></a></li>
-                  <li><a href="mailto:info@kaizenng.com" target="_blank" rel="noreferrer"><i className="fab fa-twitter"></i></a></li>
-                  <li><a href="mailto:info@kaizenng.com" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a></li>
-                </ul>
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12">
                 <div className="form-inner">
@@ -214,9 +195,6 @@ export default function Contact(){
                           </tr>
                         </tbody>
                       </table>
-                      <div className="more-text centred">
-                        <h5><i className="flaticon-sparkle"></i>To submit your complaint, <a href="#">Click here</a></h5>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -247,9 +225,6 @@ export default function Contact(){
                           </tr>
                         </tbody>
                       </table>
-                      <div className="more-text centred">
-                        <h5><i className="flaticon-sparkle"></i>To submit your complaint, <a href="#">Click here</a></h5>
-                      </div>
                     </div>
                   </div>
                 </div>

@@ -210,9 +210,25 @@
   opacity: 1;
 }
 
+.main-footer .footer-bottom .licenses{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-right: 25px;
+}
+
+.main-footer .footer-bottom .licenses img{
+  display: block;
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+}
+
 .main-footer .footer-bottom{
   position: relative;
   z-index: 1;
+  background: var(--secondary-color);
 }
 
 .main-footer .footer-bottom .bottom-top{

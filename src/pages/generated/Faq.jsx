@@ -50,12 +50,7 @@ export default function Faq(){
                                 <li><Link to="/">Loans</Link></li>
                                 <li><Link to="/">Business</Link></li>
                             </ul>
-                            <div className="lower-box">
-                                <div className="icon-box"><img src="/assets/images/icons/icon-35.png" alt="" /></div>
-                                <h5>Can't Find What You Need?</h5>
-                                <Link to="/"><i className="flaticon-right-arrow"></i>Submit Queries</Link>
                             </div>
-                        </div>
                     </div>
                     <div className="col-lg-8 col-md-12 col-sm-12 accordion-column">
                         <ul className="accordion-box">

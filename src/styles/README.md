@@ -13,7 +13,7 @@ BEFORE the React bundle so their rules participate in the normal cascade:
 |------|---------|
 | `bootstrap/core.css` … `bootstrap/utilities.css` | **Bootstrap 5.x, split into 8 logical modules** (`core, grid, tables, forms, buttons, nav, modal-carousel, utilities`). Split of the original single `bootstrap.css` (10,906 lines); loaded in the *same order* as the original, so the cascade is unchanged. Reassembly is byte-identical |
 | `font-awesome-all.css` | Icon font — **trimmed to the 12 icons this app uses** (8,003 → 134 lines). Base classes + `@font-face` were preserved verbatim |
-| `flaticon_flexibank.css` | Brand icon font |
+| `flaticon_kaizenbank.css` | Brand icon font |
 | `owl.css` | Carousel base styles |
 | `nice-select.css` | Custom `<select>` styling |
 
@@ -63,7 +63,7 @@ by Vite:
 | Component | CSS file |
 |-----------|----------|
 | `components/ui/Lightbox.jsx` | `components/ui/Lightbox.css` |
-| `pages/generated/Contact.jsx` | `pages/generated/Contact.css` |
+| `pages/ContactPage.jsx` | `pages/ContactPage.css` |
 
 `src/index.css` only contains the Tailwind directives.
 

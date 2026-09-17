@@ -64,7 +64,7 @@
 .page-title .bread-crumb li:before{
   position: absolute;
   content: "\f102";
-  font-family: flaticon_flexibank;
+  font-family: flaticon_kaizenbank;
   font-size: 16px;
   top: 1px;
   right: -20px;
@@ -1266,7 +1266,7 @@
 .leadership-banner .bread-crumb li:before{
   position: absolute;
   content: "\f102";
-  font-family: flaticon_flexibank;
+  font-family: flaticon_kaizenbank;
   font-size: 16px;
   top: 1px;
   right: -20px;

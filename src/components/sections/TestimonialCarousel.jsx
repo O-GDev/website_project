@@ -18,7 +18,7 @@ const ITEMS = [
   },
   {
     rating: '4.9', title: 'User Friendly',
-    quote: 'Exceptional service and user-friendly online banking. I’ve never had a smoother experience with any other bank like flexibank.',
+    quote: 'Exceptional service and user-friendly online banking. I’ve never had a smoother experience with any other bank like kaizenbank.',
     thumb: '/assets/images/resource/testimonial-7.png', name: 'Francis Emmet',
     desig: 'Business Account Holder',
     city: 'Newyork.'

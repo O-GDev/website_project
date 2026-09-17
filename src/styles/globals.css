@@ -1,5 +1,5 @@
  
-/* Css For Flexibank */
+/* Css For Kaizenbank */
 
 /************ TABLE OF CONTENTS ***************
 1. Fonts
@@ -404,7 +404,7 @@ img {
 .theme-btn span:before{
   position: absolute;
   content: "\f103";
-  font-family: 'flaticon_flexibank';
+  font-family: 'flaticon_kaizenbank';
   left: 0px;
   top: 1px;
   transition: all 500ms ease;
@@ -547,7 +547,7 @@ img {
 .scroll-to-top::after {
   position: absolute;
   content: "\f109";
-  font-family: flaticon_flexibank;
+  font-family: flaticon_kaizenbank;
   text-align: center;
   line-height: 50px;
   font-size: 24px;

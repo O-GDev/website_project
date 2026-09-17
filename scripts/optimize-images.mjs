@@ -2,9 +2,9 @@ import sharp from 'sharp'
 import { resolve, basename } from 'path'
 import { rm } from 'fs/promises'
 
-const BANNER = '/home/semicolon/Desktop/Flexibank Pack/frontend/public/assets/images/banner/'
-const SHAPE = '/home/semicolon/Desktop/Flexibank Pack/frontend/public/assets/images/shape/'
-const PARTNERS = '/home/semicolon/Desktop/Flexibank Pack/frontend/public/assets/images/partners/'
+const BANNER = '/home/semicolon/Desktop/Kaizenbank Pack/frontend/public/assets/images/banner/'
+const SHAPE = '/home/semicolon/Desktop/Kaizenbank Pack/frontend/public/assets/images/shape/'
+const PARTNERS = '/home/semicolon/Desktop/Kaizenbank Pack/frontend/public/assets/images/partners/'
 
 const bannerToWebp = [
   { src: 'image1.jpeg', width: 1920 },

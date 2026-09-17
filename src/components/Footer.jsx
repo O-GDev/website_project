@@ -103,7 +103,7 @@ export default function Footer(){
             <div className="social-box">
               <span>Follow Us On</span>
               <ul className="social-links">
-                <li><Link to="/"><i className="flaticon-facebook"></i></Link></li>
+                <li><a href="https://www.facebook.com/share/1JPfKSqsnz/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer"><i className="flaticon-facebook"></i></a></li>
                 <li><a href="https://www.instagram.com/kaizen_mfb" target="_blank" rel="noopener noreferrer"><i className="flaticon-instagram-logo"></i></a></li>
                 <li><a href="https://x.com/kaizen_mfb" target="_blank" rel="noopener noreferrer"><i className="flaticon-twitter"></i></a></li>
                 <li><a href="https://www.linkedin.com/company/kaizen-microfinance-bank/posts/?feedView=all" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a></li>

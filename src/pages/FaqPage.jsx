@@ -24,7 +24,7 @@ export default function FaqPage(){
 
 
         
-        <PageTitle title={"Faq’s"} crumbs={["About"]} />
+        <PageTitle title={"Faq’s"} crumbs={[{ label: "About", to: "/about" }]} />
         
 
 

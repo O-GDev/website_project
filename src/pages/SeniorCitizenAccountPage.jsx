@@ -29,7 +29,7 @@ export default function SeniorCitizenAccountPage(){
 
 
         
-        <PageTitle title={"Senior Citizen"} crumbs={["Services","Accounts"]} />
+        <PageTitle title={"Senior Citizen"} crumbs={["Services", { label: "Accounts", to: "/account" }]} />
         
 
 

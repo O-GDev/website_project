@@ -29,7 +29,7 @@ export default function FamilyAccountPage(){
 
 
         
-        <PageTitle title={"Family 360º"} crumbs={["Services","Accounts"]} />
+        <PageTitle title={"Family 360º"} crumbs={["Services", { label: "Accounts", to: "/account" }]} />
         
 
 

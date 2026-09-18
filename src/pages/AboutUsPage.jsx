@@ -9,7 +9,7 @@ export default function AboutUsPage(){
     <>
     <div className="boxed_wrapper">
 
-        <PageTitle title={"About Us"} crumbs={["About"]} />
+        <PageTitle title={"About Us"} crumbs={[{ label: "About", to: "/about" }]} />
 
         {/* Values section */}
         <section className="about-section pt_110 pb_120">

@@ -147,7 +147,7 @@ export default function PartnersPage() {
       <div className="boxed_wrapper partners-dark">
         <PageTitle
           title={"Our Partners & Regulatory Bodies"}
-          crumbs={["About"]}
+          crumbs={[{ label: "About", to: "/about" }]}
         />
 
         <section className="partners-intro sec-pad">

@@ -44,6 +44,7 @@ export default function Footer(){
                   <ul className="links-list clearfix">
                     <li><Link to="/about">About Us<i className="flaticon-next"></i></Link></li>
                     <li><Link to="/team">Leadership<i className="flaticon-next"></i></Link></li>
+                    <li><Link to="/careers">Careers<i className="flaticon-next"></i></Link></li>
                   </ul>
                 </div>
                 <div className="widget-title">

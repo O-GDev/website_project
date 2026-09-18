@@ -29,7 +29,7 @@ export default function DematAccountPage(){
 
 
         
-        <PageTitle title={"Demat Account"} crumbs={["Services","Accounts"]} />
+        <PageTitle title={"Demat Account"} crumbs={["Services", { label: "Accounts", to: "/account" }]} />
         
 
 

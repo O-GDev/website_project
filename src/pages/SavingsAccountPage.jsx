@@ -29,7 +29,7 @@ export default function SavingsAccountPage(){
 
 
         
-        <PageTitle title={"Savings Account"} crumbs={["Services","Accounts"]} />
+        <PageTitle title={"Savings Account"} crumbs={["Services", { label: "Accounts", to: "/account" }]} />
         
 
 

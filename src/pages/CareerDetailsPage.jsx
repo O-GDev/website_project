@@ -24,7 +24,7 @@ export default function CareerDetailsPage(){
 
 
         
-        <PageTitle title={"Career Details"} crumbs={["About","Careers"]} />
+        <PageTitle title={"Career Details"} crumbs={[{ label: "About", to: "/about" }, { label: "Careers", to: "/careers" }]} />
         
 
 
@@ -37,7 +37,7 @@ export default function CareerDetailsPage(){
                             <div className="upper-box">
                                 <span className="text">Finance Department</span>
                                 <h3>Sales Representative</h3>
-                                <span className="location"><img src="/assets/images/icons/icon-210.png" alt="" />Hamburg, German</span>
+                                <span className="location"><img src="/assets/images/icons/icon-210.png" alt="" />Lagos, Nigeria</span>
                                 <div className="btn-box"><Link to="/career-details"><i className="flaticon-right-arrow"></i><span>Apply Now</span></Link></div>
                             </div>
                             <div className="content-one mb_35">
@@ -64,27 +64,16 @@ export default function CareerDetailsPage(){
                                     <li><h5>Skills</h5>:&nbsp;&nbsp;&nbsp;&nbsp;Something Related this Job</li>
                                 </ul>
                             </div>
-                            <div className="social-box">
-                                <ul className="social-links">
-                                    <li><Link to="/career-details"><i className="fab fa-facebook-f"></i><span>Facebook</span></Link></li>
-                                    <li><Link to="/career-details"><i className="fab fa-twitter"></i><span>Twitter</span></Link></li>
-                                    <li><Link to="/career-details"><i className="fab fa-google-plus-g"></i><span>Google +</span></Link></li>
-                                    <li><Link to="/career-details"><i className="fab fa-linkedin-in"></i><span>Linkedin</span></Link></li>
-                                </ul>
-                            </div>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-12 col-sm-12 sidebar-side">
                         <div className="career-sidebar ml_30">
-                            <div className="upload-box">
-                                <input type="file" name="upload-file" />
-                                <label><i className="flaticon-right-arrow"></i><span>Upload Your Resume</span></label>
-                            </div>
+
                             <div className="info-box">
                                 <ul className="info-list">
                                     <li>
                                         <h5>Salary</h5>
-                                        <p>$85,000 - $90,000 Per Year</p>
+                                        <p>₦85,000 - ₦90,000 Per Year</p>
                                     </li>
                                     <li>
                                         <h5>Vacancy</h5>

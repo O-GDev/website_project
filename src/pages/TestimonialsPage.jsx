@@ -24,7 +24,7 @@ export default function TestimonialsPage(){
 
 
         
-        <PageTitle title={"Testimonials"} crumbs={["About"]} />
+        <PageTitle title={"Testimonials"} crumbs={[{ label: "About", to: "/about" }]} />
         
 
 

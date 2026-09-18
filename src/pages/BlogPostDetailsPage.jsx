@@ -24,7 +24,7 @@ export default function BlogPostDetailsPage(){
 
 
         
-        <PageTitle title={<>How to Improve Your Credit <br />Score Tips & Tricks.</>} crumbs={["News"]} heading="h2" />
+        <PageTitle title={<>How to Improve Your Credit <br />Score Tips & Tricks.</>} crumbs={[{ label: "News", to: "/blog" }]} heading="h2" />
         
 
 

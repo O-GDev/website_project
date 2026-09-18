@@ -24,7 +24,7 @@ export default function BlogGridPage(){
 
 
         
-        <PageTitle title={"Blog Post"} crumbs={["News"]} />
+        <PageTitle title={"Blog Post"} crumbs={[{ label: "News", to: "/blog" }]} />
         
 
 

@@ -24,7 +24,7 @@ export default function BlogListStyledPage(){
 
 
         
-        <PageTitle title={"Blog Post"} crumbs={["News"]} />
+        <PageTitle title={"Blog Post"} crumbs={[{ label: "News", to: "/blog" }]} />
         
 
 

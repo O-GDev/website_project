@@ -77,18 +77,7 @@ function NavigationItems({ isMobile = false, onNavigate = () => {} }) {
         )}
         <ul style={{ display: isMobile ? (isDropdownOpen('about') ? 'block' : 'none') : undefined }}>
           <li><Link to="/about" onClick={onNavigate}>About Us</Link></li>
-          <li className={`dropdown ${isDropdownOpen('leadership') ? 'open' : ''}`}>
-            <a href="#leadership" onClick={(e) => isMobile ? toggleDropdown(e, 'leadership') : null}>Leadership</a>
-            {isMobile && (
-              <div className={`dropdown-btn ${isDropdownOpen('leadership') ? 'open' : ''}`} onClick={(e) => toggleDropdown(e, 'leadership')}>
-                <span className="fas fa-angle-down"></span>
-              </div>
-            )}
-            <ul style={{ display: isMobile ? (isDropdownOpen('leadership') ? 'block' : 'none') : undefined }}>
-              <li><Link to="/team" onClick={onNavigate}>Leadership</Link></li>
-              <li><Link to="/team-details" onClick={onNavigate}>Leadership Details</Link></li>
-            </ul>
-          </li>
+          <li><Link to="/team" onClick={onNavigate}>Leadership</Link></li>
           <li><Link to="/careers" onClick={onNavigate}>Careers</Link></li>
           <li><Link to="/faq" onClick={onNavigate}>Faq’s</Link></li>
         </ul>

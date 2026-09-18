@@ -121,17 +121,17 @@ export default function HomePage() {
                         href="https://play.google.com/store/apps/details?id=com.kaizenmfb.kaizenmfbmobile"
                         target="_blank"
                         rel="noopener noreferrer"
+                        className="store-badge"
                       >
-                        <i className="flaticon-play-store"></i>
-                        <span>Google Play</span>
+                        <img src="/assets/images/google-play-badge.png" alt="Get it on Google Play" />
                       </a>
                       <a
                         href="https://apps.apple.com/ng/app/kaizen-mfb/id6748022197"
                         target="_blank"
                         rel="noopener noreferrer"
+                        className="store-badge"
                       >
-                        <i className="flaticon-apple"></i>
-                        <span>App Store</span>
+                        <img src="/assets/images/app-store-badge.svg" alt="Download on the App Store" />
                       </a>
                     </div>
                   </div>

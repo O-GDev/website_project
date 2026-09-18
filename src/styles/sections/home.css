@@ -407,6 +407,23 @@
   color: var(--theme-color);
 }
 
+.online-service .left-content .btn-box a.store-badge{
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+.online-service .left-content .btn-box a.store-badge img{
+  display: block;
+  height: 48px;
+  width: auto;
+  transition: transform 400ms ease;
+}
+
+.online-service .left-content .btn-box a.store-badge:hover img{
+  transform: scale(0.9);
+}
+
 .online-service .row.d_flex{
   display: flex;
   align-items: flex-end;

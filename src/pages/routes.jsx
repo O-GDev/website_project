@@ -19,7 +19,6 @@ import EasyEmiCardPage from './EasyEmiCardPage.jsx'
 import DinersClubPrivilegePage from './DinersClubPrivilegePage.jsx'
 import TitaniumCardPage from './TitaniumCardPage.jsx'
 import PlatinumCardPage from './PlatinumCardPage.jsx'
-import DebitCardsPage from './DebitCardsPage.jsx'
 import CareerDetailsPage from './CareerDetailsPage.jsx'
 import CareersPage from './CareersPage.jsx'
 import ContactPage from './ContactPage.jsx'
@@ -73,8 +72,6 @@ export default function AppRoutes(){
         <Route path="/card-details-utility" element={<UtilityCardsPage />} />
         <Route path="/card-details-verve" element={<VerveCardPage />} />
         <Route path="/card-details" element={<PlatinumCardPage />} />
-        <Route path="/cards-2" element={<DebitCardsPage />} />
-        <Route path="/cards-3" element={<DebitCardsPage />} />
         <Route path="/career-details" element={<CareerDetailsPage />} />
         <Route path="/careers" element={<CareersPage />} />
         <Route path="/contact" element={<ContactPage />} />

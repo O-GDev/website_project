@@ -89,7 +89,7 @@ export default function HomePage() {
                     covered.
                   </h2>
                   <div className="btn-box">
-                    <Link to="/cards-3">
+                    <Link to="/account">
                       <span>Explore Products</span>
                     </Link>
                   </div>

@@ -26,7 +26,7 @@ export default function CardsSection({ modClass = 'pt_120 pb_110' }) {
               <h5><i className="flaticon-sparkle"></i>Unlock Exclusive Rewards, <Link to="/">Apply Now</Link> and Elevate your Everyday Spending.</h5>
             </div>
             <div className="btn-box">
-              <Link to="/cards-3"><span>Enquire Now</span></Link>
+              <Link to="/card-details-verve"><span>Enquire Now</span></Link>
             </div>
           </div>
         </div>

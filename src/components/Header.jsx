@@ -54,18 +54,6 @@ function NavigationItems({ isMobile = false, onNavigate = () => {} }) {
               <li><Link to="/investments-details-6" onClick={onNavigate}>Investment Advisory</Link></li>
             </ul>
           </li>
-          <li className={`dropdown ${isDropdownOpen('cards') ? 'open' : ''}`}>
-            <a href="#cards" onClick={(e) => isMobile ? toggleDropdown(e, 'cards') : null}>Cards</a>
-            {isMobile && (
-              <div className={`dropdown-btn ${isDropdownOpen('cards') ? 'open' : ''}`} onClick={(e) => toggleDropdown(e, 'cards')}>
-                <span className="fas fa-angle-down"></span>
-              </div>
-            )}
-            <ul style={{ display: isMobile ? (isDropdownOpen('cards') ? 'block' : 'none') : undefined }}>
-              <li><Link to="/card-details-verve" onClick={onNavigate}>Verve Card</Link></li>
-              <li><Link to="/card-details-utility" onClick={onNavigate}>Utility Cards</Link></li>
-            </ul>
-          </li>
         </ul>
       </li>
       <li className={`dropdown ${isDropdownOpen('about') ? 'open' : ''}`}>
@@ -104,7 +92,18 @@ function NavigationItems({ isMobile = false, onNavigate = () => {} }) {
               <li><Link to="/kaizen-micro" onClick={onNavigate}>Kaizen Micro Loan</Link></li>
             </ul>
           </li>
-          <li><Link to="/cards-3" onClick={onNavigate}>Debit Card</Link></li>
+          <li className={`dropdown ${isDropdownOpen('cards') ? 'open' : ''}`}>
+            <a href="#cards" onClick={(e) => isMobile ? toggleDropdown(e, 'cards') : null}>Cards</a>
+            {isMobile && (
+              <div className={`dropdown-btn ${isDropdownOpen('cards') ? 'open' : ''}`} onClick={(e) => toggleDropdown(e, 'cards')}>
+                <span className="fas fa-angle-down"></span>
+              </div>
+            )}
+            <ul style={{ display: isMobile ? (isDropdownOpen('cards') ? 'block' : 'none') : undefined }}>
+              <li><Link to="/card-details-verve" onClick={onNavigate}>Verve Card</Link></li>
+              <li><Link to="/card-details-utility" onClick={onNavigate}>Utility Cards</Link></li>
+            </ul>
+          </li>
         </ul>
       </li>
       <li><Link to="/contact" onClick={onNavigate}>Get In Touch</Link></li>

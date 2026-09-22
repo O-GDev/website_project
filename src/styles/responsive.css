@@ -764,6 +764,10 @@
     padding: 0px 30px;
   }
 
+  .banner-section .banner-carousel .slide-item .pattern-layer{
+    width: calc(50% + 85px);
+  }
+
   .banner-carousel .content-box h2{
     font-size: 50px;
     line-height: 60px;

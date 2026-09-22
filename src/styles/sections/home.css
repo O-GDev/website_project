@@ -31,7 +31,7 @@
   position: absolute;
   left: 0px;
   top: 0px;
-  width: calc(50% + 85px);
+  width: calc(50% + 190px);
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1539,6 +1539,10 @@
   position: relative;
 }
 
+.calculator-section .auto-container{
+  max-width: 1400px;
+}
+
 .calculator-section .inner-container{
   position: relative;
   display: block;
@@ -1886,7 +1890,7 @@
 
 .calculator-section .image-layer{
   position: absolute;
-  left: max(15px, calc(50% - 600px));
+  left: max(15px, calc(50% - 700px));
   top: 40px;
   bottom: 40px;
   margin: 0;

@@ -28,7 +28,7 @@ export default function Footer(){
                   </div>
                   <div className="support-box">
                     <div className="icon-box"><img src="/assets/images/icons/icon-35.png" alt=""/></div>
-                    <h4><a href="mailto:info@kaizenng.com">info@kaizenng.com</a></h4>
+                    <h4><a href="mailto:info@kaizenmfb.com">info@kaizenmfb.com</a></h4>
                     <p>Send your queries.</p>
                     <div className="link-box"><Link to="/contact"><i className="flaticon-right-arrow"></i></Link></div>
                   </div>
@@ -68,9 +68,7 @@ export default function Footer(){
                 <div className="widget-content">
                   <ul className="links-list clearfix">
                     <li><Link to="/account">Accounts<i className="flaticon-next"></i></Link></li>
-                    <li><Link to="/">Fixed Deposits<i className="flaticon-next"></i></Link></li>
-                    <li><Link to="/loans-1">Loans<i className="flaticon-next"></i></Link></li>
-                    <li><Link to="/investments-details-6">Investments<i className="flaticon-next"></i></Link></li>
+                    <li><Link to="/kaizen-personal">Loans<i className="flaticon-next"></i></Link></li>
                   </ul>
                 </div>
               </div>

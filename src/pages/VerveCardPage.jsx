@@ -24,7 +24,7 @@ export default function VerveCardPage(){
 
 
         
-        <PageTitle title={"Verve Card"} crumbs={["Services","Cards"]} />
+        <PageTitle title={"Verve Card"} crumbs={[{ label: "Apply Now", to: "/kaizen-personal" }]} />
         
 
 
@@ -34,17 +34,8 @@ export default function VerveCardPage(){
                 <div className="row clearfix">
                     <div className="col-lg-3 col-md-12 col-sm-12 sidebar-side">
                         <div className="cards-sidebar pt_110 pb_120">
-                            <div className="category-widget mb_30">
-                                <div className="widget-title">
-                                    <h3>Card Types</h3>
-                                </div>
-                                <ul className="category-list clearfix">
-                                    <li><Link to="/card-details-verve">Verve Card</Link></li>
-                                    <li><Link to="/card-details-utility">Utility Cards</Link></li>
-                                </ul>
-                            </div>
                             <div className="contact-widget">
-                                <div className="inner-box" style={{backgroundImage: 'url(/assets/images/resource/sidebar-1.jpg)'}}>
+                                <div className="inner-box" style={{backgroundImage: 'url(/assets/images/banner/holdingcard.png)'}}>
                                     <h3>Now, Get Your Debit Card Online</h3>
                                     <span className="text">Approve with in 24 Hrs.</span>
                                     <Link to="/contact"><span>Apply Here</span></Link>
@@ -64,10 +55,10 @@ export default function VerveCardPage(){
                                 <div className="image-box">
                                     <div className="row clearfix">
                                         <div className="col-lg-6 col-md-6 col-sm-12 image-column">
-                                            <figure className="image"><img src="/assets/images/resource/card-6.jpg" alt="" /></figure>
+                                            <figure className="image"><img src="/assets/images/banner/kaizen_card_front.png" alt="Kaizen card front" /></figure>
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-sm-12 image-column">
-                                            <figure className="image"><img src="/assets/images/resource/card-7.jpg" alt="" /></figure>
+                                            <figure className="image"><img src="/assets/images/banner/kaizen_card_back.png" alt="Kaizen card back" /></figure>
                                         </div>
                                     </div>
                                 </div>

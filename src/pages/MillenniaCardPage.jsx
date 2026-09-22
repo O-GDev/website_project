@@ -24,7 +24,7 @@ export default function MillenniaCardPage(){
 
 
         
-        <PageTitle title={"Millinnia Card"} crumbs={["Services","Cards"]} />
+        <PageTitle title={"Millinnia Card"} crumbs={[{ label: "Apply Now", to: "/kaizen-personal" }, "Cards"]} />
         
 
 

@@ -836,7 +836,7 @@ export default function Account(){
 
 
         
-        <section className="instant-section sec-pad">
+        <section className="-section sec-pad">
             <div className="auto-container">
                 <div className="row clearfix">
                     <div className="col-lg-8 col-md-12 col-sm-12 content-column">

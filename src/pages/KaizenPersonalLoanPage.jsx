@@ -9,7 +9,7 @@ export default function KaizenPersonalLoanPage(){
   return (
     <>
     <div className="boxed_wrapper">
-        <PageTitle title={"Kaizen Personal Loan"} crumbs={["Apply Now"]} />
+        <PageTitle title={"Kaizen Personal Loan"} crumbs={[{ label: "Apply Now", to: "/kaizen-personal" }]} />
 
         <CardsSection modClass="pt_120" />
 

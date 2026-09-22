@@ -45,7 +45,6 @@ export default function LeadershipDetailsPage(){
                     </div>
                     <div className="col-lg-6 col-md-12 col-sm-12 content-column">
                         <div className="content-box">
-                            <h3>Hi, I am</h3>
                             <h2>{exec.name}</h2>
                             <span className="designation">{exec.designation}</span>
                             {exec.bio ? (

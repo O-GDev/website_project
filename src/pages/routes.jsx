@@ -28,17 +28,10 @@ import HomeExchangePage from './HomeExchangePage.jsx'
 import HomeSpotlightPage from './HomeSpotlightPage.jsx'
 import HomeInvestmentPage from './HomeInvestmentPage.jsx'
 import HomePage from './HomePage.jsx'
-import MultiCurrencyAccountPage from './MultiCurrencyAccountPage.jsx'
-import MutualFundsPage from './MutualFundsPage.jsx'
-import InsurancePage from './InsurancePage.jsx'
-import TaxDeferredInvestmentPage from './TaxDeferredInvestmentPage.jsx'
-import InvestmentAdvisoryPage from './InvestmentAdvisoryPage.jsx'
-import TradeFxPage from './TradeFxPage.jsx'
 import KaizenAssetLoanPage from './KaizenAssetLoanPage.jsx'
 import KaizenEnterpriseLoanPage from './KaizenEnterpriseLoanPage.jsx'
 import KaizenMicroLoanPage from './KaizenMicroLoanPage.jsx'
 import KaizenPersonalLoanPage from './KaizenPersonalLoanPage.jsx'
-import ApplyForLoanPage from './ApplyForLoanPage.jsx'
 import PartnersPage from './PartnersPage.jsx'
 import PrivacyPolicyPage from './PrivacyPolicyPage.jsx'
 import LeadershipDetailsPage from './LeadershipDetailsPage.jsx'
@@ -81,21 +74,10 @@ export default function AppRoutes(){
         <Route path="/index-3" element={<HomeSpotlightPage />} />
         <Route path="/index-4" element={<HomeInvestmentPage />} />
         <Route path="/" element={<HomePage />} />
-        <Route path="/investments-details-2" element={<MultiCurrencyAccountPage />} />
-        <Route path="/investments-details-3" element={<MutualFundsPage />} />
-        <Route path="/investments-details-4" element={<InsurancePage />} />
-        <Route path="/investments-details-5" element={<TaxDeferredInvestmentPage />} />
-        <Route path="/investments-details-6" element={<InvestmentAdvisoryPage />} />
-        <Route path="/investments-details" element={<TradeFxPage />} />
         <Route path="/kaizen-asset" element={<KaizenAssetLoanPage />} />
         <Route path="/kaizen-enterprise" element={<KaizenEnterpriseLoanPage />} />
         <Route path="/kaizen-micro" element={<KaizenMicroLoanPage />} />
         <Route path="/kaizen-personal" element={<KaizenPersonalLoanPage />} />
-        <Route path="/loans-1" element={<ApplyForLoanPage />} />
-        <Route path="/loans-2" element={<ApplyForLoanPage />} />
-        <Route path="/loans-3" element={<ApplyForLoanPage />} />
-        <Route path="/loans-4" element={<ApplyForLoanPage />} />
-        <Route path="/loans-5" element={<ApplyForLoanPage />} />
         <Route path="/partners" element={<PartnersPage />} />
         <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
         <Route path="/team-details" element={<LeadershipDetailsPage />} />

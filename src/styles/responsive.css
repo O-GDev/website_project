@@ -393,10 +393,25 @@
 
   .calculator-section .tab-btns .tab-btn{
     width: 50%;
+    flex: 1 1 45%;
   }
 
   .calculator-section .image-layer{
-    display: none;
+    position: relative;
+    display: block;
+    width: min(320px, 80%);
+    max-width: 320px;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    margin: 0 auto -60px;
+    z-index: 1;
+  }
+
+  .calculator-section .image-layer img{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 4;
   }
 
   .creditcard-section .card-inner{
@@ -1128,6 +1143,7 @@
 
   .calculator-section .tab-btns .tab-btn{
     width: 50%;
+    flex: 1 1 45%;
   }
 
   .creditcard-section .card-inner{
@@ -1349,6 +1365,7 @@
 
   .calculator-section .tab-btns .tab-btn{
     width: 100%;
+    flex: 1 1 100%;
   }
 
   .main-footer .contact-widget .schedule-inner{

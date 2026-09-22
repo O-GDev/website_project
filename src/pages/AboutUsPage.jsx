@@ -147,7 +147,7 @@ export default function AboutUsPage(){
                                 </div>
                                 <div className="text-box">
                                     <div className="icon-box"><img src="/assets/images/icons/icon-199.png" alt="" /></div>
-                                    <p>We are dedicated to improving the financial well-being of our customers by offering affordable and accessible financial products, promoting entrepreneurship, and supporting local businesses. We aim to create a lasting impact by empowering individuals and communities to unlock their potential and achieve long-term success.</p>
+                                    <p>To transform lives by providing tailored financial services, leveraging technology, and fostering continuous improvement while empowering individuals, entrepreneurs, and small businesses through ethical banking practices.</p>
                                 </div>
                             </div>
                         </div>
@@ -158,13 +158,14 @@ export default function AboutUsPage(){
                                 <div className="shape" style={{backgroundImage: 'url(/assets/images/shape/shape-44.png)'}}></div>
                                 <div className="icon-box"><img src="/assets/images/icons/icon-201.png" alt="" /></div>
                                 <h3>Our Core Values</h3>
-                                <p>We are committed to creating positive change in the lives of underserved communities by offering innovative financial solutions. Our focus is to foster sustainable growth and financial inclusion.</p>
                                 <ul className="list-item clearfix">
-                                    <li>Integrity</li>
-                                    <li>Customer Focus</li>
-                                    <li>Transparency</li>
-                                    <li>Accountability</li>
-                                    <li>Community Impact</li>
+                                    <li><strong>Continuous Improvement (Kaizen)</strong> – We embrace a culture of constant learning, innovation, and efficiency to better serve our customers.</li>
+                                    <li><strong>Financial Inclusion</strong> – We are dedicated to providing equal financial opportunities for underserved communities.</li>
+                                    <li><strong>Customer-Centricity</strong> – We prioritize our customers' financial well-being by offering tailored solutions with integrity and transparency.</li>
+                                    <li><strong>Innovation & Technology</strong> – We leverage cutting-edge technology to enhance accessibility, security, and efficiency in our services.</li>
+                                    <li><strong>Integrity & Trust</strong> – We operate with honesty, fairness, and accountability in all our interactions.</li>
+                                    <li><strong>Social & Economic Impact</strong> – We empower individuals and businesses to create sustainable economic growth and community development.</li>
+                                    <li><strong>Collaboration & Partnership</strong> – We believe in working with stakeholders to foster shared success and financial resilience.</li>
                                 </ul>
                             </div>
                         </div>
@@ -178,7 +179,7 @@ export default function AboutUsPage(){
                                 </div>
                                 <div className="text-box">
                                     <div className="icon-box"><img src="/assets/images/icons/icon-200.png" alt="" /></div>
-                                    <p>At Kaizen Microfinance Bank Limited, we are committed to creating positive change in the lives of underserved communities by offering innovative financial solutions. Our focus is to foster sustainable growth and financial inclusion by providing accessible, reliable, and customer-focused banking services to individuals, micro-entrepreneurs, and small businesses.</p>
+                                    <p>To be the leading microfinance institution driving financial inclusion and economic empowerment through innovative, accessible, and sustainable banking solutions.</p>
                                 </div>
                             </div>
                         </div>

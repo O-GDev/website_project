@@ -24,7 +24,7 @@ export default function MoneyBackCardPage(){
 
 
         
-        <PageTitle title={"Money Back Card"} crumbs={["Services","Cards"]} />
+        <PageTitle title={"Money Back Card"} crumbs={[{ label: "Apply Now", to: "/kaizen-personal" }, "Cards"]} />
         
 
 

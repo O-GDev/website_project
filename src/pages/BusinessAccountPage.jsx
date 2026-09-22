@@ -34,7 +34,7 @@ export default function BusinessAccountPage(){
 
 
         
-        <OverviewSection h2="Business Accounts" eligibility="Business Account Eligibility" />
+        <OverviewSection h2="Business Accounts" eligibility="Business Account Eligibility" showRate={false} description="A reliable account designed to support your business needs. Enjoy convenient banking services, easy access to your funds, and solutions that help your business grow." />
         
 
 

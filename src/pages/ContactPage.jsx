@@ -37,7 +37,7 @@ export default function ContactPage(){
                     <li>
                       <span>Phone &amp; Email:</span>
                       <a href="tel:+2349099900099">+234-909-990-0099</a>
-                      <a href="mailto:info@kaizenng.com">info@kaizenng.com</a>
+                      <a href="mailto:info@kaizenmfb.com">info@kaizenmfb.com</a>
                     </li>
                   </ul>
                 </div>
@@ -104,10 +104,10 @@ export default function ContactPage(){
                     <h4>Front Desk</h4>
                     <p>Speak directly with our support team.</p>
                     <h5><a href="tel:+2347063784146">+234-706-378-4146</a></h5>
-                    <h5><a href="mailto:info@kaizenng.com">info@kaizenng.com</a></h5>
+                    <h5><a href="mailto:info@kaizenmfb.com">info@kaizenmfb.com</a></h5>
                   </div>
                 </div>
-                <a className="theme-btn customer-care-btn" href="mailto:info@kaizenng.com"><span>Customer Care</span></a>
+                <a className="theme-btn customer-care-btn" href="mailto:info@kaizenmfb.com"><span>Customer Care</span></a>
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12">
                 <div className="form-inner">
@@ -183,14 +183,14 @@ export default function ContactPage(){
                             <td><h5>General Query/Complaint</h5></td>
                             <td>
                               <span><a href="tel:+2349099900099">+234-909-990-0099</a> (Call &amp; WhatsApp)</span>
-                              <span><a href="mailto:info@kaizenng.com">info@kaizenng.com</a></span>
+                              <span><a href="mailto:info@kaizenmfb.com">info@kaizenmfb.com</a></span>
                             </td>
                           </tr>
                           <tr>
                             <td><h5>Debit Card</h5></td>
                             <td>
                               <span><a href="tel:+2349055492841">+234-905-549-2841</a></span>
-                              <span><a href="mailto:info@kaizenng.com">info@kaizenng.com</a></span>
+                              <span><a href="mailto:info@kaizenmfb.com">info@kaizenmfb.com</a></span>
                             </td>
                           </tr>
                         </tbody>
@@ -213,7 +213,7 @@ export default function ContactPage(){
                             <td><h5>General Query/Complaint</h5></td>
                             <td>
                               <span><a href="tel:+2349099900099">+234-909-990-0099</a></span>
-                              <span><a href="mailto:info@kaizenng.com">info@kaizenng.com</a></span>
+                              <span><a href="mailto:info@kaizenmfb.com">info@kaizenmfb.com</a></span>
                             </td>
                           </tr>
                           <tr>

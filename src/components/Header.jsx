@@ -38,22 +38,6 @@ function NavigationItems({ isMobile = false, onNavigate = () => {} }) {
               <li><Link to="/account-details-6" onClick={onNavigate}>Business Account</Link></li>
             </ul>
           </li>
-          <li className={`dropdown ${isDropdownOpen('investments') ? 'open' : ''}`}>
-            <a href="#investments" onClick={(e) => isMobile ? toggleDropdown(e, 'investments') : null}>Fixed Deposit</a>
-            {isMobile && (
-              <div className={`dropdown-btn ${isDropdownOpen('investments') ? 'open' : ''}`} onClick={(e) => toggleDropdown(e, 'investments')}>
-                <span className="fas fa-angle-down"></span>
-              </div>
-            )}
-            <ul style={{ display: isMobile ? (isDropdownOpen('investments') ? 'block' : 'none') : undefined }}>
-              <li><Link to="/investments-details" onClick={onNavigate}>Trade FX</Link></li>
-              <li><Link to="/investments-details-2" onClick={onNavigate}>Multi Currency a/c</Link></li>
-              <li><Link to="/investments-details-3" onClick={onNavigate}>Mutual Funds</Link></li>
-              <li><Link to="/investments-details-4" onClick={onNavigate}>Insurance</Link></li>
-              <li><Link to="/investments-details-5" onClick={onNavigate}>Tax-Deferred Investment</Link></li>
-              <li><Link to="/investments-details-6" onClick={onNavigate}>Investment Advisory</Link></li>
-            </ul>
-          </li>
         </ul>
       </li>
       <li className={`dropdown ${isDropdownOpen('about') ? 'open' : ''}`}>

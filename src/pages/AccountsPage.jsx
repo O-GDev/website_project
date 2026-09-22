@@ -25,7 +25,7 @@ export default function AccountsPage(){
 
 
         
-        <PageTitle title={"Accounts"} crumbs={["Services"]} />
+        <PageTitle title={"Accounts"} crumbs={[{ label: "Services", to: "/account" }]} />
         
 
 

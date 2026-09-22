@@ -24,7 +24,7 @@ export default function DinersClubPrivilegePage(){
 
 
         
-        <PageTitle title={"Dinners Club Privilege"} crumbs={["Services","Cards"]} />
+        <PageTitle title={"Dinners Club Privilege"} crumbs={[{ label: "Apply Now", to: "/kaizen-personal" }, "Cards"]} />
         
 
 

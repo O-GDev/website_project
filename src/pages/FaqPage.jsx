@@ -37,22 +37,7 @@ export default function FaqPage(){
                     <h2>Read Questions & Answers</h2>
                 </div>
                 <div className="row clearfix">
-                    <div className="col-lg-4 col-md-12 col-sm-12 category-column">
-                        <div className="category-box">
-                            <h3>Categories</h3>
-                            <p>Wide range of topics to address common queries.</p>
-                            <ul className="category-list clearfix">
-                                <li><Link to="/">Account</Link></li>
-                                <li><Link to="/">Online Banking</Link></li>
-                                <li><Link to="/">Mobile Banking</Link></li>
-                                <li><Link to="/">Deposits</Link></li>
-                                <li><Link to="/">Withdrawals</Link></li>
-                                <li><Link to="/">Loans</Link></li>
-                                <li><Link to="/">Business</Link></li>
-                            </ul>
-                            </div>
-                    </div>
-                    <div className="col-lg-8 col-md-12 col-sm-12 accordion-column">
+                    <div className="col-lg-12 col-md-12 col-sm-12 accordion-column">
                         <ul className="accordion-box">
                             <li className="accordion block active-block">
                                 <div className="acc-btn active">

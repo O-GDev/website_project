@@ -24,7 +24,7 @@ export default function TitaniumCardPage(){
 
 
         
-        <PageTitle title={"Titanium Times"} crumbs={["Services","Cards"]} />
+        <PageTitle title={"Titanium Times"} crumbs={[{ label: "Apply Now", to: "/kaizen-personal" }, "Cards"]} />
         
 
 

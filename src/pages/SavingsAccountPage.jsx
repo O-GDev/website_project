@@ -34,7 +34,7 @@ export default function SavingsAccountPage(){
 
 
         
-        <OverviewSection />
+        <OverviewSection showRate={false} description="Save with confidence and take control of your financial future. Our Savings Account provides a secure and convenient way to manage your money, build your savings, and achieve your financial goals." />
         
 
 

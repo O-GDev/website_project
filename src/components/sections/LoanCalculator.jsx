@@ -81,7 +81,6 @@ export default function LoanCalculator() {
         <img src="/assets/images/resource/men-2.png" alt="" />
         <span className="image-overlay"></span>
       </figure>
-      <span className="big-text">Calculation <br />Instant</span>
       <div className="auto-container">
         <div className="inner-container">
           <Tabs className="tabs-box">

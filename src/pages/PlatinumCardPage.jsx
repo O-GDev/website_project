@@ -24,7 +24,7 @@ export default function PlatinumCardPage(){
 
 
         
-        <PageTitle title={"Platinum Card"} crumbs={["Services","Cards"]} />
+        <PageTitle title={"Platinum Card"} crumbs={[{ label: "Apply Now", to: "/kaizen-personal" }, "Cards"]} />
         
 
 

@@ -382,6 +382,12 @@
   padding: 40px 30px 33px 30px;
 }
 
+.statements-block-one .inner-box .text-box p{
+  text-align: justify;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
 .statements-block-one .inner-box .text-box:before{
   position: absolute;
   content: '';
@@ -451,6 +457,7 @@
   display: block;
   margin-bottom: 10px;
   padding-left: 30px;
+  text-align: left;
 }
 
 .statements-block-two .inner-box .list-item li:last-child{
@@ -827,7 +834,7 @@
   display: block;
   font-size: 36px;
   line-height: 44px;
-  margin-bottom: 11px;
+  margin-bottom: 2px;
 }
 
 .team-details .content-box .designation{
@@ -838,6 +845,7 @@
 
 .team-details .content-box p{
   margin-bottom: 23px;
+  text-align: justify;
 }
 
 .team-details .content-box .list-item li{

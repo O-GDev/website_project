@@ -43,10 +43,10 @@
   right:0;
   left:auto;
   top:0;
-  width:calc(42% + 150px);
+  width:calc(50% + 100px);
   height:100%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center 30%;
   background-size: cover;
   -webkit-transform:scale(1);
   -ms-transform:scale(1);
@@ -60,7 +60,13 @@
 
 .banner-carousel .slide-item .bg-layer.slide-image{
   background-size: cover;
-  background-position: right center;
+  background-position: center 30%;
+}
+
+/* React flex carousel: kill legacy Owl clearfix phantom item that adds left/transition space */
+.banner-carousel .owl-stage::after{
+  content: none !important;
+  display: none !important;
 }
   
 .banner-carousel .active .slide-item .bg-layer{
@@ -1538,12 +1544,16 @@
   display: block;
   background: #fff;
   z-index: 2;
-  margin-left: 420px;
+  margin-left: 320px;
 }
 
 @media only screen and (max-width: 1199px) {
   .calculator-section .inner-container{
-    margin-left: 340px;
+    margin-left: 260px;
+  }
+  .calculator-section .image-layer{
+    width: 340px;
+    max-width: 340px;
   }
 }
 
@@ -1555,9 +1565,13 @@
   .calculator-section .image-layer{
     position: relative;
     display: block;
-    max-width: 280px;
-    width: 80%;
-    margin: 0 auto 30px;
+    width: min(320px, 80%);
+    max-width: 320px;
+    margin: 0 auto -60px;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    z-index: 1;
   }
 
   .calculator-section .image-layer img{
@@ -1566,21 +1580,28 @@
     width: 100%;
     max-width: 100%;
     height: auto;
-    border-radius: 10px;
+    aspect-ratio: 3 / 4;
+    border-radius: 12px;
   }
 }
 
 .calculator-section .tab-btns{
   position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
 }
 
 .calculator-section .tab-btns .tab-btn{
   position: relative;
-  display: block;
-  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 0;
+  min-width: 0;
   width: 25%;
   text-align: center;
-  padding: 21px 15px;
+  padding: 18px 10px;
   background: var(--secondary-color);
   cursor: pointer;
 }
@@ -1602,11 +1623,13 @@
 
 .calculator-section .tab-btns .tab-btn h4{
   display: block;
-  font-size: 20px;
-  line-height: 28px;
+  width: 100%;
+  font-size: clamp(14px, 1.3vw, 20px);
+  line-height: 1.4;
   color: #fff;
   opacity: 0.5;
   transition: all 500ms ease;
+  overflow-wrap: break-word;
 }
 
 .calculator-section .tab-btns .tab-btn.active-btn h4{
@@ -1618,7 +1641,7 @@
   display: block;
   padding: 43px 50px 50px 50px;
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.10);
-  margin-right: -50px;
+  margin-right: 0px;
 }
 
 .calculator-section .content-box .left-content .lower-text{
@@ -1684,6 +1707,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 12px;
   margin-bottom: 13px;
 }
 
@@ -1697,6 +1721,7 @@
   display: block;
   font-size: 16px;
   line-height: 24px;
+  white-space: nowrap;
 }
 
 .progress-block-one .inner-box{
@@ -1795,9 +1820,10 @@
 }
 
 .calculator-section .amount-box .emi-box h3{
-  font-size: 30px;
-  line-height: 38px;
+  font-size: clamp(22px, 2.2vw, 30px);
+  line-height: 1.25;
   color: #fff;
+  overflow-wrap: break-word;
 }
 
 .calculator-section .amount-box .emi-box .btn-box{
@@ -1860,17 +1886,24 @@
 
 .calculator-section .image-layer{
   position: absolute;
-  left: 0px;
-  top: 0px;
-  bottom: 0px;
+  left: max(15px, calc(50% - 600px));
+  top: 40px;
+  bottom: 40px;
   margin: 0;
   z-index: 1;
+  width: 410px;
+  max-width: 410px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.18);
 }
 
 .calculator-section .image-layer img{
   display: block;
   height: 100%;
-  width: auto;
+  width: 100%;
+  object-fit: cover;
+  object-position: center top;
 }
 
 .calculator-section .image-layer .image-overlay{
@@ -1887,18 +1920,7 @@
 }
 
 .calculator-section .big-text{
-  position: absolute;
-  right: 56px;
-  bottom: 46px;
-  font-size: 44px;
-  line-height: 44px;
-  font-family: var(--title-font);
-  color: #1e242a;
-  font-weight: 800;
-  text-transform: uppercase;
-  writing-mode: vertical-lr;
-  transform: rotate(180deg);
-  text-align: center;
+  display: none !important;
 }
 
 

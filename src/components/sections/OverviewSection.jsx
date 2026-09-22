@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default function OverviewSection({ h2 = 'Savings Accounts', eligibility = 'Savings Account Eligibility' }) {
+export default function OverviewSection({ h2 = 'Savings Accounts', eligibility = 'Savings Account Eligibility', showRate = true, description = 'Fail in their duty through weakness of will which is the same saying through shrinking from toil and pain cases are perfectly simple and occurs that pleasures be repudiated to distinguish.' }) {
   return (
     <section className="overview-section sec-pad">
       <div className="auto-container">
@@ -13,9 +13,13 @@ export default function OverviewSection({ h2 = 'Savings Accounts', eligibility =
                 <h2>Earn More with <br />Our {h2}</h2>
               </div>
               <div className="text-box">
-                <h4>Get up to</h4>
-                <h2>8.25% <span>Interest per annum</span></h2>
-                <p>Fail in their duty through weakness of will which is the same saying through shrinking from toil and pain cases are perfectly simple and occurs that pleasures be repudiated to distinguish.</p>
+                {showRate && (
+                  <>
+                    <h4>Get up to</h4>
+                    <h2>8.25% <span>Interest per annum</span></h2>
+                  </>
+                )}
+                <p>{description}</p>
               </div>
               <div className="btn-box">
                 <Link to="/account-details"><span>Open Your Account</span></Link>

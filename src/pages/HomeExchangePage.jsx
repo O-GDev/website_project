@@ -106,7 +106,7 @@ export default function HomeExchangePage(){
                                         </div>
                                     </div>
                                     <div className="btn-box">
-                                        <Link to="/investments-details"><span>Start Investing Now</span></Link>
+                                        <Link to="/account"><span>Start Investing Now</span></Link>
                                     </div>
                                 </div>
                             </div>
@@ -135,7 +135,7 @@ export default function HomeExchangePage(){
                                         </div>
                                     </div>
                                     <div className="btn-box">
-                                        <Link to="/loans-1"><span>Check Loan Eligibility</span></Link>
+                                        <Link to="/kaizen-personal"><span>Check Loan Eligibility</span></Link>
                                     </div>
                                 </div>
                             </div>

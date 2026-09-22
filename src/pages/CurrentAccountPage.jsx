@@ -34,7 +34,7 @@ export default function CurrentAccountPage(){
 
 
         
-        <OverviewSection h2="Current Accounts" eligibility="Current Account Eligibility" />
+        <OverviewSection h2="Current Accounts" eligibility="Current Account Eligibility" showRate={false} description="Our Current Account is designed to give individuals and businesses the flexibility they need to manage their everyday finances. Whether you are receiving payments, making transfers, paying bills, or handling regular expenses, our account provides convenient access to your money while keeping your finances organized." />
         
 
 

@@ -29,8 +29,8 @@ export default function Index(){
         <section className="banner-section p_relative">
             <Carousel className="banner-carousel owl-theme owl-carousel">
                 <div className="slide-item p_relative">
-                    <div className="bg-layer" style={{backgroundImage: 'url(/assets/images/banner/image1.webp)'}}></div>
-                    <div className="pattern-layer" style={{backgroundImage: 'url(/assets/images/shape/shape-1.png)'}}></div>
+                    <div className="bg-layer bg-red-600" style={{backgroundImage: 'url(/assets/images/banner/image1.webp)'}}></div>
+                    <div className="pattern-layer w-full" style={{backgroundImage: 'url(/assets/imges/shape/shape-1.png)'}}></div>
                     <div className="outer-container">
                         <div className="content-box">
                             <h5><span>Kaizen Savings</span> Grow every naira</h5>
@@ -41,7 +41,7 @@ export default function Index(){
                 </div>
                 <div className="slide-item p_relative">
                     <div className="bg-layer" style={{backgroundImage: 'url(/assets/images/banner/ATM.webp)'}}></div>
-                    <div className="pattern-layer" style={{backgroundImage: 'url(/assets/images/shape/shape-1.png)'}}></div>
+                    <div className="pattern-layer" style={{backgroundImage: 'url(/assets/imges/shape/shape-1.png)'}}></div>
                     <div className="outer-container">
                         <div className="content-box">
                             <h5><span>Kaizen Channels</span> Banking that fits your life</h5>

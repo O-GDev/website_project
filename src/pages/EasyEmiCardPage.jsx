@@ -24,7 +24,7 @@ export default function EasyEmiCardPage(){
 
 
         
-        <PageTitle title={"Easy EMI Card"} crumbs={["Services","Cards"]} />
+        <PageTitle title={"Easy EMI Card"} crumbs={[{ label: "Apply Now", to: "/kaizen-personal" }, "Cards"]} />
         
 
 

@@ -119,7 +119,7 @@ export default function PrivacyPolicyPage() {
               <div className="legal-block">
                 <p><strong>Kaizen Microfinance Bank Limited</strong></p>
                 <p>154 Awolowo Road, Ikoyi, Lagos, Nigeria</p>
-                <p>Email: <a href="mailto:info@kaizenng.com">info@kaizenng.com</a></p>
+                <p>Email: <a href="mailto:info@kaizenmfb.com">info@kaizenmfb.com</a></p>
               </div>
 
               <div className="lower-box">

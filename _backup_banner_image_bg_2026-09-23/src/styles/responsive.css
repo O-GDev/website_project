@@ -112,16 +112,6 @@
     padding: 0px;
   }
 
-  .banner-carousel .content-box h2{
-    font-size: 58px;
-    line-height: 66px;
-  }
-
-  .banner-carousel .content-box h5{
-    font-size: 16px;
-    line-height: 24px;
-  }
-
 }
 
 
@@ -329,11 +319,6 @@
 
   .blog-sidebar{
     margin-left: 0px;
-  }
-
-  .banner-carousel .content-box h2{
-    font-size: 48px;
-    line-height: 56px;
   }
 
 }       
@@ -771,16 +756,6 @@
     width: 100%;
   }
 
-  .banner-carousel .content-box h2{
-    font-size: 40px;
-    line-height: 48px;
-  }
-
-  .banner-carousel .content-box h5{
-    font-size: 14px;
-    line-height: 22px;
-  }
-
 }
 
 
@@ -789,40 +764,13 @@
     padding: 0px 30px;
   }
 
-  .banner-section .banner-carousel .slide-item .pattern-layer{
-    width: calc(50% + 85px);
-  }
-
   .banner-carousel .content-box h2{
-    font-size: 32px;
-    line-height: 40px;
-  }
-
-  .banner-carousel .content-box h5{
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 50px;
+    line-height: 60px;
   }
 
   .banner-carousel .slide-item{
     padding: 100px 0px;
-  }
-
-  .banner-carousel .slide-item .bg-layer{
-    filter: none;
-    -webkit-filter: none;
-    transform: none;
-  }
-
-  .banner-section .banner-carousel .slide-item .pattern-layer{
-    right: auto;
-    left: 0px;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .banner-section .banner-carousel .content-box{
-    max-width: 100%;
   }
 
   .online-service .right-content .content-box{
@@ -1179,22 +1127,6 @@
 @media only screen and (max-width: 599px){
   .main-header .menu-right-content .search-box{
     display: none;
-  }
-
-  .banner-carousel .content-box h2{
-    font-size: 26px;
-    line-height: 34px;
-  }
-
-  .banner-carousel .content-box h5{
-    font-size: 12px;
-    line-height: 18px;
-  }
-
-  .banner-carousel .content-box .btn-box .theme-btn,
-  .banner-carousel .content-box .btn-box a{
-    font-size: 13px;
-    padding: 12px 24px;
   }
 
   .main-header .header-lower .outer-container{

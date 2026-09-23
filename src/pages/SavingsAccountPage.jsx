@@ -1,7 +1,6 @@
 import React from 'react'
 import FeaturesSection from '../components/sections/FeaturesSection'
 import OverviewSection from '../components/sections/OverviewSection'
-import PerformanceSection from '../components/sections/PerformanceSection'
 import DocumentsSection from '../components/sections/DocumentsSection'
 import WorkingSection from '../components/sections/WorkingSection'
 import PageTitle from '../components/sections/PageTitle'
@@ -29,12 +28,12 @@ export default function SavingsAccountPage(){
 
 
         
-        <PageTitle title={"Savings Account"} crumbs={["Services", { label: "Accounts", to: "/account" }]} />
+        <PageTitle title={"Savings Account"} crumbs={["Services", "Accounts"]} />
         
 
 
         
-        <OverviewSection showRate={false} description="Save with confidence and take control of your financial future. Our Savings Account provides a secure and convenient way to manage your money, build your savings, and achieve your financial goals." />
+        <OverviewSection showRate={false} showEligibility={false} description="Save with confidence and take control of your financial future. Our Savings Account provides a secure and convenient way to manage your money, build your savings, and achieve your financial goals." />
         
 
 
@@ -54,7 +53,6 @@ export default function SavingsAccountPage(){
 
 
         
-        <PerformanceSection />
         
 
 

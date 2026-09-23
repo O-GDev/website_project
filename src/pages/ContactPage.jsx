@@ -103,7 +103,7 @@ export default function ContactPage(){
                     </div>
                     <h4>Front Desk</h4>
                     <p>Speak directly with our support team.</p>
-                    <h5><a href="tel:+2347063784146">+234-706-378-4146</a></h5>
+                    <h5><a href="tel:+2349099900099">+234-909-990-0099</a></h5>
                     <h5><a href="mailto:info@kaizenmfb.com">info@kaizenmfb.com</a></h5>
                   </div>
                 </div>
@@ -182,7 +182,7 @@ export default function ContactPage(){
                           <tr>
                             <td><h5>General Query/Complaint</h5></td>
                             <td>
-                              <span><a href="tel:+2349099900099">+234-909-990-0099</a> (Call &amp; WhatsApp)</span>
+                              <span><a href="tel:+2349099900099">+234-909-990-0099</a></span>
                               <span><a href="mailto:info@kaizenmfb.com">info@kaizenmfb.com</a></span>
                             </td>
                           </tr>

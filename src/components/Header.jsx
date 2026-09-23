@@ -182,7 +182,7 @@ export default function Header() {
                   <a href="https://kaizenmfb.qoreonline.com/" target="_blank" rel="noreferrer">Open New Account</a>
                 </div>
                 <div className="btn-box mr_10">
-                  <Link to="/account" className="theme-btn"><span>New Account</span></Link>
+                  <Link to="/account-details" className="theme-btn"><span>New Account</span></Link>
                 </div>
                 <div className="nav-toggler">
                   <button
@@ -280,7 +280,7 @@ export default function Header() {
                   <a href="https://kaizenmfb.qoreonline.com/" target="_blank" rel="noreferrer">Open New Account</a>
                 </div>
                 <div className="btn-box mr_10">
-                  <Link to="/account" className="theme-btn"><span>New Account</span></Link>
+                  <Link to="/account-details" className="theme-btn"><span>New Account</span></Link>
                 </div>
                 <div className="nav-toggler">
                   <button

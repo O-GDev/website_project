@@ -9,7 +9,6 @@ import { Link } from 'react-router-dom'
  * <PageTitle title="Current Account" crumbs={["Services", "Accounts"]} heading="h2">
  */
 export default function PageTitle({ title, crumbs, heading = 'h1' }) {
-  const path = crumbs || []
   const Tag = heading
   return (
     <section className="page-title">
@@ -17,13 +16,6 @@ export default function PageTitle({ title, crumbs, heading = 'h1' }) {
       <div className="auto-container">
         <div className="content-box">
           <Tag>{title}</Tag>
-          <ul className="bread-crumb clearfix">
-            <li><Link to="/">Home</Link></li>
-            {path.map((c, i) => (
-              <li key={i}>{typeof c === 'string' ? c : <Link to={c.to}>{c.label}</Link>}</li>
-            ))}
-            <li><span>{title}</span></li>
-          </ul>
         </div>
       </div>
     </section>

@@ -7,7 +7,6 @@ import SeniorCitizenAccountPage from './SeniorCitizenAccountPage.jsx'
 import DematAccountPage from './DematAccountPage.jsx'
 import BusinessAccountPage from './BusinessAccountPage.jsx'
 import SavingsAccountPage from './SavingsAccountPage.jsx'
-import AccountsPage from './AccountsPage.jsx'
 import BlogWideGridPage from './BlogWideGridPage.jsx'
 import BlogListPage from './BlogListPage.jsx'
 import BlogListStyledPage from './BlogListStyledPage.jsx'
@@ -37,6 +36,7 @@ import PrivacyPolicyPage from './PrivacyPolicyPage.jsx'
 import LeadershipDetailsPage from './LeadershipDetailsPage.jsx'
 import LeadershipPage from './LeadershipPage.jsx'
 import TestimonialsPage from './TestimonialsPage.jsx'
+import TermsAndConditionsPage from './TermsAndConditionsPage.jsx'
 import UtilityCardsPage from './UtilityCardsPage.jsx'
 import VerveCardPage from './VerveCardPage.jsx'
 
@@ -51,7 +51,6 @@ export default function AppRoutes(){
         <Route path="/account-details-5" element={<DematAccountPage />} />
         <Route path="/account-details-6" element={<BusinessAccountPage />} />
         <Route path="/account-details" element={<SavingsAccountPage />} />
-        <Route path="/account" element={<AccountsPage />} />
         <Route path="/blog-2" element={<BlogWideGridPage />} />
         <Route path="/blog-3" element={<BlogListPage />} />
         <Route path="/blog-4" element={<BlogListStyledPage />} />
@@ -80,6 +79,7 @@ export default function AppRoutes(){
         <Route path="/kaizen-personal" element={<KaizenPersonalLoanPage />} />
         <Route path="/partners" element={<PartnersPage />} />
         <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+        <Route path="/terms-and-conditions" element={<TermsAndConditionsPage />} />
         <Route path="/team-details" element={<LeadershipDetailsPage />} />
         <Route path="/team-details/:id" element={<LeadershipDetailsPage />} />
         <Route path="/team" element={<LeadershipPage />} />

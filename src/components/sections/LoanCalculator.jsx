@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import Tabs from '../ui/Tabs'
 
 const CALC_DEFAULTS = {
-  amount: { title: 'Loan Amount', value: '$500000', labels: ['$50,000', '$2.5 million'], percent: '20%' },
+  amount: { title: 'Loan Amount', value: '₦500000', labels: ['₦50,000', '₦2.5 million'], percent: '20%' },
   term: { title: 'Loan Term (Years)', value: '20', labels: ['20 Years', '40 Years'], percent: '50%' },
   rate: { title: 'Interest Rate', value: '8.5%', labels: ['6%', '18%'], percent: '33.333%' },
 }
@@ -56,19 +56,19 @@ const AMOUNT_BOX = (
     <div className="emi-box centred">
       <div className="icon-box"><img src="/assets/images/icons/icon-32.png" alt="" /></div>
       <h5>Monthly EMI</h5>
-      <h3>$4,340.00</h3>
+      <h3>₦4,340.00</h3>
       <div className="btn-box"><Link to="/"><span>Apply Online</span></Link></div>
     </div>
     <div className="interest-amount">
       <div className="single-amount">
         <div className="icon-box"><i className="flaticon-sparkle"></i></div>
         <h5>Interest Amount</h5>
-        <span>$541,388</span>
+        <span>₦541,388</span>
       </div>
       <div className="single-amount">
         <div className="icon-box"><i className="flaticon-sparkle"></i></div>
         <h5>Interest Amount</h5>
-        <span>$541,388</span>
+        <span>₦541,388</span>
       </div>
     </div>
   </div>
@@ -79,7 +79,6 @@ export default function LoanCalculator() {
     <section className="calculator-section pt_120 pb_120">
       <figure className="image-layer">
         <img src="/assets/images/resource/men-2.png" alt="" />
-        <span className="image-overlay"></span>
       </figure>
       <div className="auto-container">
         <div className="inner-container">

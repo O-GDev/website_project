@@ -1,7 +1,6 @@
 import React from 'react'
 import FeaturesSection from '../components/sections/FeaturesSection'
 import OverviewSection from '../components/sections/OverviewSection'
-import PerformanceSection from '../components/sections/PerformanceSection'
 import DocumentsSection from '../components/sections/DocumentsSection'
 import WorkingSection from '../components/sections/WorkingSection'
 import PageTitle from '../components/sections/PageTitle'
@@ -29,12 +28,12 @@ export default function BusinessAccountPage(){
 
 
         
-        <PageTitle title={"Business Account"} crumbs={["Services", { label: "Accounts", to: "/account" }]} />
+        <PageTitle title={"Business Account"} crumbs={["Services", "Accounts"]} />
         
 
 
         
-        <OverviewSection h2="Business Accounts" eligibility="Business Account Eligibility" showRate={false} description="A reliable account designed to support your business needs. Enjoy convenient banking services, easy access to your funds, and solutions that help your business grow." />
+        <OverviewSection h2="Business Accounts" eligibility="Business Account Eligibility" showRate={false} showEligibility={false} description="A reliable account designed to support your business needs. Enjoy convenient banking services, easy access to your funds, and solutions that help your business grow." />
         
 
 
@@ -54,7 +53,6 @@ export default function BusinessAccountPage(){
 
 
         
-        <PerformanceSection />
         
 
 

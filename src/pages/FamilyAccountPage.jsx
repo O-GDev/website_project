@@ -1,7 +1,6 @@
 import React from 'react'
 import FeaturesSection from '../components/sections/FeaturesSection'
 import OverviewSection from '../components/sections/OverviewSection'
-import PerformanceSection from '../components/sections/PerformanceSection'
 import DocumentsSection from '../components/sections/DocumentsSection'
 import WorkingSection from '../components/sections/WorkingSection'
 import PageTitle from '../components/sections/PageTitle'
@@ -29,7 +28,7 @@ export default function FamilyAccountPage(){
 
 
         
-        <PageTitle title={"Family 360º"} crumbs={["Services", { label: "Accounts", to: "/account" }]} />
+        <PageTitle title={"Family 360º"} crumbs={["Services", "Accounts"]} />
         
 
 
@@ -54,7 +53,6 @@ export default function FamilyAccountPage(){
 
 
         
-        <PerformanceSection />
         
 
 

@@ -15,8 +15,8 @@ export default function Footer(){
                     <div className="contact-info">
                       <h3>Enquiry</h3>
                       <ul className="list-item clearfix">
-                        <li><a href="tel:08008961234">0800 896 1234</a> <span>(Toll Free) <br/>Personal</span></li>
-                        <li><a href="tel:496912345678">+49 69 1234 5678</a> <br/><span>Corporate</span></li>
+                        <li><a href="tel:+2349055492841">0905 549 2841</a> <br/><span>Personal</span></li>
+                        <li><a href="tel:+2349099900099">0909 990 0099</a> <br/><span>Corporate</span></li>
                       </ul>
                     </div>
                     <div className="opening-hour">
@@ -67,7 +67,7 @@ export default function Footer(){
                 </div>
                 <div className="widget-content">
                   <ul className="links-list clearfix">
-                    <li><Link to="/account">Accounts<i className="flaticon-next"></i></Link></li>
+                    <li><Link to="/account-details">Accounts<i className="flaticon-next"></i></Link></li>
                     <li><Link to="/kaizen-personal">Loans<i className="flaticon-next"></i></Link></li>
                   </ul>
                 </div>
@@ -113,7 +113,7 @@ export default function Footer(){
             </div>
             <ul className="footer-nav clearfix">
               <li><Link to="/privacy-policy">Privacy Policy</Link></li>
-              <li><Link to="/">Terms & Conditions</Link></li>
+              <li><Link to="/terms-and-conditions">Terms & Conditions</Link></li>
               <li><Link to="/">Disclaimer.</Link></li>
             </ul>
           </div>

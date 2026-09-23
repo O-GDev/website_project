@@ -10,14 +10,19 @@ export default function HomePage() {
       <div className="boxed_wrapper">
         <section className="banner-section p_relative">
           <Carousel className="banner-carousel owl-theme owl-carousel">
-            <div className="slide-item p_relative full-bg">
+            <div className="slide-item p_relative">
               <div
                 className="bg-layer"
                 style={{
-                  backgroundImage: "url(/assets/images/banner/image1.1.png)",
+                  backgroundImage: "url(/assets/images/banner/image1.webp)",
                 }}
               ></div>
-              <div className="overlay-layer"></div>
+              <div
+                className="pattern-layer"
+                style={{
+                  backgroundImage: "url(/assets/images/shape/shape-1.png)",
+                }}
+              ></div>
               <div className="outer-container">
                 <div className="content-box">
                   <h5>
@@ -27,21 +32,26 @@ export default function HomePage() {
                     It's your turn to achieve more with Kaizen Microfiance Bank.
                   </h2>
                   <div className="btn-box">
-                    <Link to="/account-details" className="theme-btn">
+                    <Link to="/account-details">
                       <span>Open an Account</span>
                     </Link>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="slide-item p_relative full-bg">
+            <div className="slide-item p_relative">
               <div
                 className="bg-layer"
                 style={{
-                  backgroundImage: "url(/assets/images/banner/image2.1.jpg)",
+                  backgroundImage: "url(/assets/images/banner/slide1.2.png)",
                 }}
               ></div>
-              <div className="overlay-layer"></div>
+              <div
+                className="pattern-layer"
+                style={{
+                  backgroundImage: "url(/assets/images/shape/shape-1.png)",
+                }}
+              ></div>
               <div className="outer-container">
                 <div className="content-box">
                   <h5>
@@ -49,21 +59,26 @@ export default function HomePage() {
                   </h5>
                   <h2>There is a Kaizen banking channel for you!</h2>
                   <div className="btn-box">
-                    <Link to="/contact" className="theme-btn">
+                    <Link to="/contact">
                       <span>Get In Touch</span>
                     </Link>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="slide-item p_relative full-bg">
+            <div className="slide-item p_relative">
               <div
                 className="bg-layer"
                 style={{
-                  backgroundImage: "url(/assets/images/banner/image3.0.jpeg)",
+                  backgroundImage: "url(/assets/images/banner/image3.3.webp)",
                 }}
               ></div>
-              <div className="overlay-layer"></div>
+              <div
+                className="pattern-layer"
+                style={{
+                  backgroundImage: "url(/assets/images/shape/shape-1.png)",
+                }}
+              ></div>
               <div className="outer-container">
                 <div className="content-box">
                   <h5>
@@ -74,7 +89,7 @@ export default function HomePage() {
                     covered.
                   </h2>
                   <div className="btn-box">
-                    <Link to="/account-details" className="theme-btn">
+                    <Link to="/account">
                       <span>Explore Products</span>
                     </Link>
                   </div>

@@ -34,7 +34,7 @@ export default function WorkingSection({ modClass = 'alternat-2 centred', icons,
           ))}
         </div>
         <div className={light ? 'more-text light centred' : 'more-text centred'}>
-          <h5><i className="flaticon-sparkle"></i>Your Financial Future Starts Here, <Link to="/index-2">Start Your Account.</Link></h5>
+          <h5><i className="flaticon-sparkle"></i>Your Financial Future Starts Here, <a href="https://kaizenmfb.qoreonline.com/" target="_blank" rel="noreferrer">Start Your Account.</a></h5>
         </div>
       </div>
     </section>

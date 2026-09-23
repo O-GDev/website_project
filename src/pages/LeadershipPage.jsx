@@ -29,11 +29,6 @@ export default function LeadershipPage(){
             <div className="auto-container">
                 <div className="content-box">
                     <h1>Leadership</h1>
-                    <ul className="bread-crumb clearfix">
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/about">About</Link></li>
-                        <li><span>Leadership</span></li>
-                    </ul>
                 </div>
             </div>
         </section>

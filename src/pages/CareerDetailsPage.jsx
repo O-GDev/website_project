@@ -37,7 +37,7 @@ export default function CareerDetailsPage(){
                             <div className="upper-box">
                                 <span className="text">Finance Department</span>
                                 <h3>Sales Representative</h3>
-                                <span className="location"><img src="/assets/images/icons/icon-210.png" alt="" />Lagos, Nigeria</span>
+                                <span className="location"><img loading="lazy" src="/assets/images/icons/icon-210.png" alt="" />Lagos, Nigeria</span>
                                 <div className="btn-box"><Link to="/career-details"><i className="flaticon-right-arrow"></i><span>Apply Now</span></Link></div>
                             </div>
                             <div className="content-one mb_35">
@@ -90,7 +90,7 @@ export default function CareerDetailsPage(){
                                 </ul>
                             </div>
                             <div className="support-box">
-                                <figure className="image-box"><img src="/assets/images/resource/support-1.png" alt="" /></figure>
+                                <figure className="image-box"><img loading="lazy" src="/assets/images/resource/support-1.png" alt="" /></figure>
                                 <div className="lower-content">
                                     <span className="big-text">support</span>
                                     <ul className="info-list mb_30 pb_3 clearfix">

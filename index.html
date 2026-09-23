@@ -6,6 +6,10 @@
     <title>Kaizenbank - React</title>
     <!-- Assets are served locally from /assets (inside this project) -->
     <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+    <!-- Preload critical hero images for fast first paint -->
+    <link rel="preload" as="image" href="/assets/images/banner/image1.1.webp" fetchpriority="high">
+    <link rel="preload" as="image" href="/assets/images/banner/image2.1.jpg">
+    <link rel="preload" as="image" href="/assets/images/banner/image3.0.jpeg">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">

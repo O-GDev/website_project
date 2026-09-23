@@ -54,9 +54,9 @@ export default function HomeInvestmentPage(){
                                 <div className="single-item">
                                     <h4>Join With 20k+ Account Holder</h4>
                                     <ul className="clients-list">
-                                        <li><img src="/assets/images/resource/clients-1.png" alt="" /></li>
-                                        <li><img src="/assets/images/resource/clients-2.png" alt="" /></li>
-                                        <li><img src="/assets/images/resource/clients-3.png" alt="" /></li>
+                                        <li><img loading="lazy" src="/assets/images/resource/clients-1.png" alt="" /></li>
+                                        <li><img loading="lazy" src="/assets/images/resource/clients-2.png" alt="" /></li>
+                                        <li><img loading="lazy" src="/assets/images/resource/clients-3.png" alt="" /></li>
                                         <li><span>+</span></li>
                                     </ul>
                                 </div>
@@ -65,9 +65,9 @@ export default function HomeInvestmentPage(){
                                 <div className="single-item">
                                     <h4>Top Discounts with Our Cards</h4>
                                     <ul className="icon-list">
-                                        <li><img src="/assets/images/icons/icon-74.png" alt="" /></li>
-                                        <li><img src="/assets/images/icons/icon-75.png" alt="" /></li>
-                                        <li><img src="/assets/images/icons/icon-76.png" alt="" /></li>
+                                        <li><img loading="lazy" src="/assets/images/icons/icon-74.png" alt="" /></li>
+                                        <li><img loading="lazy" src="/assets/images/icons/icon-75.png" alt="" /></li>
+                                        <li><img loading="lazy" src="/assets/images/icons/icon-76.png" alt="" /></li>
                                         <li><span>+</span></li>
                                     </ul>
                                 </div>
@@ -88,7 +88,7 @@ export default function HomeInvestmentPage(){
                     <div className="col-lg-6 col-md-12 col-sm-12 investment-block">
                         <div className="investment-block-one">
                             <div className="shape" style={{backgroundImage: 'url(/assets/images/shape/shape-25.png)'}}></div>
-                            <figure className="image-box"><img src="/assets/images/resource/investment-1.png" alt="" /></figure>
+                            <figure className="image-box"><img loading="lazy" src="/assets/images/resource/investment-1.png" alt="" /></figure>
                             <div className="inner-box">
                                 <div className="sec-title light">
                                     <span className="sub-title">Investment</span>
@@ -103,14 +103,14 @@ export default function HomeInvestmentPage(){
                         <div className="investment-block-two">
                             <div className="inner-box">
                                 <div className="shape" style={{backgroundImage: 'url(/assets/images/shape/shape-27.png)'}}></div>
-                                <figure className="image-box"><img src="/assets/images/resource/investment-2.png" alt="" /></figure>
+                                <figure className="image-box"><img loading="lazy" src="/assets/images/resource/investment-2.png" alt="" /></figure>
                                 <span className="big-text">Kaizenbank</span>
                                 <h4>Watch Video <br />for Protecting Your Identity.</h4>
                                 <div className="video-btn centred">
-                                    <a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s" className="lightbox-image video-btn" data-caption=""><img src="/assets/images/icons/icon-131.png" alt="" /></a> 
+                                    <a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s" className="lightbox-image video-btn" data-caption=""><img loading="lazy" src="/assets/images/icons/icon-131.png" alt="" /></a> 
                                 </div>
                                 <div className="download-box">
-                                    <button type="button"><img src="/assets/images/icons/icon-132.png" alt="" /></button>
+                                    <button type="button"><img loading="lazy" src="/assets/images/icons/icon-132.png" alt="" /></button>
                                     <h5>Download <br />for Easy Access</h5>
                                 </div>
                             </div>
@@ -133,42 +133,42 @@ export default function HomeInvestmentPage(){
                     <div className="tab-btn-box mb_70">
                         <Tabs className="tab-btns tab-buttons tab-btn-carousel owl-carousel owl-theme owl-dots-none">
                             <div className="tab-btn active-btn" data-tab="#tab-1">
-                                <div className="icon-box"><img src="/assets/images/icons/icon-133.png" alt="" /></div>
+                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-133.png" alt="" /></div>
                                 <h3>Fixed Deposit</h3>
                                 <p>Higher Returns & Security.</p>
                             </div>
                             <div className="tab-btn" data-tab="#tab-2">
-                                <div className="icon-box"><img src="/assets/images/icons/icon-134.png" alt="" /></div>
+                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-134.png" alt="" /></div>
                                 <h3>Accounts</h3>
                                 <p>Duty the obligations business.</p>
                             </div>
                             <div className="tab-btn" data-tab="#tab-3">
-                                <div className="icon-box"><img src="/assets/images/icons/icon-135.png" alt="" /></div>
+                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-135.png" alt="" /></div>
                                 <h3>Investments</h3>
                                 <p>Secure you & your family.</p>
                             </div>
                             <div className="tab-btn" data-tab="#tab-4">
-                                <div className="icon-box"><img src="/assets/images/icons/icon-136.png" alt="" /></div>
+                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-136.png" alt="" /></div>
                                 <h3>Family 360o</h3>
                                 <p>Complete banking solutions.</p>
                             </div>
                             <div className="tab-btn" data-tab="#tab-5">
-                                <div className="icon-box"><img src="/assets/images/icons/icon-133.png" alt="" /></div>
+                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-133.png" alt="" /></div>
                                 <h3>Fixed Deposit</h3>
                                 <p>Higher Returns & Security.</p>
                             </div>
                             <div className="tab-btn" data-tab="#tab-6">
-                                <div className="icon-box"><img src="/assets/images/icons/icon-134.png" alt="" /></div>
+                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-134.png" alt="" /></div>
                                 <h3>Accounts</h3>
                                 <p>Duty the obligations business.</p>
                             </div>
                             <div className="tab-btn" data-tab="#tab-7">
-                                <div className="icon-box"><img src="/assets/images/icons/icon-135.png" alt="" /></div>
+                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-135.png" alt="" /></div>
                                 <h3>Investments</h3>
                                 <p>Secure you & your family.</p>
                             </div>
                             <div className="tab-btn" data-tab="#tab-8">
-                                <div className="icon-box"><img src="/assets/images/icons/icon-136.png" alt="" /></div>
+                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-136.png" alt="" /></div>
                                 <h3>Family 360o</h3>
                                 <p>Complete banking solutions.</p>
                             </div>
@@ -179,7 +179,7 @@ export default function HomeInvestmentPage(){
                             <div className="row clearfix">
                                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                                     <div className="image-box mr_35">
-                                        <figure className="image"><img src="/assets/images/resource/banking-5.jpg" alt="" /></figure>
+                                        <figure className="image"><img loading="lazy" src="/assets/images/resource/banking-5.jpg" alt="" /></figure>
                                     </div>
                                 </div>
                                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -189,12 +189,12 @@ export default function HomeInvestmentPage(){
                                         <div className="inner-box">
                                             <h6>Key Benefits:</h6>
                                             <ul className="list-style-one clearfix">
-                                                <li><div className="icon-box"><img src="/assets/images/icons/icon-137.png" alt="" /></div>100% Guaranteed returns</li>
-                                                <li><div className="icon-box"><img src="/assets/images/icons/icon-137.png" alt="" /></div>Loan against FD available</li>
-                                                <li><div className="icon-box"><img src="/assets/images/icons/icon-137.png" alt="" /></div>Flexible tenure options</li>
+                                                <li><div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-137.png" alt="" /></div>100% Guaranteed returns</li>
+                                                <li><div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-137.png" alt="" /></div>Loan against FD available</li>
+                                                <li><div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-137.png" alt="" /></div>Flexible tenure options</li>
                                             </ul>
                                             <div className="inner">
-                                                <div className="icon-box"><img src="/assets/images/icons/icon-138.png" alt="" /></div>
+                                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-138.png" alt="" /></div>
                                                 <h4>Guide to <br />Fixed Deposits</h4>
                                                 <h6>pdf 6.8mb</h6>
                                                 <button type="button" className="theme-btn"><span>Download</span></button>
@@ -212,7 +212,7 @@ export default function HomeInvestmentPage(){
                             <div className="row clearfix">
                                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                                     <div className="image-box mr_35">
-                                        <figure className="image"><img src="/assets/images/resource/banking-5.jpg" alt="" /></figure>
+                                        <figure className="image"><img loading="lazy" src="/assets/images/resource/banking-5.jpg" alt="" /></figure>
                                     </div>
                                 </div>
                                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -222,12 +222,12 @@ export default function HomeInvestmentPage(){
                                         <div className="inner-box">
                                             <h6>Key Benefits:</h6>
                                             <ul className="list-style-one clearfix">
-                                                <li><div className="icon-box"><img src="/assets/images/icons/icon-137.png" alt="" /></div>100% Guaranteed returns</li>
-                                                <li><div className="icon-box"><img src="/assets/images/icons/icon-137.png" alt="" /></div>Loan against FD available</li>
-                                                <li><div className="icon-box"><img src="/assets/images/icons/icon-137.png" alt="" /></div>Flexible tenure options</li>
+                                                <li><div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-137.png" alt="" /></div>100% Guaranteed returns</li>
+                                                <li><div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-137.png" alt="" /></div>Loan against FD available</li>
+                                                <li><div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-137.png" alt="" /></div>Flexible tenure options</li>
                                             </ul>
                                             <div className="inner">
-                                                <div className="icon-box"><img src="/assets/images/icons/icon-138.png" alt="" /></div>
+                                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-138.png" alt="" /></div>
                                                 <h4>Guide to <br />Fixed Deposits</h4>
                                                 <h6>pdf 6.8mb</h6>
                                                 <button type="button" className="theme-btn"><span>Download</span></button>
@@ -245,7 +245,7 @@ export default function HomeInvestmentPage(){
                             <div className="row clearfix">
                                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                                     <div className="image-box mr_35">
-                                        <figure className="image"><img src="/assets/images/resource/banking-5.jpg" alt="" /></figure>
+                                        <figure className="image"><img loading="lazy" src="/assets/images/resource/banking-5.jpg" alt="" /></figure>
                                     </div>
                                 </div>
                                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -255,12 +255,12 @@ export default function HomeInvestmentPage(){
                                         <div className="inner-box">
                                             <h6>Key Benefits:</h6>
                                             <ul className="list-style-one clearfix">
-                                                <li><div className="icon-box"><img src="/assets/images/icons/icon-137.png" alt="" /></div>100% Guaranteed returns</li>
-                                                <li><div className="icon-box"><img src="/assets/images/icons/icon-137.png" alt="" /></div>Loan against FD available</li>
-                                                <li><div className="icon-box"><img src="/assets/images/icons/icon-137.png" alt="" /></div>Flexible tenure options</li>
+                                                <li><div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-137.png" alt="" /></div>100% Guaranteed returns</li>
+                                                <li><div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-137.png" alt="" /></div>Loan against FD available</li>
+                                                <li><div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-137.png" alt="" /></div>Flexible tenure options</li>
                                             </ul>
                                             <div className="inner">
-                                                <div className="icon-box"><img src="/assets/images/icons/icon-138.png" alt="" /></div>
+                                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-138.png" alt="" /></div>
                                                 <h4>Guide to <br />Fixed Deposits</h4>
                                                 <h6>pdf 6.8mb</h6>
                                                 <button type="button" className="theme-btn"><span>Download</span></button>
@@ -278,7 +278,7 @@ export default function HomeInvestmentPage(){
                             <div className="row clearfix">
                                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                                     <div className="image-box mr_35">
-                                        <figure className="image"><img src="/assets/images/resource/banking-5.jpg" alt="" /></figure>
+                                        <figure className="image"><img loading="lazy" src="/assets/images/resource/banking-5.jpg" alt="" /></figure>
                                     </div>
                                 </div>
                                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -288,12 +288,12 @@ export default function HomeInvestmentPage(){
                                         <div className="inner-box">
                                             <h6>Key Benefits:</h6>
                                             <ul className="list-style-one clearfix">
-                                                <li><div className="icon-box"><img src="/assets/images/icons/icon-137.png" alt="" /></div>100% Guaranteed returns</li>
-                                                <li><div className="icon-box"><img src="/assets/images/icons/icon-137.png" alt="" /></div>Loan against FD available</li>
-                                                <li><div className="icon-box"><img src="/assets/images/icons/icon-137.png" alt="" /></div>Flexible tenure options</li>
+                                                <li><div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-137.png" alt="" /></div>100% Guaranteed returns</li>
+                                                <li><div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-137.png" alt="" /></div>Loan against FD available</li>
+                                                <li><div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-137.png" alt="" /></div>Flexible tenure options</li>
                                             </ul>
                                             <div className="inner">
-                                                <div className="icon-box"><img src="/assets/images/icons/icon-138.png" alt="" /></div>
+                                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-138.png" alt="" /></div>
                                                 <h4>Guide to <br />Fixed Deposits</h4>
                                                 <h6>pdf 6.8mb</h6>
                                                 <button type="button" className="theme-btn"><span>Download</span></button>
@@ -311,7 +311,7 @@ export default function HomeInvestmentPage(){
                             <div className="row clearfix">
                                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                                     <div className="image-box mr_35">
-                                        <figure className="image"><img src="/assets/images/resource/banking-5.jpg" alt="" /></figure>
+                                        <figure className="image"><img loading="lazy" src="/assets/images/resource/banking-5.jpg" alt="" /></figure>
                                     </div>
                                 </div>
                                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -321,12 +321,12 @@ export default function HomeInvestmentPage(){
                                         <div className="inner-box">
                                             <h6>Key Benefits:</h6>
                                             <ul className="list-style-one clearfix">
-                                                <li><div className="icon-box"><img src="/assets/images/icons/icon-137.png" alt="" /></div>100% Guaranteed returns</li>
-                                                <li><div className="icon-box"><img src="/assets/images/icons/icon-137.png" alt="" /></div>Loan against FD available</li>
-                                                <li><div className="icon-box"><img src="/assets/images/icons/icon-137.png" alt="" /></div>Flexible tenure options</li>
+                                                <li><div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-137.png" alt="" /></div>100% Guaranteed returns</li>
+                                                <li><div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-137.png" alt="" /></div>Loan against FD available</li>
+                                                <li><div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-137.png" alt="" /></div>Flexible tenure options</li>
                                             </ul>
                                             <div className="inner">
-                                                <div className="icon-box"><img src="/assets/images/icons/icon-138.png" alt="" /></div>
+                                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-138.png" alt="" /></div>
                                                 <h4>Guide to <br />Fixed Deposits</h4>
                                                 <h6>pdf 6.8mb</h6>
                                                 <button type="button" className="theme-btn"><span>Download</span></button>
@@ -344,7 +344,7 @@ export default function HomeInvestmentPage(){
                             <div className="row clearfix">
                                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                                     <div className="image-box mr_35">
-                                        <figure className="image"><img src="/assets/images/resource/banking-5.jpg" alt="" /></figure>
+                                        <figure className="image"><img loading="lazy" src="/assets/images/resource/banking-5.jpg" alt="" /></figure>
                                     </div>
                                 </div>
                                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -354,12 +354,12 @@ export default function HomeInvestmentPage(){
                                         <div className="inner-box">
                                             <h6>Key Benefits:</h6>
                                             <ul className="list-style-one clearfix">
-                                                <li><div className="icon-box"><img src="/assets/images/icons/icon-137.png" alt="" /></div>100% Guaranteed returns</li>
-                                                <li><div className="icon-box"><img src="/assets/images/icons/icon-137.png" alt="" /></div>Loan against FD available</li>
-                                                <li><div className="icon-box"><img src="/assets/images/icons/icon-137.png" alt="" /></div>Flexible tenure options</li>
+                                                <li><div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-137.png" alt="" /></div>100% Guaranteed returns</li>
+                                                <li><div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-137.png" alt="" /></div>Loan against FD available</li>
+                                                <li><div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-137.png" alt="" /></div>Flexible tenure options</li>
                                             </ul>
                                             <div className="inner">
-                                                <div className="icon-box"><img src="/assets/images/icons/icon-138.png" alt="" /></div>
+                                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-138.png" alt="" /></div>
                                                 <h4>Guide to <br />Fixed Deposits</h4>
                                                 <h6>pdf 6.8mb</h6>
                                                 <button type="button" className="theme-btn"><span>Download</span></button>
@@ -377,7 +377,7 @@ export default function HomeInvestmentPage(){
                             <div className="row clearfix">
                                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                                     <div className="image-box mr_35">
-                                        <figure className="image"><img src="/assets/images/resource/banking-5.jpg" alt="" /></figure>
+                                        <figure className="image"><img loading="lazy" src="/assets/images/resource/banking-5.jpg" alt="" /></figure>
                                     </div>
                                 </div>
                                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -387,12 +387,12 @@ export default function HomeInvestmentPage(){
                                         <div className="inner-box">
                                             <h6>Key Benefits:</h6>
                                             <ul className="list-style-one clearfix">
-                                                <li><div className="icon-box"><img src="/assets/images/icons/icon-137.png" alt="" /></div>100% Guaranteed returns</li>
-                                                <li><div className="icon-box"><img src="/assets/images/icons/icon-137.png" alt="" /></div>Loan against FD available</li>
-                                                <li><div className="icon-box"><img src="/assets/images/icons/icon-137.png" alt="" /></div>Flexible tenure options</li>
+                                                <li><div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-137.png" alt="" /></div>100% Guaranteed returns</li>
+                                                <li><div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-137.png" alt="" /></div>Loan against FD available</li>
+                                                <li><div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-137.png" alt="" /></div>Flexible tenure options</li>
                                             </ul>
                                             <div className="inner">
-                                                <div className="icon-box"><img src="/assets/images/icons/icon-138.png" alt="" /></div>
+                                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-138.png" alt="" /></div>
                                                 <h4>Guide to <br />Fixed Deposits</h4>
                                                 <h6>pdf 6.8mb</h6>
                                                 <button type="button" className="theme-btn"><span>Download</span></button>
@@ -410,7 +410,7 @@ export default function HomeInvestmentPage(){
                             <div className="row clearfix">
                                 <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                                     <div className="image-box mr_35">
-                                        <figure className="image"><img src="/assets/images/resource/banking-5.jpg" alt="" /></figure>
+                                        <figure className="image"><img loading="lazy" src="/assets/images/resource/banking-5.jpg" alt="" /></figure>
                                     </div>
                                 </div>
                                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -420,12 +420,12 @@ export default function HomeInvestmentPage(){
                                         <div className="inner-box">
                                             <h6>Key Benefits:</h6>
                                             <ul className="list-style-one clearfix">
-                                                <li><div className="icon-box"><img src="/assets/images/icons/icon-137.png" alt="" /></div>100% Guaranteed returns</li>
-                                                <li><div className="icon-box"><img src="/assets/images/icons/icon-137.png" alt="" /></div>Loan against FD available</li>
-                                                <li><div className="icon-box"><img src="/assets/images/icons/icon-137.png" alt="" /></div>Flexible tenure options</li>
+                                                <li><div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-137.png" alt="" /></div>100% Guaranteed returns</li>
+                                                <li><div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-137.png" alt="" /></div>Loan against FD available</li>
+                                                <li><div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-137.png" alt="" /></div>Flexible tenure options</li>
                                             </ul>
                                             <div className="inner">
-                                                <div className="icon-box"><img src="/assets/images/icons/icon-138.png" alt="" /></div>
+                                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-138.png" alt="" /></div>
                                                 <h4>Guide to <br />Fixed Deposits</h4>
                                                 <h6>pdf 6.8mb</h6>
                                                 <button type="button" className="theme-btn"><span>Download</span></button>
@@ -448,7 +448,7 @@ export default function HomeInvestmentPage(){
 
         
         <section className="secure-growth-two dark-section bg-color-5 sec-pad-2">
-            <figure className="image-layer"><img src="/assets/images/resource/men-3.png" alt="" /></figure>
+            <figure className="image-layer"><img loading="lazy" src="/assets/images/resource/men-3.png" alt="" /></figure>
             <span className="big-text">Growth <br />Financial</span>
             <div className="auto-container">
                 <div className="row clearfix">
@@ -462,14 +462,14 @@ export default function HomeInvestmentPage(){
                                 <div className="inner-box">
                                     <h3><Link to="/index-2">Trade FX</Link></h3>
                                     <div className="icon-box">
-                                        <div className="icon"><img src="/assets/images/icons/icon-140.png" alt="" /></div>
+                                        <div className="icon"><img loading="lazy" src="/assets/images/icons/icon-140.png" alt="" /></div>
                                         <span className="count-text">01.</span>
                                     </div>
                                     <p>Perfect simple easy some matters to this...</p>
                                     <ul className="list-item clearfix">
-                                        <li><Link to="/index-2"><img src="/assets/images/icons/icon-139.png" alt="" />Currency Pairs</Link></li>
-                                        <li><Link to="/index-2"><img src="/assets/images/icons/icon-139.png" alt="" />Real-time Quotes</Link></li>
-                                        <li><Link to="/index-2"><img src="/assets/images/icons/icon-139.png" alt="" />Market Analysis</Link></li>
+                                        <li><Link to="/index-2"><img loading="lazy" src="/assets/images/icons/icon-139.png" alt="" />Currency Pairs</Link></li>
+                                        <li><Link to="/index-2"><img loading="lazy" src="/assets/images/icons/icon-139.png" alt="" />Real-time Quotes</Link></li>
+                                        <li><Link to="/index-2"><img loading="lazy" src="/assets/images/icons/icon-139.png" alt="" />Market Analysis</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -477,14 +477,14 @@ export default function HomeInvestmentPage(){
                                 <div className="inner-box">
                                     <h3><Link to="/index-2">Multi Currency a/c</Link></h3>
                                     <div className="icon-box">
-                                        <div className="icon"><img src="/assets/images/icons/icon-141.png" alt="" /></div>
+                                        <div className="icon"><img loading="lazy" src="/assets/images/icons/icon-141.png" alt="" /></div>
                                         <span className="count-text">02.</span>
                                     </div>
                                     <p>Duty through weaknes will whichis same...</p>
                                     <ul className="list-item clearfix">
-                                        <li><Link to="/index-2"><img src="/assets/images/icons/icon-139.png" alt="" />Currency Options</Link></li>
-                                        <li><Link to="/index-2"><img src="/assets/images/icons/icon-139.png" alt="" />Best Rates</Link></li>
-                                        <li><Link to="/index-2"><img src="/assets/images/icons/icon-139.png" alt="" />Secure Transactions</Link></li>
+                                        <li><Link to="/index-2"><img loading="lazy" src="/assets/images/icons/icon-139.png" alt="" />Currency Options</Link></li>
+                                        <li><Link to="/index-2"><img loading="lazy" src="/assets/images/icons/icon-139.png" alt="" />Best Rates</Link></li>
+                                        <li><Link to="/index-2"><img loading="lazy" src="/assets/images/icons/icon-139.png" alt="" />Secure Transactions</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -492,14 +492,14 @@ export default function HomeInvestmentPage(){
                                 <div className="inner-box">
                                     <h3><Link to="/index-2">Mutual Funds</Link></h3>
                                     <div className="icon-box">
-                                        <div className="icon"><img src="/assets/images/icons/icon-142.png" alt="" /></div>
+                                        <div className="icon"><img loading="lazy" src="/assets/images/icons/icon-142.png" alt="" /></div>
                                         <span className="count-text">03.</span>
                                     </div>
                                     <p>When nothing prevents our being able to do...</p>
                                     <ul className="list-item clearfix">
-                                        <li><Link to="/index-2"><img src="/assets/images/icons/icon-139.png" alt="" />Equity Funds</Link></li>
-                                        <li><Link to="/index-2"><img src="/assets/images/icons/icon-139.png" alt="" />International Funds</Link></li>
-                                        <li><Link to="/index-2"><img src="/assets/images/icons/icon-139.png" alt="" />Index Funds</Link></li>
+                                        <li><Link to="/index-2"><img loading="lazy" src="/assets/images/icons/icon-139.png" alt="" />Equity Funds</Link></li>
+                                        <li><Link to="/index-2"><img loading="lazy" src="/assets/images/icons/icon-139.png" alt="" />International Funds</Link></li>
+                                        <li><Link to="/index-2"><img loading="lazy" src="/assets/images/icons/icon-139.png" alt="" />Index Funds</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -537,7 +537,7 @@ export default function HomeInvestmentPage(){
                                                     <h4>usd</h4>
                                                     <p>American Dollar</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-1.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-1.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Buys</h5>
@@ -551,7 +551,7 @@ export default function HomeInvestmentPage(){
                                                     <h4>jpy</h4>
                                                     <p>Japanese Yen</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-2.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-2.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Sells</h5>
@@ -568,7 +568,7 @@ export default function HomeInvestmentPage(){
                                                     <h4>usd</h4>
                                                     <p>American Dollar</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-1.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-1.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Buys</h5>
@@ -582,7 +582,7 @@ export default function HomeInvestmentPage(){
                                                     <h4>aud</h4>
                                                     <p>Australian Dollar</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-3.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-3.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Sells</h5>
@@ -599,7 +599,7 @@ export default function HomeInvestmentPage(){
                                                     <h4>usd</h4>
                                                     <p>American Dollar</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-1.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-1.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Buys</h5>
@@ -613,7 +613,7 @@ export default function HomeInvestmentPage(){
                                                     <h4>cad</h4>
                                                     <p>Canadian Dollar</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-4.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-4.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Sells</h5>
@@ -630,7 +630,7 @@ export default function HomeInvestmentPage(){
                                                     <h4>usd</h4>
                                                     <p>American Dollar</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-1.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-1.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Buys</h5>
@@ -644,7 +644,7 @@ export default function HomeInvestmentPage(){
                                                     <h4>sek</h4>
                                                     <p>Swedish Krona</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-5.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-5.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Sells</h5>
@@ -665,7 +665,7 @@ export default function HomeInvestmentPage(){
                                                     <h4>usd</h4>
                                                     <p>American Dollar</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-1.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-1.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Buys</h5>
@@ -679,7 +679,7 @@ export default function HomeInvestmentPage(){
                                                     <h4>jpy</h4>
                                                     <p>Japanese Yen</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-2.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-2.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Sells</h5>
@@ -696,7 +696,7 @@ export default function HomeInvestmentPage(){
                                                     <h4>usd</h4>
                                                     <p>American Dollar</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-1.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-1.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Buys</h5>
@@ -710,7 +710,7 @@ export default function HomeInvestmentPage(){
                                                     <h4>aud</h4>
                                                     <p>Australian Dollar</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-3.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-3.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Sells</h5>
@@ -727,7 +727,7 @@ export default function HomeInvestmentPage(){
                                                     <h4>usd</h4>
                                                     <p>American Dollar</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-1.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-1.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Buys</h5>
@@ -741,7 +741,7 @@ export default function HomeInvestmentPage(){
                                                     <h4>cad</h4>
                                                     <p>Canadian Dollar</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-4.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-4.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Sells</h5>
@@ -758,7 +758,7 @@ export default function HomeInvestmentPage(){
                                                     <h4>usd</h4>
                                                     <p>American Dollar</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-1.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-1.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Buys</h5>
@@ -772,7 +772,7 @@ export default function HomeInvestmentPage(){
                                                     <h4>sek</h4>
                                                     <p>Swedish Krona</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-5.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-5.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Sells</h5>
@@ -807,7 +807,7 @@ export default function HomeInvestmentPage(){
                                 <li className="accordion block active-block">
                                     <div className="acc-btn active">
                                         <div className="icon-box"><i className="flaticon-down-arrow-1"></i></div>
-                                        <h4><img src="/assets/images/icons/icon-143.png" alt="" />Account Management</h4>
+                                        <h4><img loading="lazy" src="/assets/images/icons/icon-143.png" alt="" />Account Management</h4>
                                     </div>
                                     <div className="acc-content current">
                                         <div className="content">
@@ -815,7 +815,7 @@ export default function HomeInvestmentPage(){
                                                 <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                                                     <div className="single-item">
                                                         <Link to="/index-4">
-                                                            <img src="/assets/images/icons/icon-147.png" alt="" />
+                                                            <img loading="lazy" src="/assets/images/icons/icon-147.png" alt="" />
                                                             <span>Change Account Details</span>
                                                         </Link>
                                                     </div>
@@ -823,7 +823,7 @@ export default function HomeInvestmentPage(){
                                                 <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                                                     <div className="single-item">
                                                         <Link to="/index-4">
-                                                            <img src="/assets/images/icons/icon-147.png" alt="" />
+                                                            <img loading="lazy" src="/assets/images/icons/icon-147.png" alt="" />
                                                             <span>Update Contact Information</span>
                                                         </Link>
                                                     </div>
@@ -831,7 +831,7 @@ export default function HomeInvestmentPage(){
                                                 <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                                                     <div className="single-item">
                                                         <Link to="/index-4">
-                                                            <img src="/assets/images/icons/icon-147.png" alt="" />
+                                                            <img loading="lazy" src="/assets/images/icons/icon-147.png" alt="" />
                                                             <span>Reset Net Banking Password</span>
                                                         </Link>
                                                     </div>
@@ -843,7 +843,7 @@ export default function HomeInvestmentPage(){
                                 <li className="accordion block">
                                     <div className="acc-btn">
                                         <div className="icon-box"><i className="flaticon-down-arrow-1"></i></div>
-                                        <h4><img src="/assets/images/icons/icon-144.png" alt="" />Transaction Services</h4>
+                                        <h4><img loading="lazy" src="/assets/images/icons/icon-144.png" alt="" />Transaction Services</h4>
                                     </div>
                                     <div className="acc-content">
                                         <div className="content">
@@ -851,7 +851,7 @@ export default function HomeInvestmentPage(){
                                                 <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                                                     <div className="single-item">
                                                         <Link to="/index-4">
-                                                            <img src="/assets/images/icons/icon-147.png" alt="" />
+                                                            <img loading="lazy" src="/assets/images/icons/icon-147.png" alt="" />
                                                             <span>Change Account Details</span>
                                                         </Link>
                                                     </div>
@@ -859,7 +859,7 @@ export default function HomeInvestmentPage(){
                                                 <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                                                     <div className="single-item">
                                                         <Link to="/index-4">
-                                                            <img src="/assets/images/icons/icon-147.png" alt="" />
+                                                            <img loading="lazy" src="/assets/images/icons/icon-147.png" alt="" />
                                                             <span>Update Contact Information</span>
                                                         </Link>
                                                     </div>
@@ -867,7 +867,7 @@ export default function HomeInvestmentPage(){
                                                 <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                                                     <div className="single-item">
                                                         <Link to="/index-4">
-                                                            <img src="/assets/images/icons/icon-147.png" alt="" />
+                                                            <img loading="lazy" src="/assets/images/icons/icon-147.png" alt="" />
                                                             <span>Reset Net Banking Password</span>
                                                         </Link>
                                                     </div>
@@ -879,7 +879,7 @@ export default function HomeInvestmentPage(){
                                 <li className="accordion block">
                                     <div className="acc-btn">
                                         <div className="icon-box"><i className="flaticon-down-arrow-1"></i></div>
-                                        <h4><img src="/assets/images/icons/icon-145.png" alt="" />Loan and Credit Services</h4>
+                                        <h4><img loading="lazy" src="/assets/images/icons/icon-145.png" alt="" />Loan and Credit Services</h4>
                                     </div>
                                     <div className="acc-content">
                                         <div className="content">
@@ -887,7 +887,7 @@ export default function HomeInvestmentPage(){
                                                 <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                                                     <div className="single-item">
                                                         <Link to="/index-4">
-                                                            <img src="/assets/images/icons/icon-147.png" alt="" />
+                                                            <img loading="lazy" src="/assets/images/icons/icon-147.png" alt="" />
                                                             <span>Change Account Details</span>
                                                         </Link>
                                                     </div>
@@ -895,7 +895,7 @@ export default function HomeInvestmentPage(){
                                                 <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                                                     <div className="single-item">
                                                         <Link to="/index-4">
-                                                            <img src="/assets/images/icons/icon-147.png" alt="" />
+                                                            <img loading="lazy" src="/assets/images/icons/icon-147.png" alt="" />
                                                             <span>Update Contact Information</span>
                                                         </Link>
                                                     </div>
@@ -903,7 +903,7 @@ export default function HomeInvestmentPage(){
                                                 <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                                                     <div className="single-item">
                                                         <Link to="/index-4">
-                                                            <img src="/assets/images/icons/icon-147.png" alt="" />
+                                                            <img loading="lazy" src="/assets/images/icons/icon-147.png" alt="" />
                                                             <span>Reset Net Banking Password</span>
                                                         </Link>
                                                     </div>
@@ -915,7 +915,7 @@ export default function HomeInvestmentPage(){
                                 <li className="accordion block">
                                     <div className="acc-btn">
                                         <div className="icon-box"><i className="flaticon-down-arrow-1"></i></div>
-                                        <h4><img src="/assets/images/icons/icon-146.png" alt="" />Mobile / Internet Banking</h4>
+                                        <h4><img loading="lazy" src="/assets/images/icons/icon-146.png" alt="" />Mobile / Internet Banking</h4>
                                     </div>
                                     <div className="acc-content">
                                         <div className="content">
@@ -923,7 +923,7 @@ export default function HomeInvestmentPage(){
                                                 <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                                                     <div className="single-item">
                                                         <Link to="/index-4">
-                                                            <img src="/assets/images/icons/icon-147.png" alt="" />
+                                                            <img loading="lazy" src="/assets/images/icons/icon-147.png" alt="" />
                                                             <span>Change Account Details</span>
                                                         </Link>
                                                     </div>
@@ -931,7 +931,7 @@ export default function HomeInvestmentPage(){
                                                 <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                                                     <div className="single-item">
                                                         <Link to="/index-4">
-                                                            <img src="/assets/images/icons/icon-147.png" alt="" />
+                                                            <img loading="lazy" src="/assets/images/icons/icon-147.png" alt="" />
                                                             <span>Update Contact Information</span>
                                                         </Link>
                                                     </div>
@@ -939,7 +939,7 @@ export default function HomeInvestmentPage(){
                                                 <div className="col-lg-4 col-md-6 col-sm-12 single-column">
                                                     <div className="single-item">
                                                         <Link to="/index-4">
-                                                            <img src="/assets/images/icons/icon-147.png" alt="" />
+                                                            <img loading="lazy" src="/assets/images/icons/icon-147.png" alt="" />
                                                             <span>Reset Net Banking Password</span>
                                                         </Link>
                                                     </div>
@@ -954,11 +954,11 @@ export default function HomeInvestmentPage(){
                     <div className="col-lg-4 col-md-12 col-sm-12 support-column">
                         <div className="support-inner">
                             <div className="support-icon mt_11 align-3">
-                                <div className="icon"><img src="/assets/images/icons/icon-148.png" alt="" /></div>
+                                <div className="icon"><img loading="lazy" src="/assets/images/icons/icon-148.png" alt="" /></div>
                                 <div className="shape" style={{backgroundImage: 'url(/assets/images/shape/shape-29.png)'}}></div>
                             </div>
                             <div className="support-box">
-                                <figure className="image-box"><img src="/assets/images/resource/support-1.png" alt="" /></figure>
+                                <figure className="image-box"><img loading="lazy" src="/assets/images/resource/support-1.png" alt="" /></figure>
                                 <div className="lower-content">
                                     <span className="big-text">support</span>
                                     <ul className="info-list mb_30 pb_3 clearfix">
@@ -1002,13 +1002,13 @@ export default function HomeInvestmentPage(){
                                 <div className="row clearfix">
                                     <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                         <div className="single-item">
-                                            <div className="icon-box"><img src="/assets/images/icons/icon-153.png" alt="" /></div>
+                                            <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-153.png" alt="" /></div>
                                             <p>Available in Different Sizes.</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                         <div className="single-item">
-                                            <div className="icon-box"><img src="/assets/images/icons/icon-153.png" alt="" /></div>
+                                            <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-153.png" alt="" /></div>
                                             <p>Affordable Rental Plans.</p>
                                         </div>
                                     </div>
@@ -1021,7 +1021,7 @@ export default function HomeInvestmentPage(){
                     </div>
                     <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                         <div className="image-box">
-                            <figure className="image"><img src="/assets/images/resource/locker-1.jpg" alt="" /></figure>
+                            <figure className="image"><img loading="lazy" src="/assets/images/resource/locker-1.jpg" alt="" /></figure>
                         </div>
                     </div>
                 </div>
@@ -1039,7 +1039,7 @@ export default function HomeInvestmentPage(){
                     <div className="col-lg-6 col-md-12 col-sm-12 card-column">
                         <div className="card-inner">
                             <div className="shape" style={{backgroundImage: 'url(/assets/images/shape/shape-30.png)'}}></div>
-                            <figure className="card-box"><img src="/assets/images/icons/card-3.png" alt="" /></figure>
+                            <figure className="card-box"><img loading="lazy" src="/assets/images/icons/card-3.png" alt="" /></figure>
                             <span className="highlights-one">Cashback Up to: 25%</span>
                             <span className="highlights-two">Average APR: 5.50%</span>
                         </div>

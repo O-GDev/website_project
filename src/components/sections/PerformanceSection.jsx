@@ -17,11 +17,11 @@ export default function PerformanceSection() {
                             </div>
                             <div className="inner-box">
                                 <div className="single-item">
-                                    <div className="icon-box"><img src="/assets/images/icons/icon-16.png" alt="" /></div>
+                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-16.png" alt="" /></div>
                                     <p>Available in <br />Different Sizes.</p>
                                 </div>
                                 <div className="single-item">
-                                    <div className="icon-box"><img src="/assets/images/icons/icon-16.png" alt="" /></div>
+                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-16.png" alt="" /></div>
                                     <p>Affordable Rental <br />Plans.</p>
                                 </div>
                             </div>

@@ -27,7 +27,7 @@ export default function WorkingSection({ modClass = 'alternat-2 centred', icons,
                   <span className="count-text">{s[0]}</span>
                   <h3>{s[1]}</h3>
                   <p>{s[2]}</p>
-                  <div className="icon-box"><img src={icon(idx)} alt="" /></div>
+                  <div className="icon-box"><img loading="lazy" src={icon(idx)} alt="" /></div>
                 </div>
               </div>
             </div>

@@ -7,17 +7,17 @@ export default function CardsSection({ modClass = 'pt_120 pb_110' }) {
       <div className="auto-container">
         <div className="inner-container">
           <div className="upper-content">
-            <figure className="card-image p_absolute t_0 r_0"><img src="/assets/images/resource/card-1.png" alt="" /></figure>
+            <figure className="card-image p_absolute t_0 r_0"><img loading="lazy" src="/assets/images/resource/card-1.png" alt="" /></figure>
             <div className="content-box">
               <div className="sec-title">
                 <h2>More than just <br />a card-It’s freedom...</h2>
                 <p>Welcomed and every pain avoidedduty or the obligations of business our power of choice.</p>
               </div>
               <ul className="list-style-one clearfix">
-                <li><div className="icon-box"><img src="/assets/images/icons/icon-16.png" alt="" /></div>Exclusive discounts <br />and offers</li>
-                <li><div className="icon-box"><img src="/assets/images/icons/icon-16.png" alt="" /></div>Advanced security <br />features</li>
-                <li><div className="icon-box"><img src="/assets/images/icons/icon-16.png" alt="" /></div>Generous Rewards <br />Program</li>
-                <li><div className="icon-box"><img src="/assets/images/icons/icon-16.png" alt="" /></div>Flexible Credit <br />Limits</li>
+                <li><div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-16.png" alt="" /></div>Exclusive discounts <br />and offers</li>
+                <li><div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-16.png" alt="" /></div>Advanced security <br />features</li>
+                <li><div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-16.png" alt="" /></div>Generous Rewards <br />Program</li>
+                <li><div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-16.png" alt="" /></div>Flexible Credit <br />Limits</li>
               </ul>
             </div>
           </div>

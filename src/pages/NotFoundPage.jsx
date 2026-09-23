@@ -109,7 +109,7 @@ export default function NotFoundPage(){
                 </div>
                 <div className="inner-box p_relative">
                     <h1>404</h1>
-                    <div className="icon-box"><img src="/assets/images/resource/bug-1.png" alt="" /></div>
+                    <div className="icon-box"><img loading="lazy" src="/assets/images/resource/bug-1.png" alt="" /></div>
                     <h2>Page Not Found</h2>
                     <p>Try refining your search or use the navigation below to <br />return to the main home page.</p>
                     <Link to="/"><span>Back to Home</span></Link>

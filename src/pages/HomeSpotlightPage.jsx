@@ -36,8 +36,8 @@ export default function HomeSpotlightPage(){
                 <div className="inner-box clearfix">
                     <div className="content-box">
                         <div className="shape" style={{backgroundImage: 'url(/assets/images/shape/shape-12.png)'}}></div>
-                        <div className="light-icon"><img src="/assets/images/icons/icon-97.png" alt="" /></div>
-                        <figure className="doller-box"><img src="/assets/images/resource/doller-1.png" alt="" /></figure>
+                        <div className="light-icon"><img loading="lazy" src="/assets/images/icons/icon-97.png" alt="" /></div>
+                        <figure className="doller-box"><img loading="lazy" src="/assets/images/resource/doller-1.png" alt="" /></figure>
                         <div className="rotate-box">
                             <CircularText className="curved-circle" radius={77}>Business Loan Interst Rate</CircularText>
                             <div className="text">
@@ -55,14 +55,14 @@ export default function HomeSpotlightPage(){
                             <Link to="/index-3"><i className="flaticon-right-arrow"></i>Find Out More</Link>
                         </div>
                         <div className="appointment-box">
-                            <div className="icon-box"><img src="/assets/images/icons/icon-98.png" alt="" /></div>
+                            <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-98.png" alt="" /></div>
                             <h5>Make an Appointment</h5>
                             <p>Consultation with our executive today.</p>
                             <div className="link"><Link to="/index-3"><i className="flaticon-right-arrow"></i></Link></div>
                         </div>
                     </div>
                     <div className="image-box">
-                        <figure className="image"><img src="/assets/images/banner/banner-img-1.jpg" alt="" /></figure>
+                        <figure className="image"><img loading="lazy" src="/assets/images/banner/banner-img-1.jpg" alt="" /></figure>
                     </div>
                 </div>
                 <div className="form-inner">
@@ -78,16 +78,16 @@ export default function HomeSpotlightPage(){
                                 <div className="form-content">
                                     <form method="post" action="index-3.html">
                                         <div className="form-group">
-                                            <div className="icon-box"><img src="/assets/images/icons/icon-99.png" alt="" /></div>
+                                            <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-99.png" alt="" /></div>
                                             <input type="text" name="phone" placeholder="Mobile Num" required />
                                         </div>
                                         <div className="text-box pt_6 pb_16 centred">[or]</div>
                                         <div className="form-group">
-                                            <div className="icon-box"><img src="/assets/images/icons/icon-100.png" alt="" /></div>
+                                            <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-100.png" alt="" /></div>
                                             <input type="text" name="name" placeholder="User Name" required />
                                         </div>
                                         <div className="form-group">
-                                            <div className="icon-box"><img src="/assets/images/icons/icon-101.png" alt="" /></div>
+                                            <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-101.png" alt="" /></div>
                                             <input type="password" name="password" placeholder="Password" required />
                                         </div>
                                         <div className="message-btn pt_10"><button type="submit" className="theme-btn"><span>Login Your Account</span></button></div>
@@ -102,16 +102,16 @@ export default function HomeSpotlightPage(){
                                 <div className="form-content">
                                     <form method="post" action="index-3.html">
                                         <div className="form-group">
-                                            <div className="icon-box"><img src="/assets/images/icons/icon-99.png" alt="" /></div>
+                                            <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-99.png" alt="" /></div>
                                             <input type="text" name="phone" placeholder="Mobile Num" required />
                                         </div>
                                         <div className="text-box pt_6 pb_16 centred">[or]</div>
                                         <div className="form-group">
-                                            <div className="icon-box"><img src="/assets/images/icons/icon-100.png" alt="" /></div>
+                                            <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-100.png" alt="" /></div>
                                             <input type="text" name="name" placeholder="User Name" required />
                                         </div>
                                         <div className="form-group">
-                                            <div className="icon-box"><img src="/assets/images/icons/icon-101.png" alt="" /></div>
+                                            <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-101.png" alt="" /></div>
                                             <input type="password" name="password" placeholder="Password" required />
                                         </div>
                                         <div className="message-btn pt_10"><button type="submit" className="theme-btn"><span>Login Your Account</span></button></div>
@@ -136,7 +136,7 @@ export default function HomeSpotlightPage(){
                 <div className="pattern-1" style={{backgroundImage: 'url(/assets/images/shape/shape-15.png)'}}></div>
                 <div className="pattern-2" style={{backgroundImage: 'url(/assets/images/shape/shape-16.png)'}}></div>
             </div>
-            <figure className="image-layer"><img src="/assets/images/resource/apps-2.png" alt="" /></figure>
+            <figure className="image-layer"><img loading="lazy" src="/assets/images/resource/apps-2.png" alt="" /></figure>
             <div className="auto-container">
                 <div className="row clearfix">
                     <div className="col-xl-6 col-lg-12 col-md-12 offset-xl-6 content-column">
@@ -176,8 +176,8 @@ export default function HomeSpotlightPage(){
                                 <p>Perfectly simple and easy to distinguishto the claims of duty ...</p>
                             </div>
                             <div className="image-box">
-                                <figure className="image"><img src="/assets/images/resource/banking-2.jpg" alt="" /></figure>
-                                <div className="icon-box"><img src="/assets/images/icons/icon-102.png" alt="" /></div>
+                                <figure className="image"><img loading="lazy" src="/assets/images/resource/banking-2.jpg" alt="" /></figure>
+                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-102.png" alt="" /></div>
                                 <div className="btn-box"><Link to="/index-2"><span>Read More</span></Link></div>
                             </div>
                         </div>
@@ -189,8 +189,8 @@ export default function HomeSpotlightPage(){
                                 <p>Duty through weakness of will, which is the same as saying through...</p>
                             </div>
                             <div className="image-box">
-                                <figure className="image"><img src="/assets/images/resource/banking-3.jpg" alt="" /></figure>
-                                <div className="icon-box"><img src="/assets/images/icons/icon-103.png" alt="" /></div>
+                                <figure className="image"><img loading="lazy" src="/assets/images/resource/banking-3.jpg" alt="" /></figure>
+                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-103.png" alt="" /></div>
                                 <div className="btn-box"><Link to="/index-2"><span>Read More</span></Link></div>
                             </div>
                         </div>
@@ -202,8 +202,8 @@ export default function HomeSpotlightPage(){
                                 <p>Choice is untrammelled when nothing prevents our being able to do...</p>
                             </div>
                             <div className="image-box">
-                                <figure className="image"><img src="/assets/images/resource/banking-4.jpg" alt="" /></figure>
-                                <div className="icon-box"><img src="/assets/images/icons/icon-104.png" alt="" /></div>
+                                <figure className="image"><img loading="lazy" src="/assets/images/resource/banking-4.jpg" alt="" /></figure>
+                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-104.png" alt="" /></div>
                                 <div className="btn-box"><Link to="/index-2"><span>Read More</span></Link></div>
                             </div>
                         </div>
@@ -215,8 +215,8 @@ export default function HomeSpotlightPage(){
                                 <p>Perfectly simple and easy to distinguishto the claims of duty ...</p>
                             </div>
                             <div className="image-box">
-                                <figure className="image"><img src="/assets/images/resource/banking-2.jpg" alt="" /></figure>
-                                <div className="icon-box"><img src="/assets/images/icons/icon-102.png" alt="" /></div>
+                                <figure className="image"><img loading="lazy" src="/assets/images/resource/banking-2.jpg" alt="" /></figure>
+                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-102.png" alt="" /></div>
                                 <div className="btn-box"><Link to="/index-2"><span>Read More</span></Link></div>
                             </div>
                         </div>
@@ -228,8 +228,8 @@ export default function HomeSpotlightPage(){
                                 <p>Duty through weakness of will, which is the same as saying through...</p>
                             </div>
                             <div className="image-box">
-                                <figure className="image"><img src="/assets/images/resource/banking-3.jpg" alt="" /></figure>
-                                <div className="icon-box"><img src="/assets/images/icons/icon-103.png" alt="" /></div>
+                                <figure className="image"><img loading="lazy" src="/assets/images/resource/banking-3.jpg" alt="" /></figure>
+                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-103.png" alt="" /></div>
                                 <div className="btn-box"><Link to="/index-2"><span>Read More</span></Link></div>
                             </div>
                         </div>
@@ -241,8 +241,8 @@ export default function HomeSpotlightPage(){
                                 <p>Choice is untrammelled when nothing prevents our being able to do...</p>
                             </div>
                             <div className="image-box">
-                                <figure className="image"><img src="/assets/images/resource/banking-4.jpg" alt="" /></figure>
-                                <div className="icon-box"><img src="/assets/images/icons/icon-104.png" alt="" /></div>
+                                <figure className="image"><img loading="lazy" src="/assets/images/resource/banking-4.jpg" alt="" /></figure>
+                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-104.png" alt="" /></div>
                                 <div className="btn-box"><Link to="/index-2"><span>Read More</span></Link></div>
                             </div>
                         </div>
@@ -254,8 +254,8 @@ export default function HomeSpotlightPage(){
                                 <p>Perfectly simple and easy to distinguishto the claims of duty ...</p>
                             </div>
                             <div className="image-box">
-                                <figure className="image"><img src="/assets/images/resource/banking-2.jpg" alt="" /></figure>
-                                <div className="icon-box"><img src="/assets/images/icons/icon-102.png" alt="" /></div>
+                                <figure className="image"><img loading="lazy" src="/assets/images/resource/banking-2.jpg" alt="" /></figure>
+                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-102.png" alt="" /></div>
                                 <div className="btn-box"><Link to="/index-2"><span>Read More</span></Link></div>
                             </div>
                         </div>
@@ -267,8 +267,8 @@ export default function HomeSpotlightPage(){
                                 <p>Duty through weakness of will, which is the same as saying through...</p>
                             </div>
                             <div className="image-box">
-                                <figure className="image"><img src="/assets/images/resource/banking-3.jpg" alt="" /></figure>
-                                <div className="icon-box"><img src="/assets/images/icons/icon-103.png" alt="" /></div>
+                                <figure className="image"><img loading="lazy" src="/assets/images/resource/banking-3.jpg" alt="" /></figure>
+                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-103.png" alt="" /></div>
                                 <div className="btn-box"><Link to="/index-2"><span>Read More</span></Link></div>
                             </div>
                         </div>
@@ -280,8 +280,8 @@ export default function HomeSpotlightPage(){
                                 <p>Choice is untrammelled when nothing prevents our being able to do...</p>
                             </div>
                             <div className="image-box">
-                                <figure className="image"><img src="/assets/images/resource/banking-4.jpg" alt="" /></figure>
-                                <div className="icon-box"><img src="/assets/images/icons/icon-104.png" alt="" /></div>
+                                <figure className="image"><img loading="lazy" src="/assets/images/resource/banking-4.jpg" alt="" /></figure>
+                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-104.png" alt="" /></div>
                                 <div className="btn-box"><Link to="/index-2"><span>Read More</span></Link></div>
                             </div>
                         </div>
@@ -307,14 +307,14 @@ export default function HomeSpotlightPage(){
                     <div className="support-box">
                         <h5>Get Support</h5>
                         <div className="phone-box">
-                            <div className="icon-box"><img src="/assets/images/icons/icon-105.png" alt="" /></div>
+                            <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-105.png" alt="" /></div>
                             <a href="tel:49556789091">+49 55 678 90 & 91</a>
                             <span>9.00 am to 7.00 pm</span>
                         </div>
                     </div>
                 </div>
                 <Tabs className="tabs-box">
-                    <figure className="support-image"><img src="/assets/images/banner/support.jpg" alt="" /></figure>
+                    <figure className="support-image"><img loading="lazy" src="/assets/images/banner/support.jpg" alt="" /></figure>
                     <div className="tab-btn-one">
                         <ul className="tab-btns tab-buttons clearfix">
                             <li className="tab-btn active-btn" data-tab="#tab-9">Business</li>
@@ -360,7 +360,7 @@ export default function HomeSpotlightPage(){
                                             <div className="tab-2 active-tab-2" id="tab-11">
                                                 <div className="content-box">
                                                     <div className="title-box">
-                                                        <div className="icon-box"><img src="/assets/images/icons/icon-21.png" alt="" /></div>
+                                                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-21.png" alt="" /></div>
                                                         <h4>Savings Account</h4>
                                                         <h2>Invest in Your Future, <br />Start Saving.</h2>
                                                     </div>
@@ -371,14 +371,14 @@ export default function HomeSpotlightPage(){
                                                                 <div className="single-item">
                                                                     <h2>3.2k</h2>
                                                                     <p>Live Savings Accounts</p>
-                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
+                                                                    <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                                                 <div className="single-item">
                                                                     <h2>$2b</h2>
                                                                     <p>In Customer Savings</p>
-                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
+                                                                    <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -387,15 +387,15 @@ export default function HomeSpotlightPage(){
                                                             <h3>Digital Opening</h3>
                                                             <form method="post" action="index.html">
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-23.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-23.png" alt="" /></div>
                                                                     <input type="text" name="name" placeholder="Full Name" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-24.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-24.png" alt="" /></div>
                                                                     <input type="email" name="email" placeholder="Email" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-25.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-25.png" alt="" /></div>
                                                                     <input type="text" name="phone" placeholder="Ph num" required />
                                                                 </div>
                                                                 <div className="form-group message-btn">
@@ -409,7 +409,7 @@ export default function HomeSpotlightPage(){
                                             <div className="tab-2" id="tab-12">
                                                 <div className="content-box">
                                                     <div className="title-box">
-                                                        <div className="icon-box"><img src="/assets/images/icons/icon-21.png" alt="" /></div>
+                                                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-21.png" alt="" /></div>
                                                         <h4>Consumer Loans</h4>
                                                         <h2>Kaizenbank in Your Future, Consumer Loans.</h2>
                                                     </div>
@@ -420,14 +420,14 @@ export default function HomeSpotlightPage(){
                                                                 <div className="single-item">
                                                                     <h2>3.2k</h2>
                                                                     <p>Live Savings Accounts</p>
-                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
+                                                                    <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                                                 <div className="single-item">
                                                                     <h2>$2b</h2>
                                                                     <p>In Customer Savings</p>
-                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
+                                                                    <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -436,15 +436,15 @@ export default function HomeSpotlightPage(){
                                                             <h3>Digital Opening</h3>
                                                             <form method="post" action="index.html">
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-23.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-23.png" alt="" /></div>
                                                                     <input type="text" name="name" placeholder="Full Name" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-24.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-24.png" alt="" /></div>
                                                                     <input type="email" name="email" placeholder="Email" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-25.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-25.png" alt="" /></div>
                                                                     <input type="text" name="phone" placeholder="Ph num" required />
                                                                 </div>
                                                                 <div className="form-group message-btn">
@@ -458,7 +458,7 @@ export default function HomeSpotlightPage(){
                                             <div className="tab-2" id="tab-13">
                                                 <div className="content-box">
                                                     <div className="title-box">
-                                                        <div className="icon-box"><img src="/assets/images/icons/icon-21.png" alt="" /></div>
+                                                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-21.png" alt="" /></div>
                                                         <h4>Debit Cards</h4>
                                                         <h2>Kaizenbank in Your Future, <br />Debit Cards.</h2>
                                                     </div>
@@ -469,14 +469,14 @@ export default function HomeSpotlightPage(){
                                                                 <div className="single-item">
                                                                     <h2>3.2k</h2>
                                                                     <p>Live Savings Accounts</p>
-                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
+                                                                    <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                                                 <div className="single-item">
                                                                     <h2>$2b</h2>
                                                                     <p>In Customer Savings</p>
-                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
+                                                                    <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -485,15 +485,15 @@ export default function HomeSpotlightPage(){
                                                             <h3>Digital Opening</h3>
                                                             <form method="post" action="index.html">
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-23.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-23.png" alt="" /></div>
                                                                     <input type="text" name="name" placeholder="Full Name" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-24.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-24.png" alt="" /></div>
                                                                     <input type="email" name="email" placeholder="Email" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-25.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-25.png" alt="" /></div>
                                                                     <input type="text" name="phone" placeholder="Ph num" required />
                                                                 </div>
                                                                 <div className="form-group message-btn">
@@ -507,7 +507,7 @@ export default function HomeSpotlightPage(){
                                             <div className="tab-2" id="tab-14">
                                                 <div className="content-box">
                                                     <div className="title-box">
-                                                        <div className="icon-box"><img src="/assets/images/icons/icon-21.png" alt="" /></div>
+                                                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-21.png" alt="" /></div>
                                                         <h4>Advisory Services</h4>
                                                         <h2>Kaizenbank is Provided, Advisory Services.</h2>
                                                     </div>
@@ -518,14 +518,14 @@ export default function HomeSpotlightPage(){
                                                                 <div className="single-item">
                                                                     <h2>3.2k</h2>
                                                                     <p>Live Savings Accounts</p>
-                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
+                                                                    <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                                                 <div className="single-item">
                                                                     <h2>$2b</h2>
                                                                     <p>In Customer Savings</p>
-                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
+                                                                    <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -534,15 +534,15 @@ export default function HomeSpotlightPage(){
                                                             <h3>Digital Opening</h3>
                                                             <form method="post" action="index.html">
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-23.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-23.png" alt="" /></div>
                                                                     <input type="text" name="name" placeholder="Full Name" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-24.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-24.png" alt="" /></div>
                                                                     <input type="email" name="email" placeholder="Email" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-25.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-25.png" alt="" /></div>
                                                                     <input type="text" name="phone" placeholder="Ph num" required />
                                                                 </div>
                                                                 <div className="form-group message-btn">
@@ -556,7 +556,7 @@ export default function HomeSpotlightPage(){
                                             <div className="tab-2" id="tab-15">
                                                 <div className="content-box">
                                                     <div className="title-box">
-                                                        <div className="icon-box"><img src="/assets/images/icons/icon-21.png" alt="" /></div>
+                                                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-21.png" alt="" /></div>
                                                         <h4>Insurance Products</h4>
                                                         <h2>Kaizenbank is Protected, Your life Insurance.</h2>
                                                     </div>
@@ -567,14 +567,14 @@ export default function HomeSpotlightPage(){
                                                                 <div className="single-item">
                                                                     <h2>3.2k</h2>
                                                                     <p>Live Savings Accounts</p>
-                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
+                                                                    <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                                                 <div className="single-item">
                                                                     <h2>$2b</h2>
                                                                     <p>In Customer Savings</p>
-                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
+                                                                    <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -583,15 +583,15 @@ export default function HomeSpotlightPage(){
                                                             <h3>Digital Opening</h3>
                                                             <form method="post" action="index.html">
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-23.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-23.png" alt="" /></div>
                                                                     <input type="text" name="name" placeholder="Full Name" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-24.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-24.png" alt="" /></div>
                                                                     <input type="email" name="email" placeholder="Email" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-25.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-25.png" alt="" /></div>
                                                                     <input type="text" name="phone" placeholder="Ph num" required />
                                                                 </div>
                                                                 <div className="form-group message-btn">
@@ -605,7 +605,7 @@ export default function HomeSpotlightPage(){
                                             <div className="tab-2" id="tab-51">
                                                 <div className="content-box">
                                                     <div className="title-box">
-                                                        <div className="icon-box"><img src="/assets/images/icons/icon-21.png" alt="" /></div>
+                                                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-21.png" alt="" /></div>
                                                         <h4>Banking Products</h4>
                                                         <h2>Kaizenbank is Protected, Your Savings Account.</h2>
                                                     </div>
@@ -616,14 +616,14 @@ export default function HomeSpotlightPage(){
                                                                 <div className="single-item">
                                                                     <h2>3.2k</h2>
                                                                     <p>Live Savings Accounts</p>
-                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
+                                                                    <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                                                 <div className="single-item">
                                                                     <h2>$2b</h2>
                                                                     <p>In Customer Savings</p>
-                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
+                                                                    <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -632,15 +632,15 @@ export default function HomeSpotlightPage(){
                                                             <h3>Digital Opening</h3>
                                                             <form method="post" action="index.html">
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-23.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-23.png" alt="" /></div>
                                                                     <input type="text" name="name" placeholder="Full Name" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-24.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-24.png" alt="" /></div>
                                                                     <input type="email" name="email" placeholder="Email" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-25.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-25.png" alt="" /></div>
                                                                     <input type="text" name="phone" placeholder="Ph num" required />
                                                                 </div>
                                                                 <div className="form-group message-btn">
@@ -694,7 +694,7 @@ export default function HomeSpotlightPage(){
                                             <div className="tab-2 active-tab-2" id="tab-16">
                                                 <div className="content-box">
                                                     <div className="title-box">
-                                                        <div className="icon-box"><img src="/assets/images/icons/icon-21.png" alt="" /></div>
+                                                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-21.png" alt="" /></div>
                                                         <h4>Savings Account</h4>
                                                         <h2>Invest in Your Future, <br />Start Saving.</h2>
                                                     </div>
@@ -705,14 +705,14 @@ export default function HomeSpotlightPage(){
                                                                 <div className="single-item">
                                                                     <h2>3.2k</h2>
                                                                     <p>Live Savings Accounts</p>
-                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
+                                                                    <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                                                 <div className="single-item">
                                                                     <h2>$2b</h2>
                                                                     <p>In Customer Savings</p>
-                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
+                                                                    <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -721,15 +721,15 @@ export default function HomeSpotlightPage(){
                                                             <h3>Digital Opening</h3>
                                                             <form method="post" action="index.html">
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-23.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-23.png" alt="" /></div>
                                                                     <input type="text" name="name" placeholder="Full Name" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-24.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-24.png" alt="" /></div>
                                                                     <input type="email" name="email" placeholder="Email" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-25.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-25.png" alt="" /></div>
                                                                     <input type="text" name="phone" placeholder="Ph num" required />
                                                                 </div>
                                                                 <div className="form-group message-btn">
@@ -743,7 +743,7 @@ export default function HomeSpotlightPage(){
                                             <div className="tab-2" id="tab-17">
                                                 <div className="content-box">
                                                     <div className="title-box">
-                                                        <div className="icon-box"><img src="/assets/images/icons/icon-21.png" alt="" /></div>
+                                                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-21.png" alt="" /></div>
                                                         <h4>Consumer Loans</h4>
                                                         <h2>Kaizenbank in Your Future, Consumer Loans.</h2>
                                                     </div>
@@ -754,14 +754,14 @@ export default function HomeSpotlightPage(){
                                                                 <div className="single-item">
                                                                     <h2>3.2k</h2>
                                                                     <p>Live Savings Accounts</p>
-                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
+                                                                    <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                                                 <div className="single-item">
                                                                     <h2>$2b</h2>
                                                                     <p>In Customer Savings</p>
-                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
+                                                                    <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -770,15 +770,15 @@ export default function HomeSpotlightPage(){
                                                             <h3>Digital Opening</h3>
                                                             <form method="post" action="index.html">
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-23.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-23.png" alt="" /></div>
                                                                     <input type="text" name="name" placeholder="Full Name" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-24.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-24.png" alt="" /></div>
                                                                     <input type="email" name="email" placeholder="Email" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-25.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-25.png" alt="" /></div>
                                                                     <input type="text" name="phone" placeholder="Ph num" required />
                                                                 </div>
                                                                 <div className="form-group message-btn">
@@ -792,7 +792,7 @@ export default function HomeSpotlightPage(){
                                             <div className="tab-2" id="tab-18">
                                                 <div className="content-box">
                                                     <div className="title-box">
-                                                        <div className="icon-box"><img src="/assets/images/icons/icon-21.png" alt="" /></div>
+                                                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-21.png" alt="" /></div>
                                                         <h4>Debit Cards</h4>
                                                         <h2>Kaizenbank in Your Future, <br />Debit Cards.</h2>
                                                     </div>
@@ -803,14 +803,14 @@ export default function HomeSpotlightPage(){
                                                                 <div className="single-item">
                                                                     <h2>3.2k</h2>
                                                                     <p>Live Savings Accounts</p>
-                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
+                                                                    <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                                                 <div className="single-item">
                                                                     <h2>$2b</h2>
                                                                     <p>In Customer Savings</p>
-                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
+                                                                    <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -819,15 +819,15 @@ export default function HomeSpotlightPage(){
                                                             <h3>Digital Opening</h3>
                                                             <form method="post" action="index.html">
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-23.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-23.png" alt="" /></div>
                                                                     <input type="text" name="name" placeholder="Full Name" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-24.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-24.png" alt="" /></div>
                                                                     <input type="email" name="email" placeholder="Email" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-25.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-25.png" alt="" /></div>
                                                                     <input type="text" name="phone" placeholder="Ph num" required />
                                                                 </div>
                                                                 <div className="form-group message-btn">
@@ -841,7 +841,7 @@ export default function HomeSpotlightPage(){
                                             <div className="tab-2" id="tab-19">
                                                 <div className="content-box">
                                                     <div className="title-box">
-                                                        <div className="icon-box"><img src="/assets/images/icons/icon-21.png" alt="" /></div>
+                                                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-21.png" alt="" /></div>
                                                         <h4>Advisory Services</h4>
                                                         <h2>Kaizenbank is Provided, Advisory Services.</h2>
                                                     </div>
@@ -852,14 +852,14 @@ export default function HomeSpotlightPage(){
                                                                 <div className="single-item">
                                                                     <h2>3.2k</h2>
                                                                     <p>Live Savings Accounts</p>
-                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
+                                                                    <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                                                 <div className="single-item">
                                                                     <h2>$2b</h2>
                                                                     <p>In Customer Savings</p>
-                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
+                                                                    <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -868,15 +868,15 @@ export default function HomeSpotlightPage(){
                                                             <h3>Digital Opening</h3>
                                                             <form method="post" action="index.html">
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-23.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-23.png" alt="" /></div>
                                                                     <input type="text" name="name" placeholder="Full Name" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-24.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-24.png" alt="" /></div>
                                                                     <input type="email" name="email" placeholder="Email" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-25.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-25.png" alt="" /></div>
                                                                     <input type="text" name="phone" placeholder="Ph num" required />
                                                                 </div>
                                                                 <div className="form-group message-btn">
@@ -890,7 +890,7 @@ export default function HomeSpotlightPage(){
                                             <div className="tab-2" id="tab-20">
                                                 <div className="content-box">
                                                     <div className="title-box">
-                                                        <div className="icon-box"><img src="/assets/images/icons/icon-21.png" alt="" /></div>
+                                                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-21.png" alt="" /></div>
                                                         <h4>Insurance Products</h4>
                                                         <h2>Kaizenbank is Protected, Your life Insurance.</h2>
                                                     </div>
@@ -901,14 +901,14 @@ export default function HomeSpotlightPage(){
                                                                 <div className="single-item">
                                                                     <h2>3.2k</h2>
                                                                     <p>Live Savings Accounts</p>
-                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
+                                                                    <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                                                 <div className="single-item">
                                                                     <h2>$2b</h2>
                                                                     <p>In Customer Savings</p>
-                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
+                                                                    <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -917,15 +917,15 @@ export default function HomeSpotlightPage(){
                                                             <h3>Digital Opening</h3>
                                                             <form method="post" action="index.html">
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-23.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-23.png" alt="" /></div>
                                                                     <input type="text" name="name" placeholder="Full Name" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-24.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-24.png" alt="" /></div>
                                                                     <input type="email" name="email" placeholder="Email" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-25.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-25.png" alt="" /></div>
                                                                     <input type="text" name="phone" placeholder="Ph num" required />
                                                                 </div>
                                                                 <div className="form-group message-btn">
@@ -939,7 +939,7 @@ export default function HomeSpotlightPage(){
                                             <div className="tab-2" id="tab-52">
                                                 <div className="content-box">
                                                     <div className="title-box">
-                                                        <div className="icon-box"><img src="/assets/images/icons/icon-21.png" alt="" /></div>
+                                                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-21.png" alt="" /></div>
                                                         <h4>Banking Products</h4>
                                                         <h2>Kaizenbank is Protected, Your Savings Account.</h2>
                                                     </div>
@@ -950,14 +950,14 @@ export default function HomeSpotlightPage(){
                                                                 <div className="single-item">
                                                                     <h2>3.2k</h2>
                                                                     <p>Live Savings Accounts</p>
-                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
+                                                                    <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
                                                                 </div>
                                                             </div>
                                                             <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                                                 <div className="single-item">
                                                                     <h2>$2b</h2>
                                                                     <p>In Customer Savings</p>
-                                                                    <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
+                                                                    <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -966,15 +966,15 @@ export default function HomeSpotlightPage(){
                                                             <h3>Digital Opening</h3>
                                                             <form method="post" action="index.html">
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-23.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-23.png" alt="" /></div>
                                                                     <input type="text" name="name" placeholder="Full Name" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-24.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-24.png" alt="" /></div>
                                                                     <input type="email" name="email" placeholder="Email" required />
                                                                 </div>
                                                                 <div className="form-group">
-                                                                    <div className="icon-box"><img src="/assets/images/icons/icon-25.png" alt="" /></div>
+                                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-25.png" alt="" /></div>
                                                                     <input type="text" name="phone" placeholder="Ph num" required />
                                                                 </div>
                                                                 <div className="form-group message-btn">
@@ -1002,7 +1002,7 @@ export default function HomeSpotlightPage(){
             <div className="outer-container clearfix">
                 <div className="funfact-block-one">
                     <div className="inner-box">
-                        <div className="icon-box"><img src="/assets/images/icons/icon-110.png" alt="" /></div>
+                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-110.png" alt="" /></div>
                         <div className="count-outer">
                             <span className="odometer" data-count="8.5">00</span><span className="symble">k</span>
                         </div>
@@ -1011,7 +1011,7 @@ export default function HomeSpotlightPage(){
                 </div>
                 <div className="funfact-block-one">
                     <div className="inner-box">
-                        <div className="icon-box"><img src="/assets/images/icons/icon-111.png" alt="" /></div>
+                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-111.png" alt="" /></div>
                         <div className="count-outer">
                             <span className="odometer" data-count="0.5">00</span><span className="symble">m</span>
                         </div>
@@ -1020,7 +1020,7 @@ export default function HomeSpotlightPage(){
                 </div>
                 <div className="funfact-block-one">
                     <div className="inner-box">
-                        <div className="icon-box"><img src="/assets/images/icons/icon-112.png" alt="" /></div>
+                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-112.png" alt="" /></div>
                         <div className="count-outer">
                             <span className="odometer" data-count="10000">00</span><span className="symble">+</span>
                         </div>
@@ -1029,7 +1029,7 @@ export default function HomeSpotlightPage(){
                 </div>
                 <div className="funfact-block-one">
                     <div className="inner-box">
-                        <div className="icon-box"><img src="/assets/images/icons/icon-113.png" alt="" /></div>
+                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-113.png" alt="" /></div>
                         <div className="count-outer">
                             <span className="odometer" data-count="50">00</span><span className="symble">+</span>
                         </div>
@@ -1043,7 +1043,7 @@ export default function HomeSpotlightPage(){
 
         
         <section className="calculator-section alternat-2 pt_120 pb_120">
-            <figure className="image-layer"><img src="/assets/images/resource/men-2.png" alt="" /></figure>
+            <figure className="image-layer"><img loading="lazy" src="/assets/images/resource/men-2.webp" alt="" /></figure>
             <span className="big-text text-black">Calculation <br />Instant</span>
             <div className="auto-container">
                 <div className="inner-container">
@@ -1070,7 +1070,7 @@ export default function HomeSpotlightPage(){
                                                             <p>Estimate your loan payments quickly & easily with our calculator.</p>
                                                         </div>
                                                         <div className="lower-text">
-                                                            <div className="icon-box"><img src="/assets/images/icons/icon-114.png" alt="" /></div>
+                                                            <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-114.png" alt="" /></div>
                                                             <h5>Loan Questions? Check Our <Link to="/faq">Faq’s</Link> Page.</h5>
                                                         </div>
                                                     </div>
@@ -1130,7 +1130,7 @@ export default function HomeSpotlightPage(){
                                     <div className="col-lg-4 col-md-12 col-sm-12 amount-column">
                                         <div className="amount-box">
                                             <div className="emi-box centred">
-                                                <div className="icon-box"><img src="/assets/images/icons/icon-115.png" alt="" /></div>
+                                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-115.png" alt="" /></div>
                                                 <h5>Monthly EMI</h5>
                                                 <h3>$4,340.00</h3>
                                                 <div className="btn-box"><Link to="/"><span>Apply Online</span></Link></div>
@@ -1164,7 +1164,7 @@ export default function HomeSpotlightPage(){
                                                             <p>Estimate your loan payments quickly & easily with our calculator.</p>
                                                         </div>
                                                         <div className="lower-text">
-                                                            <div className="icon-box"><img src="/assets/images/icons/icon-114.png" alt="" /></div>
+                                                            <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-114.png" alt="" /></div>
                                                             <h5>Loan Questions? Check Our <Link to="/faq">Faq’s</Link> Page.</h5>
                                                         </div>
                                                     </div>
@@ -1224,7 +1224,7 @@ export default function HomeSpotlightPage(){
                                     <div className="col-lg-4 col-md-12 col-sm-12 amount-column">
                                         <div className="amount-box">
                                             <div className="emi-box centred">
-                                                <div className="icon-box"><img src="/assets/images/icons/icon-115.png" alt="" /></div>
+                                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-115.png" alt="" /></div>
                                                 <h5>Monthly EMI</h5>
                                                 <h3>$4,340.00</h3>
                                                 <div className="btn-box"><Link to="/"><span>Apply Online</span></Link></div>
@@ -1258,7 +1258,7 @@ export default function HomeSpotlightPage(){
                                                             <p>Estimate your loan payments quickly & easily with our calculator.</p>
                                                         </div>
                                                         <div className="lower-text">
-                                                            <div className="icon-box"><img src="/assets/images/icons/icon-114.png" alt="" /></div>
+                                                            <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-114.png" alt="" /></div>
                                                             <h5>Loan Questions? Check Our <Link to="/faq">Faq’s</Link> Page.</h5>
                                                         </div>
                                                     </div>
@@ -1318,7 +1318,7 @@ export default function HomeSpotlightPage(){
                                     <div className="col-lg-4 col-md-12 col-sm-12 amount-column">
                                         <div className="amount-box">
                                             <div className="emi-box centred">
-                                                <div className="icon-box"><img src="/assets/images/icons/icon-115.png" alt="" /></div>
+                                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-115.png" alt="" /></div>
                                                 <h5>Monthly EMI</h5>
                                                 <h3>$4,340.00</h3>
                                                 <div className="btn-box"><Link to="/"><span>Apply Online</span></Link></div>
@@ -1352,7 +1352,7 @@ export default function HomeSpotlightPage(){
                                                             <p>Estimate your loan payments quickly & easily with our calculator.</p>
                                                         </div>
                                                         <div className="lower-text">
-                                                            <div className="icon-box"><img src="/assets/images/icons/icon-114.png" alt="" /></div>
+                                                            <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-114.png" alt="" /></div>
                                                             <h5>Loan Questions? Check Our <Link to="/faq">Faq’s</Link> Page.</h5>
                                                         </div>
                                                     </div>
@@ -1412,7 +1412,7 @@ export default function HomeSpotlightPage(){
                                     <div className="col-lg-4 col-md-12 col-sm-12 amount-column">
                                         <div className="amount-box">
                                             <div className="emi-box centred">
-                                                <div className="icon-box"><img src="/assets/images/icons/icon-115.png" alt="" /></div>
+                                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-115.png" alt="" /></div>
                                                 <h5>Monthly EMI</h5>
                                                 <h3>$4,340.00</h3>
                                                 <div className="btn-box"><Link to="/"><span>Apply Online</span></Link></div>
@@ -1446,7 +1446,7 @@ export default function HomeSpotlightPage(){
                                                             <p>Estimate your loan payments quickly & easily with our calculator.</p>
                                                         </div>
                                                         <div className="lower-text">
-                                                            <div className="icon-box"><img src="/assets/images/icons/icon-114.png" alt="" /></div>
+                                                            <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-114.png" alt="" /></div>
                                                             <h5>Loan Questions? Check Our <Link to="/faq">Faq’s</Link> Page.</h5>
                                                         </div>
                                                     </div>
@@ -1506,7 +1506,7 @@ export default function HomeSpotlightPage(){
                                     <div className="col-lg-4 col-md-12 col-sm-12 amount-column">
                                         <div className="amount-box">
                                             <div className="emi-box centred">
-                                                <div className="icon-box"><img src="/assets/images/icons/icon-115.png" alt="" /></div>
+                                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-115.png" alt="" /></div>
                                                 <h5>Monthly EMI</h5>
                                                 <h3>$4,340.00</h3>
                                                 <div className="btn-box"><Link to="/"><span>Apply Online</span></Link></div>
@@ -1549,7 +1549,7 @@ export default function HomeSpotlightPage(){
                     <div className="col-lg-6 col-md-12 col-sm-12 card-column">
                         <div className="card-inner">
                             <div className="shape" style={{backgroundImage: 'url(/assets/images/shape/shape-21.png)'}}></div>
-                            <figure className="card-box"><img src="/assets/images/icons/card-2.png" alt="" /></figure>
+                            <figure className="card-box"><img loading="lazy" src="/assets/images/icons/card-2.png" alt="" /></figure>
                             <span className="highlights-one">Cashback Up to: 25%</span>
                             <span className="highlights-two">Average APR: 5.50%</span>
                         </div>
@@ -1590,7 +1590,7 @@ export default function HomeSpotlightPage(){
                         <div className="deals-block-one">
                             <div className="inner-box">
                                 <div className="title-box">
-                                    <div className="icon-box"><img src="/assets/images/icons/icon-74.png" alt="" /></div>
+                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-74.png" alt="" /></div>
                                     <span className="category">Medical</span>
                                     <p>Expire On: 25th Oct’24</p>
                                 </div>
@@ -1598,7 +1598,7 @@ export default function HomeSpotlightPage(){
                                 <div className="lower-box">
                                     <div className="link-box"><Link to="/index-2"><i className="flaticon-right-arrow"></i>Read More</Link></div>
                                     <div className="share-box">
-                                        <div className="share-text"><img src="/assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
+                                        <div className="share-text"><img loading="lazy" src="/assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
                                         <ul className="social-links">
                                             <li><Link to="/index-2"><i className="flaticon-facebook"></i></Link></li>
                                             <li><Link to="/index-2"><i className="flaticon-instagram-logo"></i></Link></li>
@@ -1614,7 +1614,7 @@ export default function HomeSpotlightPage(){
                         <div className="deals-block-one">
                             <div className="inner-box">
                                 <div className="title-box">
-                                    <div className="icon-box"><img src="/assets/images/icons/icon-75.png" alt="" /></div>
+                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-75.png" alt="" /></div>
                                     <span className="category">Restaurant</span>
                                     <p>Expire On: 31st Oct’24</p>
                                 </div>
@@ -1622,7 +1622,7 @@ export default function HomeSpotlightPage(){
                                 <div className="lower-box">
                                     <div className="link-box"><Link to="/index-2"><i className="flaticon-right-arrow"></i>Read More</Link></div>
                                     <div className="share-box">
-                                        <div className="share-text"><img src="/assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
+                                        <div className="share-text"><img loading="lazy" src="/assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
                                         <ul className="social-links">
                                             <li><Link to="/index-2"><i className="flaticon-facebook"></i></Link></li>
                                             <li><Link to="/index-2"><i className="flaticon-instagram-logo"></i></Link></li>
@@ -1638,7 +1638,7 @@ export default function HomeSpotlightPage(){
                         <div className="deals-block-one">
                             <div className="inner-box">
                                 <div className="title-box">
-                                    <div className="icon-box"><img src="/assets/images/icons/icon-76.png" alt="" /></div>
+                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-76.png" alt="" /></div>
                                     <span className="category">Electronics</span>
                                     <p>Expire On: 31st Oct’24</p>
                                 </div>
@@ -1646,7 +1646,7 @@ export default function HomeSpotlightPage(){
                                 <div className="lower-box">
                                     <div className="link-box"><Link to="/index-2"><i className="flaticon-right-arrow"></i>Read More</Link></div>
                                     <div className="share-box">
-                                        <div className="share-text"><img src="/assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
+                                        <div className="share-text"><img loading="lazy" src="/assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
                                         <ul className="social-links">
                                             <li><Link to="/index-2"><i className="flaticon-facebook"></i></Link></li>
                                             <li><Link to="/index-2"><i className="flaticon-instagram-logo"></i></Link></li>
@@ -1662,7 +1662,7 @@ export default function HomeSpotlightPage(){
                         <div className="deals-block-one">
                             <div className="inner-box">
                                 <div className="title-box">
-                                    <div className="icon-box"><img src="/assets/images/icons/icon-77.png" alt="" /></div>
+                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-77.png" alt="" /></div>
                                     <span className="category">Movies</span>
                                     <p>Expire On: 10th Nov’24</p>
                                 </div>
@@ -1670,7 +1670,7 @@ export default function HomeSpotlightPage(){
                                 <div className="lower-box">
                                     <div className="link-box"><Link to="/index-2"><i className="flaticon-right-arrow"></i>Read More</Link></div>
                                     <div className="share-box">
-                                        <div className="share-text"><img src="/assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
+                                        <div className="share-text"><img loading="lazy" src="/assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
                                         <ul className="social-links">
                                             <li><Link to="/index-2"><i className="flaticon-facebook"></i></Link></li>
                                             <li><Link to="/index-2"><i className="flaticon-instagram-logo"></i></Link></li>
@@ -1685,18 +1685,18 @@ export default function HomeSpotlightPage(){
                     <div className="col-lg-8 col-md-12 col-sm-12 newsletter-block">
                         <div className="newsletter-inner">
                             <div className="shape" style={{backgroundImage: 'url(/assets/images/shape/shape-22.png)'}}></div>
-                            <div className="icon-box"><img src="/assets/images/icons/icon-78.png" alt="" /></div>
+                            <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-78.png" alt="" /></div>
                             <div className="newsletter-content">
                                 <h3>Newsletter</h3>
                                 <p>Subscribe to get news, offers & other updates.</p>
                                 <form method="post" action="contact.html">
                                     <div className="form-group">
-                                        <div className="icon"><img src="/assets/images/icons/icon-108.png" alt="" /></div>
+                                        <div className="icon"><img loading="lazy" src="/assets/images/icons/icon-108.png" alt="" /></div>
                                         <input type="email" name="email" placeholder="Email address..." required />
                                         <button type="submit"><i className="flaticon-right-arrow"></i><span>Subscribe</span></button>
                                     </div>
                                 </form>
-                                <div className="lower-text"><img src="/assets/images/icons/icon-81.png" alt="" />Relevant Updates, No Spam.</div>
+                                <div className="lower-text"><img loading="lazy" src="/assets/images/icons/icon-81.png" alt="" />Relevant Updates, No Spam.</div>
                             </div>
                         </div>
                     </div>

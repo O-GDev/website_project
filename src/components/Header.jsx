@@ -175,7 +175,7 @@ export default function Header() {
               </div>
               <div className="menu-right-content">
                 <div className="support-box mr_50">
-                  <img src="/assets/images/icons/icon-8.png" alt="" />
+                  <img loading="lazy" src="/assets/images/icons/icon-8.png" alt="" />
                   <Link to="/contact">Support</Link>
                 </div>
                 <div className="support-box open-account-box mr_50">
@@ -190,7 +190,7 @@ export default function Header() {
                     className="side-panel-btn nav-btn"
                     onClick={() => setIsSidePanelOpen(!isSidePanelOpen)}
                   >
-                    <img src="/assets/images/icons/icon-10.png" alt="" />
+                    <img loading="lazy" src="/assets/images/icons/icon-10.png" alt="" />
                   </button>
                   <div className={`side-panel nav-content ${isSidePanelOpen ? 'cart-visible' : ''}`}>
                     <div className="close-icon" onClick={() => setIsSidePanelOpen(false)}>
@@ -217,7 +217,7 @@ export default function Header() {
                         <div className={`tab ${activeSideTab === 'branches' ? 'active-tab' : ''}`}>
                           <div className="inner-box">
                             <div className="form-group">
-                              <div className="icon-box"><img src="/assets/images/icons/icon-86.png" alt="" /></div>
+                              <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-86.png" alt="" /></div>
                               <input type="text" name="location" placeholder="Current Location" />
                             </div>
                             <div className="text">[or]</div>
@@ -234,7 +234,7 @@ export default function Header() {
                         <div className={`tab ${activeSideTab === 'atm' ? 'active-tab' : ''}`}>
                           <div className="inner-box">
                             <div className="form-group">
-                              <div className="icon-box"><img src="/assets/images/icons/icon-86.png" alt="" /></div>
+                              <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-86.png" alt="" /></div>
                               <input type="text" name="location" placeholder="Current Location" />
                             </div>
                             <div className="text">[or]</div>
@@ -273,7 +273,7 @@ export default function Header() {
               </div>
               <div className="menu-right-content">
                 <div className="support-box mr_50">
-                  <img src="/assets/images/icons/icon-8.png" alt="" />
+                  <img loading="lazy" src="/assets/images/icons/icon-8.png" alt="" />
                   <Link to="/contact">Support</Link>
                 </div>
                 <div className="support-box open-account-box mr_50">
@@ -288,7 +288,7 @@ export default function Header() {
                     className="side-panel-btn nav-btn-2"
                     onClick={() => setIsSidePanelOpen(!isSidePanelOpen)}
                   >
-                    <img src="/assets/images/icons/icon-10.png" alt="" />
+                    <img loading="lazy" src="/assets/images/icons/icon-10.png" alt="" />
                   </button>
                   <div className={`side-panel nav-content-2 ${isSidePanelOpen ? 'cart-visible' : ''}`}>
                     <div className="close-icon" onClick={() => setIsSidePanelOpen(false)}>
@@ -315,7 +315,7 @@ export default function Header() {
                         <div className={`tab ${activeSideTab === 'branches' ? 'active-tab' : ''}`}>
                           <div className="inner-box">
                             <div className="form-group">
-                              <div className="icon-box"><img src="/assets/images/icons/icon-86.png" alt="" /></div>
+                              <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-86.png" alt="" /></div>
                               <input type="text" name="location" placeholder="Current Location" />
                             </div>
                             <div className="text">[or]</div>
@@ -332,7 +332,7 @@ export default function Header() {
                         <div className={`tab ${activeSideTab === 'atm' ? 'active-tab' : ''}`}>
                           <div className="inner-box">
                             <div className="form-group">
-                              <div className="icon-box"><img src="/assets/images/icons/icon-86.png" alt="" /></div>
+                              <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-86.png" alt="" /></div>
                               <input type="text" name="location" placeholder="Current Location" />
                             </div>
                             <div className="text">[or]</div>

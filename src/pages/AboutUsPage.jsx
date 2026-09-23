@@ -26,7 +26,7 @@ export default function AboutUsPage(){
                                 <div className="certified-box">
                                     <div className="rotate-box">
                                         <CircularText className="curved-circle-2" radius={57}>ISO 27001 Certified Bank</CircularText>
-                                        <div className="icon-box"><img src="/assets/images/icons/icon-196.png" alt="" /></div>
+                                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-196.png" alt="" /></div>
                                     </div>
                                     <h6>ISO Certification</h6>
                                     <h4>Our Commitment to Quality and <br />Secure banking.</h4>
@@ -42,7 +42,7 @@ export default function AboutUsPage(){
                                 </div>
                                 <div className="inner-box">
                                     <div className="icon-box">
-                                        <div className="icon"><img src="/assets/images/icons/icon-197.png" alt="" /></div>
+                                        <div className="icon"><img loading="lazy" src="/assets/images/icons/icon-197.png" alt="" /></div>
                                         <span className="big-text">Why Kaizen</span>
                                     </div>
                                     <ul className="list-item">
@@ -60,7 +60,7 @@ export default function AboutUsPage(){
                     <div className="row clearfix">
                         <div className="col-lg-8 col-md-12 col-sm-12 left-column">
                             <div className="left-content">
-                                <figure className="image-box"><img src="/assets/images/banner/aboutus.jpg" alt="About Kaizenbank" /></figure>
+                                <figure className="image-box"><img loading="lazy" src="/assets/images/banner/aboutus.jpg" alt="About Kaizenbank" /></figure>
                                 <div className="content-box">
                                     <div className="bg-layer" style={{backgroundImage: 'url(/assets/images/shape/shape-42.png)'}}></div>
                                     <div className="shape" style={{backgroundImage: 'url(/assets/images/shape/shape-43.png)'}}></div>
@@ -93,7 +93,7 @@ export default function AboutUsPage(){
             <div className="outer-container clearfix">
                 <div className="funfact-block-one">
                     <div className="inner-box">
-                        <div className="icon-box"><img src="/assets/images/icons/icon-27.png" alt="" /></div>
+                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-27.png" alt="" /></div>
                         <div className="count-outer">
                             <span className="odometer" data-count="1">00</span><span className="symble"></span>
                         </div>
@@ -102,7 +102,7 @@ export default function AboutUsPage(){
                 </div>
                 <div className="funfact-block-one">
                     <div className="inner-box">
-                        <div className="icon-box"><img src="/assets/images/icons/icon-28.png" alt="" /></div>
+                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-28.png" alt="" /></div>
                         <div className="count-outer">
                             <span className="odometer" data-count="10000">00</span><span className="symble">+</span>
                         </div>
@@ -111,7 +111,7 @@ export default function AboutUsPage(){
                 </div>
                 <div className="funfact-block-one">
                     <div className="inner-box">
-                        <div className="icon-box"><img src="/assets/images/icons/icon-29.png" alt="" /></div>
+                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-29.png" alt="" /></div>
                         <div className="count-outer">
                             <span className="odometer" data-count="50">00</span><span className="symble">+</span>
                         </div>
@@ -120,7 +120,7 @@ export default function AboutUsPage(){
                 </div>
                 <div className="funfact-block-one">
                     <div className="inner-box">
-                        <div className="icon-box"><img src="/assets/images/icons/icon-30.png" alt="" /></div>
+                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-30.png" alt="" /></div>
                         <div className="count-outer">
                             <span className="odometer" data-count="258">00</span>
                         </div>
@@ -142,11 +142,11 @@ export default function AboutUsPage(){
                         <div className="statements-block-one">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><img src="/assets/images/banner/ourmission.jpg" alt="Our Mission" /></figure>
+                                    <figure className="image"><img loading="lazy" src="/assets/images/banner/ourmission.jpg" alt="Our Mission" /></figure>
                                     <h3>Our Mission</h3>
                                 </div>
                                 <div className="text-box">
-                                    <div className="icon-box"><img src="/assets/images/icons/icon-199.png" alt="" /></div>
+                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-199.png" alt="" /></div>
                                     <p>To transform lives by providing tailored financial services, leveraging technology, and fostering continuous improvement while empowering individuals, entrepreneurs, and small businesses through ethical banking practices.</p>
                                 </div>
                             </div>
@@ -156,7 +156,7 @@ export default function AboutUsPage(){
                         <div className="statements-block-two">
                             <div className="inner-box">
                                 <div className="shape" style={{backgroundImage: 'url(/assets/images/shape/shape-44.png)'}}></div>
-                                <div className="icon-box"><img src="/assets/images/icons/icon-201.png" alt="" /></div>
+                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-201.png" alt="" /></div>
                                 <h3>Our Core Values</h3>
                                 <ul className="list-item clearfix">
                                     <li><strong>Continuous Improvement (Kaizen)</strong> – We embrace a culture of constant learning, innovation, and efficiency to better serve our customers.</li>
@@ -174,11 +174,11 @@ export default function AboutUsPage(){
                         <div className="statements-block-one">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><img src="/assets/images/banner/ourvision.jpg" alt="Our Vision" /></figure>
+                                    <figure className="image"><img loading="lazy" src="/assets/images/banner/ourvision.jpg" alt="Our Vision" /></figure>
                                     <h3>Our Vision</h3>
                                 </div>
                                 <div className="text-box">
-                                    <div className="icon-box"><img src="/assets/images/icons/icon-200.png" alt="" /></div>
+                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-200.png" alt="" /></div>
                                     <p>To be the leading microfinance institution driving financial inclusion and economic empowerment through innovative, accessible, and sustainable banking solutions.</p>
                                 </div>
                             </div>
@@ -208,7 +208,7 @@ export default function AboutUsPage(){
                                     <div className="inner-box">
                                         <div className="shape" style={{backgroundImage: 'url(/assets/images/shape/shape-9.png)'}}></div>
                                         <h3>Community <br />Empowerment</h3>
-                                        <div className="icon-box"><img src="/assets/images/icons/award-1.png" alt="" /></div>
+                                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/award-1.png" alt="" /></div>
                                         <p>Financial inclusion for underserved communities.</p>
                                         <span>Our Commitment</span>
                                     </div>
@@ -217,7 +217,7 @@ export default function AboutUsPage(){
                                     <div className="inner-box">
                                         <div className="shape" style={{backgroundImage: 'url(/assets/images/shape/shape-9.png)'}}></div>
                                         <h3>Customer <br />Satisfaction</h3>
-                                        <div className="icon-box"><img src="/assets/images/icons/award-2.png" alt="" /></div>
+                                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/award-2.png" alt="" /></div>
                                         <p>Accessible, reliable, and customer-focused banking.</p>
                                         <span>Our Promise</span>
                                     </div>
@@ -240,10 +240,10 @@ export default function AboutUsPage(){
                 <div className="row clearfix">
                     <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                         <div className="image-box">
-                            <figure className="image"><img src="/assets/images/resource/chooseus-1.jpg" alt="" /></figure>
+                            <figure className="image"><img loading="lazy" src="/assets/images/resource/chooseus-1.jpg" alt="" /></figure>
                             <div className="chart-box centred">
                                 <h6> Financial Growth</h6>
-                                <div className="chart mb_12"><img src="/assets/images/icons/chart-1.png" alt="" /></div>
+                                <div className="chart mb_12"><img loading="lazy" src="/assets/images/icons/chart-1.png" alt="" /></div>
                                 <ul className="option-list mb_7 clearfix">
                                     <li>
                                         <div className="check-box">
@@ -267,28 +267,28 @@ export default function AboutUsPage(){
                         <div className="content-box">
                             <div className="chooseus-block-one">
                                 <div className="inner-box">
-                                    <div className="icon-box"><img src="/assets/images/icons/icon-203.png" alt="" /></div>
+                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-203.png" alt="" /></div>
                                     <h3>Community <br />Empowerment</h3>
                                     <p>We are not just a bank; we are a catalyst for positive change, working to reduce poverty and create opportunities for financial independence.</p>
                                 </div>
                             </div>
                             <div className="chooseus-block-one">
                                 <div className="inner-box">
-                                    <div className="icon-box"><img src="/assets/images/icons/icon-204.png" alt="" /></div>
+                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-204.png" alt="" /></div>
                                     <h3>Innovative Financial <br />Solutions</h3>
                                     <p>Fostering sustainable growth and financial inclusion by providing accessible, reliable, and customer-focused banking services.</p>
                                 </div>
                             </div>
                             <div className="chooseus-block-one">
                                 <div className="inner-box">
-                                    <div className="icon-box"><img src="/assets/images/icons/icon-205.png" alt="" /></div>
+                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-205.png" alt="" /></div>
                                     <h3>Accessible <br />Banking</h3>
                                     <p>Affordable and accessible financial products for individuals, micro-entrepreneurs, and small businesses.</p>
                                 </div>
                             </div>
                             <div className="chooseus-block-one">
                                 <div className="inner-box">
-                                    <div className="icon-box"><img src="/assets/images/icons/icon-206.png" alt="" /></div>
+                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-206.png" alt="" /></div>
                                     <h3>Expert Financial <br />Guidance</h3>
                                     <p>Our dedicated team of professionals is always ready to assist, providing guidance and support whenever needed.</p>
                                 </div>

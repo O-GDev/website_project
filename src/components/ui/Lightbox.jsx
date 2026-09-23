@@ -68,7 +68,7 @@ export default function Lightbox() {
         <button type="button" className="rl-prev" onClick={(e) => { e.stopPropagation(); go(-1) }} aria-label="Previous">&lsaquo;</button>
       )}
       <div className="rl-content" onClick={(e) => e.stopPropagation()}>
-        <img src={current.src} alt={current.alt || ''} />
+        <img loading="lazy" src={current.src} alt={current.alt || ''} />
         <div className="rl-caption">{current.src}</div>
       </div>
       {items.length > 1 && (

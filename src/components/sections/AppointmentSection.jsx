@@ -11,42 +11,42 @@ export default function AppointmentSection() {
                         <div className="row clearfix">
                             <div className="col-lg-12 col-md-12 col-sm-12 single-column">
                                 <div className="form-group">
-                                    <div className="icon-box"><img src="/assets/images/icons/icon-221.png" alt="" /></div>
+                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-221.png" alt="" /></div>
                                     <label>Your Name</label>
                                     <input type="text" name="name" placeholder="Enter name here" required />
                                 </div>
                             </div>
                             <div className="col-lg-12 col-md-12 col-sm-12 single-column">
                                 <div className="form-group">
-                                    <div className="icon-box"><img src="/assets/images/icons/icon-222.png" alt="" /></div>
+                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-222.png" alt="" /></div>
                                     <label>Email</label>
                                     <input type="email" name="email" placeholder="Email address" required />
                                 </div>
                             </div>
                             <div className="col-lg-12 col-md-12 col-sm-12 single-column">
                                 <div className="form-group">
-                                    <div className="icon-box"><img src="/assets/images/icons/icon-223.png" alt="" /></div>
+                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-223.png" alt="" /></div>
                                     <label>Phone</label>
                                     <input type="text" name="phone" placeholder="Phone number" required />
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-12 col-sm-12 single-column">
                                 <div className="form-group">
-                                    <div className="icon-box"><img src="/assets/images/icons/icon-224.png" alt="" /></div>
+                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-224.png" alt="" /></div>
                                     <label>Date</label>
                                     <input type="date" name="date" placeholder="Date" id="datepicker" />
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-12 col-sm-12 single-column">
                                 <div className="form-group">
-                                    <div className="icon-box"><img src="/assets/images/icons/icon-225.png" alt="" /></div>
+                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-225.png" alt="" /></div>
                                     <label>Time</label>
                                     <input type="time" name="time" placeholder="Time" />
                                 </div>
                             </div>
                             <div className="col-lg-12 col-md-12 col-sm-12 single-column">
                                 <div className="form-group">
-                                    <div className="icon-box"><img src="/assets/images/icons/icon-226.png" alt="" /></div>
+                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-226.png" alt="" /></div>
                                     <label>Address</label>
                                     <input type="text" name="name" placeholder="Your address" required />
                                 </div>

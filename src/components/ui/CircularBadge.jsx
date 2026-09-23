@@ -14,7 +14,7 @@ import './CircularBadge.css'
  *  text      -> curved ring text (uppercased automatically)
  *  label     -> bold short label under the badge (e.g. "CBN REGULATED")
  *  subtitle  -> smaller muted subtitle line
- *  icon      -> optional <img> src for the centered icon
+ *  icon      -> optional <img loading="lazy"> src for the centered icon
  *  children  -> optional custom node rendered instead of the default bank line-icon
  *  size      -> outer badge diameter in px (default 170)
  *  color     -> ring/text color (default gold accent)
@@ -77,7 +77,7 @@ export default function CircularBadge({
         <div className="badge-icon" style={{ color }}>
           {children ||
             (icon ? (
-              <img src={icon} alt="" />
+              <img loading="lazy" src={icon} alt="" />
             ) : (
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.4} strokeLinecap="round" strokeLinejoin="round">
                 <path d="M3 9.5L12 4l9 5.5" />

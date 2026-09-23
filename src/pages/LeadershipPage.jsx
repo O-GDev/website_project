@@ -48,7 +48,7 @@ export default function LeadershipPage(){
                             <div className="team-block-one">
                                 <div className="inner-box">
                                     <div className="image-box">
-                                        <figure className="image"><img src={`${exec.image}?v=5`} alt={exec.name} width={640} height={705} /></figure>
+                                        <figure className="image"><img loading="lazy" src={`${exec.image}?v=5`} alt={exec.name} width={640} height={705} /></figure>
                                     </div>
                                     <div className="lower-content">
                                         <h3><Link to={`/team-details/${exec.id}`}>{exec.name}</Link></h3>

@@ -40,7 +40,7 @@ export default function LeadershipDetailsPage(){
                 <div className="row clearfix">
                     <div className="col-lg-6 col-md-12 col-sm-12 image-column">
                         <div className="image-box mr_30">
-                            <figure className="image"><img src={`${exec.image}?v=5`} alt={exec.name} width={640} height={705} /></figure>
+                            <figure className="image"><img loading="lazy" src={`${exec.image}?v=5`} alt={exec.name} width={640} height={705} /></figure>
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-12 col-sm-12 content-column">

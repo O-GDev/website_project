@@ -36,14 +36,14 @@ export default function BlogWideGridPage(){
                         <div className="news-block-one">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><Link to="/blog-details"><img src="/assets/images/news/news-15.jpg" alt="" /></Link></figure>
-                                    <figure className="overlay-image"><Link to="/blog-details"><img src="/assets/images/news/news-15.jpg" alt="" /></Link></figure>
-                                    <div className="view-btn"><a href="/assets/images/news/news-15.jpg" className="lightbox-image" data-fancybox="gallery"><img src="/assets/images/icons/icon-87.png" alt="" /></a></div>
+                                    <figure className="image"><Link to="/blog-details"><img loading="lazy" src="/assets/images/news/news-15.jpg" alt="" /></Link></figure>
+                                    <figure className="overlay-image"><Link to="/blog-details"><img loading="lazy" src="/assets/images/news/news-15.jpg" alt="" /></Link></figure>
+                                    <div className="view-btn"><a href="/assets/images/news/news-15.jpg" className="lightbox-image" data-fancybox="gallery"><img loading="lazy" src="/assets/images/icons/icon-87.png" alt="" /></a></div>
                                 </div>
                                 <div className="content-box">
                                     <div className="upper-box">
                                         <div className="title-box">
-                                            <h6><img src="/assets/images/icons/icon-36.png" alt="" />Financial Planning</h6>
+                                            <h6><img loading="lazy" src="/assets/images/icons/icon-36.png" alt="" />Financial Planning</h6>
                                             <h5><span>By </span><Link to="/blog-details">D.Beckham</Link></h5>
                                         </div>
                                         <div className="post-date align-3">
@@ -55,8 +55,8 @@ export default function BlogWideGridPage(){
                                         <h2><Link to="/blog-details">How to Improve Your Credit Score Tips and Tricks.</Link></h2>
                                         <div className="link-box">
                                             <ul className="post-info">
-                                                <li><h5><img src="/assets/images/icons/icon-37.png" alt="" />6 Mins Read</h5></li>
-                                                <li><h5><img src="/assets/images/icons/icon-211.png" alt="" />15 Comments</h5></li>
+                                                <li><h5><img loading="lazy" src="/assets/images/icons/icon-37.png" alt="" />6 Mins Read</h5></li>
+                                                <li><h5><img loading="lazy" src="/assets/images/icons/icon-211.png" alt="" />15 Comments</h5></li>
                                             </ul>
                                             <Link to="/blog-details"><i className="flaticon-right-arrow"></i></Link>
                                         </div>
@@ -69,14 +69,14 @@ export default function BlogWideGridPage(){
                         <div className="news-block-one">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><Link to="/blog-details"><img src="/assets/images/news/news-16.jpg" alt="" /></Link></figure>
-                                    <figure className="overlay-image"><Link to="/blog-details"><img src="/assets/images/news/news-16.jpg" alt="" /></Link></figure>
-                                    <div className="view-btn"><a href="/assets/images/news/news-16.jpg" className="lightbox-image" data-fancybox="gallery"><img src="/assets/images/icons/icon-87.png" alt="" /></a></div>
+                                    <figure className="image"><Link to="/blog-details"><img loading="lazy" src="/assets/images/news/news-16.jpg" alt="" /></Link></figure>
+                                    <figure className="overlay-image"><Link to="/blog-details"><img loading="lazy" src="/assets/images/news/news-16.jpg" alt="" /></Link></figure>
+                                    <div className="view-btn"><a href="/assets/images/news/news-16.jpg" className="lightbox-image" data-fancybox="gallery"><img loading="lazy" src="/assets/images/icons/icon-87.png" alt="" /></a></div>
                                 </div>
                                 <div className="content-box">
                                     <div className="upper-box">
                                         <div className="title-box">
-                                            <h6><img src="/assets/images/icons/icon-36.png" alt="" />Debit Card</h6>
+                                            <h6><img loading="lazy" src="/assets/images/icons/icon-36.png" alt="" />Debit Card</h6>
                                             <h5><span>By </span><Link to="/blog-details">Vk.Christopher</Link></h5>
                                         </div>
                                         <div className="post-date align-3">
@@ -88,8 +88,8 @@ export default function BlogWideGridPage(){
                                         <h2><Link to="/blog-details">Boost Gains: Best Practices for Debit Card Use.</Link></h2>
                                         <div className="link-box">
                                             <ul className="post-info">
-                                                <li><h5><img src="/assets/images/icons/icon-37.png" alt="" />4 Mins Read</h5></li>
-                                                <li><h5><img src="/assets/images/icons/icon-211.png" alt="" />08 Comments</h5></li>
+                                                <li><h5><img loading="lazy" src="/assets/images/icons/icon-37.png" alt="" />4 Mins Read</h5></li>
+                                                <li><h5><img loading="lazy" src="/assets/images/icons/icon-211.png" alt="" />08 Comments</h5></li>
                                             </ul>
                                             <Link to="/blog-details"><i className="flaticon-right-arrow"></i></Link>
                                         </div>
@@ -102,14 +102,14 @@ export default function BlogWideGridPage(){
                         <div className="news-block-one">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><Link to="/blog-details"><img src="/assets/images/news/news-17.jpg" alt="" /></Link></figure>
-                                    <figure className="overlay-image"><Link to="/blog-details"><img src="/assets/images/news/news-17.jpg" alt="" /></Link></figure>
-                                    <div className="view-btn"><a href="/assets/images/news/news-17.jpg" className="lightbox-image" data-fancybox="gallery"><img src="/assets/images/icons/icon-87.png" alt="" /></a></div>
+                                    <figure className="image"><Link to="/blog-details"><img loading="lazy" src="/assets/images/news/news-17.jpg" alt="" /></Link></figure>
+                                    <figure className="overlay-image"><Link to="/blog-details"><img loading="lazy" src="/assets/images/news/news-17.jpg" alt="" /></Link></figure>
+                                    <div className="view-btn"><a href="/assets/images/news/news-17.jpg" className="lightbox-image" data-fancybox="gallery"><img loading="lazy" src="/assets/images/icons/icon-87.png" alt="" /></a></div>
                                 </div>
                                 <div className="content-box">
                                     <div className="upper-box">
                                         <div className="title-box">
-                                            <h6><img src="/assets/images/icons/icon-36.png" alt="" />Business Banking</h6>
+                                            <h6><img loading="lazy" src="/assets/images/icons/icon-36.png" alt="" />Business Banking</h6>
                                             <h5><span>By </span><Link to="/blog-details">Z.Benjamin</Link></h5>
                                         </div>
                                         <div className="post-date align-3">
@@ -121,8 +121,8 @@ export default function BlogWideGridPage(){
                                         <h2><Link to="/blog-details">Growth Strategies for Your Small Business.</Link></h2>
                                         <div className="link-box">
                                             <ul className="post-info">
-                                                <li><h5><img src="/assets/images/icons/icon-37.png" alt="" />6 Mins Read</h5></li>
-                                                <li><h5><img src="/assets/images/icons/icon-211.png" alt="" />17 Comments</h5></li>
+                                                <li><h5><img loading="lazy" src="/assets/images/icons/icon-37.png" alt="" />6 Mins Read</h5></li>
+                                                <li><h5><img loading="lazy" src="/assets/images/icons/icon-211.png" alt="" />17 Comments</h5></li>
                                             </ul>
                                             <Link to="/blog-details"><i className="flaticon-right-arrow"></i></Link>
                                         </div>
@@ -135,14 +135,14 @@ export default function BlogWideGridPage(){
                         <div className="news-block-one">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><Link to="/blog-details"><img src="/assets/images/news/news-18.jpg" alt="" /></Link></figure>
-                                    <figure className="overlay-image"><Link to="/blog-details"><img src="/assets/images/news/news-18.jpg" alt="" /></Link></figure>
-                                    <div className="view-btn"><a href="/assets/images/news/news-18.jpg" className="lightbox-image" data-fancybox="gallery"><img src="/assets/images/icons/icon-87.png" alt="" /></a></div>
+                                    <figure className="image"><Link to="/blog-details"><img loading="lazy" src="/assets/images/news/news-18.jpg" alt="" /></Link></figure>
+                                    <figure className="overlay-image"><Link to="/blog-details"><img loading="lazy" src="/assets/images/news/news-18.jpg" alt="" /></Link></figure>
+                                    <div className="view-btn"><a href="/assets/images/news/news-18.jpg" className="lightbox-image" data-fancybox="gallery"><img loading="lazy" src="/assets/images/icons/icon-87.png" alt="" /></a></div>
                                 </div>
                                 <div className="content-box">
                                     <div className="upper-box">
                                         <div className="title-box">
-                                            <h6><img src="/assets/images/icons/icon-36.png" alt="" />Technology</h6>
+                                            <h6><img loading="lazy" src="/assets/images/icons/icon-36.png" alt="" />Technology</h6>
                                             <h5><span>By </span><Link to="/blog-details">L.Nathaniel</Link></h5>
                                         </div>
                                         <div className="post-date align-3">
@@ -154,8 +154,8 @@ export default function BlogWideGridPage(){
                                         <h2><Link to="/blog-details">Digital Payment Systems: The Future of Transactions.</Link></h2>
                                         <div className="link-box">
                                             <ul className="post-info">
-                                                <li><h5><img src="/assets/images/icons/icon-37.png" alt="" />5 Mins Read</h5></li>
-                                                <li><h5><img src="/assets/images/icons/icon-211.png" alt="" />22 Comments</h5></li>
+                                                <li><h5><img loading="lazy" src="/assets/images/icons/icon-37.png" alt="" />5 Mins Read</h5></li>
+                                                <li><h5><img loading="lazy" src="/assets/images/icons/icon-211.png" alt="" />22 Comments</h5></li>
                                             </ul>
                                             <Link to="/blog-details"><i className="flaticon-right-arrow"></i></Link>
                                         </div>
@@ -168,14 +168,14 @@ export default function BlogWideGridPage(){
                         <div className="news-block-one">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><Link to="/blog-details"><img src="/assets/images/news/news-19.jpg" alt="" /></Link></figure>
-                                    <figure className="overlay-image"><Link to="/blog-details"><img src="/assets/images/news/news-19.jpg" alt="" /></Link></figure>
-                                    <div className="view-btn"><a href="/assets/images/news/news-19.jpg" className="lightbox-image" data-fancybox="gallery"><img src="/assets/images/icons/icon-87.png" alt="" /></a></div>
+                                    <figure className="image"><Link to="/blog-details"><img loading="lazy" src="/assets/images/news/news-19.jpg" alt="" /></Link></figure>
+                                    <figure className="overlay-image"><Link to="/blog-details"><img loading="lazy" src="/assets/images/news/news-19.jpg" alt="" /></Link></figure>
+                                    <div className="view-btn"><a href="/assets/images/news/news-19.jpg" className="lightbox-image" data-fancybox="gallery"><img loading="lazy" src="/assets/images/icons/icon-87.png" alt="" /></a></div>
                                 </div>
                                 <div className="content-box">
                                     <div className="upper-box">
                                         <div className="title-box">
-                                            <h6><img src="/assets/images/icons/icon-36.png" alt="" />Financial Planning</h6>
+                                            <h6><img loading="lazy" src="/assets/images/icons/icon-36.png" alt="" />Financial Planning</h6>
                                             <h5><span>By </span><Link to="/blog-details">L.D.Beckham</Link></h5>
                                         </div>
                                         <div className="post-date align-3">
@@ -187,8 +187,8 @@ export default function BlogWideGridPage(){
                                         <h2><Link to="/blog-details">How to Improve Your Credit Score Tips and Tricks.</Link></h2>
                                         <div className="link-box">
                                             <ul className="post-info">
-                                                <li><h5><img src="/assets/images/icons/icon-37.png" alt="" />4 Mins Read</h5></li>
-                                                <li><h5><img src="/assets/images/icons/icon-211.png" alt="" />19 Comments</h5></li>
+                                                <li><h5><img loading="lazy" src="/assets/images/icons/icon-37.png" alt="" />4 Mins Read</h5></li>
+                                                <li><h5><img loading="lazy" src="/assets/images/icons/icon-211.png" alt="" />19 Comments</h5></li>
                                             </ul>
                                             <Link to="/blog-details"><i className="flaticon-right-arrow"></i></Link>
                                         </div>
@@ -201,14 +201,14 @@ export default function BlogWideGridPage(){
                         <div className="news-block-one">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><Link to="/blog-details"><img src="/assets/images/news/news-20.jpg" alt="" /></Link></figure>
-                                    <figure className="overlay-image"><Link to="/blog-details"><img src="/assets/images/news/news-20.jpg" alt="" /></Link></figure>
-                                    <div className="view-btn"><a href="/assets/images/news/news-20.jpg" className="lightbox-image" data-fancybox="gallery"><img src="/assets/images/icons/icon-87.png" alt="" /></a></div>
+                                    <figure className="image"><Link to="/blog-details"><img loading="lazy" src="/assets/images/news/news-20.jpg" alt="" /></Link></figure>
+                                    <figure className="overlay-image"><Link to="/blog-details"><img loading="lazy" src="/assets/images/news/news-20.jpg" alt="" /></Link></figure>
+                                    <div className="view-btn"><a href="/assets/images/news/news-20.jpg" className="lightbox-image" data-fancybox="gallery"><img loading="lazy" src="/assets/images/icons/icon-87.png" alt="" /></a></div>
                                 </div>
                                 <div className="content-box">
                                     <div className="upper-box">
                                         <div className="title-box">
-                                            <h6><img src="/assets/images/icons/icon-36.png" alt="" />Debit Card</h6>
+                                            <h6><img loading="lazy" src="/assets/images/icons/icon-36.png" alt="" />Debit Card</h6>
                                             <h5><span>By </span><Link to="/blog-details">Vk.Christopher</Link></h5>
                                         </div>
                                         <div className="post-date align-3">
@@ -220,8 +220,8 @@ export default function BlogWideGridPage(){
                                         <h2><Link to="/blog-details">Boost Gains: Best Practices for Debit Card Use.</Link></h2>
                                         <div className="link-box">
                                             <ul className="post-info">
-                                                <li><h5><img src="/assets/images/icons/icon-37.png" alt="" />6 Mins Read</h5></li>
-                                                <li><h5><img src="/assets/images/icons/icon-211.png" alt="" />05 Comments</h5></li>
+                                                <li><h5><img loading="lazy" src="/assets/images/icons/icon-37.png" alt="" />6 Mins Read</h5></li>
+                                                <li><h5><img loading="lazy" src="/assets/images/icons/icon-211.png" alt="" />05 Comments</h5></li>
                                             </ul>
                                             <Link to="/blog-details"><i className="flaticon-right-arrow"></i></Link>
                                         </div>
@@ -234,14 +234,14 @@ export default function BlogWideGridPage(){
                         <div className="news-block-one">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><Link to="/blog-details"><img src="/assets/images/news/news-21.jpg" alt="" /></Link></figure>
-                                    <figure className="overlay-image"><Link to="/blog-details"><img src="/assets/images/news/news-21.jpg" alt="" /></Link></figure>
-                                    <div className="view-btn"><a href="/assets/images/news/news-21.jpg" className="lightbox-image" data-fancybox="gallery"><img src="/assets/images/icons/icon-87.png" alt="" /></a></div>
+                                    <figure className="image"><Link to="/blog-details"><img loading="lazy" src="/assets/images/news/news-21.jpg" alt="" /></Link></figure>
+                                    <figure className="overlay-image"><Link to="/blog-details"><img loading="lazy" src="/assets/images/news/news-21.jpg" alt="" /></Link></figure>
+                                    <div className="view-btn"><a href="/assets/images/news/news-21.jpg" className="lightbox-image" data-fancybox="gallery"><img loading="lazy" src="/assets/images/icons/icon-87.png" alt="" /></a></div>
                                 </div>
                                 <div className="content-box">
                                     <div className="upper-box">
                                         <div className="title-box">
-                                            <h6><img src="/assets/images/icons/icon-36.png" alt="" />Business Banking</h6>
+                                            <h6><img loading="lazy" src="/assets/images/icons/icon-36.png" alt="" />Business Banking</h6>
                                             <h5><span>By </span><Link to="/blog-details">Z.Benjamin</Link></h5>
                                         </div>
                                         <div className="post-date align-3">
@@ -253,8 +253,8 @@ export default function BlogWideGridPage(){
                                         <h2><Link to="/blog-details">Growth Strategies for Your Small Business.</Link></h2>
                                         <div className="link-box">
                                             <ul className="post-info">
-                                                <li><h5><img src="/assets/images/icons/icon-37.png" alt="" />6 Mins Read</h5></li>
-                                                <li><h5><img src="/assets/images/icons/icon-211.png" alt="" />12 Comments</h5></li>
+                                                <li><h5><img loading="lazy" src="/assets/images/icons/icon-37.png" alt="" />6 Mins Read</h5></li>
+                                                <li><h5><img loading="lazy" src="/assets/images/icons/icon-211.png" alt="" />12 Comments</h5></li>
                                             </ul>
                                             <Link to="/blog-details"><i className="flaticon-right-arrow"></i></Link>
                                         </div>
@@ -267,14 +267,14 @@ export default function BlogWideGridPage(){
                         <div className="news-block-one">
                             <div className="inner-box">
                                 <div className="image-box">
-                                    <figure className="image"><Link to="/blog-details"><img src="/assets/images/news/news-22.jpg" alt="" /></Link></figure>
-                                    <figure className="overlay-image"><Link to="/blog-details"><img src="/assets/images/news/news-22.jpg" alt="" /></Link></figure>
-                                    <div className="view-btn"><a href="/assets/images/news/news-22.jpg" className="lightbox-image" data-fancybox="gallery"><img src="/assets/images/icons/icon-87.png" alt="" /></a></div>
+                                    <figure className="image"><Link to="/blog-details"><img loading="lazy" src="/assets/images/news/news-22.jpg" alt="" /></Link></figure>
+                                    <figure className="overlay-image"><Link to="/blog-details"><img loading="lazy" src="/assets/images/news/news-22.jpg" alt="" /></Link></figure>
+                                    <div className="view-btn"><a href="/assets/images/news/news-22.jpg" className="lightbox-image" data-fancybox="gallery"><img loading="lazy" src="/assets/images/icons/icon-87.png" alt="" /></a></div>
                                 </div>
                                 <div className="content-box">
                                     <div className="upper-box">
                                         <div className="title-box">
-                                            <h6><img src="/assets/images/icons/icon-36.png" alt="" />Technology</h6>
+                                            <h6><img loading="lazy" src="/assets/images/icons/icon-36.png" alt="" />Technology</h6>
                                             <h5><span>By </span><Link to="/blog-details">L.Nathaniel</Link></h5>
                                         </div>
                                         <div className="post-date align-3">
@@ -286,8 +286,8 @@ export default function BlogWideGridPage(){
                                         <h2><Link to="/blog-details">Digital Payment Systems: The Future of Transactions.</Link></h2>
                                         <div className="link-box">
                                             <ul className="post-info">
-                                                <li><h5><img src="/assets/images/icons/icon-37.png" alt="" />5 Mins Read</h5></li>
-                                                <li><h5><img src="/assets/images/icons/icon-211.png" alt="" />26 Comments</h5></li>
+                                                <li><h5><img loading="lazy" src="/assets/images/icons/icon-37.png" alt="" />5 Mins Read</h5></li>
+                                                <li><h5><img loading="lazy" src="/assets/images/icons/icon-211.png" alt="" />26 Comments</h5></li>
                                             </ul>
                                             <Link to="/blog-details"><i className="flaticon-right-arrow"></i></Link>
                                         </div>

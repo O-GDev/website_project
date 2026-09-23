@@ -68,10 +68,10 @@ export default function MoneyBackCardPage(){
                                 <div className="image-box">
                                     <div className="row clearfix">
                                         <div className="col-lg-6 col-md-6 col-sm-12 image-column">
-                                            <figure className="image"><img src="/assets/images/resource/card-6.jpg" alt="" /></figure>
+                                            <figure className="image"><img loading="lazy" src="/assets/images/resource/card-6.jpg" alt="" /></figure>
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-sm-12 image-column">
-                                            <figure className="image"><img src="/assets/images/resource/card-7.jpg" alt="" /></figure>
+                                            <figure className="image"><img loading="lazy" src="/assets/images/resource/card-7.jpg" alt="" /></figure>
                                         </div>
                                     </div>
                                 </div>
@@ -84,42 +84,42 @@ export default function MoneyBackCardPage(){
                                 <div className="row clearfix">
                                     <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                         <div className="single-item">
-                                            <div className="icon-box"><img src="/assets/images/icons/icon-195.png" alt="" /></div>
+                                            <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-195.png" alt="" /></div>
                                             <h3>Welcome Bonus</h3>
                                             <p>Holds these matters principles selection right some rejects.</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                         <div className="single-item">
-                                            <div className="icon-box"><img src="/assets/images/icons/icon-195.png" alt="" /></div>
+                                            <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-195.png" alt="" /></div>
                                             <h3>Accelerated Rewards</h3>
                                             <p>Business will frequently occur that pleasure have to be repudiated.</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                         <div className="single-item">
-                                            <div className="icon-box"><img src="/assets/images/icons/icon-195.png" alt="" /></div>
+                                            <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-195.png" alt="" /></div>
                                             <h3>Fuel Surcharge Waiver</h3>
                                             <p>The wise man therefore always holds these principle of selection.</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                         <div className="single-item">
-                                            <div className="icon-box"><img src="/assets/images/icons/icon-195.png" alt="" /></div>
+                                            <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-195.png" alt="" /></div>
                                             <h3>Low Interest Rates</h3>
                                             <p>Holds these matters principles selection right some rejects.</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                         <div className="single-item">
-                                            <div className="icon-box"><img src="/assets/images/icons/icon-195.png" alt="" /></div>
+                                            <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-195.png" alt="" /></div>
                                             <h3>Cashback Offers</h3>
                                             <p>Business will frequently occur that pleasure have to be repudiated.</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                                         <div className="single-item">
-                                            <div className="icon-box"><img src="/assets/images/icons/icon-195.png" alt="" /></div>
+                                            <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-195.png" alt="" /></div>
                                             <h3>24/7 Support</h3>
                                             <p>The wise man therefore always holds these principle of selection.</p>
                                         </div>
@@ -136,7 +136,7 @@ export default function MoneyBackCardPage(){
                                         <div className="deals-block-one">
                                             <div className="inner-box">
                                                 <div className="title-box">
-                                                    <div className="icon-box"><img src="/assets/images/icons/icon-74.png" alt="" /></div>
+                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-74.png" alt="" /></div>
                                                     <span className="category">Medical</span>
                                                     <p>Expire On: 25th Oct’24</p>
                                                 </div>
@@ -144,7 +144,7 @@ export default function MoneyBackCardPage(){
                                                 <div className="lower-box">
                                                     <div className="link-box"><Link to="/index-2"><i className="flaticon-right-arrow"></i>Read More</Link></div>
                                                     <div className="share-box">
-                                                        <div className="share-text"><img src="/assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
+                                                        <div className="share-text"><img loading="lazy" src="/assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
                                                         <ul className="social-links">
                                                             <li><Link to="/index-2"><i className="flaticon-facebook"></i></Link></li>
                                                             <li><Link to="/index-2"><i className="flaticon-instagram-logo"></i></Link></li>
@@ -160,7 +160,7 @@ export default function MoneyBackCardPage(){
                                         <div className="deals-block-one">
                                             <div className="inner-box">
                                                 <div className="title-box">
-                                                    <div className="icon-box"><img src="/assets/images/icons/icon-75.png" alt="" /></div>
+                                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-75.png" alt="" /></div>
                                                     <span className="category">Restaurant</span>
                                                     <p>Expire On: 31st Oct’24</p>
                                                 </div>
@@ -168,7 +168,7 @@ export default function MoneyBackCardPage(){
                                                 <div className="lower-box">
                                                     <div className="link-box"><Link to="/index-2"><i className="flaticon-right-arrow"></i>Read More</Link></div>
                                                     <div className="share-box">
-                                                        <div className="share-text"><img src="/assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
+                                                        <div className="share-text"><img loading="lazy" src="/assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
                                                         <ul className="social-links">
                                                             <li><Link to="/index-2"><i className="flaticon-facebook"></i></Link></li>
                                                             <li><Link to="/index-2"><i className="flaticon-instagram-logo"></i></Link></li>

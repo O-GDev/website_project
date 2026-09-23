@@ -23,7 +23,7 @@ const LEFT_CONTENT = (
       <p>Estimate your loan payments quickly & easily with our calculator.</p>
     </div>
     <div className="lower-text">
-      <div className="icon-box"><img src="/assets/images/icons/icon-31.png" alt="" /></div>
+      <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-31.png" alt="" /></div>
       <h5>Loan Questions? Check Our <Link to="/faq">Faq’s</Link> Page.</h5>
     </div>
   </div>
@@ -54,7 +54,7 @@ const RIGHT_CONTENT = (
 const AMOUNT_BOX = (
   <div className="amount-box">
     <div className="emi-box centred">
-      <div className="icon-box"><img src="/assets/images/icons/icon-32.png" alt="" /></div>
+      <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-32.png" alt="" /></div>
       <h5>Monthly EMI</h5>
       <h3>₦4,340.00</h3>
       <div className="btn-box"><Link to="/"><span>Apply Online</span></Link></div>
@@ -78,7 +78,7 @@ export default function LoanCalculator() {
   return (
     <section className="calculator-section pt_120 pb_120">
       <figure className="image-layer">
-        <img src="/assets/images/resource/men-2.png" alt="" />
+        <img loading="lazy" src="/assets/images/resource/men-2.webp" alt="" />
       </figure>
       <div className="auto-container">
         <div className="inner-container">

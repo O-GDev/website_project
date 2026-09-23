@@ -68,12 +68,12 @@ export default function HomeExchangePage(){
                                         <div className="single-item">
                                             <h3>3.2k</h3>
                                             <span>Live Savings Accounts</span>
-                                            <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
+                                            <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
                                         </div>
                                         <div className="single-item">
                                             <h3>$2b</h3>
                                             <span>In Customer Savings</span>
-                                            <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
+                                            <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
                                         </div>
                                     </div>
                                     <div className="btn-box">
@@ -97,12 +97,12 @@ export default function HomeExchangePage(){
                                         <div className="single-item">
                                             <h3>3.2k</h3>
                                             <span>Live Savings Accounts</span>
-                                            <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
+                                            <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
                                         </div>
                                         <div className="single-item">
                                             <h3>$2b</h3>
                                             <span>In Customer Savings</span>
-                                            <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
+                                            <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
                                         </div>
                                     </div>
                                     <div className="btn-box">
@@ -126,12 +126,12 @@ export default function HomeExchangePage(){
                                         <div className="single-item">
                                             <h3>3.2k</h3>
                                             <span>Live Savings Accounts</span>
-                                            <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
+                                            <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />2.6% in lfy</div>
                                         </div>
                                         <div className="single-item">
                                             <h3>$2b</h3>
                                             <span>In Customer Savings</span>
-                                            <div className="growth-box"><img src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
+                                            <div className="growth-box"><img loading="lazy" src="/assets/images/icons/icon-22.png" alt="" />4.5% in lfy</div>
                                         </div>
                                     </div>
                                     <div className="btn-box">
@@ -162,8 +162,8 @@ export default function HomeExchangePage(){
                                 <p>Perfectly simple and easy to distinguishto the claims of duty ...</p>
                             </div>
                             <div className="image-box">
-                                <figure className="image"><img src="/assets/images/resource/banking-2.jpg" alt="" /></figure>
-                                <div className="icon-box"><img src="/assets/images/icons/icon-52.png" alt="" /></div>
+                                <figure className="image"><img loading="lazy" src="/assets/images/resource/banking-2.jpg" alt="" /></figure>
+                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-52.png" alt="" /></div>
                                 <div className="btn-box"><Link to="/index-2"><span>Read More</span></Link></div>
                             </div>
                         </div>
@@ -175,8 +175,8 @@ export default function HomeExchangePage(){
                                 <p>Duty through weakness of will, which is the same as saying through...</p>
                             </div>
                             <div className="image-box">
-                                <figure className="image"><img src="/assets/images/resource/banking-3.jpg" alt="" /></figure>
-                                <div className="icon-box"><img src="/assets/images/icons/icon-53.png" alt="" /></div>
+                                <figure className="image"><img loading="lazy" src="/assets/images/resource/banking-3.jpg" alt="" /></figure>
+                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-53.png" alt="" /></div>
                                 <div className="btn-box"><Link to="/index-2"><span>Read More</span></Link></div>
                             </div>
                         </div>
@@ -188,8 +188,8 @@ export default function HomeExchangePage(){
                                 <p>Choice is untrammelled when nothing prevents our being able to do...</p>
                             </div>
                             <div className="image-box">
-                                <figure className="image"><img src="/assets/images/resource/banking-4.jpg" alt="" /></figure>
-                                <div className="icon-box"><img src="/assets/images/icons/icon-54.png" alt="" /></div>
+                                <figure className="image"><img loading="lazy" src="/assets/images/resource/banking-4.jpg" alt="" /></figure>
+                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-54.png" alt="" /></div>
                                 <div className="btn-box"><Link to="/index-2"><span>Read More</span></Link></div>
                             </div>
                         </div>
@@ -201,8 +201,8 @@ export default function HomeExchangePage(){
                                 <p>Perfectly simple and easy to distinguishto the claims of duty ...</p>
                             </div>
                             <div className="image-box">
-                                <figure className="image"><img src="/assets/images/resource/banking-2.jpg" alt="" /></figure>
-                                <div className="icon-box"><img src="/assets/images/icons/icon-52.png" alt="" /></div>
+                                <figure className="image"><img loading="lazy" src="/assets/images/resource/banking-2.jpg" alt="" /></figure>
+                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-52.png" alt="" /></div>
                                 <div className="btn-box"><Link to="/index-2"><span>Read More</span></Link></div>
                             </div>
                         </div>
@@ -214,8 +214,8 @@ export default function HomeExchangePage(){
                                 <p>Duty through weakness of will, which is the same as saying through...</p>
                             </div>
                             <div className="image-box">
-                                <figure className="image"><img src="/assets/images/resource/banking-3.jpg" alt="" /></figure>
-                                <div className="icon-box"><img src="/assets/images/icons/icon-53.png" alt="" /></div>
+                                <figure className="image"><img loading="lazy" src="/assets/images/resource/banking-3.jpg" alt="" /></figure>
+                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-53.png" alt="" /></div>
                                 <div className="btn-box"><Link to="/index-2"><span>Read More</span></Link></div>
                             </div>
                         </div>
@@ -227,8 +227,8 @@ export default function HomeExchangePage(){
                                 <p>Choice is untrammelled when nothing prevents our being able to do...</p>
                             </div>
                             <div className="image-box">
-                                <figure className="image"><img src="/assets/images/resource/banking-4.jpg" alt="" /></figure>
-                                <div className="icon-box"><img src="/assets/images/icons/icon-54.png" alt="" /></div>
+                                <figure className="image"><img loading="lazy" src="/assets/images/resource/banking-4.jpg" alt="" /></figure>
+                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-54.png" alt="" /></div>
                                 <div className="btn-box"><Link to="/index-2"><span>Read More</span></Link></div>
                             </div>
                         </div>
@@ -240,8 +240,8 @@ export default function HomeExchangePage(){
                                 <p>Perfectly simple and easy to distinguishto the claims of duty ...</p>
                             </div>
                             <div className="image-box">
-                                <figure className="image"><img src="/assets/images/resource/banking-2.jpg" alt="" /></figure>
-                                <div className="icon-box"><img src="/assets/images/icons/icon-52.png" alt="" /></div>
+                                <figure className="image"><img loading="lazy" src="/assets/images/resource/banking-2.jpg" alt="" /></figure>
+                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-52.png" alt="" /></div>
                                 <div className="btn-box"><Link to="/index-2"><span>Read More</span></Link></div>
                             </div>
                         </div>
@@ -253,8 +253,8 @@ export default function HomeExchangePage(){
                                 <p>Duty through weakness of will, which is the same as saying through...</p>
                             </div>
                             <div className="image-box">
-                                <figure className="image"><img src="/assets/images/resource/banking-3.jpg" alt="" /></figure>
-                                <div className="icon-box"><img src="/assets/images/icons/icon-53.png" alt="" /></div>
+                                <figure className="image"><img loading="lazy" src="/assets/images/resource/banking-3.jpg" alt="" /></figure>
+                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-53.png" alt="" /></div>
                                 <div className="btn-box"><Link to="/index-2"><span>Read More</span></Link></div>
                             </div>
                         </div>
@@ -266,8 +266,8 @@ export default function HomeExchangePage(){
                                 <p>Choice is untrammelled when nothing prevents our being able to do...</p>
                             </div>
                             <div className="image-box">
-                                <figure className="image"><img src="/assets/images/resource/banking-4.jpg" alt="" /></figure>
-                                <div className="icon-box"><img src="/assets/images/icons/icon-54.png" alt="" /></div>
+                                <figure className="image"><img loading="lazy" src="/assets/images/resource/banking-4.jpg" alt="" /></figure>
+                                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-54.png" alt="" /></div>
                                 <div className="btn-box"><Link to="/index-2"><span>Read More</span></Link></div>
                             </div>
                         </div>
@@ -286,7 +286,7 @@ export default function HomeExchangePage(){
             <div className="outer-container bg-color-2 shadow-none clearfix">
                 <div className="funfact-block-one">
                     <div className="inner-box">
-                        <div className="icon-box"><img src="/assets/images/icons/icon-55.png" alt="" /></div>
+                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-55.png" alt="" /></div>
                         <div className="count-outer">
                             <span className="odometer" data-count="8.5">00</span><span className="symble">k</span>
                         </div>
@@ -295,7 +295,7 @@ export default function HomeExchangePage(){
                 </div>
                 <div className="funfact-block-one">
                     <div className="inner-box">
-                        <div className="icon-box"><img src="/assets/images/icons/icon-56.png" alt="" /></div>
+                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-56.png" alt="" /></div>
                         <div className="count-outer">
                             <span className="odometer" data-count="0.5">00</span><span className="symble">m</span>
                         </div>
@@ -304,7 +304,7 @@ export default function HomeExchangePage(){
                 </div>
                 <div className="funfact-block-one">
                     <div className="inner-box">
-                        <div className="icon-box"><img src="/assets/images/icons/icon-57.png" alt="" /></div>
+                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-57.png" alt="" /></div>
                         <div className="count-outer">
                             <span className="odometer" data-count="10000">00</span><span className="symble">+</span>
                         </div>
@@ -313,7 +313,7 @@ export default function HomeExchangePage(){
                 </div>
                 <div className="funfact-block-one">
                     <div className="inner-box">
-                        <div className="icon-box"><img src="/assets/images/icons/icon-58.png" alt="" /></div>
+                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-58.png" alt="" /></div>
                         <div className="count-outer">
                             <span className="odometer" data-count="50">00</span><span className="symble">+</span>
                         </div>
@@ -327,7 +327,7 @@ export default function HomeExchangePage(){
 
         
         <section className="secure-growth-two bg-color-3 sec-pad-2">
-            <figure className="image-layer"><img src="/assets/images/resource/men-3.png" alt="" /></figure>
+            <figure className="image-layer"><img loading="lazy" src="/assets/images/resource/men-3.png" alt="" /></figure>
             <span className="big-text">Growth</span>
             <div className="auto-container">
                 <div className="row clearfix">
@@ -341,14 +341,14 @@ export default function HomeExchangePage(){
                                 <div className="inner-box">
                                     <h3><Link to="/index-2">Trade FX</Link></h3>
                                     <div className="icon-box">
-                                        <div className="icon"><img src="/assets/images/icons/icon-59.png" alt="" /></div>
+                                        <div className="icon"><img loading="lazy" src="/assets/images/icons/icon-59.png" alt="" /></div>
                                         <span className="count-text">01.</span>
                                     </div>
                                     <p>Perfect simple easy some matters to this...</p>
                                     <ul className="list-item clearfix">
-                                        <li><Link to="/index-2"><img src="/assets/images/icons/icon-88.png" alt="" />Currency Pairs</Link></li>
-                                        <li><Link to="/index-2"><img src="/assets/images/icons/icon-88.png" alt="" />Real-time Quotes</Link></li>
-                                        <li><Link to="/index-2"><img src="/assets/images/icons/icon-88.png" alt="" />Market Analysis</Link></li>
+                                        <li><Link to="/index-2"><img loading="lazy" src="/assets/images/icons/icon-88.png" alt="" />Currency Pairs</Link></li>
+                                        <li><Link to="/index-2"><img loading="lazy" src="/assets/images/icons/icon-88.png" alt="" />Real-time Quotes</Link></li>
+                                        <li><Link to="/index-2"><img loading="lazy" src="/assets/images/icons/icon-88.png" alt="" />Market Analysis</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -356,14 +356,14 @@ export default function HomeExchangePage(){
                                 <div className="inner-box">
                                     <h3><Link to="/index-2">Multi Currency a/c</Link></h3>
                                     <div className="icon-box">
-                                        <div className="icon"><img src="/assets/images/icons/icon-60.png" alt="" /></div>
+                                        <div className="icon"><img loading="lazy" src="/assets/images/icons/icon-60.png" alt="" /></div>
                                         <span className="count-text">02.</span>
                                     </div>
                                     <p>Duty through weaknes will whichis same...</p>
                                     <ul className="list-item clearfix">
-                                        <li><Link to="/index-2"><img src="/assets/images/icons/icon-88.png" alt="" />Currency Options</Link></li>
-                                        <li><Link to="/index-2"><img src="/assets/images/icons/icon-88.png" alt="" />Best Rates</Link></li>
-                                        <li><Link to="/index-2"><img src="/assets/images/icons/icon-88.png" alt="" />Secure Transactions</Link></li>
+                                        <li><Link to="/index-2"><img loading="lazy" src="/assets/images/icons/icon-88.png" alt="" />Currency Options</Link></li>
+                                        <li><Link to="/index-2"><img loading="lazy" src="/assets/images/icons/icon-88.png" alt="" />Best Rates</Link></li>
+                                        <li><Link to="/index-2"><img loading="lazy" src="/assets/images/icons/icon-88.png" alt="" />Secure Transactions</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -371,14 +371,14 @@ export default function HomeExchangePage(){
                                 <div className="inner-box">
                                     <h3><Link to="/index-2">Mutual Funds</Link></h3>
                                     <div className="icon-box">
-                                        <div className="icon"><img src="/assets/images/icons/icon-61.png" alt="" /></div>
+                                        <div className="icon"><img loading="lazy" src="/assets/images/icons/icon-61.png" alt="" /></div>
                                         <span className="count-text">03.</span>
                                     </div>
                                     <p>When nothing prevents our being able to do...</p>
                                     <ul className="list-item clearfix">
-                                        <li><Link to="/index-2"><img src="/assets/images/icons/icon-88.png" alt="" />Equity Funds</Link></li>
-                                        <li><Link to="/index-2"><img src="/assets/images/icons/icon-88.png" alt="" />International Funds</Link></li>
-                                        <li><Link to="/index-2"><img src="/assets/images/icons/icon-88.png" alt="" />Index Funds</Link></li>
+                                        <li><Link to="/index-2"><img loading="lazy" src="/assets/images/icons/icon-88.png" alt="" />Equity Funds</Link></li>
+                                        <li><Link to="/index-2"><img loading="lazy" src="/assets/images/icons/icon-88.png" alt="" />International Funds</Link></li>
+                                        <li><Link to="/index-2"><img loading="lazy" src="/assets/images/icons/icon-88.png" alt="" />Index Funds</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -416,7 +416,7 @@ export default function HomeExchangePage(){
                                                     <h4>usd</h4>
                                                     <p>American Dollar</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-1.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-1.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Buys</h5>
@@ -430,7 +430,7 @@ export default function HomeExchangePage(){
                                                     <h4>jpy</h4>
                                                     <p>Japanese Yen</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-2.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-2.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Sells</h5>
@@ -447,7 +447,7 @@ export default function HomeExchangePage(){
                                                     <h4>usd</h4>
                                                     <p>American Dollar</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-1.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-1.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Buys</h5>
@@ -461,7 +461,7 @@ export default function HomeExchangePage(){
                                                     <h4>aud</h4>
                                                     <p>Australian Dollar</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-3.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-3.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Sells</h5>
@@ -478,7 +478,7 @@ export default function HomeExchangePage(){
                                                     <h4>usd</h4>
                                                     <p>American Dollar</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-1.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-1.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Buys</h5>
@@ -492,7 +492,7 @@ export default function HomeExchangePage(){
                                                     <h4>cad</h4>
                                                     <p>Canadian Dollar</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-4.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-4.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Sells</h5>
@@ -509,7 +509,7 @@ export default function HomeExchangePage(){
                                                     <h4>usd</h4>
                                                     <p>American Dollar</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-1.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-1.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Buys</h5>
@@ -523,7 +523,7 @@ export default function HomeExchangePage(){
                                                     <h4>sek</h4>
                                                     <p>Swedish Krona</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-5.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-5.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Sells</h5>
@@ -544,7 +544,7 @@ export default function HomeExchangePage(){
                                                     <h4>usd</h4>
                                                     <p>American Dollar</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-1.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-1.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Buys</h5>
@@ -558,7 +558,7 @@ export default function HomeExchangePage(){
                                                     <h4>jpy</h4>
                                                     <p>Japanese Yen</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-2.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-2.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Sells</h5>
@@ -575,7 +575,7 @@ export default function HomeExchangePage(){
                                                     <h4>usd</h4>
                                                     <p>American Dollar</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-1.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-1.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Buys</h5>
@@ -589,7 +589,7 @@ export default function HomeExchangePage(){
                                                     <h4>aud</h4>
                                                     <p>Australian Dollar</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-3.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-3.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Sells</h5>
@@ -606,7 +606,7 @@ export default function HomeExchangePage(){
                                                     <h4>usd</h4>
                                                     <p>American Dollar</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-1.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-1.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Buys</h5>
@@ -620,7 +620,7 @@ export default function HomeExchangePage(){
                                                     <h4>cad</h4>
                                                     <p>Canadian Dollar</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-4.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-4.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Sells</h5>
@@ -637,7 +637,7 @@ export default function HomeExchangePage(){
                                                     <h4>usd</h4>
                                                     <p>American Dollar</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-1.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-1.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Buys</h5>
@@ -651,7 +651,7 @@ export default function HomeExchangePage(){
                                                     <h4>sek</h4>
                                                     <p>Swedish Krona</p>
                                                 </div>
-                                                <figure className="flag"><img src="/assets/images/icons/flag-5.png" alt="" /></figure>
+                                                <figure className="flag"><img loading="lazy" src="/assets/images/icons/flag-5.png" alt="" /></figure>
                                             </div>
                                             <div className="buys-box">
                                                 <h5>Sells</h5>
@@ -685,23 +685,23 @@ export default function HomeExchangePage(){
                             <div className="tab-btn-box">
                                 <div className="tab-btns tab-buttons">
                                     <div className="tab-btn active-btn" data-tab="#tab-3">
-                                        <div className="icon-box"><img src="/assets/images/icons/icon-62.png" alt="" /></div>
+                                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-62.png" alt="" /></div>
                                         <h4>Account <br />Management</h4>
                                     </div>
                                     <div className="tab-btn" data-tab="#tab-4">
-                                        <div className="icon-box"><img src="/assets/images/icons/icon-63.png" alt="" /></div>
+                                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-63.png" alt="" /></div>
                                         <h4>Transaction <br />Services</h4>
                                     </div>
                                     <div className="tab-btn" data-tab="#tab-5">
-                                        <div className="icon-box"><img src="/assets/images/icons/icon-64.png" alt="" /></div>
+                                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-64.png" alt="" /></div>
                                         <h4>Loan and Credit <br />Services</h4>
                                     </div>
                                     <div className="tab-btn" data-tab="#tab-6">
-                                        <div className="icon-box"><img src="/assets/images/icons/icon-65.png" alt="" /></div>
+                                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-65.png" alt="" /></div>
                                         <h4>Mobile / Internet <br />Banking</h4>
                                     </div>
                                     <div className="tab-btn" data-tab="#tab-7">
-                                        <div className="icon-box"><img src="/assets/images/icons/icon-66.png" alt="" /></div>
+                                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-66.png" alt="" /></div>
                                         <h4>Fraud and <br />Security Services</h4>
                                     </div>
                                 </div>
@@ -724,7 +724,7 @@ export default function HomeExchangePage(){
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-sm-12 image-column">
-                                            <figure className="image-box"><img src="/assets/images/resource/help-1.jpg" alt="" /></figure>
+                                            <figure className="image-box"><img loading="lazy" src="/assets/images/resource/help-1.jpg" alt="" /></figure>
                                         </div>
                                     </div>
                                 </div>
@@ -743,7 +743,7 @@ export default function HomeExchangePage(){
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-sm-12 image-column">
-                                            <figure className="image-box"><img src="/assets/images/resource/help-1.jpg" alt="" /></figure>
+                                            <figure className="image-box"><img loading="lazy" src="/assets/images/resource/help-1.jpg" alt="" /></figure>
                                         </div>
                                     </div>
                                 </div>
@@ -762,7 +762,7 @@ export default function HomeExchangePage(){
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-sm-12 image-column">
-                                            <figure className="image-box"><img src="/assets/images/resource/help-1.jpg" alt="" /></figure>
+                                            <figure className="image-box"><img loading="lazy" src="/assets/images/resource/help-1.jpg" alt="" /></figure>
                                         </div>
                                     </div>
                                 </div>
@@ -781,7 +781,7 @@ export default function HomeExchangePage(){
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-sm-12 image-column">
-                                            <figure className="image-box"><img src="/assets/images/resource/help-1.jpg" alt="" /></figure>
+                                            <figure className="image-box"><img loading="lazy" src="/assets/images/resource/help-1.jpg" alt="" /></figure>
                                         </div>
                                     </div>
                                 </div>
@@ -800,7 +800,7 @@ export default function HomeExchangePage(){
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-sm-12 image-column">
-                                            <figure className="image-box"><img src="/assets/images/resource/help-1.jpg" alt="" /></figure>
+                                            <figure className="image-box"><img loading="lazy" src="/assets/images/resource/help-1.jpg" alt="" /></figure>
                                         </div>
                                     </div>
                                 </div>
@@ -819,7 +819,7 @@ export default function HomeExchangePage(){
                 <div className="pattern-1" style={{backgroundImage: 'url(/assets/images/shape/shape-6.png)'}}></div>
                 <div className="pattern-2" style={{backgroundImage: 'url(/assets/images/shape/shape-7.png)'}}></div>
             </div>
-            <figure className="image-layer"><img src="/assets/images/resource/apps-1.png" alt="" /></figure>
+            <figure className="image-layer"><img loading="lazy" src="/assets/images/resource/apps-1.png" alt="" /></figure>
             <div className="auto-container">
                 <div className="row clearfix">
                     <div className="col-xl-6 col-lg-12 col-md-12 offset-xl-6 content-column">
@@ -866,7 +866,7 @@ export default function HomeExchangePage(){
                         <div className="deals-block-one">
                             <div className="inner-box">
                                 <div className="title-box">
-                                    <div className="icon-box"><img src="/assets/images/icons/icon-74.png" alt="" /></div>
+                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-74.png" alt="" /></div>
                                     <span className="category">Medical</span>
                                     <p>Expire On: 25th Oct’24</p>
                                 </div>
@@ -874,7 +874,7 @@ export default function HomeExchangePage(){
                                 <div className="lower-box">
                                     <div className="link-box"><Link to="/index-2"><i className="flaticon-right-arrow"></i>Read More</Link></div>
                                     <div className="share-box">
-                                        <div className="share-text"><img src="/assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
+                                        <div className="share-text"><img loading="lazy" src="/assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
                                         <ul className="social-links">
                                             <li><Link to="/index-2"><i className="flaticon-facebook"></i></Link></li>
                                             <li><Link to="/index-2"><i className="flaticon-instagram-logo"></i></Link></li>
@@ -890,7 +890,7 @@ export default function HomeExchangePage(){
                         <div className="deals-block-one">
                             <div className="inner-box">
                                 <div className="title-box">
-                                    <div className="icon-box"><img src="/assets/images/icons/icon-75.png" alt="" /></div>
+                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-75.png" alt="" /></div>
                                     <span className="category">Restaurant</span>
                                     <p>Expire On: 31st Oct’24</p>
                                 </div>
@@ -898,7 +898,7 @@ export default function HomeExchangePage(){
                                 <div className="lower-box">
                                     <div className="link-box"><Link to="/index-2"><i className="flaticon-right-arrow"></i>Read More</Link></div>
                                     <div className="share-box">
-                                        <div className="share-text"><img src="/assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
+                                        <div className="share-text"><img loading="lazy" src="/assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
                                         <ul className="social-links">
                                             <li><Link to="/index-2"><i className="flaticon-facebook"></i></Link></li>
                                             <li><Link to="/index-2"><i className="flaticon-instagram-logo"></i></Link></li>
@@ -914,7 +914,7 @@ export default function HomeExchangePage(){
                         <div className="deals-block-one">
                             <div className="inner-box">
                                 <div className="title-box">
-                                    <div className="icon-box"><img src="/assets/images/icons/icon-76.png" alt="" /></div>
+                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-76.png" alt="" /></div>
                                     <span className="category">Electronics</span>
                                     <p>Expire On: 31st Oct’24</p>
                                 </div>
@@ -922,7 +922,7 @@ export default function HomeExchangePage(){
                                 <div className="lower-box">
                                     <div className="link-box"><Link to="/index-2"><i className="flaticon-right-arrow"></i>Read More</Link></div>
                                     <div className="share-box">
-                                        <div className="share-text"><img src="/assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
+                                        <div className="share-text"><img loading="lazy" src="/assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
                                         <ul className="social-links">
                                             <li><Link to="/index-2"><i className="flaticon-facebook"></i></Link></li>
                                             <li><Link to="/index-2"><i className="flaticon-instagram-logo"></i></Link></li>
@@ -938,7 +938,7 @@ export default function HomeExchangePage(){
                         <div className="deals-block-one">
                             <div className="inner-box">
                                 <div className="title-box">
-                                    <div className="icon-box"><img src="/assets/images/icons/icon-77.png" alt="" /></div>
+                                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-77.png" alt="" /></div>
                                     <span className="category">Movies</span>
                                     <p>Expire On: 10th Nov’24</p>
                                 </div>
@@ -946,7 +946,7 @@ export default function HomeExchangePage(){
                                 <div className="lower-box">
                                     <div className="link-box"><Link to="/index-2"><i className="flaticon-right-arrow"></i>Read More</Link></div>
                                     <div className="share-box">
-                                        <div className="share-text"><img src="/assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
+                                        <div className="share-text"><img loading="lazy" src="/assets/images/icons/icon-79.png" alt="" /><span>Share</span></div>
                                         <ul className="social-links">
                                             <li><Link to="/index-2"><i className="flaticon-facebook"></i></Link></li>
                                             <li><Link to="/index-2"><i className="flaticon-instagram-logo"></i></Link></li>
@@ -961,18 +961,18 @@ export default function HomeExchangePage(){
                     <div className="col-lg-8 col-md-12 col-sm-12 newsletter-block">
                         <div className="newsletter-inner">
                             <div className="shape" style={{backgroundImage: 'url(/assets/images/shape/shape-8.png)'}}></div>
-                            <div className="icon-box"><img src="/assets/images/icons/icon-78.png" alt="" /></div>
+                            <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-78.png" alt="" /></div>
                             <div className="newsletter-content">
                                 <h3>Newsletter</h3>
                                 <p>Subscribe to get news, offers & other updates.</p>
                                 <form method="post" action="contact.html">
                                     <div className="form-group">
-                                        <div className="icon"><img src="/assets/images/icons/icon-80.png" alt="" /></div>
+                                        <div className="icon"><img loading="lazy" src="/assets/images/icons/icon-80.png" alt="" /></div>
                                         <input type="email" name="email" placeholder="Email address..." required />
                                         <button type="submit"><i className="flaticon-right-arrow"></i><span>Subscribe</span></button>
                                     </div>
                                 </form>
-                                <div className="lower-text"><img src="/assets/images/icons/icon-81.png" alt="" />Relevant Updates, No Spam.</div>
+                                <div className="lower-text"><img loading="lazy" src="/assets/images/icons/icon-81.png" alt="" />Relevant Updates, No Spam.</div>
                             </div>
                         </div>
                     </div>
@@ -994,9 +994,9 @@ export default function HomeExchangePage(){
                                 <p>Proudly recognized for our commitment to excellence, innovation, and customer satisfaction.</p>
                             </div>
                             <ul className="image-list">
-                                <li><img src="/assets/images/resource/award-1.jpg" alt="" /></li>
-                                <li><img src="/assets/images/resource/award-2.jpg" alt="" /></li>
-                                <li><img src="/assets/images/resource/award-3.jpg" alt="" /></li>
+                                <li><img loading="lazy" src="/assets/images/resource/award-1.jpg" alt="" /></li>
+                                <li><img loading="lazy" src="/assets/images/resource/award-2.jpg" alt="" /></li>
+                                <li><img loading="lazy" src="/assets/images/resource/award-3.jpg" alt="" /></li>
                             </ul>
                         </div>
                     </div>
@@ -1007,7 +1007,7 @@ export default function HomeExchangePage(){
                                     <div className="inner-box">
                                         <div className="shape" style={{backgroundImage: 'url(/assets/images/shape/shape-9.png)'}}></div>
                                         <h3>Best Bank of <br />the Year</h3>
-                                        <div className="icon-box"><img src="/assets/images/icons/award-1.png" alt="" /></div>
+                                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/award-1.png" alt="" /></div>
                                         <p>Awarded by <br />National Banking Assoc...</p>
                                         <span>2023-2025</span>
                                     </div>
@@ -1016,7 +1016,7 @@ export default function HomeExchangePage(){
                                     <div className="inner-box">
                                         <div className="shape" style={{backgroundImage: 'url(/assets/images/shape/shape-9.png)'}}></div>
                                         <h3>Best Customer <br />Service Award</h3>
-                                        <div className="icon-box"><img src="/assets/images/icons/award-2.png" alt="" /></div>
+                                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/award-2.png" alt="" /></div>
                                         <p>Awarded by <br />Global Finance Magazine.</p>
                                         <span>2022</span>
                                     </div>
@@ -1042,66 +1042,66 @@ export default function HomeExchangePage(){
                     <span className="big-text">Feedback</span>
                     <Carousel className="single-item-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
                         <div className="testimonial-content">
-                            <div className="icon-box"><img src="/assets/images/icons/icon-82.png" alt="" /></div>
+                            <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-82.png" alt="" /></div>
                             <p>Kaizenbank made it so easy to open a new business checking account. The service was exceptional & quick process.</p>
                             <div className="author-inner">
                                 <div className="author-box">
-                                    <figure className="thumb-box"><img src="/assets/images/resource/testimonial-1.png" alt="" /></figure>
+                                    <figure className="thumb-box"><img loading="lazy" src="/assets/images/resource/testimonial-1.png" alt="" /></figure>
                                     <h4>Boris Elbert</h4>
                                     <span className="designation">Personal Loan Account, NY</span>
                                 </div>
                                 <ul className="thumb-list">
-                                    <li><img src="/assets/images/resource/testimonial-2.png" alt="" /></li>
-                                    <li><img src="/assets/images/resource/testimonial-3.png" alt="" /></li>
-                                    <li><img src="/assets/images/resource/testimonial-4.png" alt="" /></li>
+                                    <li><img loading="lazy" src="/assets/images/resource/testimonial-2.png" alt="" /></li>
+                                    <li><img loading="lazy" src="/assets/images/resource/testimonial-3.png" alt="" /></li>
+                                    <li><img loading="lazy" src="/assets/images/resource/testimonial-4.png" alt="" /></li>
                                 </ul>
                             </div>
                         </div>
                         <div className="testimonial-content">
-                            <div className="icon-box"><img src="/assets/images/icons/icon-82.png" alt="" /></div>
+                            <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-82.png" alt="" /></div>
                             <p>Kaizenbank made it so easy to open a new business checking account. The service was exceptional & quick process.</p>
                             <div className="author-inner">
                                 <div className="author-box">
-                                    <figure className="thumb-box"><img src="/assets/images/resource/testimonial-2.png" alt="" /></figure>
+                                    <figure className="thumb-box"><img loading="lazy" src="/assets/images/resource/testimonial-2.png" alt="" /></figure>
                                     <h4>Boris Elbert</h4>
                                     <span className="designation">Personal Loan Account, NY</span>
                                 </div>
                                 <ul className="thumb-list">
-                                    <li><img src="/assets/images/resource/testimonial-1.png" alt="" /></li>
-                                    <li><img src="/assets/images/resource/testimonial-3.png" alt="" /></li>
-                                    <li><img src="/assets/images/resource/testimonial-4.png" alt="" /></li>
+                                    <li><img loading="lazy" src="/assets/images/resource/testimonial-1.png" alt="" /></li>
+                                    <li><img loading="lazy" src="/assets/images/resource/testimonial-3.png" alt="" /></li>
+                                    <li><img loading="lazy" src="/assets/images/resource/testimonial-4.png" alt="" /></li>
                                 </ul>
                             </div>
                         </div>
                         <div className="testimonial-content">
-                            <div className="icon-box"><img src="/assets/images/icons/icon-82.png" alt="" /></div>
+                            <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-82.png" alt="" /></div>
                             <p>Kaizenbank made it so easy to open a new business checking account. The service was exceptional & quick process.</p>
                             <div className="author-inner">
                                 <div className="author-box">
-                                    <figure className="thumb-box"><img src="/assets/images/resource/testimonial-3.png" alt="" /></figure>
+                                    <figure className="thumb-box"><img loading="lazy" src="/assets/images/resource/testimonial-3.png" alt="" /></figure>
                                     <h4>Boris Elbert</h4>
                                     <span className="designation">Personal Loan Account, NY</span>
                                 </div>
                                 <ul className="thumb-list">
-                                    <li><img src="/assets/images/resource/testimonial-2.png" alt="" /></li>
-                                    <li><img src="/assets/images/resource/testimonial-1.png" alt="" /></li>
-                                    <li><img src="/assets/images/resource/testimonial-4.png" alt="" /></li>
+                                    <li><img loading="lazy" src="/assets/images/resource/testimonial-2.png" alt="" /></li>
+                                    <li><img loading="lazy" src="/assets/images/resource/testimonial-1.png" alt="" /></li>
+                                    <li><img loading="lazy" src="/assets/images/resource/testimonial-4.png" alt="" /></li>
                                 </ul>
                             </div>
                         </div>
                         <div className="testimonial-content">
-                            <div className="icon-box"><img src="/assets/images/icons/icon-82.png" alt="" /></div>
+                            <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-82.png" alt="" /></div>
                             <p>Kaizenbank made it so easy to open a new business checking account. The service was exceptional & quick process.</p>
                             <div className="author-inner">
                                 <div className="author-box">
-                                    <figure className="thumb-box"><img src="/assets/images/resource/testimonial-4.png" alt="" /></figure>
+                                    <figure className="thumb-box"><img loading="lazy" src="/assets/images/resource/testimonial-4.png" alt="" /></figure>
                                     <h4>Boris Elbert</h4>
                                     <span className="designation">Personal Loan Account, NY</span>
                                 </div>
                                 <ul className="thumb-list">
-                                    <li><img src="/assets/images/resource/testimonial-2.png" alt="" /></li>
-                                    <li><img src="/assets/images/resource/testimonial-3.png" alt="" /></li>
-                                    <li><img src="/assets/images/resource/testimonial-1.png" alt="" /></li>
+                                    <li><img loading="lazy" src="/assets/images/resource/testimonial-2.png" alt="" /></li>
+                                    <li><img loading="lazy" src="/assets/images/resource/testimonial-3.png" alt="" /></li>
+                                    <li><img loading="lazy" src="/assets/images/resource/testimonial-1.png" alt="" /></li>
                                 </ul>
                             </div>
                         </div>
@@ -1109,7 +1109,7 @@ export default function HomeExchangePage(){
                 </div>
                 <div className="customer-review">
                     <div className="review-text mr_20">
-                        <div className="icon-box"><img src="/assets/images/icons/icon-83.png" alt="" /></div>
+                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-83.png" alt="" /></div>
                         <p>Google Reviews from 6.4k Happy Customers.</p>
                     </div>
                     <div className="rating-box">

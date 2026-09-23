@@ -34,28 +34,28 @@ export default function OverviewSection({ h2 = 'Savings Accounts', eligibility =
                   <div className="shape" style={{ backgroundImage: 'url(/assets/images/shape/shape-36.png)' }}></div>
                   <div className="shape-2"></div>
                   <div className="single-item">
-                    <div className="icon-box"><img src="/assets/images/icons/icon-174.png" alt="" /></div>
+                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-174.png" alt="" /></div>
                     <h4>Age Requirements</h4>
                     <div className="text-box">
                       <p>Valid ID & proof <br />of address required for account verification.</p>
                     </div>
                   </div>
                   <div className="single-item">
-                    <div className="icon-box"><img src="/assets/images/icons/icon-175.png" alt="" /></div>
+                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-175.png" alt="" /></div>
                     <h4>ID & Documents</h4>
                     <div className="text-box">
                       <p>Valid ID & proof <br />of address required for account verification.</p>
                     </div>
                   </div>
                   <div className="single-item">
-                    <div className="icon-box"><img src="/assets/images/icons/icon-176.png" alt="" /></div>
+                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-176.png" alt="" /></div>
                     <h4>Financial Criteria</h4>
                     <div className="text-box">
                       <p>Valid ID & proof <br />of address required for account verification.</p>
                     </div>
                   </div>
                   <div className="single-item">
-                    <div className="icon-box"><img src="/assets/images/icons/icon-177.png" alt="" /></div>
+                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-177.png" alt="" /></div>
                     <h4>Residency & Citizenship</h4>
                     <div className="text-box">
                       <p>Valid ID & proof <br />of address required for account verification.</p>

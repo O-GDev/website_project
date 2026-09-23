@@ -14,7 +14,7 @@ export default function HomePage() {
               <div
                 className="bg-layer"
                 style={{
-                  backgroundImage: "url(/assets/images/banner/image1.1.png)",
+                  backgroundImage: "url(/assets/images/banner/image1.1.webp)",
                 }}
               ></div>
               <div className="overlay-layer"></div>
@@ -108,7 +108,7 @@ export default function HomePage() {
                         rel="noopener noreferrer"
                         className="store-badge"
                       >
-                        <img src="/assets/images/google-play-badge.png" alt="Get it on Google Play" />
+                        <img loading="lazy" src="/assets/images/google-play-badge.png" alt="Get it on Google Play" />
                       </a>
                       <a
                         href="https://apps.apple.com/ng/app/kaizen-mfb/id6748022197"
@@ -116,7 +116,7 @@ export default function HomePage() {
                         rel="noopener noreferrer"
                         className="store-badge"
                       >
-                        <img src="/assets/images/app-store-badge.svg" alt="Download on the App Store" />
+                        <img loading="lazy" src="/assets/images/app-store-badge.svg" alt="Download on the App Store" />
                       </a>
                     </div>
                   </div>
@@ -1137,7 +1137,7 @@ export default function HomePage() {
           <figure className="image-layer">
             <img
               loading="lazy"
-              src="/assets/images/resource/men-2.png"
+              src="/assets/images/resource/men-2.webp"
               alt=""
             />
           </figure>

@@ -15,7 +15,7 @@ export default function ClientsSection({ modClass = 'centred', light = false }) 
         <Carousel className="six-item-carousel owl-carousel owl-theme dots-style-one owl-nav-none">
           {LOGOS.map((n, i) => (
             <figure className="clients-logo" key={i}>
-              <Link to="/index-2"><img src={'/assets/images/clients/clients-' + n + '.png'} alt="" /></Link>
+              <Link to="/index-2"><img loading="lazy" src={'/assets/images/clients/clients-' + n + '.png'} alt="" /></Link>
             </figure>
           ))}
         </Carousel>

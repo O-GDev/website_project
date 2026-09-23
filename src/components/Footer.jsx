@@ -27,7 +27,7 @@ export default function Footer(){
                     </div>
                   </div>
                   <div className="support-box">
-                    <div className="icon-box"><img src="/assets/images/icons/icon-35.png" alt=""/></div>
+                    <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-35.png" alt=""/></div>
                     <h4><a href="mailto:info@kaizenmfb.com">info@kaizenmfb.com</a></h4>
                     <p>Send your queries.</p>
                     <div className="link-box"><Link to="/contact"><i className="flaticon-right-arrow"></i></Link></div>
@@ -81,23 +81,23 @@ export default function Footer(){
           <div className="bottom-top">
             <ul className="list-item">
               <li>
-                <div className="icon-box"><img src="/assets/images/icons/icon-38.png" alt=""/></div>
+                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-38.png" alt=""/></div>
                 <h4><Link to="/">Branches & ATMs</Link></h4>
               </li>
               <li>
-                <div className="icon-box"><img src="/assets/images/icons/icon-39.png" alt=""/></div>
+                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-39.png" alt=""/></div>
                 <h4><Link to="/">Complaint Registration</Link></h4>
               </li>
               <li>
-                <div className="icon-box"><img src="/assets/images/icons/icon-40.png" alt=""/></div>
+                <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-40.png" alt=""/></div>
                 <h4><button type="button">Download Forms</button></h4>
               </li>
             </ul>
           </div>
           <div className="bottom-inner">
             <div className="licenses">
-              <img src="/assets/images/banner/cbn.png" alt="CBN" />
-              <img src="/assets/images/banner/ndic.png" alt="NDIC" />
+              <img loading="lazy" src="/assets/images/banner/cbn.webp" alt="CBN" />
+              <img loading="lazy" src="/assets/images/banner/ndic.png" alt="NDIC" />
             </div>
             <div className="social-box">
               <span>Follow Us On</span>
@@ -109,7 +109,7 @@ export default function Footer(){
               </ul>
             </div>
             <div className="footer-logo">
-              <figure className="logo"><Link to="/"><img src="/assets/images/banner/logo-2.png" alt=""/></Link></figure>
+              <figure className="logo"><Link to="/"><img loading="lazy" src="/assets/images/banner/logo-2.png" alt=""/></Link></figure>
             </div>
             <ul className="footer-nav clearfix">
               <li><Link to="/privacy-policy">Privacy Policy</Link></li>

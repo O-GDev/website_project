@@ -24,12 +24,12 @@ export default function ContactPage(){
             <div className="row clearfix">
               <div className="col-lg-6 col-md-12 col-sm-12">
                 <div className="location-image">
-                  <img src="/assets/images/location.jpg" alt="Kaizen Microfinance Bank, Ikoyi Lagos" />
+                  <img loading="lazy" src="/assets/images/location.jpg" alt="Kaizen Microfinance Bank, Ikoyi Lagos" />
                 </div>
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12">
                 <div className="location-card">
-                  <div className="icon-box"><img src="/assets/images/icons/icon-86.png" alt="" /></div>
+                  <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-86.png" alt="" /></div>
                   <h4>154 Awolowo Road, Ikoyi</h4>
                   <ul className="info-list">
                     <li><span>Zipcode:</span> 106104</li>
@@ -76,8 +76,8 @@ export default function ContactPage(){
                 <div className="corporate-block-one">
                   <div className="inner-box">
                     <div className="icon-box">
-                      <div className="icon"><img src="/assets/images/icons/icon-232.png" alt="" /></div>
-                      <div className="overlay-icon"><img src="/assets/images/icons/icon-233.png" alt="" /></div>
+                      <div className="icon"><img loading="lazy" src="/assets/images/icons/icon-232.png" alt="" /></div>
+                      <div className="overlay-icon"><img loading="lazy" src="/assets/images/icons/icon-233.png" alt="" /></div>
                     </div>
                     <h4>Corporate Office</h4>
                     <p>Our headquarters in the heart of Ikoyi, Lagos.</p>
@@ -87,8 +87,8 @@ export default function ContactPage(){
                 <div className="corporate-block-one">
                   <div className="inner-box">
                     <div className="icon-box">
-                      <div className="icon"><img src="/assets/images/icons/icon-234.png" alt="" /></div>
-                      <div className="overlay-icon"><img src="/assets/images/icons/icon-235.png" alt="" /></div>
+                      <div className="icon"><img loading="lazy" src="/assets/images/icons/icon-234.png" alt="" /></div>
+                      <div className="overlay-icon"><img loading="lazy" src="/assets/images/icons/icon-235.png" alt="" /></div>
                     </div>
                     <h4>Office Hours</h4>
                     <p>Reach us within our working hours.</p>
@@ -98,8 +98,8 @@ export default function ContactPage(){
                 <div className="corporate-block-one">
                   <div className="inner-box">
                     <div className="icon-box">
-                      <div className="icon"><img src="/assets/images/icons/icon-227.png" alt="" /></div>
-                      <div className="overlay-icon"><img src="/assets/images/icons/icon-228.png" alt="" /></div>
+                      <div className="icon"><img loading="lazy" src="/assets/images/icons/icon-227.png" alt="" /></div>
+                      <div className="overlay-icon"><img loading="lazy" src="/assets/images/icons/icon-228.png" alt="" /></div>
                     </div>
                     <h4>Front Desk</h4>
                     <p>Speak directly with our support team.</p>
@@ -118,17 +118,17 @@ export default function ContactPage(){
                     <div className="row clearfix">
                       <div className="col-lg-6 col-md-12 col-sm-12">
                         <div className="form-group">
-                          <div className="icon-box"><img src="/assets/images/icons/icon-221.png" alt="" /></div>
+                          <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-221.png" alt="" /></div>
                           <label>Name</label>
                           <input type="text" name="name" placeholder="Your name" required />
                         </div>
                         <div className="form-group">
-                          <div className="icon-box"><img src="/assets/images/icons/icon-222.png" alt="" /></div>
+                          <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-222.png" alt="" /></div>
                           <label>Email Address</label>
                           <input type="email" name="email" placeholder="Your email address" required />
                         </div>
                         <div className="form-group">
-                          <div className="icon-box"><img src="/assets/images/icons/icon-223.png" alt="" /></div>
+                          <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-223.png" alt="" /></div>
                           <label>Phone Number</label>
                           <input type="text" name="phone" placeholder="Your phone number" required />
                         </div>
@@ -139,7 +139,7 @@ export default function ContactPage(){
                       </div>
                       <div className="col-lg-6 col-md-12 col-sm-12">
                         <div className="form-group">
-                          <div className="icon-box"><img src="/assets/images/icons/icon-236.png" alt="" /></div>
+                          <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-236.png" alt="" /></div>
                           <label>Message</label>
                           <textarea name="message" placeholder="Write your message here"></textarea>
                         </div>

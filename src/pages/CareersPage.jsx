@@ -42,7 +42,7 @@ export default function CareersPage(){
                             <div className="inner-box">
                                 <div className="title-box mb_25">
                                     <div className="author-box">
-                                        <div className="icon-box"><img src="/assets/images/icons/icon-207.png" alt="" /></div>
+                                        <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-207.png" alt="" /></div>
                                         <span className="text">Job Role</span>
                                         <h3>{job.title}</h3>
                                     </div>
@@ -50,7 +50,7 @@ export default function CareersPage(){
                                 <div className="info-box">
                                     <ul className="info-list clearfix">
                                         <li>
-                                            <div className="icon-box"><img src="/assets/images/icons/icon-210.png" alt="" /></div>
+                                            <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-210.png" alt="" /></div>
                                             <span>Location</span>
                                             <p>{job.location}</p>
                                         </li>

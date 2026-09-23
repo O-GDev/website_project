@@ -36,11 +36,11 @@ export default function TestimonialCarousel({ modClass = 'pt_90 pb_90', splitCit
               <div className="testimonial-block-one" key={i}>
                 <div className="inner-box">
                   <div className="rating"><i className="flaticon-star"></i><span>Rated {t.rating}/5</span></div>
-                  <div className="icon-box"><img src="/assets/images/icons/icon-121.png" alt="" /></div>
+                  <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-121.png" alt="" /></div>
                   <h3>{t.title}</h3>
                   <p>{t.quote}</p>
                   <div className="author-box">
-                    <figure className="thumb-box"><img src={t.thumb} alt="" /></figure>
+                    <figure className="thumb-box"><img loading="lazy" src={t.thumb} alt="" /></figure>
                     <h4>{t.name}</h4>
                     {splitCity
                       ? <><span className="designation">{t.desig},</span><span className="text">{t.city}</span></>

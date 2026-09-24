@@ -804,7 +804,9 @@
   }
 
   .banner-carousel .slide-item{
-    padding: 100px 0px;
+    aspect-ratio: auto;
+    min-height: 520px;
+    padding: 90px 0px 70px;
   }
 
   .banner-carousel .slide-item .bg-layer{
@@ -1184,6 +1186,13 @@
   .banner-carousel .content-box h2{
     font-size: 26px;
     line-height: 34px;
+  }
+
+  .banner-carousel .content-box h5 span{
+    display: block;
+    width: max-content;
+    margin-right: 0px;
+    margin-bottom: 10px;
   }
 
   .banner-carousel .content-box h5{

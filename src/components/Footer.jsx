@@ -1,7 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
+const FORMS = [
+  {
+    name: 'Kaizen Account Opening Form',
+    file: '/Documents/Kaizen%20Account%20Opening%20Form.pdf',
+    kind: 'PDF',
+  },
+  {
+    name: 'Dormant Account Reactivation Form',
+    file: '/Documents/DORMANT%20ACCOUNT%20REACTIVATION%20FORM.docx',
+    kind: 'DOCX',
+  },
+]
+
 export default function Footer(){
+  const [formsOpen, setFormsOpen] = useState(false)
+
   return (
     <footer className="main-footer">
       <div className="pattern-layer" style={{backgroundImage:'url(/assets/images/shape/shape-4.png)'}}></div>
@@ -90,7 +105,7 @@ export default function Footer(){
               </li>
               <li>
                 <div className="icon-box"><img loading="lazy" src="/assets/images/icons/icon-40.png" alt=""/></div>
-                <h4><button type="button">Download Forms</button></h4>
+                <h4><button type="button" onClick={() => setFormsOpen(true)}>Download Forms</button></h4>
               </li>
             </ul>
           </div>
@@ -119,6 +134,32 @@ export default function Footer(){
           </div>
         </div>
       </div>
+
+      {formsOpen && (
+        <div className="forms-modal-wrap" onClick={() => setFormsOpen(false)} role="dialog" aria-modal="true">
+          <div className="forms-modal" onClick={(e) => e.stopPropagation()}>
+            <div className="forms-modal-head">
+              <h3>Download Forms</h3>
+              <button type="button" className="forms-modal-close" onClick={() => setFormsOpen(false)} aria-label="Close">&times;</button>
+            </div>
+            <div className="forms-modal-body">
+              <p>Click a form below to download it.</p>
+              <ul className="forms-list">
+                {FORMS.map((form) => (
+                  <li key={form.file}>
+                    <div className="form-icon"><img loading="lazy" src="/assets/images/icons/icon-87.png" alt=""/></div>
+                    <div className="form-meta">
+                      <h4>{form.name}</h4>
+                      <span>{form.kind} file</span>
+                    </div>
+                    <a href={form.file} download className="form-download">Download<i className="flaticon-next"></i></a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      )}
     </footer>
   )
 }

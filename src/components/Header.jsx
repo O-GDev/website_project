@@ -373,18 +373,18 @@ export default function Header() {
             <div className="contact-info">
               <h4>Contact Info</h4>
               <ul>
-                <li>Chicago 12, Melborne City, USA</li>
-                <li><a href="tel:+8801682648101">+88 01682648101</a></li>
-                <li><a href="mailto:info@kaizenng.com">info@kaizenng.com</a></li>
+                <li>Address: 154 Awolowo Road, Ikoyi, Lagos, 106104.</li>
+                <li>Zipcode: 106104</li>
+                <li>Phone: <a href="tel:+2349099900099">+234-909-990-0099</a></li>
+                <li>Email: <a href="mailto:info@kaizenmfb.com">info@kaizenmfb.com</a></li>
               </ul>
             </div>
             <div className="social-links">
               <ul className="clearfix">
-                <li><Link to="/" onClick={closeMobile}><span className="fab fa-twitter"></span></Link></li>
-                <li><Link to="/" onClick={closeMobile}><span className="fab fa-facebook-square"></span></Link></li>
-                <li><Link to="/" onClick={closeMobile}><span className="fab fa-pinterest-p"></span></Link></li>
-                <li><Link to="/" onClick={closeMobile}><span className="fab fa-instagram"></span></Link></li>
-                <li><Link to="/" onClick={closeMobile}><span className="fab fa-youtube"></span></Link></li>
+                <li><a href="https://www.facebook.com/share/1JPfKSqsnz/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer"><i className="flaticon-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/kaizen_mfb" target="_blank" rel="noopener noreferrer"><i className="flaticon-instagram-logo"></i></a></li>
+                <li><a href="https://x.com/kaizen_mfb" target="_blank" rel="noopener noreferrer"><i className="flaticon-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/kaizen-microfinance-bank/posts/?feedView=all" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a></li>
               </ul>
             </div>
           </nav>
